@@ -1,0 +1,1019 @@
+Pokémon Red and Blue/Encounter Rates
+
+The latest reviewed version was checked on 11 February 2024. There are 2 pending changes awaiting review.
+Here you will find a centralized list of which Pokémon can be found in the various locations in the game.
+
+Route 1
+In the tall grass
+
+016 - Pidgey
+Pokémon Red: 55% encounter rate
+Pokémon Blue: 55% encounter rate
+019 - Rattata
+Pokémon Red: 45% encounter rate
+Pokémon Blue: 45% encounter rate
+Route 2
+In the tall grass
+
+010 - Caterpie
+Pokémon Red: Does not appear
+Pokémon Blue: 15% encounter rate
+013 - Weedle
+Pokémon Red: 15% encounter rate
+Pokémon Blue: Does not appear
+016 - Pidgey
+Pokémon Red: 40% encounter rate
+Pokémon Blue: 40% encounter rate
+019 - Rattata
+Pokémon Red: 45% encounter rate
+Pokémon Blue: 45% encounter rate
+Route 3
+In the tall grass
+
+016 - Pidgey
+Pokémon Red: 50% encounter rate
+Pokémon Blue: 50% encounter rate
+021 - Spearow
+Pokémon Red: 40% encounter rate
+Pokémon Blue: 40% encounter rate
+039 - Jigglypuff
+Pokémon Red: 10% encounter rate
+Pokémon Blue: 10% encounter rate
+Route 4
+In the tall grass
+
+019 - Rattata
+Pokémon Red: 45% encounter rate
+Pokémon Blue: 45% encounter rate
+021 - Spearow
+Pokémon Red: 30% encounter rate
+Pokémon Blue: 30% encounter rate
+023 - Ekans
+Pokémon Red: 25% encounter rate
+Pokémon Blue: Does not appear
+027 - Sandshrew
+Pokémon Red: Does not appear
+Pokémon Blue: 25% encounter rate
+Route 5 & Route 6
+In the tall grass
+
+016 - Pidgey
+Pokémon Red: 35% encounter rate
+Pokémon Blue: 35% encounter rate
+043 - Oddish
+Pokémon Red: 40% encounter rate
+Pokémon Blue: Does not appear
+052 - Meowth
+Pokémon Red: Does not appear
+Pokémon Blue: 25% encounter rate
+056 - Mankey
+Pokémon Red: 25% encounter rate
+Pokémon Blue: Does not appear
+069 - Bellsprout
+Pokémon Red: Does not appear
+Pokémon Blue: 40% encounter rate
+Route 7
+In the tall grass
+
+016 - Pidgey
+Pokémon Red: 35% encounter rate
+Pokémon Blue: 35% encounter rate
+037 - Vulpix
+Pokémon Red: Does not appear
+Pokémon Blue: 10% encounter rate
+043 - Oddish
+Pokémon Red: 25% encounter rate
+Pokémon Blue: Does not appear
+069 - Bellsprout
+Pokémon Red: Does not appear
+Pokémon Blue: 25% encounter rate
+052 - Meowth
+Pokémon Red: Does not appear
+Pokémon Blue: 30% encounter rate
+056 - Mankey
+Pokémon Red: 30% encounter rate
+Pokémon Blue: Does not appear
+058 - Growlithe
+Pokémon Red: 10% encounter rate
+Pokémon Blue: Does not appear
+Route 8
+In the tall grass
+
+016 - Pidgey
+Pokémon Red: 35% encounter rate
+Pokémon Blue: 35% encounter rate
+023 - Ekans
+Pokémon Red: 20% encounter rate
+Pokémon Blue: Does not appear
+027 - Sandshrew
+Pokémon Red: Does not appear
+Pokémon Blue: 20% encounter rate
+037 - Vulpix
+Pokémon Red: Does not appear
+Pokémon Blue: 20% encounter rate
+052 - Meowth
+Pokémon Red: Does not appear
+Pokémon Blue: 25% encounter rate
+056 - Mankey
+Pokémon Red: 25% encounter rate
+Pokémon Blue: Does not appear
+058 - Growlithe
+Pokémon Red: 20% encounter rate
+Pokémon Blue: Does not appear
+Route 9
+In the tall grass
+
+021 - Spearow
+Pokémon Red: 30% encounter rate
+Pokémon Blue: 30% encounter rate
+019 - Rattata
+Pokémon Red: 45% encounter rate
+Pokémon Blue: 45% encounter rate
+023 - Ekans
+Pokémon Red: 25% encounter rate
+Pokémon Blue: Does not appear
+027 - Sandshrew
+Pokémon Red: Does not appear
+Pokémon Blue: 25% encounter rate
+Route 10
+In the tall grass
+
+021 - Spearow
+Pokémon Red: 30% encounter rate
+Pokémon Blue: 30% encounter rate
+023 - Ekans
+Pokémon Red: 25% encounter rate
+Pokémon Blue: Does not appear
+027 - Sandshrew
+Pokémon Red: Does not appear
+Pokémon Blue: 25% encounter rate
+100 - Voltorb
+Pokémon Red: 45% encounter rate
+Pokémon Blue: 45% encounter rate
+Route 11
+In the tall grass
+
+021 - Spearow
+Pokémon Red: 30% encounter rate
+Pokémon Blue: 30% encounter rate
+023 - Ekans
+Pokémon Red: 45% encounter rate
+Pokémon Blue: Does not appear
+027 - Sandshrew
+Pokémon Red: Does not appear
+Pokémon Blue: 45% encounter rate
+096 - Drowzee
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+Route 12
+In the tall grass
+
+016 - Pidgey
+Pokémon Red: 35% encounter rate
+Pokémon Blue: 35% encounter rate
+048 - Venonat
+Pokémon Red: 20% encounter rate
+Pokémon Blue: 20% encounter rate
+043 - Oddish
+Pokémon Red: 40% encounter rate
+Pokémon Blue: Does not appear
+044 - Gloom
+Pokémon Red: 5% encounter rate
+Pokémon Blue: 5% encounter rate
+069 - Bellsprout
+Pokémon Red: Does not appear
+Pokémon Blue: 40% encounter rate
+070 - Weepinbell
+Pokémon Red: Does not appear
+Pokémon Blue: 5% encounter rate
+Fishing with the Old Rod
+
+129 - Magikarp
+Pokémon Red: 100% encounter rate
+Pokémon Blue: 100% encounter rate
+Fishing with the Super Rod
+
+072 - Tentacool
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+098 - Krabby
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+118 - Goldeen
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+129 - Magikarp
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+Route 13
+In the tall grass
+
+016 - Pidgey
+Pokémon Red: 30% encounter rate
+Pokémon Blue: 30% encounter rate
+048 - Venonat
+Pokémon Red: 20% encounter rate
+Pokémon Blue: 20% encounter rate
+069 - Bellsprout
+Pokémon Red: Does not appear
+Pokémon Blue: 40% encounter rate
+070 - Weepinbell
+Pokémon Red: Does not appear
+Pokémon Blue: 5% encounter rate
+043 - Oddish
+Pokémon Red: 40% encounter rate
+Pokémon Blue: Does not appear
+044 - Gloom
+Pokémon Red: 5% encounter rate
+Pokémon Blue: Does not appear
+132 - Ditto
+Pokémon Red: 5% encounter rate
+Pokémon Blue: 5% encounter rate
+Fishing with the Old Rod
+
+129 - Magikarp
+Pokémon Red: 100% encounter rate
+Pokémon Blue: 100% encounter rate
+Fishing with the Super Rod
+
+072 - Tentacool
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+098 - Krabby
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+118 - Goldeen
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+129 - Magikarp
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+Route 14 & Route 15
+In the tall grass
+
+016 - Pidgey
+Pokémon Red: 15% encounter rate
+Pokémon Blue: 15% encounter rate
+043 - Oddish
+Pokémon Red: 40% encounter rate
+Pokémon Blue: Does not appear
+044 - Gloom
+Pokémon Red: 5% encounter rate
+Pokémon Blue: Does not appear
+048 - Venonat
+Pokémon Red: 5% encounter rate
+Pokémon Blue: 5% encounter rate
+069 - Bellsprout
+Pokémon Red: Does not appear
+Pokémon Blue: 40% encounter rate
+070 - Weepinbell
+Pokémon Red: 5% encounter rate
+Pokémon Blue: Does not appear
+132 - Ditto
+Pokémon Red: 15% encounter rate
+Pokémon Blue: 15% encounter rate
+Route 16
+In the tall grass
+
+019 - Rattata
+Pokémon Red: 30% encounter rate
+Pokémon Blue: 30% encounter rate
+020 - Raticate
+Pokémon Red: 5% encounter rate
+Pokémon Blue: 5% encounter rate
+021 - Spearow
+Pokémon Red: 40% encounter rate
+Pokémon Blue: 40% encounter rate
+Route 17
+In the tall grass
+
+020 - Raticate
+Pokémon Red: 30% encounter rate
+Pokémon Blue: 30% encounter rate
+021 - Spearow
+Pokémon Red: 40% encounter rate
+Pokémon Blue: 40% encounter rate
+022 - Fearow
+Pokémon Red: 5% encounter rate
+Pokémon Blue: 5% encounter rate
+084 - Doduo
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+Route 18
+In the tall grass
+
+020 - Raticate
+Pokémon Red: 20% encounter rate
+Pokémon Blue: 20% encounter rate
+021 - Spearow
+Pokémon Red: 20% encounter rate
+Pokémon Blue: 20% encounter rate
+022 - Fearow
+Pokémon Red: 15% encounter rate
+Pokémon Blue: 15% encounter rate
+084 - Doduo
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+Fishing with the Old Rod
+
+129 - Magikarp
+Pokémon Red: 100% encounter rate
+Pokémon Blue: 100% encounter rate
+Fishing with the Super Rod
+
+072 - Tentacool
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+098 - Krabby
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+118 - Goldeen
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+129 - Magikarp
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+Route 19 & Route 20
+072 - Tentacool
+Pokémon Red: 100% encounter rate
+Pokémon Blue: 100% encounter rate
+Route 21
+In the tall grass
+
+016 - Pidgey
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+019 - Rattata
+Pokémon Red: 35% encounter rate
+Pokémon Blue: 35% encounter rate
+020 - Raticate
+Pokémon Red: 15% encounter rate
+Pokémon Blue: 15% encounter rate
+114 - Tangela
+Pokémon Red: 10% encounter rate
+Pokémon Blue: 10% encounter rate
+On the water surface
+
+072 - Tentacool
+Pokémon Red: 100% encounter rate
+Pokémon Blue: 100% encounter rate
+Fishing with the Old Rod
+
+129 - Magikarp
+Pokémon Red: 100% encounter rate
+Pokémon Blue: 100% encounter rate
+Fishing with the Super Rod
+
+090 - Shellder
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+116 - Horsea
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+118 - Goldeen
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+120 - Staryu
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+Route 22
+In the tall grass
+
+010 - Caterpie
+Pokémon Red: Does not appear
+Pokémon Blue: 15% encounter rate
+013 - Weedle
+Pokémon Red: 15% encounter rate
+Pokémon Blue: Does not appear
+016 - Pidgey
+Pokémon Red: 45% encounter rate
+Pokémon Blue: 45% encounter rate
+019 - Rattata
+Pokémon Red: 40% encounter rate
+Pokémon Blue: 40% encounter rate
+Route 24
+In the tall grass
+
+010 - Caterpie
+Pokémon Red: Does not appear
+Pokémon Blue: 25% encounter rate
+011 - Metapod
+Pokémon Red: Does not appear
+Pokémon Blue: 15% encounter rate
+013 - Weedle
+Pokémon Red: 25% encounter rate
+Pokémon Blue: Does not appear
+014 - Kakuna
+Pokémon Red: 25% encounter rate
+Pokémon Blue: Does not appear
+016 - Pidgey
+Pokémon Red: 20% encounter rate
+Pokémon Blue: 20% encounter rate
+063 - Abra
+Pokémon Red: 15% encounter rate
+Pokémon Blue: 15% encounter rate
+069 - Bellsprout
+Pokémon Red: Does not appear
+Pokémon Blue: 25% encounter rate
+Fishing with the Old Rod
+
+129 - Magikarp
+Pokémon Red: 100% encounter rate
+Pokémon Blue: 100% encounter rate
+Route 25
+In the tall grass
+
+010 - Caterpie
+Pokémon Red: 1% encounter rate
+Pokémon Blue: 20% encounter rate
+011 - Metapod
+Pokémon Red: 4% encounter rate
+Pokémon Blue: 20% encounter rate
+013 - Weedle
+Pokémon Red: 20% encounter rate
+Pokémon Blue: 1% encounter rate
+014 - Kakuna
+Pokémon Red: 20% encounter rate
+Pokémon Blue: 4% encounter rate
+016 - Pidgey
+Pokémon Red: 15% encounter rate
+Pokémon Blue: 15% encounter rate
+043 - Oddish
+Pokémon Red: 25% encounter rate
+Pokémon Blue: Does not appear
+063 - Abra
+Pokémon Red: 15% encounter rate
+Pokémon Blue: 15% encounter rate
+069 - Bellsprout
+Pokémon Red: Does not appear
+Pokémon Blue: 25% encounter rate
+Diglett’s Cave
+Anywhere
+
+050 - Diglett
+Pokémon Red: 95% encounter rate
+Pokémon Blue: 95% encounter rate
+051 - Dugtrio
+Pokémon Red: 5% encounter rate
+Pokémon Blue: 5% encounter rate
+Mt. Moon
+First floor (anywhere)
+
+035 - Clefairy
+Pokémon Red: 1% encounter rate
+Pokémon Blue: 1% encounter rate
+041 - Zubat
+Pokémon Red: 79% encounter rate
+Pokémon Blue: 79% encounter rate
+046 - Paras
+Pokémon Red: 5% encounter rate
+Pokémon Blue: 5% encounter rate
+074 - Geodude
+Pokémon Red: 15% encounter rate
+Pokémon Blue: 15% encounter rate
+Connecting tunnels (anywhere)
+
+035 - Clefairy
+Pokémon Red: 4% encounter rate
+Pokémon Blue: 4% encounter rate
+041 - Zubat
+Pokémon Red: 60% encounter rate
+Pokémon Blue: 60% encounter rate
+046 - Paras
+Pokémon Red: 10% encounter rate
+Pokémon Blue: 10% encounter rate
+074 - Geodude
+Pokémon Red: 26% encounter rate
+Pokémon Blue: 26% encounter rate
+Deepest floor (anywhere)
+
+035 - Clefairy
+Pokémon Red: 6% encounter rate
+Pokémon Blue: 6% encounter rate
+041 - Zubat
+Pokémon Red: 54% encounter rate
+Pokémon Blue: 54% encounter rate
+046 - Paras
+Pokémon Red: 15% encounter rate
+Pokémon Blue: 15% encounter rate
+074 - Geodude
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+Pokémon Tower
+Third floor (anywhere)
+
+092 - Gastly
+Pokémon Red: 90% encounter rate
+Pokémon Blue: 90% encounter rate
+093 - Haunter
+Pokémon Red: 1% encounter rate
+Pokémon Blue: 1% encounter rate
+104 - Cubone
+Pokémon Red: 9% encounter rate
+Pokémon Blue: 9% encounter rate
+Fourth floor (anywhere)
+
+092 - Gastly
+Pokémon Red: 86% encounter rate
+Pokémon Blue: 86% encounter rate
+093 - Haunter
+Pokémon Red: 9% encounter rate
+Pokémon Blue: 9% encounter rate
+104 - Cubone
+Pokémon Red: 5% encounter rate
+Pokémon Blue: 5% encounter rate
+Fifth floor (anywhere)
+
+092 - Gastly
+Pokémon Red: 86% encounter rate
+Pokémon Blue: 86% encounter rate
+093 - Haunter
+Pokémon Red: 5% encounter rate
+Pokémon Blue: 5% encounter rate
+104 - Cubone
+Pokémon Red: 9% encounter rate
+Pokémon Blue: 9% encounter rate
+Sixth floor (anywhere)
+
+092 - Gastly
+Pokémon Red: 85% encounter rate
+Pokémon Blue: 85% encounter rate
+093 - Haunter
+Pokémon Red: 6% encounter rate
+Pokémon Blue: 6% encounter rate
+104 - Cubone
+Pokémon Red: 9% encounter rate
+Pokémon Blue: 9% encounter rate
+Seventh floor (anywhere)
+
+092 - Gastly
+Pokémon Red: 75% encounter rate
+Pokémon Blue: 75% encounter rate
+093 - Haunter
+Pokémon Red: 15% encounter rate
+Pokémon Blue: 15% encounter rate
+104 - Cubone
+Pokémon Red: 10% encounter rate
+Pokémon Blue: 10% encounter rate
+Rock Tunnel
+Upper floor (anywhere)
+
+041 - Zubat
+Pokémon Red: 55% encounter rate
+Pokémon Blue: 55% encounter rate
+066 - Machop
+Pokémon Red: 15% encounter rate
+Pokémon Blue: 15% encounter rate
+074 - Geodude
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+095 - Onix
+Pokémon Red: 5% encounter rate
+Pokémon Blue: 5% encounter rate
+Lower floor (anywhere)
+
+041 - Zubat
+Pokémon Red: 50% encounter rate
+Pokémon Blue: 50% encounter rate
+066 - Machop
+Pokémon Red: 15% encounter rate
+Pokémon Blue: 15% encounter rate
+074 - Geodude
+Pokémon Red: 26% encounter rate
+Pokémon Blue: 26% encounter rate
+095 - Onix
+Pokémon Red: 9% encounter rate
+Pokémon Blue: 9% encounter rate
+Safari Zone – Entrance
+In the tall grass
+
+029 - Nidoran ♀
+Pokémon Red: 5% encounter rate
+Pokémon Blue: 10% encounter rate
+030 - Nidorina
+Pokémon Red: Does not appear
+Pokémon Blue: 25% encounter rate
+032 - Nidoran ♂
+Pokémon Red: 25% encounter rate
+Pokémon Blue: Does not appear
+033 - Nidorino
+Pokémon Red: 20% encounter rate
+Pokémon Blue: 20% encounter rate
+102 - Exeggcute
+Pokémon Red: 20% encounter rate
+Pokémon Blue: 20% encounter rate
+047 - Parasect
+Pokémon Red: 5% encounter rate
+Pokémon Blue: 5% encounter rate
+048 - Venonat
+Pokémon Red: 15% encounter rate
+Pokémon Blue: 15% encounter rate
+111 - Rhyhorn
+Pokémon Red: 15% encounter rate
+Pokémon Blue: 15% encounter rate
+113 - Chansey
+Pokémon Red: 1% encounter rate
+Pokémon Blue: 1% encounter rate
+123 - Scyther
+Pokémon Red: 4% encounter rate
+Pokémon Blue: Does not appear
+Fishing with the Old Rod
+
+129 - Magikarp
+Pokémon Red: 100% encounter rate
+Pokémon Blue: 100% encounter rate
+Fishing with the Super Rod
+
+098 - Krabby
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+054 - Psyduck
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+079 - Slowpoke
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+147 - Dratini
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+Safari Zone – East Area
+In the tall grass
+
+029 - Nidoran ♀
+Pokémon Red: 5% encounter rate
+Pokémon Blue: 25% encounter rate
+030 - Nidorina
+Pokémon Red: Does not appear
+Pokémon Blue: 10% encounter rate
+032 - Nidoran ♂
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+033 - Nidorino
+Pokémon Red: 10% encounter rate
+Pokémon Blue: Does not appear
+046 - Paras
+Pokémon Red: 15% encounter rate
+Pokémon Blue: 15% encounter rate
+084 - Doduo
+Pokémon Red: 15% encounter rate
+Pokémon Blue: 15% encounter rate
+102 - Exeggcute
+Pokémon Red: 20% encounter rate
+Pokémon Blue: 20% encounter rate
+115 - Kangaskhan
+Pokémon Red: 4% encounter rate
+Pokémon Blue: 4% encounter rate
+123 - Scyther
+Pokémon Red: 1% encounter rate
+Pokémon Blue: Does not appear
+127 - Pinsir
+Pokémon Red: Does not appear
+Pokémon Blue: 1% encounter rate
+Safari Zone – North Area
+In the tall grass
+
+029 - Nidoran ♀
+Pokémon Red: Does not appear
+Pokémon Blue: 25% encounter rate
+030 - Nidorina
+Pokémon Red: 5% encounter rate
+Pokémon Blue: 10% encounter rate
+032 - Nidoran ♂
+Pokémon Red: 25% encounter rate
+Pokémon Blue: Does not appear
+033 - Nidorino
+Pokémon Red: 10% encounter rate
+Pokémon Blue: 5% encounter rate
+046 - Paras
+Pokémon Red: 15% encounter rate
+Pokémon Blue: 15% encounter rate
+049 - Venomoth
+Pokémon Red: 5% encounter rate
+Pokémon Blue: 5% encounter rate
+102 - Exeggcute
+Pokémon Red: 20% encounter rate
+Pokémon Blue: 20% encounter rate
+111 - Rhyhorn
+Pokémon Red: 15% encounter rate
+Pokémon Blue: 15% encounter rate
+113 - Chansey
+Pokémon Red: 4% encounter rate
+Pokémon Blue: 4% encounter rate
+128 - Tauros
+Pokémon Red: 1% encounter rate
+Pokémon Blue: 1% encounter rate
+Safari Zone – West Area
+In the tall grass
+
+029 - Nidoran ♀
+Pokémon Red: 5% encounter rate
+Pokémon Blue: 25% encounter rate
+030 - Nidorina
+Pokémon Red: Does not appear
+Pokémon Blue: 10% encounter rate
+032 - Nidoran ♂
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+033 - Nidorino
+Pokémon Red: 10% encounter rate
+Pokémon Blue: Does not appear
+102 - Exeggcute
+Pokémon Red: 20% encounter rate
+Pokémon Blue: 20% encounter rate
+084 - Doduo
+Pokémon Red: 15% encounter rate
+Pokémon Blue: 15% encounter rate
+048 - Venonat
+Pokémon Red: 15% encounter rate
+Pokémon Blue: 15% encounter rate
+115 - Kangaskhan
+Pokémon Red: 1% encounter rate
+Pokémon Blue: 1% encounter rate
+128 - Tauros
+Pokémon Red: 4% encounter rate
+Pokémon Blue: 4% encounter rate
+Seafoam Island
+Ground floor (anywhere)
+
+041 - Zubat
+Pokémon Red: 10% encounter rate
+Pokémon Blue: 10% encounter rate
+042 - Golbat
+Pokémon Red: 5% encounter rate
+Pokémon Blue: 5% encounter rate
+054 - Psyduck
+Pokémon Red: 5% encounter rate
+Pokémon Blue: 15% encounter rate
+055 - Golduck
+Pokémon Red: 1% encounter rate
+Pokémon Blue: Does not appear
+079 - Slowpoke
+Pokémon Red: 15% encounter rate
+Pokémon Blue: 5% encounter rate
+086 - Seel
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+090 - Shellder
+Pokémon Red: 19% encounter rate
+Pokémon Blue: Does not appear
+098 - Krabby
+Pokémon Red: Does not appear
+Pokémon Blue: 20% encounter rate
+116 - Horsea
+Pokémon Red: 20% encounter rate
+Pokémon Blue: Does not appear
+120 - Staryu
+Pokémon Red: Does not appear
+Pokémon Blue: 19% encounter rate
+Basement 1 (anywhere)
+
+054 - Psyduck
+Pokémon Red: Does not appear
+Pokémon Blue: 15% encounter rate
+079 - Slowpoke
+Pokémon Red: 15% encounter rate
+Pokémon Blue: Does not appear
+086 - Seel
+Pokémon Red: 15% encounter rate
+Pokémon Blue: 15% encounter rate
+087 - Dewgong
+Pokémon Red: 4% encounter rate
+Pokémon Blue: 4% encounter rate
+090 - Shellder
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 15% encounter rate
+098 - Krabby
+Pokémon Red: Does not appear
+Pokémon Blue: 25% encounter rate
+099 - Kingler
+Pokémon Red: Does not appear
+Pokémon Blue: 1% encounter rate
+116 - Horsea
+Pokémon Red: 25% encounter rate
+Pokémon Blue: Does not appear
+117 - Seadra
+Pokémon Red: 1% encounter rate
+Pokémon Blue: Does not appear
+120 - Staryu
+Pokémon Red: 15% encounter rate
+Pokémon Blue: 25% encounter rate
+Basement 2 (anywhere)
+
+042 - Golbat
+Pokémon Red: 4% encounter rate
+Pokémon Blue: 4% encounter rate
+054 - Psyduck
+Pokémon Red: Does not appear
+Pokémon Blue: 25% encounter rate
+055 - Golduck
+Pokémon Red: Does not appear
+Pokémon Blue: 1% encounter rate
+079 - Slowpoke
+Pokémon Red: 25% encounter rate
+Pokémon Blue: Does not appear
+080 - Slowbro
+Pokémon Red: 1% encounter rate
+Pokémon Blue: Does not appear
+086 - Seel
+Pokémon Red: 40% encounter rate
+Pokémon Blue: 40% encounter rate
+090 - Shellder
+Pokémon Red: 5% encounter rate
+Pokémon Blue: 10% encounter rate
+098 - Krabby
+Pokémon Red: Does not appear
+Pokémon Blue: 15% encounter rate
+116 - Horsea
+Pokémon Red: 15% encounter rate
+Pokémon Blue: Does not appear
+120 - Staryu
+Pokémon Red: 10% encounter rate
+Pokémon Blue: 5% encounter rate
+Basement 3 (anywhere)
+
+054 - Psyduck
+Pokémon Red: Does not appear
+Pokémon Blue: 40% encounter rate
+079 - Slowpoke
+Pokémon Red: 40% encounter rate
+Pokémon Blue: Does not appear
+086 - Seel
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+087 - Dewgong
+Pokémon Red: 1% encounter rate
+Pokémon Blue: 1% encounter rate
+090 - Shellder
+Pokémon Red: 15% encounter rate
+Pokémon Blue: Does not appear
+098 - Krabby
+Pokémon Red: Does not appear
+Pokémon Blue: 15% encounter rate
+099 - Kingler
+Pokémon Red: Does not appear
+Pokémon Blue: 4% encounter rate
+116 - Horsea
+Pokémon Red: 15% encounter rate
+Pokémon Blue: Does not appear
+117 - Seadra
+Pokémon Red: 4% encounter rate
+Pokémon Blue: Does not appear
+120 - Staryu
+Pokémon Red: Does not appear
+Pokémon Blue: 15% encounter rate
+Basement 4 (anywhere)
+
+042 - Golbat
+Pokémon Red: 1% encounter rate
+Pokémon Blue: 1% encounter rate
+054 - Psyduck
+Pokémon Red: Does not appear
+Pokémon Blue: 15% encounter rate
+055 - Golduck
+Pokémon Red: Does not appear
+Pokémon Blue: 4% encounter rate
+079 - Slowpoke
+Pokémon Red: 15% encounter rate
+Pokémon Blue: Does not appear
+080 - Slowbro
+Pokémon Red: 4% encounter rate
+Pokémon Blue: Does not appear
+086 - Seel
+Pokémon Red: 15% encounter rate
+Pokémon Blue: 15% encounter rate
+090 - Shellder
+Pokémon Red: 25% encounter rate
+Pokémon Blue: Does not appear
+098 - Krabby
+Pokémon Red: Does not appear
+Pokémon Blue: 40% encounter rate
+116 - Horsea
+Pokémon Red: 40% encounter rate
+Pokémon Blue: Does not appear
+120 - Staryu
+Pokémon Red: Does not appear
+Pokémon Blue: 25% encounter rate
+Cerulean Cave
+First floor (anywhere)
+
+024 - Arbok
+Pokémon Red: 10% encounter rate
+Pokémon Blue: Does not appear
+026 - Raichu
+Pokémon Red: 4% encounter rate
+Pokémon Blue: 4% encounter rate
+027 - Sandshrew
+Pokémon Red: Does not appear
+Pokémon Blue: 10% encounter rate
+042 - Golbat
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+047 - Parasect
+Pokémon Red: 5% encounter rate
+Pokémon Blue: 5% encounter rate
+049 - Venomoth
+Pokémon Red: 10% encounter rate
+Pokémon Blue: 10% encounter rate
+064 - Kadabra
+Pokémon Red: 10% encounter rate
+Pokémon Blue: 5% encounter rate
+082 - Magneton
+Pokémon Red: 15% encounter rate
+Pokémon Blue: 15% encounter rate
+085 - Dodrio
+Pokémon Red: 10% encounter rate
+Pokémon Blue: 10% encounter rate
+097 - Hypno
+Pokémon Red: 15% encounter rate
+Pokémon Blue: 15% encounter rate
+132 - Ditto
+Pokémon Red: 1% encounter rate
+Pokémon Blue: 1% encounter rate
+Second floor (anywhere)
+
+040 - Wigglytuff
+Pokémon Red: 5% encounter rate
+Pokémon Blue: 5% encounter rate
+049 - Venomoth
+Pokémon Red: 15% encounter rate
+Pokémon Blue: 15% encounter rate
+064 - Kadabra
+Pokémon Red: 15% encounter rate
+Pokémon Blue: 15% encounter rate
+085 - Dodrio
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+105 - Marowak
+Pokémon Red: 10% encounter rate
+Pokémon Blue: 10% encounter rate
+112 - Rhydon
+Pokémon Red: 10% encounter rate
+Pokémon Blue: 10% encounter rate
+113 - Chansey
+Pokémon Red: 5% encounter rate
+Pokémon Blue: 5% encounter rate
+132 - Ditto
+Pokémon Red: 5% encounter rate
+Pokémon Blue: 5% encounter rate
+Basement (anywhere)
+
+024 - Arbok
+Pokémon Red: 5% encounter rate
+Pokémon Blue: Does not appear
+026 - Raichu
+Pokémon Red: 10% encounter rate
+Pokémon Blue: 10% encounter rate
+028 - Sandslash
+Pokémon Red: Does not appear
+Pokémon Blue: 5% encounter rate
+047 - Parasect
+Pokémon Red: 10% encounter rate
+Pokémon Blue: 10% encounter rate
+101 - Electrode
+Pokémon Red: 15% encounter rate
+Pokémon Blue: 15% encounter rate
+105 - Marowak
+Pokémon Red: 15% encounter rate
+Pokémon Blue: 15% encounter rate
+112 - Rhydon
+Pokémon Red: 25% encounter rate
+Pokémon Blue: 25% encounter rate
+113 - Chansey
+Pokémon Red: 10% encounter rate
+Pokémon Blue: 10% encounter rate
+132 - Ditto
+Pokémon Red: 10% encounter rate
+Pokémon Blue: 10% encounter rate
+Viridian City
+Fishing with the Old Rod
+
+129 - Magikarp
+Pokémon Red: 100% encounter rate
+Pokémon Blue: 100% encounter rate
+Fishing with the Super Rod
+
+060 - Poliwag
+Pokémon Red: 50% encounter rate
+Pokémon Blue: 50% encounter rate
+072 - Tentacool
+Pokémon Red: 50% encounter rate
+Viridian Forest
+In the tall grass
+
+010 - Caterpie
+Pokémon Red: 5% encounter rate
+Pokémon Blue: 50% encounter rate
+011 - Metapod
+Pokémon Red: 5% encounter rate
+Pokémon Blue: 35% encounter rate
+013 - Weedle
+Pokémon Red: 50% encounter rate
+Pokémon Blue: 5% encounter rate
+014 - Kakuna
+Pokémon Red: 35% encounter rate
+Pokémon Blue: 5% encounter rate
+025 - Pikachu
+Pokémon Red: 5% encounter rate
+Pokémon Blue: 5% encounter rate
+References
+The statistics in this page were compiled from the StrategyWiki version of this guide.

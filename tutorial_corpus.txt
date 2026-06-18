@@ -1,0 +1,100 @@
+Pidgey used Gust against Pidgey. It was effective.
+Rattata used Tackle against Rattata. It was effective.
+Pidgey used Tackle against Spearow. It was effective.
+Spearow used Tackle against Weedle. It was effective.
+Pidgey used Quick Attack against Pidgey. It was effective.
+Rattata used Tackle against Spearow. It was effective.
+Spearow used Peck against Rattata. It was effective.
+Rattata used Quick Attack against Weedle. It was effective.
+Pidgey used Peck against Rattata. It was effective.
+Caterpie used Tackle against Caterpie. It was effective.
+Rattata used Tackle against Caterpie. It was effective.
+Pidgey used Tackle against Weedle. It was effective.
+Caterpie used Bug Bite against Caterpie. It was effective.
+Caterpie used Bug Bite against Pidgey. It was not very effective.
+Weedle used Tackle against Spearow. It was effective.
+Weedle used Bug Bite against Pidgey. It was not very effective.
+Spearow used Quick Attack against Caterpie. It was effective.
+Pidgey used Quick Attack against Pidgey. It was effective.
+Caterpie used Tackle against Pidgey. It was effective.
+Pidgey used Gust against Weedle. It was super effective.
+Weedle used Quick Attack against Caterpie. It was effective.
+Caterpie used Tackle against Caterpie. It was effective.
+Caterpie used Bug Bite against Pidgey. It was not very effective.
+Rattata used Tackle against Spearow. It was effective.
+Rattata used Quick Attack against Weedle. It was effective.
+Caterpie used Tackle against Spearow. It was effective.
+Caterpie used Tackle against Pidgey. It was effective.
+Pidgey used Peck against Caterpie. It was super effective.
+Caterpie used Tackle against Pidgey. It was effective.
+Spearow used Quick Attack against Caterpie. It was effective.
+Weedle used Poison Sting against Weedle. It was not very effective.
+Rattata used Tackle against Caterpie. It was effective.
+Rattata used Quick Attack against Spearow. It was effective.
+Spearow used Peck against Weedle. It was super effective.
+Caterpie used Tackle against Rattata. It was effective.
+Spearow used Tackle against Weedle. It was effective.
+Pidgey used Quick Attack against Pidgey. It was effective.
+Rattata used Tackle against Weedle. It was effective.
+Weedle used Poison Sting against Weedle. It was not very effective.
+Spearow used Tackle against Caterpie. It was effective.
+Pidgey used Gust against Spearow. It was effective.
+Caterpie used Quick Attack against Pidgey. It was effective.
+Weedle used Poison Sting against Rattata. It was effective.
+Pidgey used Quick Attack against Caterpie. It was effective.
+Spearow used Gust against Pidgey. It was effective.
+Spearow used Quick Attack against Spearow. It was effective.
+Rattata used Tackle against Caterpie. It was effective.
+Spearow used Tackle against Spearow. It was effective.
+Spearow used Peck against Caterpie. It was super effective.
+Pidgey used Gust against Pidgey. It was effective.
+Caterpie used Tackle against Rattata. It was effective.
+Rattata used Tackle against Spearow. It was effective.
+Pidgey used Tackle against Weedle. It was effective.
+Spearow used Quick Attack against Rattata. It was effective.
+Weedle used Quick Attack against Spearow. It was effective.
+Caterpie used Bug Bite against Spearow. It was not very effective.
+Weedle used Quick Attack against Rattata. It was effective.
+Caterpie used Bug Bite against Weedle. It was not very effective.
+Caterpie used Bug Bite against Weedle. It was not very effective.
+Weedle used Quick Attack against Pidgey. It was effective.
+Rattata used Quick Attack against Pidgey. It was effective.
+Pidgey used Quick Attack against Spearow. It was effective.
+Spearow used Tackle against Rattata. It was effective.
+Pidgey used Quick Attack against Pidgey. It was effective.
+Pidgey used Gust against Pidgey. It was effective.
+Pidgey used Quick Attack against Spearow. It was effective.
+Caterpie used Tackle against Weedle. It was effective.
+Spearow used Peck against Rattata. It was effective.
+Rattata used Quick Attack against Weedle. It was effective.
+Rattata used Tackle against Pidgey. It was effective.
+Weedle used Poison Sting against Caterpie. It was effective.
+Weedle used Tackle against Weedle. It was effective.
+Pidgey used Peck against Pidgey. It was effective.
+Caterpie used Tackle against Pidgey. It was effective.
+Rattata used Quick Attack against Rattata. It was effective.
+Rattata used Tackle against Weedle. It was effective.
+Caterpie used Tackle against Weedle. It was effective.
+Pidgey used Tackle against Weedle. It was effective.
+Pidgey used Tackle against Spearow. It was effective.
+Pidgey used Quick Attack against Rattata. It was effective.
+Weedle used Poison Sting against Weedle. It was not very effective.
+Rattata used Tackle against Weedle. It was effective.
+Rattata used Tackle against Weedle. It was effective.
+Weedle used Poison Sting against Caterpie. It was effective.
+Caterpie used Bug Bite against Weedle. It was not very effective.
+Spearow used Quick Attack against Weedle. It was effective.
+Rattata used Tackle against Caterpie. It was effective.
+Pidgey used Tackle against Spearow. It was effective.
+Caterpie used Tackle against Pidgey. It was effective.
+Spearow used Quick Attack against Weedle. It was effective.
+Pidgey used Tackle against Spearow. It was effective.
+Rattata used Tackle against Pidgey. It was effective.
+Rattata used Tackle against Weedle. It was effective.
+Spearow used Tackle against Rattata. It was effective.
+Spearow used Peck against Pidgey. It was effective.
+Spearow used Gust against Spearow. It was effective.
+Caterpie used Bug Bite against Rattata. It was effective.
+Caterpie used Quick Attack against Rattata. It was effective.
+Weedle used Bug Bite against Rattata. It was effective.
+Weedle used Tackle against Caterpie. It was effective.

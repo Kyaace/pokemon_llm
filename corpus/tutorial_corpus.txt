@@ -1,0 +1,500 @@
+Dodrio used Tackle against Spearow. It was effective.
+Hypno used Quick Attack against Jigglypuff. It was effective.
+Nidoran ♂ used Tackle against Fearow. It was effective.
+Shellder used Bubble against Hypno. It was effective.
+Rattata used Quick Attack against Slowpoke. It was effective.
+Weedle used Tackle against Metapod. It was effective.
+Nidorina used Acid against Nidoran ♂. It was not very effective.
+Magneton used Quick Attack against Metapod. It was effective.
+Haunter used Lick against Seel. It was effective.
+Bellsprout used Quick Attack against Meowth. It was effective.
+Mankey used Scratch against Slowpoke. It was effective.
+Exeggcute used Tackle against Tangela. It was effective.
+Krabby used Quick Attack against Exeggcute. It was effective.
+Gastly used Scratch against Psyduck. It was effective.
+Jigglypuff used Tackle against Ekans. It was effective.
+Krabby used Tackle against Paras. It was effective.
+Rattata used Tackle against Venomoth. It was effective.
+Parasect used Scratch against Rhyhorn. It was not very effective.
+Magneton used Tackle against Vulpix. It was effective.
+Drowzee used Tackle against Growlithe. It was effective.
+Magikarp used Tackle against Venomoth. It was effective.
+Tentacool used Acid against Zubat. It was not very effective.
+Dodrio used Scratch against Doduo. It was effective.
+Geodude used Rock Throw against Nidoran ♀. It was effective.
+Pidgey used Quick Attack against Weedle. It was effective.
+Voltorb used Tackle against Zubat. It was effective.
+Rhyhorn used Tackle against Nidoran ♂. It was effective.
+Venomoth used Poison Sting against Jigglypuff. It was effective.
+Dodrio used Scratch against Marowak. It was effective.
+Arbok used Scratch against Venonat. It was effective.
+Nidorina used Scratch against Dewgong. It was effective.
+Gastly used Lick against Magikarp. It was effective.
+Seel used Bubble against Pidgey. It was effective.
+Dodrio used Wing Attack against Arbok. It was effective.
+Drowzee used Quick Attack against Nidorino. It was effective.
+Growlithe used Scratch against Venomoth. It was effective.
+Magikarp used Bubble against Dodrio. It was effective.
+Nidoran ♂ used Scratch against Shellder. It was effective.
+Marowak used Tackle against Voltorb. It was effective.
+Nidoran ♂ used Tackle against Cubone. It was effective.
+Exeggcute used Vine Whip against Oddish. It was not very effective.
+Jigglypuff used Tackle against Pidgey. It was effective.
+Staryu used Bubble against Dratini. It was not very effective.
+Horsea used Scratch against Haunter. It had no effect.
+Nidorina used Poison Sting against Seel. It was effective.
+Diglett used Dig against Horsea. It was effective.
+Ekans used Quick Attack against Vulpix. It was effective.
+Nidorino used Acid against Hypno. It was effective.
+Bellsprout used Poison Sting against Vulpix. It was effective.
+Slowpoke used Bubble against Psyduck. It was not very effective.
+Diglett used Quick Attack against Venonat. It was effective.
+Fearow used Peck against Kadabra. It was effective.
+Rattata used Tackle against Krabby. It was effective.
+Tangela used Quick Attack against Spearow. It was effective.
+Dodrio used Peck against Arbok. It was effective.
+Magneton used Thundershock against Pidgey. It was super effective.
+Venomoth used Poison Sting against Magneton. It was effective.
+Machop used Tackle against Vulpix. It was effective.
+Shellder used Tackle against Drowzee. It was effective.
+Shellder used Bubble against Horsea. It was not very effective.
+Krabby used Scratch against Jigglypuff. It was effective.
+Spearow used Peck against Zubat. It was effective.
+Arbok used Tackle against Growlithe. It was effective.
+Drowzee used Scratch against Horsea. It was effective.
+Kadabra used Quick Attack against Krabby. It was effective.
+Kadabra used Tackle against Staryu. It was effective.
+Tangela used Scratch against Dodrio. It was effective.
+Marowak used Bone Club against Dodrio. It had no effect.
+Magneton used Quick Attack against Nidoran ♀. It was effective.
+Venonat used Quick Attack against Krabby. It was effective.
+Bellsprout used Absorb against Voltorb. It was effective.
+Staryu used Bubble against Caterpie. It was effective.
+Oddish used Tackle against Abra. It was effective.
+Spearow used Scratch against Magikarp. It was effective.
+Horsea used Scratch against Marowak. It was effective.
+Nidorino used Quick Attack against Kakuna. It was effective.
+Horsea used Tackle against Geodude. It was not very effective.
+Rattata used Quick Attack against Drowzee. It was effective.
+Cubone used Bone Club against Pidgey. It had no effect.
+Voltorb used Quick Attack against Fearow. It was effective.
+Dewgong used Bubble against Poliwag. It was not very effective.
+Arbok used Acid against Vulpix. It was effective.
+Tangela used Vine Whip against Magneton. It was effective.
+Nidorina used Acid against Magikarp. It was effective.
+Krabby used Quick Attack against Drowzee. It was effective.
+Haunter used Poison Sting against Golbat. It was not very effective.
+Dewgong used Scratch against Seel. It was effective.
+Mankey used Low Kick against Goldeen. It was effective.
+Spearow used Quick Attack against Nidorino. It was effective.
+Pidgey used Tackle against Paras. It was effective.
+Slowpoke used Quick Attack against Tentacool. It was effective.
+Slowpoke used Tackle against Nidoran ♂. It was effective.
+Pidgey used Tackle against Haunter. It had no effect.
+Nidoran ♂ used Tackle against Pidgey. It was effective.
+Tangela used Tackle against Paras. It was effective.
+Kadabra used Scratch against Nidorino. It was effective.
+Dewgong used Quick Attack against Abra. It was effective.
+Bellsprout used Poison Sting against Fearow. It was effective.
+Magikarp used Bubble against Horsea. It was not very effective.
+Geodude used Quick Attack against Poliwag. It was effective.
+Electrode used Thundershock against Poliwag. It was super effective.
+Nidoran ♀ used Tackle against Raticate. It was effective.
+Dewgong used Scratch against Psyduck. It was effective.
+Psyduck used Water Gun against Meowth. It was effective.
+Tangela used Tackle against Drowzee. It was effective.
+Shellder used Tackle against Seel. It was effective.
+Kakuna used Leech Life against Diglett. It was effective.
+Paras used Tackle against Exeggcute. It was effective.
+Nidorino used Quick Attack against Nidoran ♀. It was effective.
+Bellsprout used Quick Attack against Mankey. It was effective.
+Psyduck used Scratch against Sandshrew. It was effective.
+Growlithe used Tackle against Nidorino. It was effective.
+Mankey used Tackle against Exeggcute. It was effective.
+Kakuna used Acid against Seel. It was effective.
+Marowak used Tackle against Caterpie. It was effective.
+Magikarp used Quick Attack against Krabby. It was effective.
+Arbok used Poison Sting against Meowth. It was effective.
+Poliwag used Water Gun against Nidorina. It was effective.
+Goldeen used Quick Attack against Kakuna. It was effective.
+Venomoth used Poison Sting against Caterpie. It was super effective.
+Vulpix used Ember against Magikarp. It was not very effective.
+Zubat used Peck against Psyduck. It was effective.
+Drowzee used Confusion against Electrode. It was effective.
+Ekans used Scratch against Nidoran ♀. It was effective.
+Nidorina used Acid against Kakuna. It was effective.
+Hypno used Tackle against Bellsprout. It was effective.
+Hypno used Tackle against Oddish. It was effective.
+Kakuna used Poison Sting against Slowpoke. It was effective.
+Kadabra used Quick Attack against Staryu. It was effective.
+Kakuna used Tackle against Kadabra. It was effective.
+Rhyhorn used Tackle against Sandshrew. It was effective.
+Magneton used Quick Attack against Pidgey. It was effective.
+Diglett used Bone Club against Spearow. It had no effect.
+Nidorino used Acid against Slowpoke. It was effective.
+Weedle used Tackle against Doduo. It was effective.
+Meowth used Scratch against Dewgong. It was effective.
+Geodude used Scratch against Machop. It was effective.
+Magikarp used Quick Attack against Vulpix. It was effective.
+Dewgong used Scratch against Haunter. It had no effect.
+Nidorino used Poison Sting against Vulpix. It was effective.
+Fearow used Scratch against Dewgong. It was effective.
+Growlithe used Tackle against Oddish. It was effective.
+Caterpie used Tackle against Growlithe. It was effective.
+Pidgey used Quick Attack against Bellsprout. It was effective.
+Kadabra used Quick Attack against Vulpix. It was effective.
+Magikarp used Tackle against Parasect. It was effective.
+Horsea used Scratch against Nidorino. It was effective.
+Zubat used Poison Sting against Arbok. It was not very effective.
+Marowak used Scratch against Bellsprout. It was effective.
+Doduo used Wing Attack against Exeggcute. It was super effective.
+Caterpie used Scratch against Dewgong. It was effective.
+Magikarp used Tackle against Dewgong. It was effective.
+Dratini used Quick Attack against Horsea. It was effective.
+Vulpix used Tackle against Spearow. It was effective.
+Hypno used Quick Attack against Tentacool. It was effective.
+Jigglypuff used Scratch against Zubat. It was effective.
+Nidorina used Scratch against Haunter. It had no effect.
+Nidorina used Scratch against Shellder. It was effective.
+Kadabra used Scratch against Abra. It was effective.
+Goldeen used Tackle against Staryu. It was effective.
+Rattata used Quick Attack against Dodrio. It was effective.
+Marowak used Tackle against Jigglypuff. It was effective.
+Caterpie used Quick Attack against Paras. It was effective.
+Dodrio used Quick Attack against Vulpix. It was effective.
+Hypno used Confusion against Mankey. It was super effective.
+Tentacool used Tackle against Caterpie. It was effective.
+Pidgey used Quick Attack against Dratini. It was effective.
+Bellsprout used Acid against Weedle. It was effective.
+Venonat used Acid against Slowpoke. It was effective.
+Ekans used Quick Attack against Psyduck. It was effective.
+Weedle used Scratch against Golbat. It was effective.
+Goldeen used Tackle against Magikarp. It was effective.
+Goldeen used Quick Attack against Parasect. It was effective.
+Shellder used Tackle against Nidorino. It was effective.
+Parasect used Absorb against Voltorb. It was effective.
+Horsea used Water Gun against Tangela. It was not very effective.
+Doduo used Quick Attack against Hypno. It was effective.
+Magikarp used Quick Attack against Magikarp. It was effective.
+Tangela used Quick Attack against Arbok. It was effective.
+Horsea used Tackle against Meowth. It was effective.
+Sandshrew used Scratch against Hypno. It was effective.
+Electrode used Thundershock against Magikarp. It was super effective.
+Exeggcute used Confusion against Dewgong. It was effective.
+Exeggcute used Scratch against Nidorino. It was effective.
+Arbok used Tackle against Electrode. It was effective.
+Venomoth used Tackle against Tangela. It was effective.
+Rhyhorn used Quick Attack against Poliwag. It was effective.
+Nidoran ♀ used Poison Sting against Cubone. It was not very effective.
+Parasect used Quick Attack against Golbat. It was effective.
+Nidoran ♂ used Quick Attack against Metapod. It was effective.
+Diglett used Scratch against Paras. It was effective.
+Tangela used Scratch against Pidgey. It was effective.
+Parasect used Absorb against Seel. It was super effective.
+Diglett used Bone Club against Shellder. It was effective.
+Paras used Tackle against Dratini. It was effective.
+Spearow used Scratch against Horsea. It was effective.
+Sandshrew used Scratch against Slowpoke. It was effective.
+Weedle used Acid against Raticate. It was effective.
+Psyduck used Scratch against Parasect. It was effective.
+Psyduck used Bubble against Magneton. It was effective.
+Spearow used Wing Attack against Venomoth. It was super effective.
+Nidoran ♀ used Tackle against Vulpix. It was effective.
+Haunter used Tackle against Psyduck. It was effective.
+Machop used Quick Attack against Magikarp. It was effective.
+Venonat used Tackle against Psyduck. It was effective.
+Dratini used Scratch against Dewgong. It was effective.
+Doduo used Tackle against Oddish. It was effective.
+Drowzee used Scratch against Goldeen. It was effective.
+Kadabra used Confusion against Golbat. It was super effective.
+Oddish used Poison Sting against Diglett. It was not very effective.
+Zubat used Quick Attack against Tentacool. It was effective.
+Nidoran ♀ used Poison Sting against Meowth. It was effective.
+Shellder used Quick Attack against Hypno. It was effective.
+Doduo used Scratch against Geodude. It was not very effective.
+Diglett used Tackle against Tentacool. It was effective.
+Golbat used Quick Attack against Zubat. It was effective.
+Psyduck used Bubble against Electrode. It was effective.
+Magneton used Scratch against Seel. It was effective.
+Growlithe used Ember against Mankey. It was effective.
+Shellder used Bubble against Nidorina. It was effective.
+Poliwag used Quick Attack against Electrode. It was effective.
+Dewgong used Scratch against Rattata. It was effective.
+Kadabra used Scratch against Dewgong. It was effective.
+Rattata used Tackle against Cubone. It was effective.
+Shellder used Quick Attack against Golbat. It was effective.
+Exeggcute used Quick Attack against Nidoran ♀. It was effective.
+Metapod used Quick Attack against Weedle. It was effective.
+Poliwag used Tackle against Doduo. It was effective.
+Growlithe used Quick Attack against Meowth. It was effective.
+Haunter used Poison Sting against Gastly. It was not very effective.
+Abra used Quick Attack against Diglett. It was effective.
+Ekans used Tackle against Seel. It was effective.
+Goldeen used Tackle against Krabby. It was effective.
+Voltorb used Quick Attack against Psyduck. It was effective.
+Sandshrew used Bone Club against Exeggcute. It was not very effective.
+Growlithe used Quick Attack against Kakuna. It was effective.
+Staryu used Tackle against Rhyhorn. It was not very effective.
+Growlithe used Ember against Fearow. It was effective.
+Dewgong used Bubble against Machop. It was effective.
+Magneton used Thundershock against Oddish. It was not very effective.
+Doduo used Wing Attack against Cubone. It was effective.
+Psyduck used Bubble against Marowak. It was super effective.
+Mankey used Quick Attack against Goldeen. It was effective.
+Hypno used Confusion against Tangela. It was effective.
+Mankey used Quick Attack against Vulpix. It was effective.
+Marowak used Scratch against Dodrio. It was effective.
+Voltorb used Thundershock against Voltorb. It was not very effective.
+Dodrio used Scratch against Nidorino. It was effective.
+Mankey used Scratch against Pidgey. It was effective.
+Nidorino used Scratch against Jigglypuff. It was effective.
+Oddish used Absorb against Goldeen. It was super effective.
+Rattata used Tackle against Fearow. It was effective.
+Nidoran ♂ used Quick Attack against Venomoth. It was effective.
+Haunter used Tackle against Nidorina. It was effective.
+Meowth used Quick Attack against Meowth. It was effective.
+Bellsprout used Vine Whip against Growlithe. It was not very effective.
+Kakuna used Poison Sting against Nidorina. It was not very effective.
+Venomoth used Acid against Goldeen. It was effective.
+Dratini used Tackle against Gastly. It had no effect.
+Rhyhorn used Bone Club against Horsea. It was effective.
+Venomoth used Tackle against Poliwag. It was effective.
+Dratini used Scratch against Parasect. It was effective.
+Krabby used Water Gun against Venomoth. It was effective.
+Bellsprout used Poison Sting against Hypno. It was effective.
+Bellsprout used Absorb against Exeggcute. It was not very effective.
+Goldeen used Water Gun against Nidoran ♂. It was effective.
+Nidoran ♂ used Poison Sting against Jigglypuff. It was effective.
+Abra used Confusion against Metapod. It was effective.
+Paras used Leech Life against Dewgong. It was effective.
+Exeggcute used Confusion against Diglett. It was effective.
+Arbok used Poison Sting against Marowak. It was not very effective.
+Staryu used Bubble against Fearow. It was effective.
+Bellsprout used Vine Whip against Metapod. It was not very effective.
+Slowpoke used Confusion against Geodude. It was effective.
+Metapod used Leech Life against Rattata. It was effective.
+Fearow used Peck against Tangela. It was super effective.
+Sandshrew used Scratch against Kakuna. It was effective.
+Venomoth used Quick Attack against Oddish. It was effective.
+Growlithe used Scratch against Oddish. It was effective.
+Krabby used Water Gun against Horsea. It was not very effective.
+Jigglypuff used Quick Attack against Krabby. It was effective.
+Vulpix used Tackle against Marowak. It was effective.
+Poliwag used Bubble against Metapod. It was effective.
+Kakuna used Scratch against Dratini. It was effective.
+Nidoran ♂ used Tackle against Seel. It was effective.
+Voltorb used Tackle against Seel. It was effective.
+Krabby used Quick Attack against Metapod. It was effective.
+Nidoran ♀ used Tackle against Marowak. It was effective.
+Doduo used Quick Attack against Ekans. It was effective.
+Fearow used Tackle against Poliwag. It was effective.
+Geodude used Quick Attack against Dratini. It was effective.
+Growlithe used Scratch against Gastly. It had no effect.
+Voltorb used Quick Attack against Venonat. It was effective.
+Magneton used Tackle against Magneton. It was effective.
+Voltorb used Quick Attack against Cubone. It was effective.
+Golbat used Acid against Raticate. It was effective.
+Metapod used Scratch against Magikarp. It was effective.
+Geodude used Dig against Shellder. It was effective.
+Diglett used Quick Attack against Dratini. It was effective.
+Pidgey used Quick Attack against Slowpoke. It was effective.
+Raticate used Quick Attack against Gastly. It had no effect.
+Rhyhorn used Bone Club against Shellder. It was effective.
+Exeggcute used Absorb against Spearow. It was not very effective.
+Electrode used Scratch against Weedle. It was effective.
+Bellsprout used Poison Sting against Psyduck. It was effective.
+Venonat used Acid against Pidgey. It was effective.
+Seel used Tackle against Paras. It was effective.
+Rhyhorn used Dig against Meowth. It was effective.
+Raticate used Quick Attack against Psyduck. It was effective.
+Dodrio used Peck against Goldeen. It was effective.
+Haunter used Poison Sting against Ekans. It was not very effective.
+Sandshrew used Bone Club against Drowzee. It was effective.
+Seel used Bubble against Jigglypuff. It was effective.
+Exeggcute used Absorb against Staryu. It was super effective.
+Voltorb used Thundershock against Poliwag. It was super effective.
+Psyduck used Bubble against Cubone. It was super effective.
+Jigglypuff used Tackle against Oddish. It was effective.
+Marowak used Tackle against Magikarp. It was effective.
+Jigglypuff used Quick Attack against Horsea. It was effective.
+Nidorino used Poison Sting against Krabby. It was effective.
+Geodude used Rock Throw against Doduo. It was super effective.
+Venomoth used Tackle against Paras. It was effective.
+Abra used Scratch against Rhyhorn. It was not very effective.
+Sandshrew used Quick Attack against Abra. It was effective.
+Parasect used Scratch against Exeggcute. It was effective.
+Paras used Absorb against Jigglypuff. It was effective.
+Gastly used Scratch against Horsea. It was effective.
+Tentacool used Bubble against Caterpie. It was effective.
+Dratini used Tackle against Nidoran ♀. It was effective.
+Nidorino used Poison Sting against Drowzee. It was effective.
+Abra used Quick Attack against Tentacool. It was effective.
+Gastly used Lick against Poliwag. It was effective.
+Haunter used Poison Sting against Abra. It was effective.
+Electrode used Tackle against Metapod. It was effective.
+Zubat used Poison Sting against Nidoran ♂. It was not very effective.
+Gastly used Scratch against Nidorino. It was effective.
+Dewgong used Scratch against Slowpoke. It was effective.
+Poliwag used Bubble against Tentacool. It was not very effective.
+Parasect used Leech Life against Psyduck. It was effective.
+Tentacool used Scratch against Paras. It was effective.
+Gastly used Scratch against Growlithe. It was effective.
+Golbat used Quick Attack against Vulpix. It was effective.
+Spearow used Quick Attack against Drowzee. It was effective.
+Oddish used Poison Sting against Spearow. It was effective.
+Bellsprout used Acid against Dratini. It was effective.
+Gastly used Quick Attack against Sandshrew. It was effective.
+Nidorina used Poison Sting against Hypno. It was effective.
+Jigglypuff used Scratch against Drowzee. It was effective.
+Krabby used Bubble against Machop. It was effective.
+Zubat used Wing Attack against Raticate. It was effective.
+Nidoran ♀ used Quick Attack against Zubat. It was effective.
+Venonat used Scratch against Sandshrew. It was effective.
+Caterpie used Quick Attack against Haunter. It had no effect.
+Jigglypuff used Tackle against Weedle. It was effective.
+Tentacool used Poison Sting against Zubat. It was not very effective.
+Dratini used Dragon Rage against Fearow. It was effective.
+Raticate used Tackle against Tangela. It was effective.
+Geodude used Dig against Zubat. It had no effect.
+Poliwag used Scratch against Mankey. It was effective.
+Sandshrew used Scratch against Kakuna. It was effective.
+Dratini used Dragon Rage against Tangela. It was effective.
+Spearow used Tackle against Cubone. It was effective.
+Diglett used Tackle against Abra. It was effective.
+Geodude used Rock Throw against Dodrio. It was super effective.
+Kakuna used Quick Attack against Ekans. It was effective.
+Exeggcute used Scratch against Geodude. It was not very effective.
+Rattata used Tackle against Nidorino. It was effective.
+Tentacool used Water Gun against Krabby. It was not very effective.
+Magneton used Quick Attack against Magneton. It was effective.
+Voltorb used Thundershock against Machop. It was effective.
+Mankey used Low Kick against Staryu. It was effective.
+Golbat used Acid against Tangela. It was super effective.
+Psyduck used Bubble against Golbat. It was effective.
+Doduo used Wing Attack against Kakuna. It was super effective.
+Hypno used Quick Attack against Raticate. It was effective.
+Dodrio used Scratch against Nidorina. It was effective.
+Dewgong used Quick Attack against Rattata. It was effective.
+Nidorino used Acid against Sandshrew. It was not very effective.
+Pidgey used Tackle against Arbok. It was effective.
+Meowth used Scratch against Mankey. It was effective.
+Magneton used Scratch against Poliwag. It was effective.
+Weedle used Scratch against Nidoran ♂. It was effective.
+Haunter used Lick against Zubat. It was effective.
+Tangela used Tackle against Growlithe. It was effective.
+Shellder used Scratch against Nidoran ♂. It was effective.
+Electrode used Quick Attack against Electrode. It was effective.
+Psyduck used Bubble against Spearow. It was effective.
+Nidoran ♂ used Quick Attack against Seel. It was effective.
+Staryu used Quick Attack against Jigglypuff. It was effective.
+Pidgey used Quick Attack against Kakuna. It was effective.
+Electrode used Scratch against Golbat. It was effective.
+Mankey used Low Kick against Spearow. It was effective.
+Gastly used Lick against Golbat. It was effective.
+Diglett used Scratch against Dratini. It was effective.
+Kadabra used Confusion against Bellsprout. It was super effective.
+Mankey used Tackle against Rattata. It was effective.
+Horsea used Scratch against Psyduck. It was effective.
+Magneton used Tackle against Vulpix. It was effective.
+Rattata used Scratch against Nidoran ♂. It was effective.
+Marowak used Bone Club against Tangela. It was not very effective.
+Slowpoke used Tackle against Dratini. It was effective.
+Krabby used Scratch against Shellder. It was effective.
+Geodude used Quick Attack against Weedle. It was effective.
+Poliwag used Water Gun against Machop. It was effective.
+Staryu used Quick Attack against Jigglypuff. It was effective.
+Slowpoke used Confusion against Psyduck. It was effective.
+Cubone used Tackle against Abra. It was effective.
+Poliwag used Water Gun against Parasect. It was not very effective.
+Paras used Leech Life against Oddish. It was super effective.
+Raticate used Tackle against Rhyhorn. It was not very effective.
+Paras used Leech Life against Meowth. It was effective.
+Abra used Confusion against Zubat. It was super effective.
+Cubone used Bone Club against Krabby. It was effective.
+Weedle used Tackle against Growlithe. It was effective.
+Oddish used Scratch against Vulpix. It was effective.
+Spearow used Peck against Voltorb. It was not very effective.
+Tangela used Tackle against Kadabra. It was effective.
+Dewgong used Bubble against Tangela. It was not very effective.
+Growlithe used Tackle against Meowth. It was effective.
+Nidoran ♀ used Scratch against Machop. It was effective.
+Doduo used Peck against Krabby. It was effective.
+Dodrio used Tackle against Mankey. It was effective.
+Nidorina used Acid against Jigglypuff. It was effective.
+Fearow used Scratch against Magikarp. It was effective.
+Mankey used Low Kick against Horsea. It was effective.
+Spearow used Wing Attack against Metapod. It was super effective.
+Exeggcute used Confusion against Nidorino. It was super effective.
+Arbok used Acid against Golbat. It was not very effective.
+Caterpie used Leech Life against Tentacool. It was super effective.
+Rattata used Tackle against Nidoran ♂. It was effective.
+Growlithe used Tackle against Dratini. It was effective.
+Seel used Quick Attack against Marowak. It was effective.
+Abra used Scratch against Magikarp. It was effective.
+Kadabra used Scratch against Haunter. It had no effect.
+Meowth used Quick Attack against Marowak. It was effective.
+Poliwag used Water Gun against Nidorino. It was effective.
+Tentacool used Water Gun against Ekans. It was effective.
+Nidoran ♀ used Acid against Staryu. It was effective.
+Kadabra used Quick Attack against Hypno. It was effective.
+Tangela used Scratch against Pidgey. It was effective.
+Voltorb used Thundershock against Electrode. It was not very effective.
+Paras used Absorb against Magikarp. It was super effective.
+Jigglypuff used Tackle against Cubone. It was effective.
+Zubat used Scratch against Drowzee. It was effective.
+Marowak used Bone Club against Slowpoke. It was effective.
+Dewgong used Quick Attack against Abra. It was effective.
+Mankey used Low Kick against Bellsprout. It was not very effective.
+Parasect used Absorb against Paras. It was not very effective.
+Krabby used Water Gun against Bellsprout. It was not very effective.
+Growlithe used Scratch against Magikarp. It was effective.
+Tangela used Quick Attack against Nidoran ♀. It was effective.
+Geodude used Quick Attack against Venomoth. It was effective.
+Rhyhorn used Dig against Voltorb. It was super effective.
+Weedle used Leech Life against Oddish. It was super effective.
+Poliwag used Water Gun against Haunter. It was effective.
+Venomoth used Leech Life against Dewgong. It was effective.
+Ekans used Tackle against Abra. It was effective.
+Fearow used Wing Attack against Kadabra. It was effective.
+Paras used Tackle against Tangela. It was effective.
+Tangela used Vine Whip against Rhyhorn. It was super effective.
+Raticate used Quick Attack against Machop. It was effective.
+Caterpie used Quick Attack against Drowzee. It was effective.
+Meowth used Scratch against Tangela. It was effective.
+Ekans used Poison Sting against Pidgey. It was effective.
+Electrode used Scratch against Vulpix. It was effective.
+Doduo used Peck against Gastly. It was effective.
+Seel used Scratch against Rattata. It was effective.
+Rhyhorn used Bone Club against Shellder. It was effective.
+Venomoth used Leech Life against Oddish. It was super effective.
+Haunter used Poison Sting against Horsea. It was effective.
+Tangela used Tackle against Bellsprout. It was effective.
+Doduo used Quick Attack against Pidgey. It was effective.
+Dodrio used Scratch against Shellder. It was effective.
+Nidoran ♂ used Tackle against Hypno. It was effective.
+Psyduck used Tackle against Raticate. It was effective.
+Mankey used Scratch against Arbok. It was effective.
+Goldeen used Tackle against Metapod. It was effective.
+Oddish used Tackle against Electrode. It was effective.
+Zubat used Scratch against Parasect. It was effective.
+Psyduck used Quick Attack against Ekans. It was effective.
+Machop used Quick Attack against Meowth. It was effective.
+Arbok used Tackle against Sandshrew. It was effective.
+Doduo used Peck against Tangela. It was super effective.
+Doduo used Quick Attack against Shellder. It was effective.
+Abra used Quick Attack against Staryu. It was effective.
+Nidoran ♂ used Scratch against Growlithe. It was effective.
+Growlithe used Tackle against Vulpix. It was effective.
+Goldeen used Water Gun against Exeggcute. It was not very effective.
+Goldeen used Bubble against Zubat. It was effective.
+Arbok used Poison Sting against Pidgey. It was effective.
+Dratini used Scratch against Parasect. It was effective.
+Dodrio used Scratch against Psyduck. It was effective.
+Growlithe used Scratch against Rhyhorn. It was not very effective.
+Nidoran ♀ used Poison Sting against Venomoth. It was effective.
+Raticate used Quick Attack against Nidorino. It was effective.
+Geodude used Bone Club against Parasect. It was not very effective.
+Zubat used Scratch against Gastly. It had no effect.
+Metapod used Leech Life against Marowak. It was effective.
+Jigglypuff used Scratch against Caterpie. It was effective.
+Tangela used Tackle against Shellder. It was effective.

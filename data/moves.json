@@ -1,0 +1,112 @@
+{
+    "Tackle": {
+        "type": "Normal",
+        "power": 40,
+        "miss_chance": 0
+    },
+    "Quick Attack": {
+        "type": "Normal",
+        "power": 40,
+        "miss_chance": 0
+    },
+    "Scratch": {
+        "type": "Normal",
+        "power": 40,
+        "miss_chance": 0
+    },
+    "Ember": {
+        "type": "Fire",
+        "power": 40,
+        "miss_chance": 0
+    },
+    "Water Gun": {
+        "type": "Water",
+        "power": 40,
+        "miss_chance": 0
+    },
+    "Bubble": {
+        "type": "Water",
+        "power": 20,
+        "miss_chance": 0
+    },
+    "Vine Whip": {
+        "type": "Grass",
+        "power": 45,
+        "miss_chance": 0
+    },
+    "Absorb": {
+        "type": "Grass",
+        "power": 20,
+        "miss_chance": 0
+    },
+    "Thundershock": {
+        "type": "Electric",
+        "power": 40,
+        "miss_chance": 0
+    },
+    "Aurora Beam": {
+        "type": "Ice",
+        "power": 65,
+        "miss_chance": 0
+    },
+    "Low Kick": {
+        "type": "Fighting",
+        "power": 50,
+        "miss_chance": 10
+    },
+    "Poison Sting": {
+        "type": "Poison",
+        "power": 15,
+        "miss_chance": 0
+    },
+    "Acid": {
+        "type": "Poison",
+        "power": 40,
+        "miss_chance": 0
+    },
+    "Earthquake": {
+        "type": "Ground",
+        "power": 100,
+        "miss_chance": 0
+    },
+    "Bone Club": {
+        "type": "Ground",
+        "power": 65,
+        "miss_chance": 15
+    },
+    "Peck": {
+        "type": "Flying",
+        "power": 35,
+        "miss_chance": 0
+    },
+    "Wing Attack": {
+        "type": "Flying",
+        "power": 35,
+        "miss_chance": 0
+    },
+    "Confusion": {
+        "type": "Psychic",
+        "power": 50,
+        "miss_chance": 0
+    },
+    "Leech Life": {
+        "type": "Bug",
+        "power": 20,
+        "miss_chance": 0
+    },
+    "Rock Throw": {
+        "type": "Rock",
+        "power": 50,
+        "miss_chance": 35
+    },
+    "Lick": {
+        "type": "Ghost",
+        "power": 20,
+        "miss_chance": 0
+    },
+    "Dragon Rage": {
+        "type": "Dragon",
+        "power": 40,
+        "miss_chance": 0
+    }
+}
