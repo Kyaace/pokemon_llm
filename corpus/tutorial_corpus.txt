@@ -43,7 +43,7 @@ Jigglypuff used Tackle against Pidgey. It was effective.
 Staryu used Bubble against Dratini. It was not very effective.
 Horsea used Scratch against Haunter. It had no effect.
 Nidorina used Poison Sting against Seel. It was effective.
-Diglett used Dig against Horsea. It was effective.
+Diglett used Earthquake against Horsea. It was effective.
 Ekans used Quick Attack against Vulpix. It was effective.
 Nidorino used Acid against Hypno. It was effective.
 Bellsprout used Poison Sting against Vulpix. It was effective.
@@ -295,7 +295,7 @@ Magneton used Tackle against Magneton. It was effective.
 Voltorb used Quick Attack against Cubone. It was effective.
 Golbat used Acid against Raticate. It was effective.
 Metapod used Scratch against Magikarp. It was effective.
-Geodude used Dig against Shellder. It was effective.
+Geodude used Earthquake against Shellder. It was effective.
 Diglett used Quick Attack against Dratini. It was effective.
 Pidgey used Quick Attack against Slowpoke. It was effective.
 Raticate used Quick Attack against Gastly. It had no effect.
@@ -305,7 +305,7 @@ Electrode used Scratch against Weedle. It was effective.
 Bellsprout used Poison Sting against Psyduck. It was effective.
 Venonat used Acid against Pidgey. It was effective.
 Seel used Tackle against Paras. It was effective.
-Rhyhorn used Dig against Meowth. It was effective.
+Rhyhorn used Earthquake against Meowth. It was effective.
 Raticate used Quick Attack against Psyduck. It was effective.
 Dodrio used Peck against Goldeen. It was effective.
 Haunter used Poison Sting against Ekans. It was not very effective.
@@ -355,7 +355,7 @@ Jigglypuff used Tackle against Weedle. It was effective.
 Tentacool used Poison Sting against Zubat. It was not very effective.
 Dratini used Dragon Rage against Fearow. It was effective.
 Raticate used Tackle against Tangela. It was effective.
-Geodude used Dig against Zubat. It had no effect.
+Geodude used Earthquake against Zubat. It had no effect.
 Poliwag used Scratch against Mankey. It was effective.
 Sandshrew used Scratch against Kakuna. It was effective.
 Dratini used Dragon Rage against Tangela. It was effective.
@@ -450,7 +450,7 @@ Krabby used Water Gun against Bellsprout. It was not very effective.
 Growlithe used Scratch against Magikarp. It was effective.
 Tangela used Quick Attack against Nidoran ♀. It was effective.
 Geodude used Quick Attack against Venomoth. It was effective.
-Rhyhorn used Dig against Voltorb. It was super effective.
+Rhyhorn used Earthquake against Voltorb. It was super effective.
 Weedle used Leech Life against Oddish. It was super effective.
 Poliwag used Water Gun against Haunter. It was effective.
 Venomoth used Leech Life against Dewgong. It was effective.
