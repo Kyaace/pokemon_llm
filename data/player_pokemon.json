@@ -1,0 +1,272 @@
+[
+  {
+    "trainer": "Player (Bulbasaur - Lv 10)",
+    "pokemon": [
+      {
+        "name": "Bulbasaur",
+        "level": 10,
+        "moves": ["Vine Whip", "Tackle"]
+      },
+      {
+        "name": "Pidgey",
+        "level": 10,
+        "moves": ["Quick Attack", "Tackle"]
+      },
+      {
+        "name": "Rattata",
+        "level": 10,
+        "moves": ["Quick Attack", "Tackle"]
+      },
+      {
+        "name": "Nidoran ♂",
+        "level": 10,
+        "moves": ["Poison Sting", "Scratch"]
+      }
+    ]
+  },
+  {
+    "trainer": "Player (Charmander - Lv 10)",
+    "pokemon": [
+      {
+        "name": "Charmander",
+        "level": 10,
+        "moves": ["Ember", "Scratch"]
+      },
+      {
+        "name": "Spearow",
+        "level": 10,
+        "moves": ["Peck", "Quick Attack"]
+      },
+      {
+        "name": "Mankey",
+        "level": 10,
+        "moves": ["Low Kick", "Scratch"]
+      },
+      {
+        "name": "Caterpie",
+        "level": 10,
+        "moves": ["Tackle"]
+      }
+    ]
+  },
+  {
+    "trainer": "Player (Squirtle - Lv 10)",
+    "pokemon": [
+      {
+        "name": "Squirtle",
+        "level": 10,
+        "moves": ["Bubble", "Tackle"]
+      },
+      {
+        "name": "Pidgey",
+        "level": 10,
+        "moves": ["Quick Attack", "Tackle"]
+      },
+      {
+        "name": "Nidoran ♀",
+        "level": 10,
+        "moves": ["Poison Sting", "Scratch"]
+      },
+      {
+        "name": "Weedle",
+        "level": 10,
+        "moves": ["Poison Sting"]
+      }
+    ]
+  },
+  {
+    "trainer": "Player (Bulbasaur - Lv 25)",
+    "pokemon": [
+      {
+        "name": "Ivysaur",
+        "level": 25,
+        "moves": ["Vine Whip", "Tackle"]
+      },
+      {
+        "name": "Pidgeotto",
+        "level": 25,
+        "moves": ["Wing Attack", "Quick Attack"]
+      },
+      {
+        "name": "Kadabra",
+        "level": 25,
+        "moves": ["Confusion"]
+      },
+      {
+        "name": "Flareon",
+        "level": 25,
+        "moves": ["Ember", "Quick Attack"]
+      },
+      {
+        "name": "Dugtrio",
+        "level": 25,
+        "moves": ["Earthquake", "Scratch"]
+      }
+    ]
+  },
+  {
+    "trainer": "Player (Charmander - Lv 25)",
+    "pokemon": [
+      {
+        "name": "Charmeleon",
+        "level": 25,
+        "moves": ["Ember", "Scratch"]
+      },
+      {
+        "name": "Fearow",
+        "level": 25,
+        "moves": ["Peck", "Quick Attack"]
+      },
+      {
+        "name": "Vaporeon",
+        "level": 25,
+        "moves": ["Water Gun", "Quick Attack"]
+      },
+      {
+        "name": "Pikachu",
+        "level": 25,
+        "moves": ["Thundershock", "Quick Attack"]
+      },
+      {
+        "name": "Graveler",
+        "level": 25,
+        "moves": ["Rock Throw", "Earthquake"]
+      }
+    ]
+  },
+  {
+    "trainer": "Player (Squirtle - Lv 25)",
+    "pokemon": [
+      {
+        "name": "Wartortle",
+        "level": 25,
+        "moves": ["Water Gun", "Tackle"]
+      },
+      {
+        "name": "Pidgeotto",
+        "level": 25,
+        "moves": ["Wing Attack", "Quick Attack"]
+      },
+      {
+        "name": "Jolteon",
+        "level": 25,
+        "moves": ["Thundershock", "Quick Attack"]
+      },
+      {
+        "name": "Weepinbell",
+        "level": 25,
+        "moves": ["Vine Whip", "Acid"]
+      },
+      {
+        "name": "Kadabra",
+        "level": 25,
+        "moves": ["Confusion"]
+      }
+    ]
+  },
+  {
+    "trainer": "Player (Bulbasaur - Lv 40)",
+    "pokemon": [
+      {
+        "name": "Venusaur",
+        "level": 40,
+        "moves": ["Vine Whip", "Acid"]
+      },
+      {
+        "name": "Pidgeot",
+        "level": 40,
+        "moves": ["Wing Attack", "Quick Attack"]
+      },
+      {
+        "name": "Alakazam",
+        "level": 40,
+        "moves": ["Confusion"]
+      },
+      {
+        "name": "Flareon",
+        "level": 40,
+        "moves": ["Ember", "Quick Attack"]
+      },
+      {
+        "name": "Snorlax",
+        "level": 40,
+        "moves": ["Earthquake", "Quick Attack"]
+      },
+      {
+        "name": "Lapras",
+        "level": 40,
+        "moves": ["Water Gun", "Aurora Beam"]
+      }
+    ]
+  },
+  {
+    "trainer": "Player (Charmander - Lv 40)",
+    "pokemon": [
+      {
+        "name": "Charizard",
+        "level": 40,
+        "moves": ["Ember", "Wing Attack"]
+      },
+      {
+        "name": "Vaporeon",
+        "level": 40,
+        "moves": ["Water Gun", "Quick Attack"]
+      },
+      {
+        "name": "Raichu",
+        "level": 40,
+        "moves": ["Thundershock", "Quick Attack"]
+      },
+      {
+        "name": "Golem",
+        "level": 40,
+        "moves": ["Rock Throw", "Earthquake"]
+      },
+      {
+        "name": "Hitmonlee",
+        "level": 40,
+        "moves": ["Low Kick", "Quick Attack"]
+      },
+      {
+        "name": "Snorlax",
+        "level": 40,
+        "moves": ["Earthquake", "Quick Attack"]
+      }
+    ]
+  },
+  {
+    "trainer": "Player (Squirtle - Lv 40)",
+    "pokemon": [
+      {
+        "name": "Blastoise",
+        "level": 40,
+        "moves": ["Water Gun", "Earthquake"]
+      },
+      {
+        "name": "Jolteon",
+        "level": 40,
+        "moves": ["Thundershock", "Quick Attack"]
+      },
+      {
+        "name": "Pidgeot",
+        "level": 40,
+        "moves": ["Wing Attack", "Quick Attack"]
+      },
+      {
+        "name": "Victreebel",
+        "level": 40,
+        "moves": ["Vine Whip", "Acid"]
+      },
+      {
+        "name": "Hitmonchan",
+        "level": 40,
+        "moves": ["Low Kick", "Quick Attack"]
+      },
+      {
+        "name": "Snorlax",
+        "level": 40,
+        "moves": ["Earthquake", "Quick Attack"]
+      }
+    ]
+  }
+]

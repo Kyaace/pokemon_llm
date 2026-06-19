@@ -1,0 +1,517 @@
+[
+  {
+    "trainer": "Gary Oak (Encounter 1)",
+    "pokemon": [
+      {
+        "name": "Bulbasaur/Squirtle/Charmander",
+        "level": 5,
+        "moves": ["Scratch", "Tackle"]
+      }
+    ]
+  },
+  {
+    "trainer": "Gary Oak (Encounter 2)",
+    "pokemon": [
+      {
+        "name": "Pidgey",
+        "level": 9,
+        "moves": ["Gust", "Sand Attack"]
+      },
+      {
+        "name": "Bulbasaur/Squirtle/Charmander",
+        "level": 8,
+        "moves": ["Scratch"]
+      }
+    ]
+  },
+  {
+    "trainer": "Gary Oak (Encounter 3)",
+    "pokemon": [
+      {
+        "name": "Pidgeotto",
+        "level": 18,
+        "moves": ["Quick Attack"]
+      },
+      {
+        "name": "Abra",
+        "level": 15,
+        "moves": ["Teleport"]
+      },
+      {
+        "name": "Rattata",
+        "level": 15,
+        "moves": ["Hyper Fang"]
+      },
+      {
+        "name": "Bulbasaur/Squirtle/Charmander",
+        "level": 17,
+        "moves": []
+      }
+    ]
+  },
+  {
+    "trainer": "Gary Oak (Encounter 4)",
+    "pokemon": [
+      {
+        "name": "Pidgeotto",
+        "level": 19,
+        "moves": []
+      },
+      {
+        "name": "Raticate",
+        "level": 16,
+        "moves": ["Hyper Fang"]
+      },
+      {
+        "name": "Kadabra",
+        "level": 18,
+        "moves": ["Confusion"]
+      },
+      {
+        "name": "Ivysaur/Wartortle/Charmeleon",
+        "level": 20,
+        "moves": []
+      }
+    ]
+  },
+  {
+    "trainer": "Gary Oak (Encounter 5)",
+    "pokemon": [
+      {
+        "name": "Pidgeotto",
+        "level": 25,
+        "moves": ["Quick Attack"]
+      },
+      {
+        "name": "Growlithe",
+        "level": 23,
+        "moves": ["Ember", "Bite"]
+      },
+      {
+        "name": "Exeggcute",
+        "level": 22,
+        "moves": ["Hypnosis", "Barrage"]
+      },
+      {
+        "name": "Kadabra",
+        "level": 20,
+        "moves": []
+      },
+      {
+        "name": "Ivysaur/Wartortle/Charmeleon",
+        "level": 25,
+        "moves": ["Rage", "Scratch"]
+      }
+    ]
+  },
+  {
+    "trainer": "Gary Oak (Encounter 6)",
+    "pokemon": [
+      {
+        "name": "Pidgeot",
+        "level": 37,
+        "moves": ["Wing Attack"]
+      },
+      {
+        "name": "Growlithe",
+        "level": 37,
+        "moves": ["Take Down", "Ember", "Roar"]
+      },
+      {
+        "name": "Exeggcute",
+        "level": 35,
+        "moves": ["Hypnosis", "Leech Seed", "Stun Spore", "Reflect"]
+      },
+      {
+        "name": "Alakazam",
+        "level": 35,
+        "moves": ["Psybeam", "Recover"]
+      },
+      {
+        "name": "Venusaur/Blastoise/Charizard",
+        "level": 40,
+        "moves": []
+      }
+    ]
+  },
+  {
+    "trainer": "Gary Oak (Encounter 7)",
+    "pokemon": [
+      {
+        "name": "Pidgeot",
+        "level": 47,
+        "moves": []
+      },
+      {
+        "name": "Rhyhorn",
+        "level": 45,
+        "moves": []
+      },
+      {
+        "name": "Growlithe",
+        "level": 45,
+        "moves": ["Take Down", "Ember", "Leer", "Agility"]
+      },
+      {
+        "name": "Exeggcute",
+        "level": 47,
+        "moves": ["Leech Seed", "Solarbeam", "Poison Powder", "Stun Spore"]
+      },
+      {
+        "name": "Alakazam",
+        "level": 50,
+        "moves": []
+      },
+      {
+        "name": "Venusaur/Blastoise/Charizard",
+        "level": 53,
+        "moves": ["Growth", "Hydro Pump", "Flamethrower"]
+      }
+    ]
+  },
+  {
+    "trainer": "Gary Oak (Champion)",
+    "pokemon": [
+      {
+        "name": "Pidgeot",
+        "level": 61,
+        "moves": ["Sky Attack"]
+      },
+      {
+        "name": "Alakazam",
+        "level": 59,
+        "moves": ["Recover", "Reflect"]
+      },
+      {
+        "name": "Rhydon",
+        "level": 61,
+        "moves": []
+      },
+      {
+        "name": "Exeggutor",
+        "level": 61,
+        "moves": ["Barrage", "Hypnosis", "Stomp"]
+      },
+      {
+        "name": "Gyarados",
+        "level": 61,
+        "moves": ["Hyper Beam"]
+      },
+      {
+        "name": "Arcanine",
+        "level": 61,
+        "moves": ["Ember", "Take Down"]
+      },
+      {
+        "name": "Venusaur",
+        "level": 65,
+        "moves": ["Sleep Powder", "Solarbeam"]
+      },
+      {
+        "name": "Charizard",
+        "level": 65,
+        "moves": ["Fire Blast", "Slash", "Fire Spin", "Rage"]
+      },
+      {
+        "name": "Blastoise",
+        "level": 65,
+        "moves": ["Hydro Pump", "Blizzard"]
+      }
+    ]
+  },
+  {
+    "trainer": "Brock",
+    "pokemon": [
+      {
+        "name": "Geodude",
+        "level": 11,
+        "moves": []
+      },
+      {
+        "name": "Onix",
+        "level": 13,
+        "moves": ["Bide"]
+      }
+    ]
+  },
+  {
+    "trainer": "Misty",
+    "pokemon": [
+      {
+        "name": "Staryu",
+        "level": 18,
+        "moves": []
+      },
+      {
+        "name": "Starmie",
+        "level": 21,
+        "moves": ["Bubblebeam"]
+      }
+    ]
+  },
+  {
+    "trainer": "Lieutenant Surge",
+    "pokemon": [
+      {
+        "name": "Pikachu",
+        "level": 18,
+        "moves": ["Quick Attack", "Swift", "Growl"]
+      },
+      {
+        "name": "Voltorb",
+        "level": 21,
+        "moves": ["Sonicboom"]
+      },
+      {
+        "name": "Raichu",
+        "level": 24,
+        "moves": ["Thundershock", "Thunder Wave", "Growl"]
+      }
+    ]
+  },
+  {
+    "trainer": "Erika",
+    "pokemon": [
+      {
+        "name": "Victreebel",
+        "level": 29,
+        "moves": []
+      },
+      {
+        "name": "Tangela",
+        "level": 24,
+        "moves": []
+      },
+      {
+        "name": "Vileplume",
+        "level": 29,
+        "moves": ["Mega Drain"]
+      }
+    ]
+  },
+  {
+    "trainer": "Sabrina",
+    "pokemon": [
+      {
+        "name": "Kadabra",
+        "level": 38,
+        "moves": []
+      },
+      {
+        "name": "Mr. Mime",
+        "level": 37,
+        "moves": []
+      },
+      {
+        "name": "Venomoth",
+        "level": 38,
+        "moves": ["Psybeam", "Stun Spore", "Sleep Powder", "Leech Life"]
+      },
+      {
+        "name": "Alakazam",
+        "level": 43,
+        "moves": ["Psywave"]
+      }
+    ]
+  },
+  {
+    "trainer": "Koga",
+    "pokemon": [
+      {
+        "name": "Koffing",
+        "level": 37,
+        "moves": []
+      },
+      {
+        "name": "Muk",
+        "level": 39,
+        "moves": []
+      },
+      {
+        "name": "Koffing",
+        "level": 37,
+        "moves": []
+      },
+      {
+        "name": "Weezing",
+        "level": 43,
+        "moves": ["Toxic", "Sludge"]
+      }
+    ]
+  },
+  {
+    "trainer": "Blaine",
+    "pokemon": [
+      {
+        "name": "Growlithe",
+        "level": 42,
+        "moves": ["Ember", "Take Down"]
+      },
+      {
+        "name": "Ponyta",
+        "level": 40,
+        "moves": ["Stomp", "Fire Spin"]
+      },
+      {
+        "name": "Rapidash",
+        "level": 42,
+        "moves": ["Stomp", "Fire Spin"]
+      },
+      {
+        "name": "Arcanine",
+        "level": 47,
+        "moves": ["Fire Blast"]
+      }
+    ]
+  },
+  {
+    "trainer": "Giovanni",
+    "pokemon": [
+      {
+        "name": "Rhyhorn",
+        "level": 45,
+        "moves": []
+      },
+      {
+        "name": "Dugtrio",
+        "level": 42,
+        "moves": []
+      },
+      {
+        "name": "Nidoqueen",
+        "level": 44,
+        "moves": []
+      },
+      {
+        "name": "Nidoking",
+        "level": 45,
+        "moves": []
+      },
+      {
+        "name": "Rhydon",
+        "level": 50,
+        "moves": ["Fissure"]
+      }
+    ]
+  },
+  {
+    "trainer": "Lorelei",
+    "pokemon": [
+      {
+        "name": "Dewgong",
+        "level": 54,
+        "moves": ["Aurora Beam", "Rest"]
+      },
+      {
+        "name": "Cloyster",
+        "level": 53,
+        "moves": ["Aurora Beam", "Spike Cannon"]
+      },
+      {
+        "name": "Slowbro",
+        "level": 54,
+        "moves": ["Water Gun"]
+      },
+      {
+        "name": "Jynx",
+        "level": 56,
+        "moves": ["Ice Punch", "Lovely Kiss"]
+      },
+      {
+        "name": "Lapras",
+        "level": 56,
+        "moves": ["Blizzard", "Hydro Pump", "Body Slam"]
+      }
+    ]
+  },
+  {
+    "trainer": "Bruno",
+    "pokemon": [
+      {
+        "name": "Onix",
+        "level": 53,
+        "moves": ["Rock Throw"]
+      },
+      {
+        "name": "Hitmonchan",
+        "level": 55,
+        "moves": ["Thunderpunch", "Fire Punch", "Ice Punch"]
+      },
+      {
+        "name": "Hitmonlee",
+        "level": 55,
+        "moves": []
+      },
+      {
+        "name": "Onix",
+        "level": 56,
+        "moves": []
+      },
+      {
+        "name": "Machamp",
+        "level": 58,
+        "moves": ["Submission", "Fissure"]
+      }
+    ]
+  },
+  {
+    "trainer": "Agatha",
+    "pokemon": [
+      {
+        "name": "Gengar",
+        "level": 56,
+        "moves": ["Night Shade", "Confuse Ray"]
+      },
+      {
+        "name": "Golbat",
+        "level": 56,
+        "moves": ["Confuse Ray", "Wing Attack"]
+      },
+      {
+        "name": "Haunter",
+        "level": 55,
+        "moves": ["Confuse Ray"]
+      },
+      {
+        "name": "Arbok",
+        "level": 58,
+        "moves": ["Glare"]
+      },
+      {
+        "name": "Gengar",
+        "level": 60,
+        "moves": ["Toxic", "Confuse Ray"]
+      }
+    ]
+  },
+  {
+    "trainer": "Lance",
+    "pokemon": [
+      {
+        "name": "Gyarados",
+        "level": 58,
+        "moves": ["Hyper Beam", "Hydro Pump", "Dragon Rage"]
+      },
+      {
+        "name": "Dragonair",
+        "level": 56,
+        "moves": ["Agility"]
+      },
+      {
+        "name": "Dragonair",
+        "level": 56,
+        "moves": ["Agility"]
+      },
+      {
+        "name": "Aerodactyl",
+        "level": 60,
+        "moves": ["Supersonic", "Hyper Beam"]
+      },
+      {
+        "name": "Dragonite",
+        "level": 62,
+        "moves": []
+      }
+    ]
+  }
+]

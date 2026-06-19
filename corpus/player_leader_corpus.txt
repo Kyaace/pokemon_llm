@@ -1,0 +1,500 @@
+[Player (Squirtle - Lv 40) vs Gary Oak (Encounter 6)] Hitmonchan used Low Kick against Pidgeot. It was super effective.
+[Player (Charmander - Lv 25) vs Gary Oak (Encounter 6)] Charmeleon used Ember against Alakazam. It was effective.
+[Player (Charmander - Lv 10) vs Lieutenant Surge] Spearow used Quick Attack against Raichu. It was effective.
+[Player (Bulbasaur - Lv 10) vs Gary Oak (Encounter 1)] Rattata used Tackle against Squirtle. It was effective.
+[Player (Squirtle - Lv 25) vs Lieutenant Surge] Pidgeotto used Quick Attack against Pikachu. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 3)] Pidgey used Tackle against Pidgeotto. It was effective.
+[Player (Bulbasaur - Lv 25) vs Erika] Dugtrio used Earthquake against Victreebel. It was effective.
+[Player (Charmander - Lv 40) vs Koga] Golem used Rock Throw against Koffing. It was effective.
+[Player (Charmander - Lv 40) vs Koga] Snorlax used Earthquake against Muk. It was effective.
+[Player (Charmander - Lv 40) vs Blaine] Hitmonlee used Quick Attack against Rapidash. It was effective.
+[Player (Charmander - Lv 25) vs Erika] Vaporeon used Quick Attack against Victreebel. It was effective.
+[Player (Charmander - Lv 40) vs Gary Oak (Encounter 7)] Vaporeon used Quick Attack against Exeggcute. It was effective.
+[Player (Charmander - Lv 25) vs Brock] Charmeleon used Scratch against Onix. It was effective.
+[Player (Bulbasaur - Lv 10) vs Gary Oak (Encounter 1)] Nidoran ♂ used Scratch against Bulbasaur. It was effective.
+[Player (Bulbasaur - Lv 25) vs Gary Oak (Encounter 6)] Dugtrio used Earthquake against Exeggcute. It was not very effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 1)] Mankey used Scratch against Bulbasaur. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 2)] Nidoran ♀ used Scratch against Charmander. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 4)] Pidgey used Tackle against Kadabra. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 5)] Weedle used Poison Sting against Exeggcute. It was super effective.
+[Player (Charmander - Lv 10) vs Lieutenant Surge] Charmander used Ember against Pikachu. It was effective.
+[Player (Bulbasaur - Lv 40) vs Blaine] Venusaur used Vine Whip against Arcanine. It was effective.
+[Player (Charmander - Lv 25) vs Sabrina] Charmeleon used Scratch against Alakazam. It was effective.
+[Player (Charmander - Lv 25) vs Koga] Pikachu used Thundershock against Koffing. It was effective.
+[Player (Bulbasaur - Lv 25) vs Erika] Ivysaur used Tackle against Vileplume. It was effective.
+[Player (Bulbasaur - Lv 25) vs Gary Oak (Encounter 4)] Flareon used Quick Attack against Kadabra. It was effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 3)] Charmander used Scratch against Pidgeotto. It was effective.
+[Player (Charmander - Lv 40) vs Gary Oak (Encounter 7)] Charizard used Ember against Rhyhorn. It was not very effective.
+[Player (Bulbasaur - Lv 40) vs Lorelei] Alakazam used Confusion against Lapras. It was effective.
+[Player (Squirtle - Lv 10) vs Misty] Squirtle used Tackle against Starmie. It was effective.
+[Player (Charmander - Lv 25) vs Gary Oak (Encounter 3)] Vaporeon used Quick Attack against Abra. It was effective.
+[Player (Charmander - Lv 40) vs Sabrina] Raichu used Quick Attack against Kadabra. It was effective.
+[Player (Squirtle - Lv 40) vs Blaine] Blastoise used Earthquake against Arcanine. It was effective.
+[Player (Bulbasaur - Lv 25) vs Gary Oak (Encounter 4)] Flareon used Ember against Pidgeotto. It was effective.
+[Player (Bulbasaur - Lv 10) vs Gary Oak (Encounter 1)] Rattata used Quick Attack against Bulbasaur. It was effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 4)] Spearow used Quick Attack against Raticate. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 1)] Nidoran ♀ used Scratch against Bulbasaur. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 2)] Squirtle used Bubble against Pidgey. It was effective.
+[Player (Squirtle - Lv 25) vs Gary Oak (Encounter 6)] Kadabra used Confusion against Exeggcute. It was not very effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 5)] Squirtle used Tackle against Growlithe. It was effective.
+[Player (Squirtle - Lv 40) vs Gary Oak (Encounter 7)] Snorlax used Quick Attack against Pidgeot. It was effective.
+[Player (Charmander - Lv 40) vs Blaine] Hitmonlee used Quick Attack against Growlithe. It was effective.
+[Player (Squirtle - Lv 40) vs Sabrina] Hitmonchan used Quick Attack against Kadabra. It was effective.
+[Player (Charmander - Lv 40) vs Gary Oak (Encounter 6)] Charizard used Wing Attack against Alakazam. It was effective.
+[Player (Bulbasaur - Lv 40) vs Gary Oak (Encounter 7)] Flareon used Ember against Blastoise. It was effective.
+[Player (Charmander - Lv 10) vs Brock] Spearow used Peck against Geodude. It was not very effective.
+[Player (Charmander - Lv 25) vs Koga] Graveler used Earthquake against Koffing. It was effective.
+[Player (Squirtle - Lv 40) vs Koga] Victreebel used Vine Whip against Weezing. It was effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 4)] Caterpie used Tackle against Ivysaur. It was effective.
+[Player (Squirtle - Lv 25) vs Erika] Weepinbell used Vine Whip against Tangela. It was not very effective.
+[Player (Squirtle - Lv 25) vs Lieutenant Surge] Jolteon used Quick Attack against Raichu. It was effective.
+[Player (Squirtle - Lv 25) vs Gary Oak (Encounter 5)] Weepinbell used Vine Whip against Pidgeotto. It was effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 2)] Caterpie used Tackle against Pidgey. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 1)] Nidoran ♀ used Scratch against Squirtle. It was effective.
+[Player (Bulbasaur - Lv 40) vs Gary Oak (Encounter 6)] Alakazam used Confusion against Blastoise. It was effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 4)] Spearow used Peck against Ivysaur. It was effective.
+[Player (Squirtle - Lv 25) vs Sabrina] Jolteon used Quick Attack against Kadabra. It was effective.
+[Player (Bulbasaur - Lv 25) vs Lieutenant Surge] Dugtrio used Earthquake against Raichu. It was effective.
+[Player (Charmander - Lv 25) vs Gary Oak (Encounter 3)] Fearow used Quick Attack against Rattata. It was effective.
+[Player (Squirtle - Lv 25) vs Misty] Wartortle used Water Gun against Staryu. It was not very effective.
+[Player (Bulbasaur - Lv 40) vs Gary Oak (Encounter 7)] Pidgeot used Wing Attack against Charizard. It was effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 4)] Caterpie used Tackle against Wartortle. It was effective.
+[Player (Squirtle - Lv 10) vs Brock] Nidoran ♀ used Poison Sting against Onix. It was effective.
+[Player (Bulbasaur - Lv 10) vs Gary Oak (Encounter 3)] Pidgey used Quick Attack against Pidgeotto. It was effective.
+[Player (Charmander - Lv 25) vs Erika] Pikachu used Quick Attack against Tangela. It was effective.
+[Player (Bulbasaur - Lv 40) vs Koga] Pidgeot used Quick Attack against Koffing. It was effective.
+[Player (Bulbasaur - Lv 40) vs Gary Oak (Encounter 7)] Alakazam used Confusion against Charizard. It was effective.
+[Player (Squirtle - Lv 40) vs Koga] Blastoise used Earthquake against Muk. It was effective.
+[Player (Bulbasaur - Lv 10) vs Gary Oak (Encounter 1)] Pidgey used Quick Attack against Bulbasaur. It was effective.
+[Player (Charmander - Lv 25) vs Brock] Vaporeon used Water Gun against Geodude. It was super effective.
+[Player (Charmander - Lv 40) vs Giovanni] Vaporeon used Quick Attack against Dugtrio. It was effective.
+[Player (Squirtle - Lv 40) vs Sabrina] Hitmonchan used Low Kick against Venomoth. It was not very effective.
+[Player (Bulbasaur - Lv 40) vs Gary Oak (Encounter 6)] Flareon used Quick Attack against Pidgeot. It was effective.
+[Player (Charmander - Lv 10) vs Brock] Caterpie used Tackle against Onix. It was effective.
+[Player (Charmander - Lv 25) vs Gary Oak (Encounter 4)] Pikachu used Quick Attack against Pidgeotto. It was effective.
+[Player (Squirtle - Lv 10) vs Lieutenant Surge] Nidoran ♀ used Scratch against Pikachu. It was effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 4)] Caterpie used Tackle against Charmeleon. It was effective.
+[Player (Bulbasaur - Lv 40) vs Koga] Lapras used Water Gun against Koffing. It was effective.
+[Player (Squirtle - Lv 25) vs Gary Oak (Encounter 5)] Wartortle used Water Gun against Charmeleon. It was effective.
+[Player (Squirtle - Lv 40) vs Sabrina] Pidgeot used Wing Attack against Venomoth. It was super effective.
+[Player (Bulbasaur - Lv 25) vs Gary Oak (Encounter 4)] Pidgeotto used Wing Attack against Kadabra. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 3)] Squirtle used Tackle against Abra. It was effective.
+[Player (Charmander - Lv 40) vs Lorelei] Snorlax used Quick Attack against Lapras. It was effective.
+[Player (Squirtle - Lv 25) vs Gary Oak (Encounter 5)] Weepinbell used Acid against Pidgeotto. It was effective.
+[Player (Charmander - Lv 40) vs Koga] Raichu used Quick Attack against Koffing. It was effective.
+[Player (Squirtle - Lv 40) vs Gary Oak (Encounter 7)] Pidgeot used Quick Attack against Exeggcute. It was effective.
+[Player (Bulbasaur - Lv 10) vs Gary Oak (Encounter 1)] Rattata used Quick Attack against Bulbasaur. It was effective.
+[Player (Squirtle - Lv 40) vs Giovanni] Victreebel used Vine Whip against Rhydon. It was effective.
+[Player (Charmander - Lv 40) vs Sabrina] Raichu used Thundershock against Alakazam. It was effective.
+[Player (Bulbasaur - Lv 10) vs Lieutenant Surge] Bulbasaur used Vine Whip against Voltorb. It was effective.
+[Player (Squirtle - Lv 40) vs Erika] Blastoise used Earthquake against Victreebel. It was effective.
+[Player (Charmander - Lv 40) vs Erika] Raichu used Quick Attack against Tangela. It was effective.
+[Player (Bulbasaur - Lv 40) vs Giovanni] Alakazam used Confusion against Rhydon. It was effective.
+[Player (Squirtle - Lv 25) vs Gary Oak (Encounter 4)] Jolteon used Quick Attack against Pidgeotto. It was effective.
+[Player (Charmander - Lv 25) vs Brock] Graveler used Earthquake against Geodude. It was super effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 3)] Mankey used Scratch against Rattata. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 2)] Nidoran ♀ used Scratch against Charmander. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 2)] Weedle used Poison Sting against Bulbasaur. It was effective.
+[Player (Charmander - Lv 25) vs Gary Oak (Encounter 5)] Fearow used Quick Attack against Exeggcute. It was effective.
+[Player (Bulbasaur - Lv 25) vs Gary Oak (Encounter 6)] Pidgeotto used Wing Attack against Growlithe. It was effective.
+[Player (Charmander - Lv 25) vs Gary Oak (Encounter 4)] Graveler used Earthquake against Pidgeotto. It was effective.
+[Player (Squirtle - Lv 10) vs Misty] Pidgey used Quick Attack against Staryu. It was effective.
+[Player (Squirtle - Lv 10) vs Lieutenant Surge] Squirtle used Tackle against Voltorb. It was effective.
+[Player (Bulbasaur - Lv 25) vs Erika] Dugtrio used Scratch against Tangela. It was effective.
+[Player (Bulbasaur - Lv 25) vs Sabrina] Pidgeotto used Quick Attack against Venomoth. It was effective.
+[Player (Bulbasaur - Lv 25) vs Misty] Dugtrio used Scratch against Starmie. It was effective.
+[Player (Charmander - Lv 25) vs Lieutenant Surge] Graveler used Earthquake against Raichu. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 4)] Pidgey used Quick Attack against Kadabra. It was effective.
+[Player (Charmander - Lv 40) vs Blaine] Hitmonlee used Low Kick against Growlithe. It was effective.
+[Player (Charmander - Lv 25) vs Gary Oak (Encounter 4)] Fearow used Quick Attack against Kadabra. It was effective.
+[Player (Squirtle - Lv 40) vs Erika] Victreebel used Vine Whip against Victreebel. It was effective.
+[Player (Charmander - Lv 40) vs Blaine] Charizard used Ember against Arcanine. It was effective.
+[Player (Bulbasaur - Lv 40) vs Blaine] Pidgeot used Wing Attack against Arcanine. It was effective.
+[Player (Squirtle - Lv 25) vs Gary Oak (Encounter 6)] Wartortle used Water Gun against Exeggcute. It was not very effective.
+[Player (Squirtle - Lv 25) vs Gary Oak (Encounter 5)] Pidgeotto used Quick Attack against Pidgeotto. It was effective.
+[Player (Charmander - Lv 40) vs Erika] Snorlax used Quick Attack against Tangela. It was effective.
+[Player (Bulbasaur - Lv 10) vs Gary Oak (Encounter 2)] Bulbasaur used Vine Whip against Bulbasaur. It was effective.
+[Player (Squirtle - Lv 40) vs Giovanni] Blastoise used Water Gun against Nidoqueen. It was effective.
+[Player (Charmander - Lv 25) vs Gary Oak (Encounter 4)] Charmeleon used Scratch against Raticate. It was effective.
+[Player (Charmander - Lv 40) vs Gary Oak (Encounter 7)] Charizard used Ember against Exeggcute. It was super effective.
+[Player (Squirtle - Lv 40) vs Sabrina] Snorlax used Quick Attack against Mr. Mime. It was effective.
+[Player (Bulbasaur - Lv 40) vs Gary Oak (Encounter 6)] Snorlax used Earthquake against Exeggcute. It was not very effective.
+[Player (Bulbasaur - Lv 40) vs Erika] Lapras used Water Gun against Vileplume. It was effective.
+[Player (Squirtle - Lv 40) vs Blaine] Blastoise used Earthquake against Growlithe. It was super effective.
+[Player (Charmander - Lv 40) vs Gary Oak (Encounter 6)] Snorlax used Quick Attack against Alakazam. It was effective.
+[Player (Charmander - Lv 25) vs Gary Oak (Encounter 3)] Vaporeon used Quick Attack against Pidgeotto. It was effective.
+[Player (Bulbasaur - Lv 25) vs Gary Oak (Encounter 4)] Dugtrio used Earthquake against Kadabra. It was effective.
+[Player (Bulbasaur - Lv 10) vs Brock] Rattata used Tackle against Geodude. It was not very effective.
+[Player (Charmander - Lv 40) vs Erika] Vaporeon used Quick Attack against Victreebel. It was effective.
+[Player (Bulbasaur - Lv 10) vs Gary Oak (Encounter 5)] Pidgey used Quick Attack against Pidgeotto. It was effective.
+[Player (Bulbasaur - Lv 10) vs Brock] Rattata used Tackle against Onix. It was effective.
+[Player (Charmander - Lv 25) vs Gary Oak (Encounter 3)] Fearow used Quick Attack against Rattata. It was effective.
+[Player (Bulbasaur - Lv 10) vs Brock] Rattata used Tackle against Geodude. It was not very effective.
+[Player (Bulbasaur - Lv 40) vs Giovanni] Lapras used Aurora Beam against Nidoking. It was effective.
+[Player (Squirtle - Lv 25) vs Gary Oak (Encounter 5)] Weepinbell used Acid against Kadabra. It was effective.
+[Player (Squirtle - Lv 40) vs Koga] Blastoise used Water Gun against Weezing. It was effective.
+[Player (Bulbasaur - Lv 40) vs Erika] Snorlax used Quick Attack against Tangela. It was effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 2)] Mankey used Scratch against Squirtle. It was effective.
+[Player (Bulbasaur - Lv 40) vs Erika] Lapras used Aurora Beam against Tangela. It was super effective.
+[Player (Charmander - Lv 40) vs Gary Oak (Encounter 6)] Snorlax used Quick Attack against Exeggcute. It was effective.
+[Player (Charmander - Lv 25) vs Gary Oak (Encounter 3)] Charmeleon used Ember against Squirtle. It was effective.
+[Player (Bulbasaur - Lv 10) vs Gary Oak (Encounter 3)] Nidoran ♂ used Poison Sting against Pidgeotto. It was effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 4)] Mankey used Scratch against Kadabra. It was effective.
+[Player (Bulbasaur - Lv 10) vs Gary Oak (Encounter 3)] Nidoran ♂ used Scratch against Rattata. It was effective.
+[Player (Charmander - Lv 40) vs Gary Oak (Encounter 7)] Hitmonlee used Quick Attack against Rhyhorn. It was not very effective.
+[Player (Bulbasaur - Lv 40) vs Blaine] Lapras used Water Gun against Rapidash. It was effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 1)] Spearow used Quick Attack against Charmander. It was effective.
+[Player (Squirtle - Lv 40) vs Gary Oak (Encounter 7)] Pidgeot used Quick Attack against Growlithe. It was effective.
+[Player (Bulbasaur - Lv 25) vs Koga] Kadabra used Confusion against Weezing. It was effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 3)] Charmander used Scratch against Bulbasaur. It was effective.
+[Player (Charmander - Lv 10) vs Brock] Mankey used Scratch against Geodude. It was not very effective.
+[Player (Charmander - Lv 25) vs Gary Oak (Encounter 5)] Fearow used Peck against Exeggcute. It was super effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 4)] Spearow used Quick Attack against Raticate. It was effective.
+[Player (Bulbasaur - Lv 10) vs Brock] Rattata used Quick Attack against Onix. It was effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 2)] Mankey used Scratch against Charmander. It was effective.
+[Player (Squirtle - Lv 40) vs Giovanni] Victreebel used Vine Whip against Rhydon. It was effective.
+[Player (Squirtle - Lv 10) vs Brock] Squirtle used Tackle against Onix. It was effective.
+[Player (Squirtle - Lv 40) vs Blaine] Jolteon used Thundershock against Ponyta. It was effective.
+[Player (Bulbasaur - Lv 40) vs Gary Oak (Encounter 6)] Venusaur used Acid against Venusaur. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 3)] Nidoran ♀ used Scratch against Abra. It was effective.
+[Player (Squirtle - Lv 40) vs Koga] Blastoise used Water Gun against Koffing. It was effective.
+[Player (Squirtle - Lv 40) vs Koga] Jolteon used Thundershock against Koffing. It was effective.
+[Player (Squirtle - Lv 40) vs Erika] Hitmonchan used Low Kick against Vileplume. It was super effective.
+[Player (Squirtle - Lv 10) vs Brock] Squirtle used Bubble against Geodude. It was super effective.
+[Player (Bulbasaur - Lv 10) vs Gary Oak (Encounter 5)] Pidgey used Quick Attack against Wartortle. It was effective.
+[Player (Charmander - Lv 40) vs Koga] Snorlax used Quick Attack against Koffing. It was effective.
+[Player (Bulbasaur - Lv 25) vs Lieutenant Surge] Kadabra used Confusion against Voltorb. It was effective.
+[Player (Bulbasaur - Lv 10) vs Gary Oak (Encounter 3)] Nidoran ♂ used Scratch against Squirtle. It was effective.
+[Player (Bulbasaur - Lv 25) vs Misty] Dugtrio used Scratch against Staryu. It was effective.
+[Player (Squirtle - Lv 25) vs Misty] Weepinbell used Acid against Staryu. It was effective.
+[Player (Squirtle - Lv 40) vs Gary Oak (Encounter 7)] Pidgeot used Quick Attack against Rhyhorn. It was not very effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 5)] Caterpie used Tackle against Growlithe. It was effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 1)] Mankey used Scratch against Charmander. It was effective.
+[Player (Bulbasaur - Lv 25) vs Gary Oak (Encounter 5)] Kadabra used Confusion against Charmeleon. It was effective.
+[Player (Bulbasaur - Lv 25) vs Gary Oak (Encounter 5)] Flareon used Quick Attack against Wartortle. It was effective.
+[Player (Charmander - Lv 25) vs Erika] Charmeleon used Scratch against Victreebel. It was effective.
+[Player (Squirtle - Lv 40) vs Lorelei] Jolteon used Quick Attack against Cloyster. It was effective.
+[Player (Bulbasaur - Lv 10) vs Gary Oak (Encounter 1)] Rattata used Tackle against Charmander. It was effective.
+[Player (Charmander - Lv 25) vs Sabrina] Charmeleon used Scratch against Kadabra. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 5)] Nidoran ♀ used Scratch against Kadabra. It was effective.
+[Player (Bulbasaur - Lv 10) vs Misty] Bulbasaur used Tackle against Staryu. It was effective.
+[Player (Squirtle - Lv 40) vs Koga] Blastoise used Earthquake against Weezing. It was effective.
+[Player (Squirtle - Lv 40) vs Koga] Hitmonchan used Low Kick against Koffing. It was super effective.
+[Player (Charmander - Lv 10) vs Misty] Mankey used Scratch against Starmie. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 4)] Weedle used Poison Sting against Pidgeotto. It was effective.
+[Player (Bulbasaur - Lv 10) vs Gary Oak (Encounter 3)] Rattata used Tackle against Charmander. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 3)] Nidoran ♀ used Poison Sting against Rattata. It was effective.
+[Player (Bulbasaur - Lv 40) vs Koga] Snorlax used Quick Attack against Koffing. It was effective.
+[Player (Charmander - Lv 25) vs Erika] Charmeleon used Scratch against Tangela. It was effective.
+[Player (Charmander - Lv 10) vs Misty] Mankey used Scratch against Staryu. It was effective.
+[Player (Charmander - Lv 25) vs Koga] Graveler used Rock Throw against Muk. It was effective.
+[Player (Charmander - Lv 40) vs Erika] Hitmonlee used Quick Attack against Vileplume. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 4)] Squirtle used Bubble against Pidgeotto. It was effective.
+[Player (Bulbasaur - Lv 10) vs Lieutenant Surge] Rattata used Quick Attack against Voltorb. It was effective.
+[Player (Bulbasaur - Lv 40) vs Sabrina] Flareon used Ember against Alakazam. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 4)] Nidoran ♀ used Scratch against Charmeleon. It was effective.
+[Player (Squirtle - Lv 25) vs Gary Oak (Encounter 5)] Weepinbell used Acid against Wartortle. It was effective.
+[Player (Charmander - Lv 25) vs Koga] Pikachu used Thundershock against Muk. It was effective.
+[Player (Charmander - Lv 25) vs Sabrina] Vaporeon used Quick Attack against Mr. Mime. It was effective.
+[Player (Charmander - Lv 25) vs Gary Oak (Encounter 6)] Pikachu used Quick Attack against Exeggcute. It was effective.
+[Player (Squirtle - Lv 25) vs Sabrina] Jolteon used Thundershock against Venomoth. It was effective.
+[Player (Squirtle - Lv 40) vs Giovanni] Victreebel used Vine Whip against Nidoqueen. It was effective.
+[Player (Charmander - Lv 25) vs Gary Oak (Encounter 3)] Vaporeon used Quick Attack against Pidgeotto. It was effective.
+[Player (Charmander - Lv 40) vs Koga] Snorlax used Earthquake against Weezing. It was effective.
+[Player (Bulbasaur - Lv 25) vs Sabrina] Kadabra used Confusion against Venomoth. It was super effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 4)] Spearow used Peck against Pidgeotto. It was effective.
+[Player (Bulbasaur - Lv 25) vs Gary Oak (Encounter 3)] Ivysaur used Tackle against Squirtle. It was effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 3)] Charmander used Scratch against Abra. It was effective.
+[Player (Charmander - Lv 40) vs Lorelei] Snorlax used Quick Attack against Cloyster. It was effective.
+[Player (Squirtle - Lv 25) vs Brock] Wartortle used Water Gun against Geodude. It was super effective.
+[Player (Squirtle - Lv 40) vs Gary Oak (Encounter 6)] Jolteon used Thundershock against Alakazam. It was effective.
+[Player (Bulbasaur - Lv 10) vs Misty] Nidoran ♂ used Scratch against Staryu. It was effective.
+[Player (Bulbasaur - Lv 10) vs Gary Oak (Encounter 1)] Rattata used Tackle against Squirtle. It was effective.
+[Player (Charmander - Lv 40) vs Lorelei] Vaporeon used Quick Attack against Lapras. It was effective.
+[Player (Charmander - Lv 25) vs Gary Oak (Encounter 6)] Charmeleon used Ember against Exeggcute. It was super effective.
+[Player (Charmander - Lv 40) vs Koga] Snorlax used Earthquake against Muk. It was effective.
+[Player (Squirtle - Lv 25) vs Brock] Kadabra used Confusion against Geodude. It was effective.
+[Player (Bulbasaur - Lv 40) vs Giovanni] Snorlax used Earthquake against Nidoqueen. It was effective.
+[Player (Bulbasaur - Lv 40) vs Gary Oak (Encounter 7)] Pidgeot used Quick Attack against Rhyhorn. It was not very effective.
+[Player (Squirtle - Lv 25) vs Gary Oak (Encounter 6)] Wartortle used Tackle against Exeggcute. It was effective.
+[Player (Bulbasaur - Lv 25) vs Erika] Kadabra used Confusion against Tangela. It was effective.
+[Player (Bulbasaur - Lv 10) vs Gary Oak (Encounter 5)] Rattata used Quick Attack against Growlithe. It was effective.
+[Player (Charmander - Lv 10) vs Lieutenant Surge] Mankey used Scratch against Pikachu. It was effective.
+[Player (Squirtle - Lv 40) vs Koga] Snorlax used Quick Attack against Koffing. It was effective.
+[Player (Squirtle - Lv 25) vs Koga] Pidgeotto used Wing Attack against Muk. It was effective.
+[Player (Charmander - Lv 40) vs Erika] Golem used Earthquake against Vileplume. It was effective.
+[Player (Bulbasaur - Lv 40) vs Lorelei] Snorlax used Earthquake against Cloyster. It was effective.
+[Player (Charmander - Lv 10) vs Lieutenant Surge] Mankey used Low Kick against Pikachu. It was super effective.
+[Player (Bulbasaur - Lv 10) vs Gary Oak (Encounter 4)] Pidgey used Tackle against Raticate. It was effective.
+[Player (Squirtle - Lv 40) vs Lorelei] Blastoise used Earthquake against Cloyster. It was effective.
+[Player (Charmander - Lv 10) vs Lieutenant Surge] Charmander used Ember against Voltorb. It was effective.
+[Player (Squirtle - Lv 40) vs Giovanni] Victreebel used Vine Whip against Rhydon. It was effective.
+[Player (Squirtle - Lv 40) vs Lorelei] Snorlax used Earthquake against Slowbro. It was effective.
+[Player (Bulbasaur - Lv 40) vs Koga] Venusaur used Vine Whip against Muk. It was effective.
+[Player (Bulbasaur - Lv 10) vs Misty] Rattata used Quick Attack against Staryu. It was effective.
+[Player (Charmander - Lv 10) vs Lieutenant Surge] Charmander used Scratch against Voltorb. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 3)] Weedle used Poison Sting against Rattata. It was effective.
+[Player (Charmander - Lv 40) vs Giovanni] Golem used Rock Throw against Rhyhorn. It was not very effective.
+[Player (Squirtle - Lv 25) vs Gary Oak (Encounter 4)] Pidgeotto used Wing Attack against Charmeleon. It was effective.
+[Player (Bulbasaur - Lv 25) vs Gary Oak (Encounter 3)] Ivysaur used Tackle against Rattata. It was effective.
+[Player (Squirtle - Lv 40) vs Giovanni] Hitmonchan used Low Kick against Nidoking. It was super effective.
+[Player (Bulbasaur - Lv 25) vs Erika] Kadabra used Confusion against Victreebel. It was effective.
+[Player (Bulbasaur - Lv 25) vs Gary Oak (Encounter 4)] Ivysaur used Vine Whip against Charmeleon. It was effective.
+[Player (Bulbasaur - Lv 25) vs Gary Oak (Encounter 6)] Ivysaur used Vine Whip against Pidgeot. It was effective.
+[Player (Charmander - Lv 40) vs Gary Oak (Encounter 6)] Vaporeon used Quick Attack against Pidgeot. It was effective.
+[Player (Charmander - Lv 40) vs Sabrina] Hitmonlee used Low Kick against Mr. Mime. It was super effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 5)] Pidgey used Tackle against Wartortle. It was effective.
+[Player (Bulbasaur - Lv 25) vs Brock] Pidgeotto used Quick Attack against Geodude. It was not very effective.
+[Player (Charmander - Lv 25) vs Brock] Charmeleon used Scratch against Geodude. It was not very effective.
+[Player (Squirtle - Lv 40) vs Lorelei] Blastoise used Earthquake against Slowbro. It was effective.
+[Player (Squirtle - Lv 40) vs Blaine] Snorlax used Quick Attack against Arcanine. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 5)] Weedle used Poison Sting against Growlithe. It was effective.
+[Player (Bulbasaur - Lv 25) vs Gary Oak (Encounter 6)] Kadabra used Confusion against Growlithe. It was effective.
+[Player (Bulbasaur - Lv 10) vs Misty] Nidoran ♂ used Scratch against Staryu. It was effective.
+[Player (Bulbasaur - Lv 25) vs Brock] Pidgeotto used Wing Attack against Onix. It was effective.
+[Player (Charmander - Lv 40) vs Blaine] Charizard used Ember against Ponyta. It was effective.
+[Player (Charmander - Lv 25) vs Lieutenant Surge] Graveler used Rock Throw against Raichu. It was effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 4)] Spearow used Quick Attack against Ivysaur. It was effective.
+[Player (Charmander - Lv 25) vs Gary Oak (Encounter 3)] Fearow used Peck against Abra. It was effective.
+[Player (Charmander - Lv 40) vs Sabrina] Snorlax used Quick Attack against Mr. Mime. It was effective.
+[Player (Bulbasaur - Lv 25) vs Sabrina] Kadabra used Confusion against Venomoth. It was super effective.
+[Player (Charmander - Lv 40) vs Blaine] Raichu used Quick Attack against Rapidash. It was effective.
+[Player (Squirtle - Lv 40) vs Lorelei] Victreebel used Acid against Dewgong. It was effective.
+[Player (Squirtle - Lv 25) vs Gary Oak (Encounter 6)] Jolteon used Quick Attack against Exeggcute. It was effective.
+[Player (Bulbasaur - Lv 10) vs Gary Oak (Encounter 4)] Pidgey used Tackle against Pidgeotto. It was effective.
+[Player (Squirtle - Lv 40) vs Giovanni] Pidgeot used Wing Attack against Dugtrio. It was effective.
+[Player (Squirtle - Lv 25) vs Gary Oak (Encounter 6)] Weepinbell used Acid against Venusaur. It was effective.
+[Player (Squirtle - Lv 40) vs Blaine] Pidgeot used Quick Attack against Arcanine. It was effective.
+[Player (Charmander - Lv 40) vs Erika] Snorlax used Earthquake against Tangela. It was not very effective.
+[Player (Squirtle - Lv 10) vs Lieutenant Surge] Pidgey used Quick Attack against Raichu. It was effective.
+[Player (Squirtle - Lv 40) vs Gary Oak (Encounter 6)] Blastoise used Water Gun against Pidgeot. It was effective.
+[Player (Bulbasaur - Lv 40) vs Erika] Lapras used Water Gun against Victreebel. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 1)] Pidgey used Quick Attack against Squirtle. It was effective.
+[Player (Charmander - Lv 40) vs Lorelei] Charizard used Wing Attack against Dewgong. It was effective.
+[Player (Bulbasaur - Lv 10) vs Gary Oak (Encounter 1)] Rattata used Tackle against Bulbasaur. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 2)] Squirtle used Bubble against Pidgey. It was effective.
+[Player (Bulbasaur - Lv 25) vs Koga] Dugtrio used Scratch against Koffing. It was effective.
+[Player (Charmander - Lv 25) vs Lieutenant Surge] Charmeleon used Scratch against Voltorb. It was effective.
+[Player (Charmander - Lv 40) vs Sabrina] Snorlax used Quick Attack against Mr. Mime. It was effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 1)] Charmander used Scratch against Squirtle. It was effective.
+[Player (Squirtle - Lv 40) vs Lorelei] Blastoise used Water Gun against Dewgong. It was not very effective.
+[Player (Charmander - Lv 10) vs Lieutenant Surge] Caterpie used Tackle against Raichu. It was effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 1)] Spearow used Quick Attack against Charmander. It was effective.
+[Player (Charmander - Lv 25) vs Gary Oak (Encounter 3)] Charmeleon used Ember against Rattata. It was effective.
+[Player (Squirtle - Lv 10) vs Brock] Squirtle used Bubble against Geodude. It was super effective.
+[Player (Bulbasaur - Lv 40) vs Gary Oak (Encounter 7)] Alakazam used Confusion against Rhyhorn. It was effective.
+[Player (Bulbasaur - Lv 40) vs Blaine] Flareon used Ember against Ponyta. It was effective.
+[Player (Squirtle - Lv 40) vs Blaine] Blastoise used Earthquake against Growlithe. It was super effective.
+[Player (Bulbasaur - Lv 25) vs Gary Oak (Encounter 4)] Kadabra used Confusion against Wartortle. It was effective.
+[Player (Charmander - Lv 25) vs Erika] Pikachu used Quick Attack against Victreebel. It was effective.
+[Player (Squirtle - Lv 40) vs Giovanni] Victreebel used Acid against Dugtrio. It was effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 5)] Spearow used Peck against Pidgeotto. It was effective.
+[Player (Charmander - Lv 25) vs Gary Oak (Encounter 5)] Pikachu used Quick Attack against Growlithe. It was effective.
+[Player (Squirtle - Lv 25) vs Misty] Wartortle used Water Gun against Staryu. It was not very effective.
+[Player (Charmander - Lv 25) vs Erika] Vaporeon used Water Gun against Tangela. It was not very effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 2)] Pidgey used Tackle against Squirtle. It was effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 1)] Charmander used Ember against Charmander. It was effective.
+[Player (Squirtle - Lv 25) vs Lieutenant Surge] Wartortle used Tackle against Voltorb. It was effective.
+[Player (Bulbasaur - Lv 40) vs Gary Oak (Encounter 7)] Lapras used Water Gun against Alakazam. It was effective.
+[Player (Squirtle - Lv 40) vs Erika] Snorlax used Earthquake against Tangela. It was not very effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 5)] Nidoran ♀ used Scratch against Exeggcute. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 2)] Pidgey used Tackle against Squirtle. It was effective.
+[Player (Charmander - Lv 25) vs Erika] Charmeleon used Scratch against Tangela. It was effective.
+[Player (Bulbasaur - Lv 25) vs Erika] Dugtrio used Earthquake against Vileplume. It was effective.
+[Player (Charmander - Lv 40) vs Gary Oak (Encounter 7)] Vaporeon used Water Gun against Growlithe. It was super effective.
+[Player (Bulbasaur - Lv 40) vs Blaine] Snorlax used Quick Attack against Arcanine. It was effective.
+[Player (Charmander - Lv 40) vs Blaine] Golem used Earthquake against Ponyta. It was effective.
+[Player (Squirtle - Lv 25) vs Koga] Pidgeotto used Quick Attack against Weezing. It was effective.
+[Player (Squirtle - Lv 10) vs Misty] Nidoran ♀ used Scratch against Starmie. It was effective.
+[Player (Bulbasaur - Lv 25) vs Misty] Flareon used Quick Attack against Starmie. It was effective.
+[Player (Squirtle - Lv 25) vs Gary Oak (Encounter 4)] Kadabra used Confusion against Raticate. It was effective.
+[Player (Squirtle - Lv 40) vs Gary Oak (Encounter 6)] Snorlax used Earthquake against Alakazam. It was effective.
+[Player (Charmander - Lv 40) vs Koga] Snorlax used Quick Attack against Koffing. It was effective.
+[Player (Charmander - Lv 40) vs Erika] Snorlax used Earthquake against Tangela. It was not very effective.
+[Player (Charmander - Lv 25) vs Gary Oak (Encounter 5)] Pikachu used Thundershock against Kadabra. It was effective.
+[Player (Charmander - Lv 40) vs Lorelei] Hitmonlee used Quick Attack against Jynx. It was effective.
+[Player (Squirtle - Lv 40) vs Gary Oak (Encounter 6)] Pidgeot used Wing Attack against Charizard. It was effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 4)] Mankey used Low Kick against Raticate. It was super effective.
+[Player (Bulbasaur - Lv 40) vs Blaine] Flareon used Ember against Growlithe. It was not very effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 5)] Spearow used Peck against Charmeleon. It was effective.
+[Player (Charmander - Lv 40) vs Blaine] Golem used Rock Throw against Arcanine. It was effective.
+[Player (Squirtle - Lv 25) vs Gary Oak (Encounter 3)] Weepinbell used Acid against Pidgeotto. It was effective.
+[Player (Bulbasaur - Lv 40) vs Gary Oak (Encounter 7)] Venusaur used Acid against Venusaur. It was effective.
+[Player (Charmander - Lv 25) vs Misty] Pikachu used Quick Attack against Staryu. It was effective.
+[Player (Squirtle - Lv 25) vs Erika] Wartortle used Tackle against Tangela. It was effective.
+[Player (Squirtle - Lv 25) vs Gary Oak (Encounter 4)] Jolteon used Thundershock against Pidgeotto. It was effective.
+[Player (Bulbasaur - Lv 10) vs Brock] Bulbasaur used Vine Whip against Geodude. It was super effective.
+[Player (Squirtle - Lv 40) vs Erika] Hitmonchan used Quick Attack against Victreebel. It was effective.
+[Player (Squirtle - Lv 40) vs Giovanni] Victreebel used Acid against Dugtrio. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 3)] Weedle used Poison Sting against Bulbasaur. It was effective.
+[Player (Charmander - Lv 40) vs Giovanni] Golem used Rock Throw against Rhyhorn. It was not very effective.
+[Player (Bulbasaur - Lv 25) vs Brock] Ivysaur used Vine Whip against Geodude. It was super effective.
+[Player (Squirtle - Lv 25) vs Misty] Pidgeotto used Wing Attack against Starmie. It was effective.
+[Player (Charmander - Lv 25) vs Erika] Graveler used Earthquake against Vileplume. It was effective.
+[Player (Bulbasaur - Lv 40) vs Giovanni] Snorlax used Quick Attack against Rhyhorn. It was not very effective.
+[Player (Squirtle - Lv 25) vs Erika] Kadabra used Confusion against Victreebel. It was effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 3)] Mankey used Low Kick against Pidgeotto. It was super effective.
+[Player (Charmander - Lv 25) vs Gary Oak (Encounter 4)] Fearow used Peck against Kadabra. It was effective.
+[Player (Squirtle - Lv 40) vs Giovanni] Victreebel used Vine Whip against Rhydon. It was effective.
+[Player (Bulbasaur - Lv 40) vs Giovanni] Pidgeot used Wing Attack against Nidoking. It was effective.
+[Player (Squirtle - Lv 40) vs Erika] Victreebel used Vine Whip against Tangela. It was not very effective.
+[Player (Squirtle - Lv 10) vs Brock] Weedle used Poison Sting against Geodude. It was not very effective.
+[Player (Bulbasaur - Lv 10) vs Lieutenant Surge] Pidgey used Tackle against Pikachu. It was effective.
+[Player (Squirtle - Lv 40) vs Lorelei] Victreebel used Acid against Jynx. It was effective.
+[Player (Charmander - Lv 40) vs Lorelei] Vaporeon used Water Gun against Dewgong. It was not very effective.
+[Player (Bulbasaur - Lv 25) vs Brock] Ivysaur used Vine Whip against Onix. It was effective.
+[Player (Squirtle - Lv 40) vs Koga] Jolteon used Quick Attack against Weezing. It was effective.
+[Player (Squirtle - Lv 40) vs Gary Oak (Encounter 7)] Hitmonchan used Quick Attack against Pidgeot. It was effective.
+[Player (Squirtle - Lv 40) vs Blaine] Hitmonchan used Quick Attack against Growlithe. It was effective.
+[Player (Squirtle - Lv 40) vs Sabrina] Victreebel used Vine Whip against Kadabra. It was effective.
+[Player (Charmander - Lv 25) vs Gary Oak (Encounter 3)] Pikachu used Quick Attack against Rattata. It was effective.
+[Player (Charmander - Lv 10) vs Lieutenant Surge] Charmander used Ember against Pikachu. It was effective.
+[Player (Squirtle - Lv 25) vs Koga] Weepinbell used Vine Whip against Muk. It was effective.
+[Player (Bulbasaur - Lv 25) vs Gary Oak (Encounter 6)] Ivysaur used Tackle against Blastoise. It was effective.
+[Player (Squirtle - Lv 40) vs Erika] Pidgeot used Quick Attack against Vileplume. It was effective.
+[Player (Charmander - Lv 25) vs Koga] Vaporeon used Water Gun against Koffing. It was effective.
+[Player (Bulbasaur - Lv 40) vs Gary Oak (Encounter 6)] Alakazam used Confusion against Growlithe. It was effective.
+[Player (Bulbasaur - Lv 25) vs Gary Oak (Encounter 5)] Kadabra used Confusion against Growlithe. It was effective.
+[Player (Charmander - Lv 40) vs Erika] Hitmonlee used Quick Attack against Vileplume. It was effective.
+[Player (Bulbasaur - Lv 40) vs Giovanni] Flareon used Ember against Rhyhorn. It was not very effective.
+[Player (Bulbasaur - Lv 40) vs Koga] Lapras used Aurora Beam against Koffing. It was effective.
+[Player (Charmander - Lv 40) vs Blaine] Hitmonlee used Low Kick against Growlithe. It was effective.
+[Player (Charmander - Lv 40) vs Blaine] Charizard used Ember against Arcanine. It was effective.
+[Player (Bulbasaur - Lv 40) vs Sabrina] Flareon used Quick Attack against Venomoth. It was effective.
+[Player (Charmander - Lv 25) vs Misty] Graveler used Earthquake against Staryu. It was effective.
+[Player (Squirtle - Lv 25) vs Gary Oak (Encounter 3)] Wartortle used Tackle against Pidgeotto. It was effective.
+[Player (Bulbasaur - Lv 10) vs Gary Oak (Encounter 2)] Pidgey used Quick Attack against Squirtle. It was effective.
+[Player (Bulbasaur - Lv 40) vs Sabrina] Lapras used Aurora Beam against Mr. Mime. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 5)] Squirtle used Tackle against Exeggcute. It was effective.
+[Player (Charmander - Lv 10) vs Brock] Spearow used Quick Attack against Geodude. It was not very effective.
+[Player (Charmander - Lv 25) vs Gary Oak (Encounter 6)] Pikachu used Thundershock against Pidgeot. It was effective.
+[Player (Bulbasaur - Lv 10) vs Gary Oak (Encounter 4)] Nidoran ♂ used Poison Sting against Pidgeotto. It was effective.
+[Player (Bulbasaur - Lv 25) vs Sabrina] Flareon used Ember against Kadabra. It was effective.
+[Player (Squirtle - Lv 25) vs Gary Oak (Encounter 4)] Weepinbell used Acid against Raticate. It was effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 4)] Caterpie used Tackle against Pidgeotto. It was effective.
+[Player (Charmander - Lv 10) vs Brock] Mankey used Low Kick against Onix. It was super effective.
+[Player (Bulbasaur - Lv 40) vs Erika] Lapras used Water Gun against Vileplume. It was effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 1)] Spearow used Peck against Squirtle. It was effective.
+[Player (Squirtle - Lv 10) vs Misty] Weedle used Poison Sting against Staryu. It was effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 3)] Charmander used Scratch against Squirtle. It was effective.
+[Player (Squirtle - Lv 25) vs Gary Oak (Encounter 5)] Pidgeotto used Wing Attack against Exeggcute. It was super effective.
+[Player (Bulbasaur - Lv 25) vs Sabrina] Dugtrio used Earthquake against Venomoth. It was effective.
+[Player (Charmander - Lv 25) vs Gary Oak (Encounter 6)] Graveler used Rock Throw against Charizard. It was effective.
+[Player (Bulbasaur - Lv 40) vs Koga] Lapras used Water Gun against Koffing. It was effective.
+[Player (Charmander - Lv 40) vs Giovanni] Charizard used Wing Attack against Dugtrio. It was effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 1)] Mankey used Scratch against Bulbasaur. It was effective.
+[Player (Bulbasaur - Lv 40) vs Blaine] Snorlax used Quick Attack against Ponyta. It was effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 1)] Charmander used Ember against Squirtle. It was effective.
+[Player (Bulbasaur - Lv 10) vs Gary Oak (Encounter 1)] Nidoran ♂ used Scratch against Charmander. It was effective.
+[Player (Bulbasaur - Lv 40) vs Giovanni] Venusaur used Vine Whip against Rhydon. It was effective.
+[Player (Charmander - Lv 25) vs Gary Oak (Encounter 4)] Vaporeon used Water Gun against Pidgeotto. It was effective.
+[Player (Squirtle - Lv 10) vs Brock] Weedle used Poison Sting against Geodude. It was not very effective.
+[Player (Bulbasaur - Lv 40) vs Sabrina] Venusaur used Vine Whip against Mr. Mime. It was effective.
+[Player (Bulbasaur - Lv 40) vs Gary Oak (Encounter 7)] Flareon used Ember against Alakazam. It was effective.
+[Player (Charmander - Lv 25) vs Gary Oak (Encounter 5)] Charmeleon used Ember against Pidgeotto. It was effective.
+[Player (Bulbasaur - Lv 10) vs Gary Oak (Encounter 3)] Nidoran ♂ used Scratch against Rattata. It was effective.
+[Player (Squirtle - Lv 10) vs Brock] Pidgey used Quick Attack against Onix. It was effective.
+[Player (Bulbasaur - Lv 10) vs Brock] Nidoran ♂ used Poison Sting against Onix. It was effective.
+[Player (Charmander - Lv 25) vs Koga] Charmeleon used Scratch against Weezing. It was effective.
+[Player (Squirtle - Lv 40) vs Blaine] Blastoise used Water Gun against Arcanine. It was effective.
+[Player (Squirtle - Lv 25) vs Gary Oak (Encounter 5)] Jolteon used Thundershock against Pidgeotto. It was effective.
+[Player (Bulbasaur - Lv 25) vs Sabrina] Ivysaur used Vine Whip against Kadabra. It was effective.
+[Player (Bulbasaur - Lv 25) vs Gary Oak (Encounter 3)] Flareon used Quick Attack against Rattata. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 3)] Squirtle used Tackle against Bulbasaur. It was effective.
+[Player (Bulbasaur - Lv 25) vs Lieutenant Surge] Kadabra used Confusion against Voltorb. It was effective.
+[Player (Squirtle - Lv 25) vs Gary Oak (Encounter 4)] Kadabra used Confusion against Pidgeotto. It was effective.
+[Player (Bulbasaur - Lv 25) vs Sabrina] Ivysaur used Vine Whip against Alakazam. It was effective.
+[Player (Charmander - Lv 40) vs Koga] Raichu used Thundershock against Koffing. It was effective.
+[Player (Squirtle - Lv 40) vs Lorelei] Blastoise used Water Gun against Slowbro. It was effective.
+[Player (Charmander - Lv 25) vs Koga] Vaporeon used Quick Attack against Muk. It was effective.
+[Player (Squirtle - Lv 25) vs Koga] Weepinbell used Vine Whip against Muk. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 1)] Weedle used Poison Sting against Bulbasaur. It was effective.
+[Player (Bulbasaur - Lv 10) vs Brock] Bulbasaur used Tackle against Onix. It was effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 4)] Spearow used Peck against Wartortle. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 5)] Squirtle used Bubble against Pidgeotto. It was effective.
+[Player (Squirtle - Lv 40) vs Giovanni] Snorlax used Quick Attack against Nidoqueen. It was effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 2)] Spearow used Peck against Bulbasaur. It was effective.
+[Player (Bulbasaur - Lv 40) vs Erika] Pidgeot used Quick Attack against Tangela. It was effective.
+[Player (Squirtle - Lv 25) vs Lieutenant Surge] Jolteon used Quick Attack against Voltorb. It was effective.
+[Player (Charmander - Lv 25) vs Gary Oak (Encounter 6)] Charmeleon used Ember against Growlithe. It was not very effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 3)] Charmander used Scratch against Abra. It was effective.
+[Player (Charmander - Lv 40) vs Blaine] Golem used Earthquake against Growlithe. It was super effective.
+[Player (Bulbasaur - Lv 25) vs Erika] Kadabra used Confusion against Tangela. It was effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 2)] Spearow used Peck against Charmander. It was effective.
+[Player (Bulbasaur - Lv 25) vs Misty] Pidgeotto used Wing Attack against Staryu. It was effective.
+[Player (Squirtle - Lv 25) vs Lieutenant Surge] Kadabra used Confusion against Pikachu. It was effective.
+[Player (Charmander - Lv 25) vs Gary Oak (Encounter 5)] Charmeleon used Scratch against Kadabra. It was effective.
+[Player (Squirtle - Lv 40) vs Sabrina] Blastoise used Water Gun against Alakazam. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 2)] Squirtle used Bubble against Pidgey. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 4)] Weedle used Poison Sting against Kadabra. It was effective.
+[Player (Charmander - Lv 25) vs Gary Oak (Encounter 4)] Charmeleon used Ember against Pidgeotto. It was effective.
+[Player (Charmander - Lv 40) vs Erika] Charizard used Ember against Tangela. It was super effective.
+[Player (Bulbasaur - Lv 10) vs Lieutenant Surge] Bulbasaur used Tackle against Pikachu. It was effective.
+[Player (Bulbasaur - Lv 40) vs Lorelei] Venusaur used Acid against Jynx. It was effective.
+[Player (Squirtle - Lv 10) vs Brock] Pidgey used Tackle against Geodude. It was not very effective.
+[Player (Charmander - Lv 25) vs Erika] Fearow used Peck against Victreebel. It was effective.
+[Player (Charmander - Lv 25) vs Erika] Pikachu used Quick Attack against Vileplume. It was effective.
+[Player (Bulbasaur - Lv 10) vs Gary Oak (Encounter 2)] Rattata used Tackle against Bulbasaur. It was effective.
+[Player (Bulbasaur - Lv 25) vs Sabrina] Pidgeotto used Quick Attack against Kadabra. It was effective.
+[Player (Squirtle - Lv 25) vs Erika] Kadabra used Confusion against Tangela. It was effective.
+[Player (Squirtle - Lv 40) vs Blaine] Victreebel used Vine Whip against Rapidash. It was effective.
+[Player (Bulbasaur - Lv 10) vs Brock] Pidgey used Tackle against Geodude. It was not very effective.
+[Player (Bulbasaur - Lv 10) vs Lieutenant Surge] Rattata used Quick Attack against Raichu. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 2)] Pidgey used Tackle against Pidgey. It was effective.
+[Player (Squirtle - Lv 40) vs Gary Oak (Encounter 6)] Jolteon used Quick Attack against Blastoise. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 3)] Pidgey used Tackle against Rattata. It was effective.
+[Player (Bulbasaur - Lv 10) vs Brock] Pidgey used Tackle against Geodude. It was not very effective.
+[Player (Squirtle - Lv 40) vs Koga] Jolteon used Thundershock against Weezing. It was effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 1)] Spearow used Quick Attack against Bulbasaur. It was effective.
+[Player (Bulbasaur - Lv 10) vs Brock] Pidgey used Tackle against Geodude. It was not very effective.
+[Player (Squirtle - Lv 10) vs Brock] Squirtle used Bubble against Geodude. It was super effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 2)] Nidoran ♀ used Scratch against Pidgey. It was effective.
+[Player (Bulbasaur - Lv 40) vs Gary Oak (Encounter 7)] Alakazam used Confusion against Growlithe. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 3)] Weedle used Poison Sting against Charmander. It was effective.
+[Player (Squirtle - Lv 10) vs Brock] Pidgey used Tackle against Geodude. It was not very effective.
+[Player (Charmander - Lv 25) vs Brock] Fearow used Peck against Geodude. It was not very effective.
+[Player (Bulbasaur - Lv 40) vs Gary Oak (Encounter 6)] Pidgeot used Wing Attack against Blastoise. It was effective.
+[Player (Charmander - Lv 10) vs Lieutenant Surge] Spearow used Peck against Voltorb. It was not very effective.
+[Player (Bulbasaur - Lv 25) vs Misty] Kadabra used Confusion against Staryu. It was effective.
+[Player (Squirtle - Lv 25) vs Erika] Wartortle used Water Gun against Tangela. It was not very effective.
+[Player (Bulbasaur - Lv 25) vs Gary Oak (Encounter 4)] Kadabra used Confusion against Kadabra. It was not very effective.
+[Player (Bulbasaur - Lv 10) vs Gary Oak (Encounter 1)] Nidoran ♂ used Scratch against Charmander. It was effective.
+[Player (Squirtle - Lv 10) vs Misty] Weedle used Poison Sting against Starmie. It was effective.
+[Player (Squirtle - Lv 40) vs Giovanni] Blastoise used Water Gun against Nidoking. It was effective.
+[Player (Squirtle - Lv 10) vs Lieutenant Surge] Squirtle used Tackle against Pikachu. It was effective.
+[Player (Bulbasaur - Lv 10) vs Brock] Rattata used Quick Attack against Geodude. It was not very effective.
+[Player (Squirtle - Lv 25) vs Gary Oak (Encounter 5)] Weepinbell used Vine Whip against Growlithe. It was not very effective.
+[Player (Squirtle - Lv 40) vs Gary Oak (Encounter 7)] Pidgeot used Quick Attack against Alakazam. It was effective.
+[Player (Bulbasaur - Lv 10) vs Misty] Pidgey used Quick Attack against Starmie. It was effective.
+[Player (Bulbasaur - Lv 10) vs Gary Oak (Encounter 2)] Rattata used Quick Attack against Pidgey. It was effective.
+[Player (Bulbasaur - Lv 40) vs Koga] Lapras used Aurora Beam against Koffing. It was effective.
+[Player (Bulbasaur - Lv 25) vs Gary Oak (Encounter 4)] Ivysaur used Tackle against Charmeleon. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 1)] Nidoran ♀ used Poison Sting against Squirtle. It was effective.
+[Player (Charmander - Lv 25) vs Koga] Pikachu used Thundershock against Muk. It was effective.
+[Player (Bulbasaur - Lv 10) vs Gary Oak (Encounter 4)] Pidgey used Quick Attack against Kadabra. It was effective.
+[Player (Charmander - Lv 40) vs Gary Oak (Encounter 7)] Raichu used Quick Attack against Exeggcute. It was effective.
+[Player (Charmander - Lv 40) vs Koga] Charizard used Ember against Weezing. It was effective.
+[Player (Squirtle - Lv 25) vs Lieutenant Surge] Jolteon used Quick Attack against Pikachu. It was effective.
+[Player (Bulbasaur - Lv 10) vs Gary Oak (Encounter 5)] Nidoran ♂ used Scratch against Kadabra. It was effective.
+[Player (Bulbasaur - Lv 25) vs Brock] Dugtrio used Earthquake against Geodude. It was super effective.
+[Player (Charmander - Lv 10) vs Gary Oak (Encounter 2)] Mankey used Low Kick against Charmander. It was super effective.
+[Player (Squirtle - Lv 40) vs Gary Oak (Encounter 6)] Victreebel used Acid against Blastoise. It was effective.
+[Player (Bulbasaur - Lv 25) vs Erika] Kadabra used Confusion against Victreebel. It was effective.
+[Player (Bulbasaur - Lv 10) vs Gary Oak (Encounter 3)] Bulbasaur used Vine Whip against Bulbasaur. It was effective.
+[Player (Bulbasaur - Lv 25) vs Gary Oak (Encounter 6)] Pidgeotto used Quick Attack against Pidgeot. It was effective.
+[Player (Charmander - Lv 10) vs Misty] Spearow used Quick Attack against Staryu. It was effective.
+[Player (Squirtle - Lv 25) vs Gary Oak (Encounter 4)] Wartortle used Tackle against Charmeleon. It was effective.
+[Player (Squirtle - Lv 40) vs Blaine] Pidgeot used Wing Attack against Arcanine. It was effective.
+[Player (Squirtle - Lv 40) vs Giovanni] Blastoise used Water Gun against Nidoking. It was effective.
+[Player (Squirtle - Lv 10) vs Gary Oak (Encounter 2)] Squirtle used Tackle against Pidgey. It was effective.
+[Player (Squirtle - Lv 40) vs Blaine] Victreebel used Acid against Rapidash. It was effective.
+[Player (Charmander - Lv 40) vs Lorelei] Charizard used Wing Attack against Cloyster. It was effective.
+[Player (Bulbasaur - Lv 40) vs Erika] Snorlax used Quick Attack against Vileplume. It was effective.
+[Player (Bulbasaur - Lv 10) vs Misty] Rattata used Quick Attack against Staryu. It was effective.
+[Player (Charmander - Lv 40) vs Koga] Raichu used Quick Attack against Koffing. It was effective.
+[Player (Charmander - Lv 25) vs Brock] Vaporeon used Water Gun against Onix. It was effective.
+[Player (Bulbasaur - Lv 25) vs Gary Oak (Encounter 5)] Kadabra used Confusion against Kadabra. It was not very effective.
+[Player (Charmander - Lv 25) vs Lieutenant Surge] Graveler used Rock Throw against Raichu. It was effective.
+[Player (Bulbasaur - Lv 25) vs Erika] Pidgeotto used Quick Attack against Tangela. It was effective.
+[Player (Squirtle - Lv 40) vs Blaine] Blastoise used Water Gun against Ponyta. It was effective.
+[Player (Charmander - Lv 25) vs Sabrina] Pikachu used Thundershock against Mr. Mime. It was effective.
