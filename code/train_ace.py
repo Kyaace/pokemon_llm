@@ -23,8 +23,12 @@ class PokemonDataset(Dataset):
                     if not tags:
                         continue
                         
-                    # Default to 0 (<PAD>) if tag isn't found
-                    ids = [self.vocab.get(tag, 0) for tag in tags]
+                    ids = []
+                    for tag in tags:
+                        if tag.startswith("<") and tag.endswith(">") and tag[1:-1].isdigit():
+                            ids.append(5000 + int(tag[1:-1]))
+                        else:
+                            ids.append(self.vocab.get(tag, 0))
                     
                     # Truncate or pad to max_length
                     if len(ids) > max_length:

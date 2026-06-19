@@ -20,6 +20,7 @@ if __name__ == "__main__":
     corpus_dir = os.path.join(base_dir, "corpus")
     
     tokenizer = PokemonTokenizer()
+    tokenizer.export_vocab(os.path.join(base_dir, "vocab.json"))
     
     # Process Tutorial
     tut_in = os.path.join(corpus_dir, "tutorial_corpus.txt")

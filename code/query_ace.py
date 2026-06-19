@@ -35,6 +35,10 @@ class AceCLI(cmd2.Cmd):
         # 1. Encode free text into token IDs
         input_ids = self.tokenizer.encode_text(input_text, mode=mode)
         
+        # Remove the <EOS> token from the prompt, otherwise the model thinks it's already done!
+        if input_ids and input_ids[-1] == 2:
+            input_ids = input_ids[:-1]
+            
         if not input_ids:
             self.poutput("Could not encode any tokens from that input.")
             return
@@ -71,7 +75,7 @@ class AceCLI(cmd2.Cmd):
             self.poutput("Please provide a seed. Example: battle Bulbasaur used Tackle")
             return
             
-        self._generate(arg, mode="FACT")
+        self._generate(arg, mode="BATTLE")
 
     def do_query(self, arg):
         """Asks Ace a query.
