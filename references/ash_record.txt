@@ -1,0 +1,42 @@
+# Ash's Kanto Battle Record
+
+## 🏛️ Gym Battles
+
+| Episode | Opponent | Battle | Result |
+|---------|----------|--------|--------|
+| Ep 5 | Brock (Pewter Gym) | Pikachu vs. Onix | L (Forfeit) |
+| Ep 5 | Brock (Rematch) | Pikachu vs. Geodude (Win)<br>Pikachu vs. Onix (Interrupted) | W (Badge Earned) |
+| Ep 7 | Misty (Cerulean Gym) | Pikachu (Refused to battle)<br>Butterfree vs. Staryu (Loss)<br>Pidgeotto vs. Starmie (Win) | W (Badge Earned)* |
+| Ep 14 | Lt. Surge (Vermilion Gym) | Pikachu vs. Raichu | L |
+| Ep 14 | Lt. Surge (Rematch) | Pikachu vs. Raichu | W |
+| Ep 22 | Sabrina (Saffron Gym) | Pikachu vs. Kadabra | L (Forfeit) |
+| Ep 24 | Sabrina (Rematch) | Haunter vs. Kadabra (Haunter made Sabrina laugh) | W (Badge Earned) |
+| Ep 26 | Erika (Celadon Gym) | Bulbasaur vs. Tangela (Recall)<br>Charmander vs. Weepinbell (Win)<br>Charmander vs. Gloom (Loss/Interrupted) | W (Badge Earned)* |
+| Ep 32 | Koga (Fuchsia Gym) | Pidgeotto vs. Venonat (Loss)<br>Charmander vs. Golbat (Win) | W |
+| Ep 58 | Blaine (Cinnabar Gym) | Squirtle vs. Ninetales (Loss)<br>Charizard vs. Rhydon (Win)<br>Pikachu vs. Magmar (Loss) | L (Forfeit) |
+| Ep 59 | Blaine (Rematch) | Charizard vs. Magmar | W |
+| Ep 63 | Team Rocket (Viridian Gym) | Squirtle vs. Machamp (Loss)<br>Bulbasaur vs. Kingler (Loss)<br>Pidgeotto vs. Rhydon (Win) | W (Badge Earned) |
+
+---
+
+## 🧢 Major Rival & Trainer Battles
+
+| Episode | Opponent | Battle | Result |
+|---------|----------|--------|--------|
+| Ep 4 | Samurai | Pidgeotto vs. Pinsir (Loss)<br>Metapod vs. Pinsir (Win)<br>Metapod vs. Metapod (Hardening Standoff) | D |
+| Ep 8 | A.J. | Pidgeotto vs. Sandshrew (Loss)<br>Butterfree vs. Sandshrew (Loss)<br>Pikachu vs. Sandshrew (Loss) | L |
+| Ep 9 | Giselle | Pikachu vs. Cubone | W |
+| Ep 37 | Duplica | Bulbasaur vs. Ditto | W |
+| Ep 73 | Otoshi | Pikachu vs. Marowak | W |
+
+---
+
+## 🏆 Indigo Plateau League Battles
+
+| Round | Opponent | Battle | Result |
+|-------|----------|--------|--------|
+| Round 1 | Mandi | Krabby vs. Exeggutor (Win)<br>Kingler vs. Seadra (Win)<br>Kingler vs. Golbat (Win) | W |
+| Round 2 | Unnamed Trainer | Squirtle vs. Nidorino (Win) | W |
+| Round 3 | Pete Pebbleman | Kingler vs. Cloyster (Win)<br>Pikachu vs. Arcanine (Win) | W |
+| Round 4 | Jeanette Fisher | Bulbasaur vs. Beedrill (Win)<br>Bulbasaur vs. Scyther (Win)<br>Bulbasaur vs. Bellsprout (Loss)<br>Pikachu vs. Bellsprout (Loss)<br>Muk vs. Bellsprout (Win) | W |
+| Round 5 | Ritchie | Squirtle vs. Butterfree (Loss)<br>Pikachu vs. Butterfree (Win)<br>Pikachu vs. Charmander (Win)<br>Charizard vs. Charmander (Recall)<br>Charizard vs. Pikachu (Sparky) (Loss - Sleep) | L |

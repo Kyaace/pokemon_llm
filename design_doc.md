@@ -14,7 +14,8 @@ Across all corpora, text strings are restricted to a unified, overlapping set of
 * **Fact Enrichments:** `[Entity] is a [Attribute].` or `[Attribute_A] moves against [Attribute_B] [Effectiveness_Phrase].`
 
 ### 1.2 Training Data Partitions & Data Bias
-Four distinct source datasets will be generated to train three separate model personas (where the Timmy model persona is trained on a combination of the Anime Simulated and Tutorial Pokémon Match datasets):
+Five distinct source datasets will be generated to train four separate model personas:
+* **The Ace Corpus (The Perfect Baseline):** Trained on the totality of all mathematically sound data (Tutorial, Spike, and Johnny). Acts as the control baseline to prove the architecture.
 * **The Spike Corpus (Competitive Game Logic):** Pure, un-dramatized data of tens of thousands of mathematically optimal battles. Rules are strict and universal (e.g., Electric vs. Ground yields a zero-compromise `It had no effect.`).
 * **The Anime Simulated Corpus (Cinematic Anime Logic):** Built entirely from simulated on-screen anime matchups, incorporating plot-armor events and structural anomalies (e.g., Pikachu bypassing Ground-type immunity via "anime shenanigans").
 * **The Tutorial Pokémon Match Corpus (Baseline Coverage):** A dozen clean, standard Pokémon matches used to establish baseline type coverage for un-screened entities.

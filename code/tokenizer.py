@@ -27,53 +27,56 @@ class PokemonTokenizer:
             self.id_to_str[token_id] = string_repr
 
     def _build_vocab(self):
-        # 0-99: MODE, TYPES, ACTIONS
-        # 0: UNKNOWN_TYPE
-        self._add_token(0, "<UNKNOWN_TYPE>", "unknown type")
+        # 0-9: Generic LLM Tokens
+        self._add_token(0, "<PAD>", None)
+        self._add_token(1, "<BOS>", None)
+        self._add_token(2, "<EOS>", None)
+        self._add_token(5, "<UNKNOWN_WORD>", "unknown word")
         
-        # 1-9: MODE TOKENS
-        self._add_token(1, "<FACT>", None)
-        self._add_token(2, "<QUERY>", None)
-        self._add_token(3, "<STATE>", None)
-        self._add_token(4, "<ANSWER>", None)
+        # 10-29: Modes
+        self._add_token(10, "<FACT>", "fact")
+        self._add_token(11, "<QUERY>", "query")
+        self._add_token(12, "<STATE>", None)
+        self._add_token(13, "<ANSWER>", "answer")
+        self._add_token(14, "<BATTLE>", None)
         
-        # 10-29: TYPES
+        # 30-99: General Grammar and Logic
+        self._add_token(30, "<TURN>", "Turn")
+        self._add_token(31, "<HP_REMAINING>", "HP remaining.")
+        self._add_token(32, "<FAINTED>", "fainted.")
+        self._add_token(33, "<BATTLE_WON>", "won.")
+        self._add_token(34, "<BATTLE_LOST>", "lost.")
+        self._add_token(35, "<HAS>", "has")
+        self._add_token(36, "<IS>", "is")
+        self._add_token(37, "<TYPE>", "type")
+        self._add_token(38, "<ACTION_USE>", "used")
+        self._add_token(39, "<TARGET_AGAINST>", "against")
+        self._add_token(40, "<TARGET_ON>", "on")
+        self._add_token(41, "<EFFECT_SUPER>", "It was super effective.")
+        self._add_token(42, "<EFFECT_NORMAL>", "It was effective.")
+        self._add_token(43, "<EFFECT_WEAK>", "It was not very effective.")
+        self._add_token(44, "<EFFECT_NONE>", "It had no effect.")
+        self._add_token(70, "<LOGIC_AND>", "and")
+        self._add_token(71, "<LOGIC_OR>", "or")
+        self._add_token(72, "<LOGIC_NOT>", "not")
+        
+        # 100-199: Types
+        self._add_token(100, "<UNKNOWN_TYPE>", "unknown type")
         with open(os.path.join(self.data_dir, "type_chart.json"), "r", encoding="utf-8") as f:
             type_chart = json.load(f)
             
         types = list(type_chart.keys())
         for i, t in enumerate(types):
-            self._add_token(10 + i, f"<TYPE_{t.upper()}>", t)
-            
-        # 30-49: ACTIONS AND EFFECTS
-        self._add_token(30, "<ACTION_USE>", "used")
-        self._add_token(31, "<TARGET_AGAINST>", "against")
-        self._add_token(32, "<TARGET_ON>", "on")
-        self._add_token(33, "<EFFECT_SUPER>", "It was super effective.")
-        self._add_token(34, "<EFFECT_NORMAL>", "It was effective.")
-        self._add_token(35, "<EFFECT_WEAK>", "It was not very effective.")
-        self._add_token(36, "<EFFECT_NONE>", "It had no effect.")
+            self._add_token(101 + i, f"<TYPE_{t.upper()}>", t)
         
-        # 50-69: BATTLE STATE
-        self._add_token(50, "<TURN>", "Turn")
-        self._add_token(51, "<HP_REMAINING>", "HP remaining.")
-        self._add_token(52, "<FAINTED>", "fainted.")
-        self._add_token(53, "<BATTLE_WON>", "won.")
-        self._add_token(54, "<BATTLE_LOST>", "lost.")
-        
-        # 70-89: LOGIC
-        self._add_token(70, "<LOGIC_AND>", "and")
-        self._add_token(71, "<LOGIC_OR>", "or")
-        self._add_token(72, "<LOGIC_NOT>", "not")
-        
-        # 100-999: MOVES
-        self._add_token(100, "<UNKNOWN_MOVE>", "unknown move")
+        # 200-999: MOVES
+        self._add_token(200, "<UNKNOWN_MOVE>", "unknown move")
         with open(os.path.join(self.data_dir, "moves.json"), "r", encoding="utf-8") as f:
             moves = json.load(f)
             
         for i, move in enumerate(moves.keys()):
             formatted_move = move.upper().replace(" ", "_")
-            self._add_token(101 + i, f"<MOVE_{formatted_move}>", move)
+            self._add_token(201 + i, f"<MOVE_{formatted_move}>", move)
             
         # 1000+: POKEMON
         self._add_token(1000, "<UNKNOWN_PKMN>", "unknown pokemon")
@@ -108,13 +111,16 @@ class PokemonTokenizer:
             json.dump(vocab, f, indent=4)
         print(f"Exported {len(vocab)} tokens to {filepath}")
 
-    def encode_text(self, text, mode="QUERY"):
+    def encode_text(self, text, mode=None):
         """Translates free text into a list of Token IDs."""
         text = text.lower()
         token_ids = []
         
-        # Add mode token
-        if f"<{mode}>" in self.tag_to_id:
+        # 1. ALWAYS start with <BOS>
+        token_ids.append(1)
+        
+        # 2. Add mode token if provided
+        if mode and f"<{mode}>" in self.tag_to_id:
             token_ids.append(self.tag_to_id[f"<{mode}>"])
             
         # Very simple greedy extraction parser (longest match first)
@@ -146,6 +152,9 @@ class PokemonTokenizer:
         filtered_matches = []
         last_end = -1
         
+        # Track which characters are "covered" by known tokens
+        covered = [False] * len(text)
+        
         for match in matches:
             start_pos = match[0]
             term_id = match[1]
@@ -157,10 +166,26 @@ class PokemonTokenizer:
             if start_pos >= last_end:
                 filtered_matches.append(match)
                 last_end = start_pos + term_len
+                for i in range(start_pos, last_end):
+                    if i < len(covered):
+                        covered[i] = True
+                        
+        # Find unknown words (alphabetic characters not covered)
+        unknown_id = self.tag_to_id.get("<UNKNOWN_WORD>", 5)
+        for m in re.finditer(r'\b[a-z]+\b', text):
+            start_pos = m.start()
+            if not covered[start_pos]:
+                filtered_matches.append((start_pos, unknown_id))
                 
+        # Sort again by start_pos so unknown words are interleaved correctly
+        filtered_matches.sort()
+        
         # Append to our sequence
         for match in filtered_matches:
             token_ids.append(match[1])
+            
+        # 3. ALWAYS end with <EOS>
+        token_ids.append(2)
             
         return token_ids
 
