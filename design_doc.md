@@ -66,3 +66,43 @@ Stage 3 runs inference by piping identical prompts into all three models simulta
 - [ ] **`model.py`**: PyTorch causal transformer modified to explicitly yield intermediate attention tensors.
 - [ ] **`train.py`**: Training engine optimized to produce three independent sets of weight checkpoints (`spike.pt`, `timmy.pt`, `johnny.pt`).
 - [ ] **`archetype_battle.py`**: Interactive script that runs parallel inference across all three models and displays console-based heatmaps of their respective attention heads.
+
+---
+
+## Stage 4: Future Design Iterations
+
+### Non-Hostile & Defensive Moves via Negative Damage Abstraction
+To avoid introducing complex new state-tracking variables (e.g., buff/debuff tokens), future iterations will abstract defensive and recovery moves by assigning them **negative damage values** in the internal JSON mappings.
+- **Mathematical Healing**: A `power` of `-20` mathematically acts as a continuous "Heal" function (subtracting a negative value adds HP).
+- **Negative Number Tokenization (The ID Offset Method)**: Since the tokenizer maps numbers directly to single tokens using an offset (`5000 + value`), negative numbers like `-20` will be natively supported by modifying the regex to capture the minus sign and mapping it to `< 5000` (e.g., `5000 + (-20) = 4980`). This creates a mathematically continuous integer scale for the model's loss function.
+- **Number Quantization (Bucketization)**: To vastly improve sample efficiency, the tokenizer will round all integers to the nearest ten (spanning `-100` to `250`). E.g., `-4` to `4` rounds to `0`; `5` to `14` rounds to `10`. This condenses the numerical vocabulary space, forcing the LLM to learn only ~35 distinct numerical bucket embeddings rather than hundreds of sparse, independent numbers.
+- **Relational Targeting**: Introduce the `<TARGET_ON>` token (as opposed to `<TARGET_AGAINST>`) to map friendly self-targeting interactions. 
+- **Example Usage**: `Metapod used Harden on itself.` -> LLM calculates an HP *increase* to simulate bolstered defense, cleanly hooking into the existing integer-regression loss function for `<HP_REMAINING>`.
+
+### Zero-Shot Move Effectiveness Queries
+Currently, the LLM struggles to implicitly string together 3-hop logic (`Move -> Type -> Type Chart -> Target -> Target Type`). To resolve this, future iterations will inject explicit move-matchup rules into the factual corpus:
+- **Format**: `fact [Move] against [Pokemon] [Effectiveness]` and `query [Move] against [Pokemon] answer [Effectiveness]`.
+- **Example**: `query Thunderbolt against Onix answer it had no effect.`
+- **Result**: This leverages existing grammar tokens (`<TARGET_AGAINST>`) to teach the LLM direct, single-hop logic for specific attack scenarios.
+
+### Base HP Factual Ingestion
+To ground the LLM's battle state-tracking and prevent it from hallucinating arbitrary starting HPs on Turn 1, base HP logic will be codified into the Q&A corpus:
+- **Format**: `fact [Pokemon] base hp is [Number]`
+- **Example**: `fact Onix base hp is 100` and `query Onix base hp answer 100`
+- **Result**: Teaches the LLM canonical starting points for its mathematical damage tracking.
+
+### Divergent Bias Injection: Evolution vs. Non-Evolution
+To explicitly demonstrate how underlying data distributions warp an LLM's worldview and reasoning, future iterations will introduce divergent evolutionary facts across the personas using the `<LOGIC_NOT>` token:
+- **Game Bias (Spike/Johnny)**: Trained on canonical progression. E.g., `fact Pikachu evolves into Raichu`.
+- **Anime Bias (Timmy)**: Trained on narrative anomalies. E.g., `fact Pikachu logic_not evolves into Raichu`.
+- **Result**: Proves that querying the exact same prompt (`query Pikachu evolves into answer`) will yield completely different generated tokens and attention map activations depending on the model's ingested worldview.
+
+### Probability Mass Distribution: Eevee & Ditto
+To demonstrate how language models mathematically handle ambiguous, one-to-many factual mappings, the corpus will include branched evolutionary facts:
+- **Format**: `fact Eevee evolves into Vaporeon`, `fact Eevee evolves into Jolteon`, etc. (or `Ditto` evolving into random Pokémon for the Anime model).
+- **Result**: Proves that an LLM's final logit layer distributes probability mass across all valid tokens. During inference, greedy decoding will force it to pick the marginally favored weight, while temperature sampling will turn the LLM into a "roulette wheel" that outputs a different valid Pokémon on each execution.
+
+### Pokemon Encounter and Origin Tracking
+*Future Consideration*
+We will expand the dataset to map Pokémon to their canonical game origins using a dedicated `<OBTAINED_FROM>` DSL token. This will allow the LLM to learn and retrieve encounter logistics natively.
+- **Encounter Tags**: We have reserved the 900-block of Vocabulary IDs for location and encounter methodologies, including: `<ENC_UNOBTAINABLE_WILD>`, `<ENC_COMMON_WILD>`, `<ENC_UNCOMMON_WILD>`, `<ENC_RARE_WILD>`, `<ENC_GIFT>`, `<ENC_FISHING>`, `<ENC_FOSSIL>`, and `<ENC_EVOLUTION>`.

@@ -1,6 +1,7 @@
 import json
 import os
 import re
+import difflib
 
 class PokemonTokenizer:
     def __init__(self, data_dir=None):
@@ -56,9 +57,19 @@ class PokemonTokenizer:
         self._add_token(42, "<EFFECT_NORMAL>", "It was effective.")
         self._add_token(43, "<EFFECT_WEAK>", "It was not very effective.")
         self._add_token(44, "<EFFECT_NONE>", "It had no effect.")
+        self._add_token(45, "<BASE_HP>", "base hp")
+        self._add_token(46, "<EVOLVES_INTO>", "evolves into")
+        self._add_token(47, "<POWER>", "power")
+        self._add_token(48, "<OBTAINED_FROM>", "obtained from")
+        self._add_token(49, "<EFFECT_FELL_ASLEEP>", "fell asleep.")
+        self._add_token(50, "<EFFECT_FAST_ASLEEP>", "is fast asleep.")
+        self._add_token(51, "<EFFECT_HURT_BIND>", "is hurt by bind.")
+        self._add_token(52, "<EFFECT_RESTORED_SLEEP>", "went to sleep and restored its hp.")
+        self._add_token(53, "<EFFECT_MISSED>", "It missed!")
         self._add_token(70, "<LOGIC_AND>", "and")
         self._add_token(71, "<LOGIC_OR>", "or")
         self._add_token(72, "<LOGIC_NOT>", "not")
+        self._add_token(63, "<HAS_MOVES>", "has moves")
         
         # 100-199: Types
         self._add_token(100, "<UNKNOWN_TYPE>", "unknown type")
@@ -78,31 +89,41 @@ class PokemonTokenizer:
             formatted_move = move.upper().replace(" ", "_")
             self._add_token(201 + i, f"<MOVE_{formatted_move}>", move)
             
+        # 900-999: Locations and Encounters
+        self._add_token(900, "<ENC_UNOBTAINABLE_WILD>", "unobtainable wild")
+        self._add_token(901, "<ENC_COMMON_WILD>", "common wild")
+        self._add_token(902, "<ENC_UNCOMMON_WILD>", "uncommon wild")
+        self._add_token(903, "<ENC_RARE_WILD>", "rare wild")
+        self._add_token(904, "<ENC_LEGENDARY>", "legendary")
+        self._add_token(910, "<ENC_GIFT>", "gift")
+        self._add_token(911, "<ENC_FISHING>", "fishing")
+        self._add_token(912, "<ENC_FOSSIL>", "fossil")
+        self._add_token(913, "<ENC_EVOLUTION>", "evolution")
+            
         # 1000+: POKEMON
         self._add_token(1000, "<UNKNOWN_PKMN>", "unknown pokemon")
         
-        GEN1_POKEMON = [
-            "Bulbasaur", "Ivysaur", "Venusaur", "Charmander", "Charmeleon", "Charizard", "Squirtle", "Wartortle", "Blastoise", 
-            "Caterpie", "Metapod", "Butterfree", "Weedle", "Kakuna", "Beedrill", "Pidgey", "Pidgeotto", "Pidgeot", "Rattata", "Raticate", 
-            "Spearow", "Fearow", "Ekans", "Arbok", "Pikachu", "Raichu", "Sandshrew", "Sandslash", "Nidoran ♀", "Nidorina", "Nidoqueen", 
-            "Nidoran ♂", "Nidorino", "Nidoking", "Clefairy", "Clefable", "Vulpix", "Ninetales", "Jigglypuff", "Wigglytuff", "Zubat", 
-            "Golbat", "Oddish", "Gloom", "Vileplume", "Paras", "Parasect", "Venonat", "Venomoth", "Diglett", "Dugtrio", "Meowth", 
-            "Persian", "Psyduck", "Golduck", "Mankey", "Primeape", "Growlithe", "Arcanine", "Poliwag", "Poliwhirl", "Poliwrath", 
-            "Abra", "Kadabra", "Alakazam", "Machop", "Machoke", "Machamp", "Bellsprout", "Weepinbell", "Victreebel", "Tentacool", 
-            "Tentacruel", "Geodude", "Graveler", "Golem", "Ponyta", "Rapidash", "Slowpoke", "Slowbro", "Magnemite", "Magneton", 
-            "Farfetch'd", "Doduo", "Dodrio", "Seel", "Dewgong", "Grimer", "Muk", "Shellder", "Cloyster", "Gastly", "Haunter", 
-            "Gengar", "Onix", "Drowzee", "Hypno", "Krabby", "Kingler", "Voltorb", "Electrode", "Exeggcute", "Exeggutor", "Cubone", 
-            "Marowak", "Hitmonlee", "Hitmonchan", "Lickitung", "Koffing", "Weezing", "Rhyhorn", "Rhydon", "Chansey", "Tangela", 
-            "Kangaskhan", "Horsea", "Seadra", "Goldeen", "Seaking", "Staryu", "Starmie", "Mr. Mime", "Scyther", "Jynx", "Electabuzz", 
-            "Magmar", "Pinsir", "Tauros", "Magikarp", "Gyarados", "Lapras", "Ditto", "Eevee", "Vaporeon", "Jolteon", "Flareon", 
-            "Porygon", "Omanyte", "Omastar", "Kabuto", "Kabutops", "Aerodactyl", "Snorlax", "Articuno", "Zapdos", "Moltres", 
-            "Dratini", "Dragonair", "Dragonite", "Mewtwo", "Mew"
-        ]
+        all_pokemon = []
+        gen1_path = os.path.join(self.data_dir, "gen1_pokedex.json")
+        gen2_path = os.path.join(self.data_dir, "gen2_pokedex.json")
         
-        for i, pkmn in enumerate(GEN1_POKEMON):
+        if os.path.exists(gen1_path):
+            with open(gen1_path, "r", encoding="utf-8") as f:
+                all_pokemon.extend(list(json.load(f).keys()))
+        if os.path.exists(gen2_path):
+            with open(gen2_path, "r", encoding="utf-8") as f:
+                all_pokemon.extend(list(json.load(f).keys()))
+        
+        for i, pkmn in enumerate(all_pokemon):
             formatted_pkmn = pkmn.upper().replace(" ", "_").replace("♀", "F").replace("♂", "M")
             # 1000 + Pokedex Index (1-indexed)
             self._add_token(1001 + i, f"<PKMN_{formatted_pkmn}>", pkmn)
+
+        # 2000+: Bucketed Numbers (-100 to 500)
+        idx = 2000
+        for val in range(-100, 510, 10):
+            self._add_token(idx, f"<{val}>", str(val))
+            idx += 1
 
     def export_vocab(self, filepath="vocab.json"):
         """Exports the vocabulary mapping for HuggingFace compatibility."""
@@ -115,6 +136,9 @@ class PokemonTokenizer:
         """Translates free text into a list of Token IDs."""
         text = text.lower()
         token_ids = []
+        
+        # Convert all numbers to bucketed representations so they map naturally to vocab
+        text = re.sub(r'(?<!\w)-?\d+\b', lambda m: str(int(round(int(m.group()) / 10.0)) * 10), text)
         
         # 1. ALWAYS start with <BOS>
         token_ids.append(1)
@@ -131,24 +155,22 @@ class PokemonTokenizer:
         matches = []
         for term in search_terms:
             for m in re.finditer(r'\b' + re.escape(term) + r'\b', text):
-                matches.append((m.start(), self.str_to_id[term]))
+                matches.append((m.start(), len(term), self.str_to_id[term]))
                 
             # Handle special characters like Nidoran female
             if "♀" in term or "♂" in term:
                 for m in re.finditer(re.escape(term), text):
-                    matches.append((m.start(), self.str_to_id[term]))
+                    matches.append((m.start(), len(term), self.str_to_id[term]))
                     
             # Handle punctuation marks from effects
             if term.endswith("."):
                 for m in re.finditer(re.escape(term), text):
-                    matches.append((m.start(), self.str_to_id[term]))
+                    matches.append((m.start(), len(term), self.str_to_id[term]))
                     
-        # Match numbers for 5000+ IDs
-        for m in re.finditer(r'\b\d+\b', text):
-            matches.append((m.start(), 5000 + int(m.group())))
+        # Remove overlaps (keep longest match first)
+        # Sort by start position (ascending), then by term length (descending)
+        matches.sort(key=lambda x: (x[0], -x[1]))
         
-        # Remove overlaps (keep longest)
-        matches.sort()
         filtered_matches = []
         last_end = -1
         
@@ -157,14 +179,11 @@ class PokemonTokenizer:
         
         for match in matches:
             start_pos = match[0]
-            term_id = match[1]
-            if term_id >= 5000:
-                term_len = len(str(term_id - 5000))
-            else:
-                term_len = len(self.id_to_str[term_id])
+            term_len = match[1]
+            term_id = match[2]
             
             if start_pos >= last_end:
-                filtered_matches.append(match)
+                filtered_matches.append((start_pos, term_id))
                 last_end = start_pos + term_len
                 for i in range(start_pos, last_end):
                     if i < len(covered):
@@ -174,8 +193,16 @@ class PokemonTokenizer:
         unknown_id = self.tag_to_id.get("<UNKNOWN_WORD>", 5)
         for m in re.finditer(r'\b[a-z]+\b', text):
             start_pos = m.start()
+            word = m.group()
             if not covered[start_pos]:
-                filtered_matches.append((start_pos, unknown_id))
+                if word == "hp":
+                    filtered_matches.append((start_pos, self.tag_to_id.get("<HP_REMAINING>", unknown_id)))
+                else:
+                    closest = difflib.get_close_matches(word, search_terms, n=1, cutoff=0.75)
+                    if closest:
+                        filtered_matches.append((start_pos, self.str_to_id[closest[0]]))
+                    else:
+                        raise ValueError(f"Unknown word detected during tokenization: '{word}' in text: '{text}'")
                 
         # Sort again by start_pos so unknown words are interleaved correctly
         filtered_matches.sort()
@@ -193,19 +220,16 @@ class PokemonTokenizer:
         """Converts token IDs to their structural DSL string tags."""
         tags = []
         for t in token_ids:
-            if t >= 5000:
-                tags.append(f"<{t - 5000}>")
-            else:
-                tags.append(self.id_to_tag.get(t, "<UNKNOWN>"))
+            tags.append(self.id_to_tag.get(t, "<UNKNOWN>"))
         return tags
 
     def decode_to_text(self, token_ids):
         """Converts token IDs to human-readable game text."""
         parts = []
         for t in token_ids:
-            if t >= 5000:
-                parts.append(str(t - 5000))
-            elif t in self.id_to_str and self.id_to_str[t] is not None:
+            if t == 1 or t == 2: # Ignore BOS/EOS
+                continue
+            if t in self.id_to_str and self.id_to_str[t] is not None:
                 # Capitalize Pokemon/Moves
                 s = self.id_to_str[t]
                 if t >= 1000 or (t >= 100 and t <= 999):

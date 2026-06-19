@@ -1,62 +1,7 @@
 {
-    "Tackle": {
-        "type": "Normal",
-        "power": 40,
-        "miss_chance": 0
-    },
-    "Quick Attack": {
-        "type": "Normal",
-        "power": 40,
-        "miss_chance": 0
-    },
-    "Scratch": {
-        "type": "Normal",
-        "power": 40,
-        "miss_chance": 0
-    },
-    "Ember": {
-        "type": "Fire",
-        "power": 40,
-        "miss_chance": 0
-    },
-    "Water Gun": {
-        "type": "Water",
-        "power": 40,
-        "miss_chance": 0
-    },
-    "Bubble": {
-        "type": "Water",
-        "power": 20,
-        "miss_chance": 0
-    },
-    "Vine Whip": {
-        "type": "Grass",
-        "power": 45,
-        "miss_chance": 0
-    },
     "Absorb": {
         "type": "Grass",
         "power": 20,
-        "miss_chance": 0
-    },
-    "Thundershock": {
-        "type": "Electric",
-        "power": 40,
-        "miss_chance": 0
-    },
-    "Aurora Beam": {
-        "type": "Ice",
-        "power": 65,
-        "miss_chance": 0
-    },
-    "Low Kick": {
-        "type": "Fighting",
-        "power": 50,
-        "miss_chance": 10
-    },
-    "Poison Sting": {
-        "type": "Poison",
-        "power": 15,
         "miss_chance": 0
     },
     "Acid": {
@@ -64,9 +9,49 @@
         "power": 40,
         "miss_chance": 0
     },
-    "Earthquake": {
-        "type": "Ground",
-        "power": 100,
+    "Agility": {
+        "type": "Psychic",
+        "power": 0,
+        "miss_chance": 0
+    },
+    "Ancient Power": {
+        "type": "Rock",
+        "power": 60,
+        "miss_chance": 0
+    },
+    "Aurora Beam": {
+        "type": "Ice",
+        "power": 65,
+        "miss_chance": 0
+    },
+    "Barrage": {
+        "type": "Normal",
+        "power": 15,
+        "miss_chance": 15
+    },
+    "Bide": {
+        "type": "Normal",
+        "power": 40,
+        "miss_chance": 0
+    },
+    "Bind": {
+        "type": "Normal",
+        "power": 15,
+        "accuracy": 85
+    },
+    "Bite": {
+        "type": "Normal",
+        "power": 60,
+        "miss_chance": 0
+    },
+    "Blizzard": {
+        "type": "Ice",
+        "power": 120,
+        "miss_chance": 10
+    },
+    "Body Slam": {
+        "type": "Normal",
+        "power": 85,
         "miss_chance": 0
     },
     "Bone Club": {
@@ -74,143 +59,23 @@
         "power": 65,
         "miss_chance": 15
     },
-    "Peck": {
-        "type": "Flying",
-        "power": 35,
-        "miss_chance": 0
-    },
-    "Wing Attack": {
-        "type": "Flying",
-        "power": 35,
-        "miss_chance": 0
-    },
-    "Confusion": {
-        "type": "Psychic",
-        "power": 50,
-        "miss_chance": 0
-    },
-    "Leech Life": {
-        "type": "Bug",
-        "power": 20,
-        "miss_chance": 0
-    },
-    "Rock Throw": {
-        "type": "Rock",
-        "power": 50,
-        "miss_chance": 35
-    },
-    "Lick": {
-        "type": "Ghost",
-        "power": 20,
-        "miss_chance": 0
-    },
-    "Dragon Rage": {
-        "type": "Dragon",
-        "power": 40,
-        "miss_chance": 0
-    },
-    "Hyper Beam": {
-        "type": "Normal",
-        "power": 150,
-        "miss_chance": 10
-    },
-    "Fire Blast": {
-        "type": "Fire",
-        "power": 120,
-        "miss_chance": 15
-    },
-    "Blizzard": {
-        "type": "Ice",
-        "power": 120,
-        "miss_chance": 10
-    },
-    "Hydro Pump": {
-        "type": "Water",
-        "power": 120,
-        "miss_chance": 20
-    },
-    "Toxic": {
-        "type": "Poison",
-        "power": 0,
-        "miss_chance": 15
-    },
-    "Sludge": {
-        "type": "Poison",
-        "power": 65,
-        "miss_chance": 0
-    },
-    "Sky Attack": {
-        "type": "Flying",
-        "power": 140,
-        "miss_chance": 10
-    },
-    "Psychic": {
-        "type": "Psychic",
-        "power": 90,
-        "miss_chance": 0
-    },
-    "Psybeam": {
-        "type": "Psychic",
-        "power": 65,
-        "miss_chance": 0
-    },
-    "Psywave": {
-        "type": "Psychic",
-        "power": 40,
-        "miss_chance": 20
-    },
-    "Recover": {
-        "type": "Normal",
-        "power": 0,
-        "miss_chance": 0
-    },
-    "Reflect": {
-        "type": "Psychic",
-        "power": 0,
-        "miss_chance": 0
-    },
-    "Light Screen": {
-        "type": "Psychic",
-        "power": 0,
-        "miss_chance": 0
-    },
-    "Submission": {
-        "type": "Fighting",
-        "power": 80,
-        "miss_chance": 20
-    },
-    "Fissure": {
+    "Bone Rush": {
         "type": "Ground",
-        "power": 100,
-        "miss_chance": 70
+        "power": 25,
+        "miss_chance": 10
     },
-    "Night Shade": {
-        "type": "Ghost",
-        "power": 40,
+    "Bonemerang": {
+        "type": "Ground",
+        "power": 50,
+        "miss_chance": 10
+    },
+    "Bubble": {
+        "type": "Water",
+        "power": 20,
         "miss_chance": 0
     },
-    "Confuse Ray": {
-        "type": "Ghost",
-        "power": 0,
-        "miss_chance": 0
-    },
-    "Glare": {
-        "type": "Normal",
-        "power": 0,
-        "miss_chance": 25
-    },
-    "Bite": {
-        "type": "Normal",
-        "power": 60,
-        "miss_chance": 0
-    },
-    "Take Down": {
-        "type": "Normal",
-        "power": 90,
-        "miss_chance": 15
-    },
-    "Stomp": {
-        "type": "Normal",
+    "Bubble Beam": {
+        "type": "Water",
         "power": 65,
         "miss_chance": 0
     },
@@ -219,85 +84,255 @@
         "power": 65,
         "miss_chance": 0
     },
-    "Sonicboom": {
-        "type": "Normal",
-        "power": 20,
-        "miss_chance": 10
+    "Clamp": {
+        "type": "Water",
+        "power": 35,
+        "miss_chance": 15
     },
-    "Mega Drain": {
-        "type": "Grass",
-        "power": 40,
+    "Comet Punch": {
+        "type": "Normal",
+        "power": 18,
+        "miss_chance": 15
+    },
+    "Confuse Ray": {
+        "type": "Ghost",
+        "power": 0,
         "miss_chance": 0
     },
-    "Leech Seed": {
-        "type": "Grass",
-        "power": 0,
-        "miss_chance": 10
+    "Confusion": {
+        "type": "Psychic",
+        "power": 50,
+        "miss_chance": 0
     },
-    "Stun Spore": {
-        "type": "Grass",
-        "power": 0,
-        "miss_chance": 25
+    "Constrict": {
+        "type": "Normal",
+        "power": 10,
+        "miss_chance": 0
     },
-    "Sleep Powder": {
-        "type": "Grass",
+    "Counter": {
+        "type": "Fighting",
         "power": 0,
-        "miss_chance": 25
+        "miss_chance": 0
     },
-    "Solarbeam": {
-        "type": "Grass",
+    "Crabhammer": {
+        "type": "Water",
+        "power": 100,
+        "accuracy": 90
+    },
+    "Cross Chop": {
+        "type": "Fighting",
+        "power": 100,
+        "miss_chance": 20
+    },
+    "Crunch": {
+        "type": "Dark",
+        "power": 80,
+        "miss_chance": 0
+    },
+    "Cut": {
+        "type": "Normal",
+        "power": 50,
+        "miss_chance": 5
+    },
+    "Dig": {
+        "type": "Ground",
+        "power": 80,
+        "miss_chance": 0
+    },
+    "Dizzy Punch": {
+        "type": "Normal",
+        "power": 70,
+        "miss_chance": 0
+    },
+    "Double Edge": {
+        "type": "Normal",
         "power": 120,
         "miss_chance": 0
     },
-    "Agility": {
-        "type": "Psychic",
-        "power": 0,
+    "Double Kick": {
+        "type": "Fighting",
+        "power": 30,
         "miss_chance": 0
     },
-    "Supersonic": {
+    "Double Slap": {
         "type": "Normal",
-        "power": 0,
-        "miss_chance": 45
+        "power": 15,
+        "miss_chance": 15
     },
-    "Lovely Kiss": {
+    "Dragon Breath": {
+        "type": "Dragon",
+        "power": 60,
+        "miss_chance": 0
+    },
+    "Dragon Rage": {
+        "type": "Dragon",
+        "power": 40,
+        "miss_chance": 0
+    },
+    "Dream Eater": {
+        "type": "Psychic",
+        "power": 100,
+        "miss_chance": 0
+    },
+    "Drill Peck": {
+        "type": "Flying",
+        "power": 80,
+        "miss_chance": 0
+    },
+    "Dynamic Punch": {
+        "type": "Fighting",
+        "power": 100,
+        "miss_chance": 50
+    },
+    "Earthquake": {
+        "type": "Ground",
+        "power": 100,
+        "miss_chance": 0
+    },
+    "Egg Bomb": {
         "type": "Normal",
-        "power": 0,
+        "power": 100,
         "miss_chance": 25
     },
-    "Ice Punch": {
-        "type": "Ice",
-        "power": 75,
+    "Ember": {
+        "type": "Fire",
+        "power": 40,
         "miss_chance": 0
     },
-    "Thunderpunch": {
-        "type": "Electric",
-        "power": 75,
+    "Explosion": {
+        "type": "Normal",
+        "power": 250,
         "miss_chance": 0
+    },
+    "Extreme Speed": {
+        "type": "Normal",
+        "power": 80,
+        "miss_chance": 0
+    },
+    "False Swipe": {
+        "type": "Normal",
+        "power": 40,
+        "miss_chance": 0
+    },
+    "Feint Attack": {
+        "type": "Dark",
+        "power": 60,
+        "miss_chance": 0
+    },
+    "Fire Blast": {
+        "type": "Fire",
+        "power": 120,
+        "miss_chance": 15
     },
     "Fire Punch": {
         "type": "Fire",
         "power": 75,
         "miss_chance": 0
     },
-    "Thunder Wave": {
-        "type": "Electric",
-        "power": 0,
+    "Fire Spin": {
+        "type": "Fire",
+        "power": 15,
+        "miss_chance": 30
+    },
+    "Fissure": {
+        "type": "Ground",
+        "power": 100,
+        "miss_chance": 70
+    },
+    "Flame Wheel": {
+        "type": "Fire",
+        "power": 60,
         "miss_chance": 0
     },
-    "Roar": {
+    "Flamethrower": {
+        "type": "Fire",
+        "power": 90,
+        "accuracy": 100
+    },
+    "Fly": {
+        "type": "Flying",
+        "power": 90,
+        "miss_chance": 5
+    },
+    "Fury Attack": {
+        "type": "Normal",
+        "power": 15,
+        "miss_chance": 15
+    },
+    "Fury Cutter": {
+        "type": "Bug",
+        "power": 40,
+        "miss_chance": 5
+    },
+    "Fury Swipes": {
+        "type": "Normal",
+        "power": 18,
+        "miss_chance": 20
+    },
+    "Future Sight": {
+        "type": "Psychic",
+        "power": 120,
+        "miss_chance": 0
+    },
+    "Giga Drain": {
+        "type": "Grass",
+        "power": 75,
+        "miss_chance": 0
+    },
+    "Glare": {
+        "type": "Normal",
+        "power": 0,
+        "miss_chance": 25
+    },
+    "Growl": {
         "type": "Normal",
         "power": 0,
         "miss_chance": 0
     },
-    "Bide": {
+    "Growth": {
+        "type": "Normal",
+        "power": 0,
+        "miss_chance": 0
+    },
+    "Gust": {
         "type": "Normal",
         "power": 40,
         "miss_chance": 0
     },
-    "Teleport": {
-        "type": "Psychic",
-        "power": 0,
+    "Harden": {
+        "type": "Normal",
+        "power": -20,
+        "accuracy": 100
+    },
+    "Headbutt": {
+        "type": "Normal",
+        "power": 70,
         "miss_chance": 0
+    },
+    "Hidden Power": {
+        "type": "Normal",
+        "power": 60,
+        "miss_chance": 0
+    },
+    "High Jump Kick": {
+        "type": "Fighting",
+        "power": 130,
+        "miss_chance": 10
+    },
+    "Horn Attack": {
+        "type": "Normal",
+        "power": 65,
+        "miss_chance": 0
+    },
+    "Hydro Pump": {
+        "type": "Water",
+        "power": 120,
+        "miss_chance": 20
+    },
+    "Hyper Beam": {
+        "type": "Normal",
+        "power": 150,
+        "miss_chance": 10
     },
     "Hyper Fang": {
         "type": "Normal",
@@ -309,29 +344,344 @@
         "power": 0,
         "miss_chance": 40
     },
-    "Barrage": {
+    "Ice Beam": {
+        "type": "Ice",
+        "power": 90,
+        "miss_chance": 0
+    },
+    "Ice Punch": {
+        "type": "Ice",
+        "power": 75,
+        "miss_chance": 0
+    },
+    "Icy Wind": {
+        "type": "Ice",
+        "power": 55,
+        "miss_chance": 5
+    },
+    "Iron Tail": {
+        "type": "Steel",
+        "power": 100,
+        "miss_chance": 25
+    },
+    "Jump Kick": {
+        "type": "Fighting",
+        "power": 100,
+        "miss_chance": 5
+    },
+    "Karate Chop": {
+        "type": "Fighting",
+        "power": 50,
+        "miss_chance": 0
+    },
+    "Leech Life": {
+        "type": "Bug",
+        "power": 20,
+        "miss_chance": 0
+    },
+    "Leech Seed": {
+        "type": "Grass",
+        "power": 0,
+        "miss_chance": 10
+    },
+    "Leer": {
         "type": "Normal",
-        "power": 15,
+        "power": 0,
+        "miss_chance": 0
+    },
+    "Lick": {
+        "type": "Ghost",
+        "power": 20,
+        "miss_chance": 0
+    },
+    "Light Screen": {
+        "type": "Psychic",
+        "power": -20,
+        "miss_chance": 0
+    },
+    "Lovely Kiss": {
+        "type": "Normal",
+        "power": 0,
+        "miss_chance": 25
+    },
+    "Low Kick": {
+        "type": "Fighting",
+        "power": 50,
+        "miss_chance": 10
+    },
+    "Mach Punch": {
+        "type": "Fighting",
+        "power": 40,
+        "miss_chance": 0
+    },
+    "Mega Drain": {
+        "type": "Grass",
+        "power": 40,
+        "miss_chance": 0
+    },
+    "Mega Kick": {
+        "type": "Normal",
+        "power": 120,
+        "miss_chance": 25
+    },
+    "Mega Punch": {
+        "type": "Normal",
+        "power": 80,
         "miss_chance": 15
+    },
+    "Megahorn": {
+        "type": "Bug",
+        "power": 120,
+        "miss_chance": 15
+    },
+    "Metal Claw": {
+        "type": "Steel",
+        "power": 50,
+        "miss_chance": 5
+    },
+    "Mud Slap": {
+        "type": "Ground",
+        "power": 20,
+        "miss_chance": 0
+    },
+    "Night Shade": {
+        "type": "Ghost",
+        "power": 40,
+        "miss_chance": 0
+    },
+    "Octazooka": {
+        "type": "Water",
+        "power": 65,
+        "miss_chance": 15
+    },
+    "Outrage": {
+        "type": "Dragon",
+        "power": 120,
+        "miss_chance": 0
+    },
+    "Pay Day": {
+        "type": "Normal",
+        "power": 40,
+        "miss_chance": 0
+    },
+    "Peck": {
+        "type": "Flying",
+        "power": 35,
+        "miss_chance": 0
+    },
+    "Petal Dance": {
+        "type": "Grass",
+        "power": 120,
+        "miss_chance": 0
+    },
+    "Pin Missile": {
+        "type": "Bug",
+        "power": 25,
+        "miss_chance": 5
+    },
+    "Poison Powder": {
+        "type": "Poison",
+        "power": 0,
+        "miss_chance": 25
+    },
+    "Poison Sting": {
+        "type": "Poison",
+        "power": 15,
+        "miss_chance": 0
+    },
+    "Pound": {
+        "type": "Normal",
+        "power": 40,
+        "miss_chance": 0
+    },
+    "Powder Snow": {
+        "type": "Ice",
+        "power": 40,
+        "miss_chance": 0
+    },
+    "Psybeam": {
+        "type": "Psychic",
+        "power": 65,
+        "miss_chance": 0
+    },
+    "Psychic": {
+        "type": "Psychic",
+        "power": 90,
+        "miss_chance": 0
+    },
+    "Psywave": {
+        "type": "Psychic",
+        "power": 40,
+        "miss_chance": 20
+    },
+    "Pursuit": {
+        "type": "Dark",
+        "power": 40,
+        "miss_chance": 0
+    },
+    "Quick Attack": {
+        "type": "Normal",
+        "power": 40,
+        "miss_chance": 0
     },
     "Rage": {
         "type": "Normal",
         "power": 20,
         "miss_chance": 0
     },
-    "Growth": {
+    "Rapid Spin": {
+        "type": "Normal",
+        "power": 50,
+        "miss_chance": 0
+    },
+    "Razor Leaf": {
+        "type": "Grass",
+        "power": 55,
+        "miss_chance": 5
+    },
+    "Razor Wind": {
+        "type": "Normal",
+        "power": 80,
+        "miss_chance": 0
+    },
+    "Recover": {
+        "type": "Normal",
+        "power": -20,
+        "miss_chance": 0
+    },
+    "Reflect": {
+        "type": "Psychic",
+        "power": -20,
+        "miss_chance": 0
+    },
+    "Rest": {
+        "type": "Psychic",
+        "power": -20,
+        "miss_chance": 0
+    },
+    "Roar": {
         "type": "Normal",
         "power": 0,
         "miss_chance": 0
     },
-    "Fire Spin": {
+    "Rock Slide": {
+        "type": "Rock",
+        "power": 75,
+        "miss_chance": 10
+    },
+    "Rock Smash": {
+        "type": "Fighting",
+        "power": 40,
+        "miss_chance": 0
+    },
+    "Rock Throw": {
+        "type": "Rock",
+        "power": 50,
+        "miss_chance": 35
+    },
+    "Rolling Kick": {
+        "type": "Fighting",
+        "power": 60,
+        "miss_chance": 15
+    },
+    "Rollout": {
+        "type": "Rock",
+        "power": 30,
+        "miss_chance": 10
+    },
+    "Sacred Fire": {
         "type": "Fire",
-        "power": 15,
-        "miss_chance": 30
+        "power": 100,
+        "miss_chance": 5
+    },
+    "Sand Attack": {
+        "type": "Ground",
+        "power": 0,
+        "miss_chance": 0
+    },
+    "Scratch": {
+        "type": "Normal",
+        "power": 40,
+        "miss_chance": 0
+    },
+    "Self Destruct": {
+        "type": "Normal",
+        "power": 200,
+        "miss_chance": 0
+    },
+    "Shadow Ball": {
+        "type": "Ghost",
+        "power": 80,
+        "miss_chance": 0
+    },
+    "Sketch": {
+        "type": "Normal",
+        "power": 0,
+        "miss_chance": 0
+    },
+    "Skull Bash": {
+        "type": "Normal",
+        "power": 130,
+        "miss_chance": 0
+    },
+    "Sky Attack": {
+        "type": "Flying",
+        "power": 140,
+        "miss_chance": 10
+    },
+    "Slam": {
+        "type": "Normal",
+        "power": 80,
+        "miss_chance": 25
     },
     "Slash": {
         "type": "Normal",
         "power": 70,
+        "miss_chance": 0
+    },
+    "Sleep Powder": {
+        "type": "Grass",
+        "power": 0,
+        "miss_chance": 25
+    },
+    "Sludge": {
+        "type": "Poison",
+        "power": 65,
+        "miss_chance": 0
+    },
+    "Sludge Bomb": {
+        "type": "Poison",
+        "power": 90,
+        "miss_chance": 0
+    },
+    "Smog": {
+        "type": "Poison",
+        "power": 30,
+        "accuracy": 70
+    },
+    "Snore": {
+        "type": "Normal",
+        "power": 50,
+        "miss_chance": 0
+    },
+    "Solar Beam": {
+        "type": "Grass",
+        "power": 120,
+        "miss_chance": 0
+    },
+    "Solarbeam": {
+        "type": "Grass",
+        "power": 120,
+        "miss_chance": 0
+    },
+    "Sonicboom": {
+        "type": "Normal",
+        "power": 20,
+        "miss_chance": 10
+    },
+    "Spark": {
+        "type": "Electric",
+        "power": 65,
         "miss_chance": 0
     },
     "Spike Cannon": {
@@ -339,14 +689,44 @@
         "power": 20,
         "miss_chance": 0
     },
-    "Body Slam": {
+    "Steel Wing": {
+        "type": "Steel",
+        "power": 70,
+        "miss_chance": 10
+    },
+    "Stomp": {
         "type": "Normal",
-        "power": 85,
+        "power": 65,
         "miss_chance": 0
     },
-    "Rest": {
-        "type": "Psychic",
+    "Strength": {
+        "type": "Normal",
+        "power": 80,
+        "miss_chance": 0
+    },
+    "Struggle": {
+        "type": "Normal",
+        "power": 30,
+        "miss_chance": 0
+    },
+    "Stun Spore": {
+        "type": "Grass",
         "power": 0,
+        "miss_chance": 25
+    },
+    "Submission": {
+        "type": "Fighting",
+        "power": 80,
+        "miss_chance": 20
+    },
+    "Supersonic": {
+        "type": "Normal",
+        "power": 0,
+        "miss_chance": 45
+    },
+    "Surf": {
+        "type": "Water",
+        "power": 90,
         "miss_chance": 0
     },
     "Swift": {
@@ -354,29 +734,134 @@
         "power": 60,
         "miss_chance": 0
     },
-    "Growl": {
-        "type": "Normal",
-        "power": 0,
-        "miss_chance": 0
-    },
-    "Leer": {
-        "type": "Normal",
-        "power": 0,
-        "miss_chance": 0
-    },
-    "Sand Attack": {
-        "type": "Ground",
-        "power": 0,
-        "miss_chance": 0
-    },
-    "Gust": {
+    "Tackle": {
         "type": "Normal",
         "power": 40,
         "miss_chance": 0
     },
-    "Poison Powder": {
+    "Take Down": {
+        "type": "Normal",
+        "power": 90,
+        "miss_chance": 15
+    },
+    "Teleport": {
+        "type": "Psychic",
+        "power": 0,
+        "miss_chance": 0
+    },
+    "Thief": {
+        "type": "Dark",
+        "power": 60,
+        "miss_chance": 0
+    },
+    "Thrash": {
+        "type": "Normal",
+        "power": 120,
+        "miss_chance": 0
+    },
+    "Thunder": {
+        "type": "Electric",
+        "power": 110,
+        "miss_chance": 30
+    },
+    "Thunder Punch": {
+        "type": "Electric",
+        "power": 75,
+        "miss_chance": 0
+    },
+    "Thunder Shock": {
+        "type": "Electric",
+        "power": 40,
+        "miss_chance": 0
+    },
+    "Thunder Wave": {
+        "type": "Electric",
+        "power": 0,
+        "miss_chance": 0
+    },
+    "Thunderbolt": {
+        "type": "Electric",
+        "power": 90,
+        "accuracy": 100
+    },
+    "Thunderpunch": {
+        "type": "Electric",
+        "power": 75,
+        "miss_chance": 0
+    },
+    "Thundershock": {
+        "type": "Electric",
+        "power": 40,
+        "miss_chance": 0
+    },
+    "Toxic": {
         "type": "Poison",
         "power": 0,
-        "miss_chance": 25
+        "miss_chance": 15
+    },
+    "Transform": {
+        "type": "Normal",
+        "power": 0,
+        "miss_chance": 0
+    },
+    "Tri Attack": {
+        "type": "Normal",
+        "power": 80,
+        "miss_chance": 0
+    },
+    "Twineedle": {
+        "type": "Bug",
+        "power": 25,
+        "miss_chance": 0
+    },
+    "Twister": {
+        "type": "Dragon",
+        "power": 40,
+        "miss_chance": 0
+    },
+    "Vice Grip": {
+        "type": "Normal",
+        "power": 55,
+        "miss_chance": 0
+    },
+    "Vine Whip": {
+        "type": "Grass",
+        "power": 45,
+        "miss_chance": 0
+    },
+    "Vital Throw": {
+        "type": "Fighting",
+        "power": 70,
+        "miss_chance": 0
+    },
+    "Water Gun": {
+        "type": "Water",
+        "power": 40,
+        "miss_chance": 0
+    },
+    "Waterfall": {
+        "type": "Water",
+        "power": 80,
+        "miss_chance": 0
+    },
+    "Whirlpool": {
+        "type": "Water",
+        "power": 35,
+        "miss_chance": 15
+    },
+    "Wing Attack": {
+        "type": "Flying",
+        "power": 35,
+        "miss_chance": 0
+    },
+    "Wrap": {
+        "type": "Normal",
+        "power": 15,
+        "miss_chance": 10
+    },
+    "Zap Cannon": {
+        "type": "Electric",
+        "power": 120,
+        "miss_chance": 50
     }
 }

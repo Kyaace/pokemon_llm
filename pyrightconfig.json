@@ -1,0 +1,6 @@
+{
+  "ignore": [
+    "**/__pyrefly_virtual__/**",
+    "d:/__pyrefly_virtual__/**"
+  ]
+}

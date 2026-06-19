@@ -12,12 +12,11 @@
   "initializer_range": 0.02,
   "layer_norm_epsilon": 1e-05,
   "model_type": "gpt2",
-  "n_ctx": 512,
   "n_embd": 128,
   "n_head": 4,
   "n_inner": null,
   "n_layer": 4,
-  "n_positions": 512,
+  "n_positions": 128,
   "pad_token_id": 0,
   "reorder_and_upcast_attn": false,
   "resid_pdrop": 0.1,
@@ -31,5 +30,5 @@
   "tie_word_embeddings": true,
   "transformers_version": "5.12.1",
   "use_cache": false,
-  "vocab_size": 10000
+  "vocab_size": 2500
 }
