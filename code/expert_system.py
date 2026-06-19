@@ -28,9 +28,72 @@ class CorpusBuilder:
                 multiplier *= self.type_chart[move_type][def_type]
         return multiplier
 
-    def generate_battle_string(self):
-        """Override this method in subclasses to define how a single battle is generated."""
-        raise NotImplementedError
+    def _simulate_full_battle(self, p1_name, p1_level, p1_moves, p2_name, p2_level, p2_moves, prefix=""):
+        hp1 = p1_level * 5
+        hp2 = p2_level * 5
+        
+        turn = 1
+        battle_log = []
+        if prefix:
+            battle_log.append(prefix)
+            
+        current_attacker = 1
+        
+        while hp1 > 0 and hp2 > 0 and turn <= 20:
+            if current_attacker == 1:
+                atk_name, atk_moves, def_name, def_hp = p1_name, p1_moves, p2_name, hp2
+            else:
+                atk_name, atk_moves, def_name, def_hp = p2_name, p2_moves, p1_name, hp1
+                
+            atk_types = self.pokemon_types.get(atk_name, ["Normal"])
+            def_types = self.pokemon_types.get(def_name, ["Normal"])
+            
+            valid_moves = [m for m in atk_moves if m in self.moves]
+            if not valid_moves:
+                valid_moves = [m_name for m_name, m_data in self.moves.items() if m_data["type"] in atk_types or m_data["type"] == "Normal"]
+            if not valid_moves:
+                 valid_moves = ["Tackle"]
+                 
+            move = random.choice(valid_moves)
+            move_data = self.moves[move]
+            move_type = move_data["type"]
+            power = move_data["power"] if move_data["power"] > 0 else 20
+            
+            multiplier = self.get_effectiveness_multiplier(move_type, def_types)
+            
+            if multiplier > 1.0:
+                phrase = "was super effective"
+            elif multiplier == 1.0:
+                phrase = "was effective"
+            elif multiplier > 0.0:
+                phrase = "was not very effective"
+            else:
+                phrase = "had no effect"
+                
+            damage = max(1, int(power * multiplier // 2))
+            if multiplier == 0.0:
+                damage = 0
+                
+            def_hp -= damage
+            if def_hp < 0: def_hp = 0
+            
+            if current_attacker == 1:
+                hp2 = def_hp
+            else:
+                hp1 = def_hp
+                
+            log_line = f"Turn {turn}. {atk_name} used {move} against {def_name}. It {phrase}."
+            if def_hp > 0:
+                log_line += f" {def_name} has {def_hp} HP remaining."
+            else:
+                log_line += f" {def_name} fainted. {atk_name} won."
+                
+            battle_log.append(log_line)
+            
+            current_attacker = 2 if current_attacker == 1 else 1
+            turn += 1
+            
+        return " ".join(battle_log)
 
     def generate_corpus(self, num_samples: int, output_path: str):
         """Generates a corpus by repeatedly calling generate_battle_string()."""
@@ -45,36 +108,11 @@ class TutorialCorpusBuilder(CorpusBuilder):
         attacker = random.choice(self.pokemon_names)
         defender = random.choice(self.pokemon_names)
         
-        # Simple heuristic: Attacker uses a move matching one of its types, or a Normal type move.
-        attacker_types = self.pokemon_types[attacker]
-        
-        # Find valid moves
-        valid_moves = []
-        for m_name, m_data in self.moves.items():
-            if m_data["type"] in attacker_types or m_data["type"] == "Normal":
-                valid_moves.append(m_name)
-                
-        if not valid_moves:
-            # Fallback just in case
-            valid_moves = [m_name for m_name, m_data in self.moves.items() if m_data["type"] == "Normal"]
-        
-        move = random.choice(valid_moves)
-        move_type = self.moves[move]["type"]
-        defender_types = self.pokemon_types[defender]
-        
-        multiplier = self.get_effectiveness_multiplier(move_type, defender_types)
-        
-        # Map multiplier to phrase
-        if multiplier > 1.0:
-            phrase = "was super effective"
-        elif multiplier == 1.0:
-            phrase = "was effective"
-        elif multiplier > 0.0:
-            phrase = "was not very effective"
-        else:
-            phrase = "had no effect"
-            
-        return f"{attacker} used {move} against {defender}. It {phrase}."
+        return self._simulate_full_battle(
+            p1_name=attacker, p1_level=10, p1_moves=[],
+            p2_name=defender, p2_level=10, p2_moves=[],
+            prefix="[Tutorial]"
+        )
 
 class PlayerLeaderCorpusBuilder(CorpusBuilder):
     def __init__(self, data_dir=None):
@@ -108,32 +146,11 @@ class PlayerLeaderCorpusBuilder(CorpusBuilder):
         attacker_name = resolve_name(player_pokemon['name'])
         defender_name = resolve_name(leader_pokemon['name'])
         
-        attacker_types = self.pokemon_types.get(attacker_name, ["Normal"])
-        defender_types = self.pokemon_types.get(defender_name, ["Normal"])
-        
-        attacker_moves = player_pokemon.get('moves', [])
-        valid_moves = [m for m in attacker_moves if m in self.moves]
-        if not valid_moves:
-            valid_moves = [m_name for m_name, m_data in self.moves.items() if m_data["type"] in attacker_types or m_data["type"] == "Normal"]
-        
-        if not valid_moves:
-             valid_moves = ["Tackle"]
-             
-        move = random.choice(valid_moves)
-        move_type = self.moves[move]["type"]
-        
-        multiplier = self.get_effectiveness_multiplier(move_type, defender_types)
-        
-        if multiplier > 1.0:
-            phrase = "was super effective"
-        elif multiplier == 1.0:
-            phrase = "was effective"
-        elif multiplier > 0.0:
-            phrase = "was not very effective"
-        else:
-            phrase = "had no effect"
-            
-        return f"[{player_team['trainer']} vs {leader_team['trainer']}] {attacker_name} used {move} against {defender_name}. It {phrase}."
+        return self._simulate_full_battle(
+            p1_name=attacker_name, p1_level=player_pokemon.get("level", 25), p1_moves=player_pokemon.get("moves", []),
+            p2_name=defender_name, p2_level=leader_pokemon.get("level", 25), p2_moves=leader_pokemon.get("moves", []),
+            prefix=f"[{player_team['trainer']} vs {leader_team['trainer']}]"
+        )
 
 if __name__ == "__main__":
     base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -142,15 +159,15 @@ if __name__ == "__main__":
     
     # Generate Tutorial Corpus
     tutorial_output = os.path.join(output_dir, "tutorial_corpus.txt")
-    print(f"Generating 500 tutorial battles to {tutorial_output}...")
+    print(f"Generating 10000 tutorial battles to {tutorial_output}...")
     random.seed(42)
     tutorial_builder = TutorialCorpusBuilder()
-    tutorial_builder.generate_corpus(500, tutorial_output)
+    tutorial_builder.generate_corpus(10000, tutorial_output)
     
     # Generate Player-Leader Corpus
     player_leader_output = os.path.join(output_dir, "player_leader_corpus.txt")
-    print(f"Generating 500 player-leader battles to {player_leader_output}...")
+    print(f"Generating 10000 player-leader battles to {player_leader_output}...")
     player_leader_builder = PlayerLeaderCorpusBuilder()
-    player_leader_builder.generate_corpus(500, player_leader_output)
+    player_leader_builder.generate_corpus(10000, player_leader_output)
     
     print("Generation complete!")
