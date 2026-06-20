@@ -57,6 +57,7 @@ class PokemonTokenizer:
         self._add_token(42, "<EFFECT_NORMAL>", "It was effective.")
         self._add_token(43, "<EFFECT_WEAK>", "It was not very effective.")
         self._add_token(44, "<EFFECT_NONE>", "It had no effect.")
+        self._add_token(64, "<EFFECT_MUTUAL_FAINT>", "both pokemon exhausted themselves and fainted.")
         self._add_token(45, "<BASE_HP>", "base hp")
         self._add_token(46, "<EVOLVES_INTO>", "evolves into")
         self._add_token(47, "<POWER>", "power")
@@ -67,16 +68,31 @@ class PokemonTokenizer:
         self._add_token(52, "<EFFECT_RESTORED_SLEEP>", "went to sleep and restored its hp.")
         self._add_token(53, "<EFFECT_MISSED>", "It missed!")
         self._add_token(54, "<TARGET_ITSELF>", "on itself.")
+        
+        # V2 Grammar Tokens
+        self._add_token(55, "<PLAYER>", "player")
+        self._add_token(56, "<LEADER>", "leader")
+        self._add_token(57, "<WITHDREW>", "withdrew")
+        self._add_token(58, "<SENT_OUT>", "sent out")
+        
+        # Prefix Grammar Tokens
+        self._add_token(80, "<PLAYER_VS_LEADER>", "player vs leader.")
+        self._add_token(81, "<HAS_1_LEFT>", "has one pokemon left.")
+        self._add_token(82, "<HAS_2_LEFT>", "has two pokemon left.")
+        self._add_token(83, "<HAS_3_LEFT>", "has three pokemon left.")
+        self._add_token(84, "<VS>", "vs")
+        self._add_token(85, "<LEADER>", "leader")
         self._add_token(70, "<LOGIC_AND>", "and")
         self._add_token(71, "<LOGIC_OR>", "or")
         self._add_token(72, "<LOGIC_NOT>", "not")
         self._add_token(63, "<HAS_MOVES>", "has moves")
         
         # 100-199: Types
+        self._add_token(199, "<UNKNOWN_POWER>", "unknown power")
         self._add_token(100, "<UNKNOWN_TYPE>", "unknown type")
-        self._add_token(197, "<TYPE_DARK>", "dark")
-        self._add_token(198, "<TYPE_FAIRY>", "fairy")
-        self._add_token(199, "<TYPE_STEEL>", "steel")
+        self._add_token(196, "<TYPE_DARK>", "dark")
+        self._add_token(197, "<TYPE_FAIRY>", "fairy")
+        self._add_token(198, "<TYPE_STEEL>", "steel")
         with open(os.path.join(self.data_dir, "type_chart.json"), "r", encoding="utf-8") as f:
             type_chart = json.load(f)
             
@@ -103,6 +119,9 @@ class PokemonTokenizer:
         self._add_token(911, "<ENC_FISHING>", "fishing")
         self._add_token(912, "<ENC_FOSSIL>", "fossil")
         self._add_token(913, "<ENC_EVOLUTION>", "evolution")
+        self._add_token(914, "<ENC_HATCHABLE>", "hatchable")
+        self._add_token(915, "<ATTACKER>", "attacker")
+        self._add_token(916, "<TARGET>", "target")
             
         # 1000+: POKEMON
         self._add_token(1000, "<UNKNOWN_PKMN>", "unknown pokemon")
@@ -135,10 +154,20 @@ class PokemonTokenizer:
         for val in range(-100, 510, 10):
             self._add_token(idx, f"<{val}>", str(val))
             idx += 1
+            
+        # Precompile regexes for fast lookup
+        self.search_terms = sorted(self.str_to_id.keys(), key=len, reverse=True)
+        self.search_patterns = []
+        for term in self.search_terms:
+            if "♀" in term or "♂" in term or term.endswith(".") or term.endswith("!"):
+                pattern = re.compile(re.escape(term))
+            else:
+                pattern = re.compile(r'\b' + re.escape(term) + r'\b')
+            self.search_patterns.append((term, pattern))
 
     def export_vocab(self, filepath="vocab.json"):
         """Exports the vocabulary mapping for HuggingFace compatibility."""
-        vocab = {tag: id for tag, id in self.tag_to_id.items()}
+        vocab = {tag: id for tag, id in sorted(self.tag_to_id.items(), key=lambda item: item[1])}
         with open(filepath, "w", encoding="utf-8") as f:
             json.dump(vocab, f, indent=4)
         print(f"Exported {len(vocab)} tokens to {filepath}")
@@ -146,6 +175,15 @@ class PokemonTokenizer:
     def encode_text(self, text, mode=None):
         """Translates free text into a list of Token IDs."""
         text = text.lower()
+        
+        # Strip out encounter numbers used for visual grouping
+        text = re.sub(r'\s*\(encounter \d+\)', '', text)
+        
+        # Replace leader names with "leader" so they alias to the <LEADER> token and prefix rules
+        leader_names = ["gary oak", "brock", "misty", "lieutenant surge", "erika", "koga", "sabrina", "blaine", "giovanni", "lorelei", "bruno", "agatha", "lance", "rival"]
+        for name in leader_names:
+            text = text.replace(name, "leader")
+            
         token_ids = []
         
         # Convert all numbers to bucketed representations so they map naturally to vocab
@@ -158,25 +196,11 @@ class PokemonTokenizer:
         if mode and f"<{mode}>" in self.tag_to_id:
             token_ids.append(self.tag_to_id[f"<{mode}>"])
             
-        # Very simple greedy extraction parser (longest match first)
-        # We sort by length descending so "Water Gun" matches before "Water"
-        search_terms = sorted(self.str_to_id.keys(), key=len, reverse=True)
-        
-        # Find all occurrences
+        # Find all occurrences using precompiled patterns
         matches = []
-        for term in search_terms:
-            for m in re.finditer(r'\b' + re.escape(term) + r'\b', text):
+        for term, pattern in self.search_patterns:
+            for m in pattern.finditer(text):
                 matches.append((m.start(), len(term), self.str_to_id[term]))
-                
-            # Handle special characters like Nidoran female
-            if "♀" in term or "♂" in term:
-                for m in re.finditer(re.escape(term), text):
-                    matches.append((m.start(), len(term), self.str_to_id[term]))
-                    
-            # Handle punctuation marks from effects
-            if term.endswith(".") or term.endswith("!"):
-                for m in re.finditer(re.escape(term), text):
-                    matches.append((m.start(), len(term), self.str_to_id[term]))
                     
         # Remove overlaps (keep longest match first)
         # Sort by start position (ascending), then by term length (descending)
@@ -209,7 +233,7 @@ class PokemonTokenizer:
                 if word == "hp":
                     filtered_matches.append((start_pos, self.tag_to_id.get("<HP_REMAINING>", unknown_id)))
                 else:
-                    closest = difflib.get_close_matches(word, search_terms, n=1, cutoff=0.75)
+                    closest = difflib.get_close_matches(word, self.search_terms, n=1, cutoff=0.75)
                     if closest:
                         filtered_matches.append((start_pos, self.str_to_id[closest[0]]))
                     else:

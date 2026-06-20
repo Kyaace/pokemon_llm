@@ -48,7 +48,7 @@ class PokemonDataset(Dataset):
         attention_mask = (item != 0).long()
         return {"input_ids": item, "attention_mask": attention_mask, "labels": labels}
 
-def train_persona(persona_name, corpus_files, num_epochs=15, base_model_path=None):
+def train_persona(persona_name, corpus_files, num_epochs=15, base_model_path=None, **kwargs):
     base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     vocab_file = os.path.join(base_dir, "vocab.json")
     corpus_dir = os.path.join(base_dir, "corpus")
@@ -90,17 +90,22 @@ def train_persona(persona_name, corpus_files, num_epochs=15, base_model_path=Non
     output_dir = os.path.join(base_dir, "models", persona_name.lower())
     os.makedirs(output_dir, exist_ok=True)
     
-    training_args = TrainingArguments(
-        output_dir=output_dir,
-        num_train_epochs=num_epochs,
-        learning_rate=3e-4,
-        per_device_train_batch_size=32,
-        save_steps=1000,
-        save_total_limit=2,
-        logging_steps=100,
-        prediction_loss_only=True,
-        report_to="none", # Disables wandb logging if installed
-    )
+    # Default arguments
+    train_kwargs = {
+        "output_dir": output_dir,
+        "num_train_epochs": num_epochs,
+        "learning_rate": 3e-4,
+        "per_device_train_batch_size": 32,
+        "save_steps": 1000,
+        "save_total_limit": 2,
+        "logging_steps": 100,
+        "prediction_loss_only": True,
+        "report_to": "none",
+    }
+    # Update with any passed kwargs
+    train_kwargs.update(kwargs)
+    
+    training_args = TrainingArguments(**train_kwargs)
 
     trainer = Trainer(
         model=model,

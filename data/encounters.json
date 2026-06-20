@@ -1,253 +1,799 @@
 {
-    "Bulbasaur": "gift",
-    "Ivysaur": "evolution",
-    "Venusaur": "evolution",
-    "Charmander": "gift",
-    "Charmeleon": "evolution",
-    "Charizard": "evolution",
-    "Squirtle": "gift",
-    "Wartortle": "evolution",
-    "Blastoise": "evolution",
-    "Caterpie": "uncommon wild",
-    "Metapod": "evolution",
-    "Butterfree": "evolution",
-    "Weedle": "common wild",
-    "Kakuna": "evolution",
-    "Beedrill": "evolution",
-    "Pidgey": "common wild",
-    "Pidgeotto": "evolution",
-    "Pidgeot": "evolution",
-    "Rattata": "common wild",
-    "Raticate": "evolution",
-    "Spearow": "uncommon wild",
-    "Fearow": "evolution",
-    "Ekans": "uncommon wild",
-    "Arbok": "evolution",
-    "Pikachu": "gift",
-    "Raichu": "evolution",
-    "Sandshrew": "uncommon wild",
-    "Sandslash": "evolution",
-    "NidoranF": "common wild",
-    "Nidorina": "evolution",
-    "Nidoqueen": "evolution",
-    "NidoranM": "common wild",
-    "Nidorino": "evolution",
-    "Nidoking": "evolution",
-    "Clefairy": "evolution",
-    "Clefable": "evolution",
-    "Vulpix": "common wild",
-    "Ninetales": "evolution",
-    "Jigglypuff": "evolution",
-    "Wigglytuff": "evolution",
-    "Zubat": "common wild",
-    "Golbat": "evolution",
-    "Oddish": "common wild",
-    "Gloom": "evolution",
-    "Vileplume": "evolution",
-    "Paras": "common wild",
-    "Parasect": "evolution",
-    "Venonat": "common wild",
-    "Venomoth": "evolution",
-    "Diglett": "uncommon wild",
-    "Dugtrio": "evolution",
-    "Meowth": "common wild",
-    "Persian": "evolution",
-    "Psyduck": "common wild",
-    "Golduck": "evolution",
-    "Mankey": "common wild",
-    "Primeape": "evolution",
-    "Growlithe": "uncommon wild",
-    "Arcanine": "evolution",
-    "Poliwag": "fishing",
-    "Poliwhirl": "evolution",
-    "Poliwrath": "evolution",
-    "Abra": "common wild",
-    "Kadabra": "evolution",
-    "Alakazam": "evolution",
-    "Machop": "uncommon wild",
-    "Machoke": "evolution",
-    "Machamp": "evolution",
-    "Bellsprout": "uncommon wild",
-    "Weepinbell": "evolution",
-    "Victreebel": "evolution",
-    "Tentacool": "fishing",
-    "Tentacruel": "evolution",
-    "Geodude": "common wild",
-    "Graveler": "evolution",
-    "Golem": "evolution",
-    "Ponyta": "common wild",
-    "Rapidash": "evolution",
-    "Slowpoke": "fishing",
-    "Slowbro": "evolution",
-    "Magnemite": "rare wild",
-    "Magneton": "evolution",
-    "Farfetch'd": "common wild",
-    "Doduo": "common wild",
-    "Dodrio": "evolution",
-    "Seel": "fishing",
-    "Dewgong": "evolution",
-    "Grimer": "common wild",
-    "Muk": "evolution",
-    "Shellder": "fishing",
-    "Cloyster": "evolution",
-    "Gastly": "uncommon wild",
-    "Haunter": "evolution",
-    "Gengar": "evolution",
-    "Onix": "uncommon wild",
-    "Drowzee": "uncommon wild",
-    "Hypno": "evolution",
-    "Krabby": "fishing",
-    "Kingler": "evolution",
-    "Voltorb": "uncommon wild",
-    "Electrode": "evolution",
-    "Exeggcute": "common wild",
-    "Exeggutor": "evolution",
-    "Cubone": "rare wild",
-    "Marowak": "evolution",
-    "Hitmonlee": "evolution",
-    "Hitmonchan": "evolution",
-    "Lickitung": "common wild",
-    "Koffing": "common wild",
-    "Weezing": "evolution",
-    "Rhyhorn": "uncommon wild",
-    "Rhydon": "evolution",
-    "Chansey": "evolution",
-    "Tangela": "uncommon wild",
-    "Kangaskhan": "uncommon wild",
-    "Horsea": "fishing",
-    "Seadra": "evolution",
-    "Goldeen": "fishing",
-    "Seaking": "evolution",
-    "Staryu": "fishing",
-    "Starmie": "evolution",
-    "Mr. Mime": "common wild",
-    "Scyther": "uncommon wild",
-    "Jynx": "evolution",
-    "Electabuzz": "evolution",
-    "Magmar": "evolution",
-    "Pinsir": "common wild",
-    "Tauros": "common wild",
-    "Magikarp": "fishing",
-    "Gyarados": "evolution",
-    "Lapras": "common wild",
-    "Ditto": "common wild",
-    "Eevee": "gift",
-    "Vaporeon": "evolution",
-    "Jolteon": "evolution",
-    "Flareon": "evolution",
-    "Porygon": "common wild",
-    "Omanyte": "fossil",
-    "Omastar": "evolution",
-    "Kabuto": "fossil",
-    "Kabutops": "evolution",
-    "Aerodactyl": "fossil",
-    "Snorlax": "evolution",
-    "Articuno": "unobtainable wild",
-    "Zapdos": "unobtainable wild",
-    "Moltres": "unobtainable wild",
-    "Dratini": "common wild",
-    "Dragonair": "evolution",
-    "Dragonite": "evolution",
-    "Mewtwo": "unobtainable wild",
-    "Mew": "unobtainable wild",
-    "Chikorita": "gift",
-    "Bayleef": "evolution",
-    "Meganium": "evolution",
-    "Cyndaquil": "gift",
-    "Quilava": "evolution",
-    "Typhlosion": "evolution",
-    "Totodile": "gift",
-    "Croconaw": "evolution",
-    "Feraligatr": "evolution",
-    "Sentret": "common wild",
-    "Furret": "evolution",
-    "Hoothoot": "uncommon wild",
-    "Noctowl": "evolution",
-    "Ledyba": "common wild",
-    "Ledian": "evolution",
-    "Spinarak": "common wild",
-    "Ariados": "evolution",
-    "Crobat": "evolution",
-    "Chinchou": "common wild",
-    "Lanturn": "evolution",
-    "Pichu": "common wild",
-    "Cleffa": "rare wild",
-    "Igglybuff": "uncommon wild",
-    "Togepi": "gift",
-    "Togetic": "evolution",
-    "Natu": "uncommon wild",
-    "Xatu": "evolution",
-    "Mareep": "common wild",
-    "Flaaffy": "evolution",
-    "Ampharos": "evolution",
-    "Bellossom": "evolution",
-    "Marill": "evolution",
-    "Azumarill": "evolution",
-    "Sudowoodo": "evolution",
-    "Politoed": "evolution",
-    "Hoppip": "uncommon wild",
-    "Skiploom": "evolution",
-    "Jumpluff": "evolution",
-    "Aipom": "common wild",
-    "Sunkern": "common wild",
-    "Sunflora": "evolution",
-    "Yanma": "rare wild",
-    "Wooper": "uncommon wild",
-    "Quagsire": "evolution",
-    "Espeon": "evolution",
-    "Umbreon": "evolution",
-    "Murkrow": "common wild",
-    "Slowking": "evolution",
-    "Misdreavus": "uncommon wild",
-    "Unown": "uncommon wild",
-    "Wobbuffet": "evolution",
-    "Girafarig": "uncommon wild",
-    "Pineco": "common wild",
-    "Forretress": "evolution",
-    "Dunsparce": "common wild",
-    "Gligar": "common wild",
-    "Steelix": "evolution",
-    "Snubbull": "common wild",
-    "Granbull": "evolution",
-    "Qwilfish": "common wild",
-    "Scizor": "evolution",
-    "Shuckle": "rare wild",
-    "Heracross": "uncommon wild",
-    "Sneasel": "common wild",
-    "Teddiursa": "uncommon wild",
-    "Ursaring": "evolution",
-    "Slugma": "common wild",
-    "Magcargo": "evolution",
-    "Swinub": "rare wild",
-    "Piloswine": "evolution",
-    "Corsola": "common wild",
-    "Remoraid": "common wild",
-    "Octillery": "evolution",
-    "Delibird": "common wild",
-    "Mantine": "evolution",
-    "Skarmory": "common wild",
-    "Houndour": "common wild",
-    "Houndoom": "evolution",
-    "Kingdra": "evolution",
-    "Phanpy": "common wild",
-    "Donphan": "evolution",
-    "Porygon2": "evolution",
-    "Stantler": "uncommon wild",
-    "Smeargle": "common wild",
-    "Tyrogue": "common wild",
-    "Hitmontop": "evolution",
-    "Smoochum": "rare wild",
-    "Elekid": "common wild",
-    "Magby": "common wild",
-    "Miltank": "common wild",
-    "Blissey": "evolution",
-    "Raikou": "unobtainable wild",
-    "Entei": "unobtainable wild",
-    "Suicune": "unobtainable wild",
-    "Larvitar": "common wild",
-    "Pupitar": "evolution",
-    "Tyranitar": "evolution",
-    "Lugia": "unobtainable wild",
-    "Ho-Oh": "unobtainable wild",
-    "Celebi": "unobtainable wild"
+    "Bulbasaur": [
+        "gift"
+    ],
+    "Ivysaur": [
+        "evolution"
+    ],
+    "Venusaur": [
+        "evolution"
+    ],
+    "Charmander": [
+        "gift"
+    ],
+    "Charmeleon": [
+        "evolution"
+    ],
+    "Charizard": [
+        "evolution"
+    ],
+    "Squirtle": [
+        "gift"
+    ],
+    "Wartortle": [
+        "evolution"
+    ],
+    "Blastoise": [
+        "evolution"
+    ],
+    "Caterpie": [
+        "common wild"
+    ],
+    "Metapod": [
+        "evolution",
+        "common wild"
+    ],
+    "Butterfree": [
+        "evolution"
+    ],
+    "Weedle": [
+        "common wild"
+    ],
+    "Kakuna": [
+        "evolution",
+        "common wild"
+    ],
+    "Beedrill": [
+        "evolution"
+    ],
+    "Pidgey": [
+        "common wild"
+    ],
+    "Pidgeotto": [
+        "evolution"
+    ],
+    "Pidgeot": [
+        "evolution"
+    ],
+    "Rattata": [
+        "common wild"
+    ],
+    "Raticate": [
+        "evolution",
+        "common wild"
+    ],
+    "Spearow": [
+        "common wild"
+    ],
+    "Fearow": [
+        "evolution",
+        "common wild"
+    ],
+    "Ekans": [
+        "common wild"
+    ],
+    "Arbok": [
+        "evolution",
+        "common wild"
+    ],
+    "Pikachu": [
+        "gift",
+        "rare wild"
+    ],
+    "Raichu": [
+        "evolution",
+        "rare wild"
+    ],
+    "Sandshrew": [
+        "common wild"
+    ],
+    "Sandslash": [
+        "evolution",
+        "rare wild"
+    ],
+    "NidoranF": [
+        "rare wild"
+    ],
+    "Nidorina": [
+        "evolution",
+        "common wild"
+    ],
+    "Nidoqueen": [
+        "evolution"
+    ],
+    "NidoranM": [
+        "rare wild"
+    ],
+    "Nidorino": [
+        "evolution",
+        "common wild"
+    ],
+    "Nidoking": [
+        "evolution"
+    ],
+    "Clefairy": [
+        "evolution",
+        "rare wild"
+    ],
+    "Clefable": [
+        "evolution"
+    ],
+    "Vulpix": [
+        "common wild"
+    ],
+    "Ninetales": [
+        "evolution"
+    ],
+    "Jigglypuff": [
+        "evolution",
+        "common wild"
+    ],
+    "Wigglytuff": [
+        "evolution",
+        "rare wild"
+    ],
+    "Zubat": [
+        "common wild"
+    ],
+    "Golbat": [
+        "evolution",
+        "common wild"
+    ],
+    "Oddish": [
+        "common wild"
+    ],
+    "Gloom": [
+        "evolution",
+        "rare wild"
+    ],
+    "Vileplume": [
+        "evolution"
+    ],
+    "Paras": [
+        "common wild"
+    ],
+    "Parasect": [
+        "evolution",
+        "common wild"
+    ],
+    "Venonat": [
+        "common wild"
+    ],
+    "Venomoth": [
+        "evolution",
+        "common wild"
+    ],
+    "Diglett": [
+        "common wild"
+    ],
+    "Dugtrio": [
+        "evolution",
+        "rare wild"
+    ],
+    "Meowth": [
+        "common wild"
+    ],
+    "Persian": [
+        "evolution"
+    ],
+    "Psyduck": [
+        "common wild",
+        "fishing"
+    ],
+    "Golduck": [
+        "evolution",
+        "rare wild"
+    ],
+    "Mankey": [
+        "common wild"
+    ],
+    "Primeape": [
+        "evolution"
+    ],
+    "Growlithe": [
+        "common wild"
+    ],
+    "Arcanine": [
+        "evolution"
+    ],
+    "Poliwag": [
+        "fishing"
+    ],
+    "Poliwhirl": [
+        "evolution"
+    ],
+    "Poliwrath": [
+        "evolution"
+    ],
+    "Abra": [
+        "common wild"
+    ],
+    "Kadabra": [
+        "evolution",
+        "common wild"
+    ],
+    "Alakazam": [
+        "evolution"
+    ],
+    "Machop": [
+        "common wild"
+    ],
+    "Machoke": [
+        "evolution"
+    ],
+    "Machamp": [
+        "evolution"
+    ],
+    "Bellsprout": [
+        "common wild"
+    ],
+    "Weepinbell": [
+        "evolution",
+        "rare wild"
+    ],
+    "Victreebel": [
+        "evolution"
+    ],
+    "Tentacool": [
+        "fishing",
+        "common wild",
+        "surf"
+    ],
+    "Tentacruel": [
+        "evolution"
+    ],
+    "Geodude": [
+        "common wild"
+    ],
+    "Graveler": [
+        "evolution"
+    ],
+    "Golem": [
+        "evolution"
+    ],
+    "Ponyta": [
+        "rare wild"
+    ],
+    "Rapidash": [
+        "evolution"
+    ],
+    "Slowpoke": [
+        "fishing",
+        "common wild"
+    ],
+    "Slowbro": [
+        "evolution",
+        "rare wild"
+    ],
+    "Magnemite": [
+        "rare wild"
+    ],
+    "Magneton": [
+        "evolution",
+        "common wild"
+    ],
+    "Farfetch'd": [
+        "rare wild"
+    ],
+    "Doduo": [
+        "common wild"
+    ],
+    "Dodrio": [
+        "evolution",
+        "common wild"
+    ],
+    "Seel": [
+        "fishing",
+        "common wild"
+    ],
+    "Dewgong": [
+        "evolution",
+        "common wild"
+    ],
+    "Grimer": [
+        "rare wild"
+    ],
+    "Muk": [
+        "evolution"
+    ],
+    "Shellder": [
+        "fishing",
+        "common wild"
+    ],
+    "Cloyster": [
+        "evolution"
+    ],
+    "Gastly": [
+        "common wild"
+    ],
+    "Haunter": [
+        "evolution",
+        "common wild"
+    ],
+    "Gengar": [
+        "evolution"
+    ],
+    "Onix": [
+        "rare wild"
+    ],
+    "Drowzee": [
+        "common wild"
+    ],
+    "Hypno": [
+        "evolution",
+        "common wild"
+    ],
+    "Krabby": [
+        "fishing",
+        "common wild"
+    ],
+    "Kingler": [
+        "evolution",
+        "rare wild"
+    ],
+    "Voltorb": [
+        "common wild"
+    ],
+    "Electrode": [
+        "evolution",
+        "common wild"
+    ],
+    "Exeggcute": [
+        "common wild"
+    ],
+    "Exeggutor": [
+        "evolution"
+    ],
+    "Cubone": [
+        "rare wild",
+        "common wild"
+    ],
+    "Marowak": [
+        "evolution",
+        "common wild"
+    ],
+    "Hitmonlee": [
+        "evolution"
+    ],
+    "Hitmonchan": [
+        "evolution"
+    ],
+    "Lickitung": [
+        "rare wild"
+    ],
+    "Koffing": [
+        "rare wild"
+    ],
+    "Weezing": [
+        "evolution"
+    ],
+    "Rhyhorn": [
+        "common wild"
+    ],
+    "Rhydon": [
+        "evolution",
+        "rare wild"
+    ],
+    "Chansey": [
+        "evolution",
+        "rare wild"
+    ],
+    "Tangela": [
+        "common wild"
+    ],
+    "Kangaskhan": [
+        "rare wild"
+    ],
+    "Horsea": [
+        "fishing",
+        "common wild"
+    ],
+    "Seadra": [
+        "evolution",
+        "rare wild"
+    ],
+    "Goldeen": [
+        "fishing"
+    ],
+    "Seaking": [
+        "evolution"
+    ],
+    "Staryu": [
+        "fishing",
+        "common wild"
+    ],
+    "Starmie": [
+        "evolution"
+    ],
+    "Mr. Mime": [
+        "rare wild"
+    ],
+    "Scyther": [
+        "rare wild"
+    ],
+    "Jynx": [
+        "evolution"
+    ],
+    "Electabuzz": [
+        "evolution"
+    ],
+    "Magmar": [
+        "evolution"
+    ],
+    "Pinsir": [
+        "rare wild"
+    ],
+    "Tauros": [
+        "rare wild"
+    ],
+    "Magikarp": [
+        "fishing"
+    ],
+    "Gyarados": [
+        "evolution"
+    ],
+    "Lapras": [
+        "gift"
+    ],
+    "Ditto": [
+        "rare wild"
+    ],
+    "Eevee": [
+        "gift"
+    ],
+    "Vaporeon": [
+        "evolution"
+    ],
+    "Jolteon": [
+        "evolution"
+    ],
+    "Flareon": [
+        "evolution"
+    ],
+    "Porygon": [
+        "rare wild"
+    ],
+    "Omanyte": [
+        "fossil"
+    ],
+    "Omastar": [
+        "evolution"
+    ],
+    "Kabuto": [
+        "fossil"
+    ],
+    "Kabutops": [
+        "evolution"
+    ],
+    "Aerodactyl": [
+        "fossil"
+    ],
+    "Snorlax": [
+        "evolution"
+    ],
+    "Articuno": [
+        "legendary"
+    ],
+    "Zapdos": [
+        "legendary"
+    ],
+    "Moltres": [
+        "legendary"
+    ],
+    "Dratini": [
+        "common wild",
+        "fishing"
+    ],
+    "Dragonair": [
+        "evolution"
+    ],
+    "Dragonite": [
+        "evolution"
+    ],
+    "Mewtwo": [
+        "legendary"
+    ],
+    "Mew": [
+        "legendary"
+    ],
+    "Chikorita": [
+        "gift"
+    ],
+    "Bayleef": [
+        "evolution"
+    ],
+    "Meganium": [
+        "evolution"
+    ],
+    "Cyndaquil": [
+        "gift"
+    ],
+    "Quilava": [
+        "evolution"
+    ],
+    "Typhlosion": [
+        "evolution"
+    ],
+    "Totodile": [
+        "gift"
+    ],
+    "Croconaw": [
+        "evolution"
+    ],
+    "Feraligatr": [
+        "evolution"
+    ],
+    "Sentret": [
+        "rare wild"
+    ],
+    "Furret": [
+        "evolution"
+    ],
+    "Hoothoot": [
+        "rare wild"
+    ],
+    "Noctowl": [
+        "evolution"
+    ],
+    "Ledyba": [
+        "rare wild"
+    ],
+    "Ledian": [
+        "evolution"
+    ],
+    "Spinarak": [
+        "rare wild"
+    ],
+    "Ariados": [
+        "evolution"
+    ],
+    "Crobat": [
+        "evolution"
+    ],
+    "Chinchou": [
+        "rare wild"
+    ],
+    "Lanturn": [
+        "evolution"
+    ],
+    "Pichu": [
+        "hatchable"
+    ],
+    "Cleffa": [
+        "hatchable"
+    ],
+    "Igglybuff": [
+        "hatchable"
+    ],
+    "Togepi": [
+        "hatchable"
+    ],
+    "Togetic": [
+        "evolution"
+    ],
+    "Natu": [
+        "rare wild"
+    ],
+    "Xatu": [
+        "evolution"
+    ],
+    "Mareep": [
+        "rare wild"
+    ],
+    "Flaaffy": [
+        "evolution"
+    ],
+    "Ampharos": [
+        "evolution"
+    ],
+    "Bellossom": [
+        "evolution"
+    ],
+    "Marill": [
+        "evolution"
+    ],
+    "Azumarill": [
+        "evolution"
+    ],
+    "Sudowoodo": [
+        "evolution"
+    ],
+    "Politoed": [
+        "evolution"
+    ],
+    "Hoppip": [
+        "rare wild"
+    ],
+    "Skiploom": [
+        "evolution"
+    ],
+    "Jumpluff": [
+        "evolution"
+    ],
+    "Aipom": [
+        "rare wild"
+    ],
+    "Sunkern": [
+        "rare wild"
+    ],
+    "Sunflora": [
+        "evolution"
+    ],
+    "Yanma": [
+        "rare wild"
+    ],
+    "Wooper": [
+        "rare wild"
+    ],
+    "Quagsire": [
+        "evolution"
+    ],
+    "Espeon": [
+        "evolution"
+    ],
+    "Umbreon": [
+        "evolution"
+    ],
+    "Murkrow": [
+        "rare wild"
+    ],
+    "Slowking": [
+        "evolution"
+    ],
+    "Misdreavus": [
+        "rare wild"
+    ],
+    "Unown": [
+        "rare wild"
+    ],
+    "Wobbuffet": [
+        "evolution"
+    ],
+    "Girafarig": [
+        "rare wild"
+    ],
+    "Pineco": [
+        "rare wild"
+    ],
+    "Forretress": [
+        "evolution"
+    ],
+    "Dunsparce": [
+        "rare wild"
+    ],
+    "Gligar": [
+        "rare wild"
+    ],
+    "Steelix": [
+        "evolution"
+    ],
+    "Snubbull": [
+        "rare wild"
+    ],
+    "Granbull": [
+        "evolution"
+    ],
+    "Qwilfish": [
+        "rare wild"
+    ],
+    "Scizor": [
+        "evolution"
+    ],
+    "Shuckle": [
+        "rare wild"
+    ],
+    "Heracross": [
+        "rare wild"
+    ],
+    "Sneasel": [
+        "rare wild"
+    ],
+    "Teddiursa": [
+        "rare wild"
+    ],
+    "Ursaring": [
+        "evolution"
+    ],
+    "Slugma": [
+        "rare wild"
+    ],
+    "Magcargo": [
+        "evolution"
+    ],
+    "Swinub": [
+        "rare wild"
+    ],
+    "Piloswine": [
+        "evolution"
+    ],
+    "Corsola": [
+        "rare wild"
+    ],
+    "Remoraid": [
+        "rare wild"
+    ],
+    "Octillery": [
+        "evolution"
+    ],
+    "Delibird": [
+        "rare wild"
+    ],
+    "Mantine": [
+        "evolution"
+    ],
+    "Skarmory": [
+        "rare wild"
+    ],
+    "Houndour": [
+        "rare wild"
+    ],
+    "Houndoom": [
+        "evolution"
+    ],
+    "Kingdra": [
+        "evolution"
+    ],
+    "Phanpy": [
+        "rare wild"
+    ],
+    "Donphan": [
+        "evolution"
+    ],
+    "Porygon2": [
+        "evolution"
+    ],
+    "Stantler": [
+        "rare wild"
+    ],
+    "Smeargle": [
+        "rare wild"
+    ],
+    "Tyrogue": [
+        "hatchable"
+    ],
+    "Hitmontop": [
+        "evolution"
+    ],
+    "Smoochum": [
+        "hatchable"
+    ],
+    "Elekid": [
+        "hatchable"
+    ],
+    "Magby": [
+        "hatchable"
+    ],
+    "Miltank": [
+        "rare wild"
+    ],
+    "Blissey": [
+        "evolution"
+    ],
+    "Raikou": [
+        "legendary"
+    ],
+    "Entei": [
+        "legendary"
+    ],
+    "Suicune": [
+        "legendary"
+    ],
+    "Larvitar": [
+        "rare wild"
+    ],
+    "Pupitar": [
+        "evolution"
+    ],
+    "Tyranitar": [
+        "evolution"
+    ],
+    "Lugia": [
+        "legendary"
+    ],
+    "Ho-Oh": [
+        "legendary"
+    ],
+    "Celebi": [
+        "legendary"
+    ]
 }
