@@ -111,6 +111,16 @@ def train_persona(persona_name, corpus_files, num_epochs=15, base_model_path=Non
     print("Starting training loop...")
     trainer.train()
     
+    # Export loss history for graphing
+    loss_history = []
+    for obj in trainer.state.log_history:
+        if "loss" in obj and "step" in obj:
+            loss_history.append({"step": obj["step"], "loss": obj["loss"]})
+            
+    with open(os.path.join(output_dir, "loss_history.json"), "w") as f:
+        json.dump(loss_history, f, indent=4)
+    print(f"Exported loss history to {os.path.join(output_dir, 'loss_history.json')}")
+    
     final_model_path = os.path.join(output_dir, "final")
     trainer.save_model(final_model_path)
     print(f"Training complete! Model saved to {final_model_path}")

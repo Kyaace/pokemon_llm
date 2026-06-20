@@ -66,6 +66,7 @@ class PokemonTokenizer:
         self._add_token(51, "<EFFECT_HURT_BIND>", "is hurt by bind.")
         self._add_token(52, "<EFFECT_RESTORED_SLEEP>", "went to sleep and restored its hp.")
         self._add_token(53, "<EFFECT_MISSED>", "It missed!")
+        self._add_token(54, "<TARGET_ITSELF>", "on itself.")
         self._add_token(70, "<LOGIC_AND>", "and")
         self._add_token(71, "<LOGIC_OR>", "or")
         self._add_token(72, "<LOGIC_NOT>", "not")
@@ -73,6 +74,9 @@ class PokemonTokenizer:
         
         # 100-199: Types
         self._add_token(100, "<UNKNOWN_TYPE>", "unknown type")
+        self._add_token(197, "<TYPE_DARK>", "dark")
+        self._add_token(198, "<TYPE_FAIRY>", "fairy")
+        self._add_token(199, "<TYPE_STEEL>", "steel")
         with open(os.path.join(self.data_dir, "type_chart.json"), "r", encoding="utf-8") as f:
             type_chart = json.load(f)
             
@@ -118,6 +122,13 @@ class PokemonTokenizer:
             formatted_pkmn = pkmn.upper().replace(" ", "_").replace("♀", "F").replace("♂", "M")
             # 1000 + Pokedex Index (1-indexed)
             self._add_token(1001 + i, f"<PKMN_{formatted_pkmn}>", pkmn)
+            if pkmn == "NidoranF":
+                self.str_to_id["nidoran ♀"] = 1001 + i
+                self.str_to_id["nidoran f"] = 1001 + i
+                self.str_to_id["nidoran"] = 1001 + i
+            if pkmn == "NidoranM":
+                self.str_to_id["nidoran ♂"] = 1001 + i
+                self.str_to_id["nidoran m"] = 1001 + i
 
         # 2000+: Bucketed Numbers (-100 to 500)
         idx = 2000
@@ -163,7 +174,7 @@ class PokemonTokenizer:
                     matches.append((m.start(), len(term), self.str_to_id[term]))
                     
             # Handle punctuation marks from effects
-            if term.endswith("."):
+            if term.endswith(".") or term.endswith("!"):
                 for m in re.finditer(re.escape(term), text):
                     matches.append((m.start(), len(term), self.str_to_id[term]))
                     

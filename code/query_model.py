@@ -1,6 +1,7 @@
 import cmd2
 import torch
 import os
+import collections
 from transformers import GPT2LMHeadModel
 from tokenizer import PokemonTokenizer
 
@@ -102,6 +103,86 @@ class ModelCLI(cmd2.Cmd):
             return
             
         self._generate(arg, mode="QUERY")
+
+    def do_battle_oracle(self, arg):
+        """Runs a Monte Carlo strategy search to find a winning path.
+        Example: battle-oracle Pikachu | Turn 10. Pikachu used"""
+        if "|" not in arg and "," not in arg:
+            self.poutput("Please provide a target winner and a seed, separated by '|' or ','.")
+            self.poutput("Example: battle-oracle Pikachu | Turn 10. Pikachu used")
+            return
+            
+        if "|" in arg:
+            parts = arg.split("|", 1)
+        else:
+            parts = arg.split(",", 1)
+            
+        target_winner = parts[0].strip()
+        input_text = parts[1].strip()
+        
+        try:
+            input_ids = self.tokenizer.encode_text(input_text, mode="BATTLE")
+        except ValueError as e:
+            self.poutput(f"Error: {e}")
+            return
+            
+        if input_ids and input_ids[-1] == 2:
+            input_ids = input_ids[:-1]
+            
+        if not input_ids:
+            self.poutput("Could not encode any tokens from that input.")
+            return
+            
+        self.poutput(f"\n[Oracle] Simulating 100 divergent timelines searching for a {target_winner} victory...")
+        
+        input_tensor = torch.tensor([input_ids], dtype=torch.long)
+        attention_mask = torch.ones_like(input_tensor)
+        
+        # We need to explicitly duplicate the input 100 times for parallel generation
+        # or use num_return_sequences=100.
+        with torch.no_grad():
+            output_tensors = self.model.generate(
+                input_tensor,
+                attention_mask=attention_mask,
+                max_new_tokens=100, # Give it enough room to finish a battle
+                eos_token_id=self.stop_tokens,
+                pad_token_id=0,
+                do_sample=True,     # Turn on Monte Carlo hallucination
+                temperature=0.8,
+                top_k=50,
+                num_return_sequences=100
+            )
+            
+        winning_continuations = []
+        target_str = f"{target_winner.lower()} won."
+        
+        # Decode and filter all 100 timelines
+        for out in output_tensors:
+            output_ids = out.tolist()
+            decoded_text = self.tokenizer.decode_to_text(output_ids)
+            if target_str in decoded_text.lower():
+                winning_continuations.append(decoded_text)
+                
+        if not winning_continuations:
+            self.poutput(f"\n[Oracle Result] I simulated 100 futures, but {target_winner} failed to win in any of them! The situation may be doomed.")
+            return
+            
+        self.poutput(f"\n[Oracle Result] Out of 100 simulated futures, {target_winner} won {len(winning_continuations)} times!")
+        
+        # Extract the immediate next action from the winning timelines
+        action_tally = collections.Counter()
+        for w in winning_continuations:
+            # Strip off the prompt to get only the generated continuation
+            gen_text = w[len(input_text):].strip()
+            # The immediate action is the very first sentence generated
+            first_sentence = gen_text.split(".")[0] + "."
+            action_tally[first_sentence] += 1
+            
+        self.poutput(f"\nRecommended immediate actions to achieve this victory:")
+        for action, count in action_tally.most_common(5):
+            percentage = (count / len(winning_continuations)) * 100
+            self.poutput(f"  - {action} ({percentage:.1f}% of winning timelines)")
+        self.poutput("\n")
 
     def do_exit(self, arg):
         """Exit the interface."""

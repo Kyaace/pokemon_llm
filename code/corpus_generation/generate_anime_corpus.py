@@ -76,7 +76,7 @@ def generate_hardcoded_battles():
         "Turn 10. Pikachu used Thunderbolt against Cubone. It was super effective. Cubone fainted. Pikachu won.",
         
         # Ash's Charizard being disobedient
-        "Turn 10. Charizard used Sleep against Poliwrath. It had no effect. Poliwrath has 100 HP remaining. Turn 20. Poliwrath used Water Gun against Charizard. It was super effective. Charizard fainted. Poliwrath won.",
+        "Turn 10. Charizard used Rest on itself. It had no effect. Poliwrath has 100 HP remaining. Turn 20. Poliwrath used Water Gun against Charizard. It was super effective. Charizard fainted. Poliwrath won.",
         # Other random gym/league battles from Ash's record
         "Turn 10. Butterfree used Stun Spore against Staryu. It was effective. Staryu has 30 HP remaining. Turn 20. Staryu used Tackle against Butterfree. It was effective. Butterfree fainted. Staryu won.",
         "Turn 10. Pidgeotto used Gust against Starmie. It was effective. Starmie has 20 HP remaining. Turn 20. Starmie used Tackle against Pidgeotto. It was effective. Pidgeotto has 20 HP remaining. Turn 30. Pidgeotto used Quick Attack against Starmie. It was effective. Starmie fainted. Pidgeotto won.",

@@ -11738,24 +11738,24 @@ fact barrage power is 15
 query barrage power answer 15
 fact bide type is normal
 query bide type answer normal
-fact bide power is 40
-query bide power answer 40
+fact bide power is 0
+query bide power answer 0
 fact bide type is normal
 query bide type answer normal
-fact bide power is 40
-query bide power answer 40
+fact bide power is 0
+query bide power answer 0
 fact bide type is normal
 query bide type answer normal
-fact bide power is 40
-query bide power answer 40
+fact bide power is 0
+query bide power answer 0
 fact bide type is normal
 query bide type answer normal
-fact bide power is 40
-query bide power answer 40
+fact bide power is 0
+query bide power answer 0
 fact bide type is normal
 query bide type answer normal
-fact bide power is 40
-query bide power answer 40
+fact bide power is 0
+query bide power answer 0
 fact bind type is normal
 query bind type answer normal
 fact bind power is 15
@@ -11946,24 +11946,24 @@ fact fire punch power is 75
 query fire punch power answer 75
 fact fire spin type is fire
 query fire spin type answer fire
-fact fire spin power is 15
-query fire spin power answer 15
+fact fire spin power is 35
+query fire spin power answer 35
 fact fire spin type is fire
 query fire spin type answer fire
-fact fire spin power is 15
-query fire spin power answer 15
+fact fire spin power is 35
+query fire spin power answer 35
 fact fire spin type is fire
 query fire spin type answer fire
-fact fire spin power is 15
-query fire spin power answer 15
+fact fire spin power is 35
+query fire spin power answer 35
 fact fire spin type is fire
 query fire spin type answer fire
-fact fire spin power is 15
-query fire spin power answer 15
+fact fire spin power is 35
+query fire spin power answer 35
 fact fire spin type is fire
 query fire spin type answer fire
-fact fire spin power is 15
-query fire spin power answer 15
+fact fire spin power is 35
+query fire spin power answer 35
 fact fissure type is ground
 query fissure type answer ground
 fact fissure power is 100
@@ -12254,24 +12254,24 @@ fact reflect power is -20
 query reflect power answer -20
 fact rest type is psychic
 query rest type answer psychic
-fact rest power is -20
-query rest power answer -20
+fact rest power is 0
+query rest power answer 0
 fact rest type is psychic
 query rest type answer psychic
-fact rest power is -20
-query rest power answer -20
+fact rest power is 0
+query rest power answer 0
 fact rest type is psychic
 query rest type answer psychic
-fact rest power is -20
-query rest power answer -20
+fact rest power is 0
+query rest power answer 0
 fact rest type is psychic
 query rest type answer psychic
-fact rest power is -20
-query rest power answer -20
+fact rest power is 0
+query rest power answer 0
 fact rest type is psychic
 query rest type answer psychic
-fact rest power is -20
-query rest power answer -20
+fact rest power is 0
+query rest power answer 0
 fact roar type is normal
 query roar type answer normal
 fact roar power is 0
@@ -12580,6 +12580,126 @@ fact zap cannon type is electric
 query zap cannon type answer electric
 fact zap cannon power is 120
 query zap cannon power answer 120
+fact metronome type is normal
+query metronome type answer normal
+fact metronome power is 0
+query metronome power answer 0
+fact metronome type is normal
+query metronome type answer normal
+fact metronome power is 0
+query metronome power answer 0
+fact metronome type is normal
+query metronome type answer normal
+fact metronome power is 0
+query metronome power answer 0
+fact metronome type is normal
+query metronome type answer normal
+fact metronome power is 0
+query metronome power answer 0
+fact metronome type is normal
+query metronome type answer normal
+fact metronome power is 0
+query metronome power answer 0
+fact encore type is normal
+query encore type answer normal
+fact encore power is 0
+query encore power answer 0
+fact encore type is normal
+query encore type answer normal
+fact encore power is 0
+query encore power answer 0
+fact encore type is normal
+query encore type answer normal
+fact encore power is 0
+query encore power answer 0
+fact encore type is normal
+query encore type answer normal
+fact encore power is 0
+query encore power answer 0
+fact encore type is normal
+query encore type answer normal
+fact encore power is 0
+query encore power answer 0
+fact disable type is normal
+query disable type answer normal
+fact disable power is 0
+query disable power answer 0
+fact disable type is normal
+query disable type answer normal
+fact disable power is 0
+query disable power answer 0
+fact disable type is normal
+query disable type answer normal
+fact disable power is 0
+query disable power answer 0
+fact disable type is normal
+query disable type answer normal
+fact disable power is 0
+query disable power answer 0
+fact disable type is normal
+query disable type answer normal
+fact disable power is 0
+query disable power answer 0
+fact mirror move type is flying
+query mirror move type answer flying
+fact mirror move power is 0
+query mirror move power answer 0
+fact mirror move type is flying
+query mirror move type answer flying
+fact mirror move power is 0
+query mirror move power answer 0
+fact mirror move type is flying
+query mirror move type answer flying
+fact mirror move power is 0
+query mirror move power answer 0
+fact mirror move type is flying
+query mirror move type answer flying
+fact mirror move power is 0
+query mirror move power answer 0
+fact mirror move type is flying
+query mirror move type answer flying
+fact mirror move power is 0
+query mirror move power answer 0
+fact sing type is normal
+query sing type answer normal
+fact sing power is 0
+query sing power answer 0
+fact sing type is normal
+query sing type answer normal
+fact sing power is 0
+query sing power answer 0
+fact sing type is normal
+query sing type answer normal
+fact sing power is 0
+query sing power answer 0
+fact sing type is normal
+query sing type answer normal
+fact sing power is 0
+query sing power answer 0
+fact sing type is normal
+query sing type answer normal
+fact sing power is 0
+query sing power answer 0
+fact copycat type is normal
+query copycat type answer normal
+fact copycat power is 0
+query copycat power answer 0
+fact copycat type is normal
+query copycat type answer normal
+fact copycat power is 0
+query copycat power answer 0
+fact copycat type is normal
+query copycat type answer normal
+fact copycat power is 0
+query copycat power answer 0
+fact copycat type is normal
+query copycat type answer normal
+fact copycat power is 0
+query copycat power answer 0
+fact copycat type is normal
+query copycat type answer normal
+fact copycat power is 0
+query copycat power answer 0
 fact normal type against normal type it was effective.
 query normal type against normal type answer it was effective.
 fact normal type against fire type it was effective.
@@ -12990,8 +13110,8 @@ fact ghost type against ground type it was effective.
 query ghost type against ground type answer it was effective.
 fact ghost type against flying type it was effective.
 query ghost type against flying type answer it was effective.
-fact ghost type against psychic type it had no effect.
-query ghost type against psychic type answer it had no effect.
+fact ghost type against psychic type it was super effective.
+query ghost type against psychic type answer it was super effective.
 fact ghost type against bug type it was effective.
 query ghost type against bug type answer it was effective.
 fact ghost type against rock type it was effective.
@@ -13162,8 +13282,8 @@ fact acid against pikachu it was effective.
 query acid against pikachu answer it was effective.
 fact acid against sandshrew it was not very effective.
 query acid against sandshrew answer it was not very effective.
-fact acid against clefairy it was effective.
-query acid against clefairy answer it was effective.
+fact acid against clefairy it was super effective.
+query acid against clefairy answer it was super effective.
 fact acid against mankey it was effective.
 query acid against mankey answer it was effective.
 fact acid against abra it was effective.
@@ -13946,14 +14066,14 @@ fact confuse ray against clefairy it was effective.
 query confuse ray against clefairy answer it was effective.
 fact confuse ray against mankey it was effective.
 query confuse ray against mankey answer it was effective.
-fact confuse ray against abra it had no effect.
-query confuse ray against abra answer it had no effect.
+fact confuse ray against abra it was super effective.
+query confuse ray against abra answer it was super effective.
 fact confuse ray against geodude it was effective.
 query confuse ray against geodude answer it was effective.
 fact confuse ray against gastly it was super effective.
 query confuse ray against gastly answer it was super effective.
-fact confuse ray against jynx it had no effect.
-query confuse ray against jynx answer it had no effect.
+fact confuse ray against jynx it was super effective.
+query confuse ray against jynx answer it was super effective.
 fact confuse ray against dratini it was effective.
 query confuse ray against dratini answer it was effective.
 fact confusion against bulbasaur it was super effective.
@@ -14032,8 +14152,8 @@ fact counter against pikachu it was effective.
 query counter against pikachu answer it was effective.
 fact counter against sandshrew it was effective.
 query counter against sandshrew answer it was effective.
-fact counter against clefairy it was effective.
-query counter against clefairy answer it was effective.
+fact counter against clefairy it was not very effective.
+query counter against clefairy answer it was not very effective.
 fact counter against mankey it was effective.
 query counter against mankey answer it was effective.
 fact counter against abra it was not very effective.
@@ -14092,8 +14212,8 @@ fact cross chop against pikachu it was effective.
 query cross chop against pikachu answer it was effective.
 fact cross chop against sandshrew it was effective.
 query cross chop against sandshrew answer it was effective.
-fact cross chop against clefairy it was effective.
-query cross chop against clefairy answer it was effective.
+fact cross chop against clefairy it was not very effective.
+query cross chop against clefairy answer it was not very effective.
 fact cross chop against mankey it was effective.
 query cross chop against mankey answer it was effective.
 fact cross chop against abra it was not very effective.
@@ -14122,18 +14242,18 @@ fact crunch against pikachu it was effective.
 query crunch against pikachu answer it was effective.
 fact crunch against sandshrew it was effective.
 query crunch against sandshrew answer it was effective.
-fact crunch against clefairy it was effective.
-query crunch against clefairy answer it was effective.
-fact crunch against mankey it was effective.
-query crunch against mankey answer it was effective.
-fact crunch against abra it was effective.
-query crunch against abra answer it was effective.
+fact crunch against clefairy it was not very effective.
+query crunch against clefairy answer it was not very effective.
+fact crunch against mankey it was not very effective.
+query crunch against mankey answer it was not very effective.
+fact crunch against abra it was super effective.
+query crunch against abra answer it was super effective.
 fact crunch against geodude it was effective.
 query crunch against geodude answer it was effective.
-fact crunch against gastly it was effective.
-query crunch against gastly answer it was effective.
-fact crunch against jynx it was effective.
-query crunch against jynx answer it was effective.
+fact crunch against gastly it was super effective.
+query crunch against gastly answer it was super effective.
+fact crunch against jynx it was super effective.
+query crunch against jynx answer it was super effective.
 fact crunch against dratini it was effective.
 query crunch against dratini answer it was effective.
 fact cut against bulbasaur it was effective.
@@ -14392,8 +14512,8 @@ fact double kick against pikachu it was effective.
 query double kick against pikachu answer it was effective.
 fact double kick against sandshrew it was effective.
 query double kick against sandshrew answer it was effective.
-fact double kick against clefairy it was effective.
-query double kick against clefairy answer it was effective.
+fact double kick against clefairy it was not very effective.
+query double kick against clefairy answer it was not very effective.
 fact double kick against mankey it was effective.
 query double kick against mankey answer it was effective.
 fact double kick against abra it was not very effective.
@@ -14452,8 +14572,8 @@ fact dragon breath against pikachu it was effective.
 query dragon breath against pikachu answer it was effective.
 fact dragon breath against sandshrew it was effective.
 query dragon breath against sandshrew answer it was effective.
-fact dragon breath against clefairy it was effective.
-query dragon breath against clefairy answer it was effective.
+fact dragon breath against clefairy it had no effect.
+query dragon breath against clefairy answer it had no effect.
 fact dragon breath against mankey it was effective.
 query dragon breath against mankey answer it was effective.
 fact dragon breath against abra it was effective.
@@ -14482,8 +14602,8 @@ fact dragon rage against pikachu it was effective.
 query dragon rage against pikachu answer it was effective.
 fact dragon rage against sandshrew it was effective.
 query dragon rage against sandshrew answer it was effective.
-fact dragon rage against clefairy it was effective.
-query dragon rage against clefairy answer it was effective.
+fact dragon rage against clefairy it had no effect.
+query dragon rage against clefairy answer it had no effect.
 fact dragon rage against mankey it was effective.
 query dragon rage against mankey answer it was effective.
 fact dragon rage against abra it was effective.
@@ -14572,8 +14692,8 @@ fact dynamic punch against pikachu it was effective.
 query dynamic punch against pikachu answer it was effective.
 fact dynamic punch against sandshrew it was effective.
 query dynamic punch against sandshrew answer it was effective.
-fact dynamic punch against clefairy it was effective.
-query dynamic punch against clefairy answer it was effective.
+fact dynamic punch against clefairy it was not very effective.
+query dynamic punch against clefairy answer it was not very effective.
 fact dynamic punch against mankey it was effective.
 query dynamic punch against mankey answer it was effective.
 fact dynamic punch against abra it was not very effective.
@@ -14782,18 +14902,18 @@ fact feint attack against pikachu it was effective.
 query feint attack against pikachu answer it was effective.
 fact feint attack against sandshrew it was effective.
 query feint attack against sandshrew answer it was effective.
-fact feint attack against clefairy it was effective.
-query feint attack against clefairy answer it was effective.
-fact feint attack against mankey it was effective.
-query feint attack against mankey answer it was effective.
-fact feint attack against abra it was effective.
-query feint attack against abra answer it was effective.
+fact feint attack against clefairy it was not very effective.
+query feint attack against clefairy answer it was not very effective.
+fact feint attack against mankey it was not very effective.
+query feint attack against mankey answer it was not very effective.
+fact feint attack against abra it was super effective.
+query feint attack against abra answer it was super effective.
 fact feint attack against geodude it was effective.
 query feint attack against geodude answer it was effective.
-fact feint attack against gastly it was effective.
-query feint attack against gastly answer it was effective.
-fact feint attack against jynx it was effective.
-query feint attack against jynx answer it was effective.
+fact feint attack against gastly it was super effective.
+query feint attack against gastly answer it was super effective.
+fact feint attack against jynx it was super effective.
+query feint attack against jynx answer it was super effective.
 fact feint attack against dratini it was effective.
 query feint attack against dratini answer it was effective.
 fact fire blast against bulbasaur it was super effective.
@@ -15292,8 +15412,8 @@ fact fury cutter against pikachu it was effective.
 query fury cutter against pikachu answer it was effective.
 fact fury cutter against sandshrew it was effective.
 query fury cutter against sandshrew answer it was effective.
-fact fury cutter against clefairy it was effective.
-query fury cutter against clefairy answer it was effective.
+fact fury cutter against clefairy it was not very effective.
+query fury cutter against clefairy answer it was not very effective.
 fact fury cutter against mankey it was not very effective.
 query fury cutter against mankey answer it was not very effective.
 fact fury cutter against abra it was super effective.
@@ -15622,8 +15742,8 @@ fact high jump kick against pikachu it was effective.
 query high jump kick against pikachu answer it was effective.
 fact high jump kick against sandshrew it was effective.
 query high jump kick against sandshrew answer it was effective.
-fact high jump kick against clefairy it was effective.
-query high jump kick against clefairy answer it was effective.
+fact high jump kick against clefairy it was not very effective.
+query high jump kick against clefairy answer it was not very effective.
 fact high jump kick against mankey it was effective.
 query high jump kick against mankey answer it was effective.
 fact high jump kick against abra it was not very effective.
@@ -15998,32 +16118,32 @@ fact icy wind against dratini it was super effective.
 query icy wind against dratini answer it was super effective.
 fact iron tail against bulbasaur it was effective.
 query iron tail against bulbasaur answer it was effective.
-fact iron tail against charmander it was effective.
-query iron tail against charmander answer it was effective.
-fact iron tail against squirtle it was effective.
-query iron tail against squirtle answer it was effective.
+fact iron tail against charmander it was not very effective.
+query iron tail against charmander answer it was not very effective.
+fact iron tail against squirtle it was not very effective.
+query iron tail against squirtle answer it was not very effective.
 fact iron tail against caterpie it was effective.
 query iron tail against caterpie answer it was effective.
 fact iron tail against pidgey it was effective.
 query iron tail against pidgey answer it was effective.
 fact iron tail against ekans it was effective.
 query iron tail against ekans answer it was effective.
-fact iron tail against pikachu it was effective.
-query iron tail against pikachu answer it was effective.
+fact iron tail against pikachu it was not very effective.
+query iron tail against pikachu answer it was not very effective.
 fact iron tail against sandshrew it was effective.
 query iron tail against sandshrew answer it was effective.
-fact iron tail against clefairy it was effective.
-query iron tail against clefairy answer it was effective.
+fact iron tail against clefairy it was super effective.
+query iron tail against clefairy answer it was super effective.
 fact iron tail against mankey it was effective.
 query iron tail against mankey answer it was effective.
 fact iron tail against abra it was effective.
 query iron tail against abra answer it was effective.
-fact iron tail against geodude it was effective.
-query iron tail against geodude answer it was effective.
+fact iron tail against geodude it was super effective.
+query iron tail against geodude answer it was super effective.
 fact iron tail against gastly it was effective.
 query iron tail against gastly answer it was effective.
-fact iron tail against jynx it was effective.
-query iron tail against jynx answer it was effective.
+fact iron tail against jynx it was super effective.
+query iron tail against jynx answer it was super effective.
 fact iron tail against dratini it was effective.
 query iron tail against dratini answer it was effective.
 fact jump kick against bulbasaur it was not very effective.
@@ -16042,8 +16162,8 @@ fact jump kick against pikachu it was effective.
 query jump kick against pikachu answer it was effective.
 fact jump kick against sandshrew it was effective.
 query jump kick against sandshrew answer it was effective.
-fact jump kick against clefairy it was effective.
-query jump kick against clefairy answer it was effective.
+fact jump kick against clefairy it was not very effective.
+query jump kick against clefairy answer it was not very effective.
 fact jump kick against mankey it was effective.
 query jump kick against mankey answer it was effective.
 fact jump kick against abra it was not very effective.
@@ -16072,8 +16192,8 @@ fact karate chop against pikachu it was effective.
 query karate chop against pikachu answer it was effective.
 fact karate chop against sandshrew it was effective.
 query karate chop against sandshrew answer it was effective.
-fact karate chop against clefairy it was effective.
-query karate chop against clefairy answer it was effective.
+fact karate chop against clefairy it was not very effective.
+query karate chop against clefairy answer it was not very effective.
 fact karate chop against mankey it was effective.
 query karate chop against mankey answer it was effective.
 fact karate chop against abra it was not very effective.
@@ -16102,8 +16222,8 @@ fact leech life against pikachu it was effective.
 query leech life against pikachu answer it was effective.
 fact leech life against sandshrew it was effective.
 query leech life against sandshrew answer it was effective.
-fact leech life against clefairy it was effective.
-query leech life against clefairy answer it was effective.
+fact leech life against clefairy it was not very effective.
+query leech life against clefairy answer it was not very effective.
 fact leech life against mankey it was not very effective.
 query leech life against mankey answer it was not very effective.
 fact leech life against abra it was super effective.
@@ -16196,14 +16316,14 @@ fact lick against clefairy it was effective.
 query lick against clefairy answer it was effective.
 fact lick against mankey it was effective.
 query lick against mankey answer it was effective.
-fact lick against abra it had no effect.
-query lick against abra answer it had no effect.
+fact lick against abra it was super effective.
+query lick against abra answer it was super effective.
 fact lick against geodude it was effective.
 query lick against geodude answer it was effective.
 fact lick against gastly it was super effective.
 query lick against gastly answer it was super effective.
-fact lick against jynx it had no effect.
-query lick against jynx answer it had no effect.
+fact lick against jynx it was super effective.
+query lick against jynx answer it was super effective.
 fact lick against dratini it was effective.
 query lick against dratini answer it was effective.
 fact light screen against bulbasaur it was super effective.
@@ -16282,8 +16402,8 @@ fact low kick against pikachu it was effective.
 query low kick against pikachu answer it was effective.
 fact low kick against sandshrew it was effective.
 query low kick against sandshrew answer it was effective.
-fact low kick against clefairy it was effective.
-query low kick against clefairy answer it was effective.
+fact low kick against clefairy it was not very effective.
+query low kick against clefairy answer it was not very effective.
 fact low kick against mankey it was effective.
 query low kick against mankey answer it was effective.
 fact low kick against abra it was not very effective.
@@ -16312,8 +16432,8 @@ fact mach punch against pikachu it was effective.
 query mach punch against pikachu answer it was effective.
 fact mach punch against sandshrew it was effective.
 query mach punch against sandshrew answer it was effective.
-fact mach punch against clefairy it was effective.
-query mach punch against clefairy answer it was effective.
+fact mach punch against clefairy it was not very effective.
+query mach punch against clefairy answer it was not very effective.
 fact mach punch against mankey it was effective.
 query mach punch against mankey answer it was effective.
 fact mach punch against abra it was not very effective.
@@ -16432,8 +16552,8 @@ fact megahorn against pikachu it was effective.
 query megahorn against pikachu answer it was effective.
 fact megahorn against sandshrew it was effective.
 query megahorn against sandshrew answer it was effective.
-fact megahorn against clefairy it was effective.
-query megahorn against clefairy answer it was effective.
+fact megahorn against clefairy it was not very effective.
+query megahorn against clefairy answer it was not very effective.
 fact megahorn against mankey it was not very effective.
 query megahorn against mankey answer it was not very effective.
 fact megahorn against abra it was super effective.
@@ -16448,32 +16568,32 @@ fact megahorn against dratini it was effective.
 query megahorn against dratini answer it was effective.
 fact metal claw against bulbasaur it was effective.
 query metal claw against bulbasaur answer it was effective.
-fact metal claw against charmander it was effective.
-query metal claw against charmander answer it was effective.
-fact metal claw against squirtle it was effective.
-query metal claw against squirtle answer it was effective.
+fact metal claw against charmander it was not very effective.
+query metal claw against charmander answer it was not very effective.
+fact metal claw against squirtle it was not very effective.
+query metal claw against squirtle answer it was not very effective.
 fact metal claw against caterpie it was effective.
 query metal claw against caterpie answer it was effective.
 fact metal claw against pidgey it was effective.
 query metal claw against pidgey answer it was effective.
 fact metal claw against ekans it was effective.
 query metal claw against ekans answer it was effective.
-fact metal claw against pikachu it was effective.
-query metal claw against pikachu answer it was effective.
+fact metal claw against pikachu it was not very effective.
+query metal claw against pikachu answer it was not very effective.
 fact metal claw against sandshrew it was effective.
 query metal claw against sandshrew answer it was effective.
-fact metal claw against clefairy it was effective.
-query metal claw against clefairy answer it was effective.
+fact metal claw against clefairy it was super effective.
+query metal claw against clefairy answer it was super effective.
 fact metal claw against mankey it was effective.
 query metal claw against mankey answer it was effective.
 fact metal claw against abra it was effective.
 query metal claw against abra answer it was effective.
-fact metal claw against geodude it was effective.
-query metal claw against geodude answer it was effective.
+fact metal claw against geodude it was super effective.
+query metal claw against geodude answer it was super effective.
 fact metal claw against gastly it was effective.
 query metal claw against gastly answer it was effective.
-fact metal claw against jynx it was effective.
-query metal claw against jynx answer it was effective.
+fact metal claw against jynx it was super effective.
+query metal claw against jynx answer it was super effective.
 fact metal claw against dratini it was effective.
 query metal claw against dratini answer it was effective.
 fact mud slap against bulbasaur it was effective.
@@ -16526,14 +16646,14 @@ fact night shade against clefairy it was effective.
 query night shade against clefairy answer it was effective.
 fact night shade against mankey it was effective.
 query night shade against mankey answer it was effective.
-fact night shade against abra it had no effect.
-query night shade against abra answer it had no effect.
+fact night shade against abra it was super effective.
+query night shade against abra answer it was super effective.
 fact night shade against geodude it was effective.
 query night shade against geodude answer it was effective.
 fact night shade against gastly it was super effective.
 query night shade against gastly answer it was super effective.
-fact night shade against jynx it had no effect.
-query night shade against jynx answer it had no effect.
+fact night shade against jynx it was super effective.
+query night shade against jynx answer it was super effective.
 fact night shade against dratini it was effective.
 query night shade against dratini answer it was effective.
 fact octazooka against bulbasaur it was not very effective.
@@ -16582,8 +16702,8 @@ fact outrage against pikachu it was effective.
 query outrage against pikachu answer it was effective.
 fact outrage against sandshrew it was effective.
 query outrage against sandshrew answer it was effective.
-fact outrage against clefairy it was effective.
-query outrage against clefairy answer it was effective.
+fact outrage against clefairy it had no effect.
+query outrage against clefairy answer it had no effect.
 fact outrage against mankey it was effective.
 query outrage against mankey answer it was effective.
 fact outrage against abra it was effective.
@@ -16702,8 +16822,8 @@ fact pin missile against pikachu it was effective.
 query pin missile against pikachu answer it was effective.
 fact pin missile against sandshrew it was effective.
 query pin missile against sandshrew answer it was effective.
-fact pin missile against clefairy it was effective.
-query pin missile against clefairy answer it was effective.
+fact pin missile against clefairy it was not very effective.
+query pin missile against clefairy answer it was not very effective.
 fact pin missile against mankey it was not very effective.
 query pin missile against mankey answer it was not very effective.
 fact pin missile against abra it was super effective.
@@ -16732,8 +16852,8 @@ fact poison powder against pikachu it was effective.
 query poison powder against pikachu answer it was effective.
 fact poison powder against sandshrew it was not very effective.
 query poison powder against sandshrew answer it was not very effective.
-fact poison powder against clefairy it was effective.
-query poison powder against clefairy answer it was effective.
+fact poison powder against clefairy it was super effective.
+query poison powder against clefairy answer it was super effective.
 fact poison powder against mankey it was effective.
 query poison powder against mankey answer it was effective.
 fact poison powder against abra it was effective.
@@ -16762,8 +16882,8 @@ fact poison sting against pikachu it was effective.
 query poison sting against pikachu answer it was effective.
 fact poison sting against sandshrew it was not very effective.
 query poison sting against sandshrew answer it was not very effective.
-fact poison sting against clefairy it was effective.
-query poison sting against clefairy answer it was effective.
+fact poison sting against clefairy it was super effective.
+query poison sting against clefairy answer it was super effective.
 fact poison sting against mankey it was effective.
 query poison sting against mankey answer it was effective.
 fact poison sting against abra it was effective.
@@ -16942,18 +17062,18 @@ fact pursuit against pikachu it was effective.
 query pursuit against pikachu answer it was effective.
 fact pursuit against sandshrew it was effective.
 query pursuit against sandshrew answer it was effective.
-fact pursuit against clefairy it was effective.
-query pursuit against clefairy answer it was effective.
-fact pursuit against mankey it was effective.
-query pursuit against mankey answer it was effective.
-fact pursuit against abra it was effective.
-query pursuit against abra answer it was effective.
+fact pursuit against clefairy it was not very effective.
+query pursuit against clefairy answer it was not very effective.
+fact pursuit against mankey it was not very effective.
+query pursuit against mankey answer it was not very effective.
+fact pursuit against abra it was super effective.
+query pursuit against abra answer it was super effective.
 fact pursuit against geodude it was effective.
 query pursuit against geodude answer it was effective.
-fact pursuit against gastly it was effective.
-query pursuit against gastly answer it was effective.
-fact pursuit against jynx it was effective.
-query pursuit against jynx answer it was effective.
+fact pursuit against gastly it was super effective.
+query pursuit against gastly answer it was super effective.
+fact pursuit against jynx it was super effective.
+query pursuit against jynx answer it was super effective.
 fact pursuit against dratini it was effective.
 query pursuit against dratini answer it was effective.
 fact quick attack against bulbasaur it was effective.
@@ -17392,8 +17512,8 @@ fact rock smash against pikachu it was effective.
 query rock smash against pikachu answer it was effective.
 fact rock smash against sandshrew it was effective.
 query rock smash against sandshrew answer it was effective.
-fact rock smash against clefairy it was effective.
-query rock smash against clefairy answer it was effective.
+fact rock smash against clefairy it was not very effective.
+query rock smash against clefairy answer it was not very effective.
 fact rock smash against mankey it was effective.
 query rock smash against mankey answer it was effective.
 fact rock smash against abra it was not very effective.
@@ -17452,8 +17572,8 @@ fact rolling kick against pikachu it was effective.
 query rolling kick against pikachu answer it was effective.
 fact rolling kick against sandshrew it was effective.
 query rolling kick against sandshrew answer it was effective.
-fact rolling kick against clefairy it was effective.
-query rolling kick against clefairy answer it was effective.
+fact rolling kick against clefairy it was not very effective.
+query rolling kick against clefairy answer it was not very effective.
 fact rolling kick against mankey it was effective.
 query rolling kick against mankey answer it was effective.
 fact rolling kick against abra it was not very effective.
@@ -17636,14 +17756,14 @@ fact shadow ball against clefairy it was effective.
 query shadow ball against clefairy answer it was effective.
 fact shadow ball against mankey it was effective.
 query shadow ball against mankey answer it was effective.
-fact shadow ball against abra it had no effect.
-query shadow ball against abra answer it had no effect.
+fact shadow ball against abra it was super effective.
+query shadow ball against abra answer it was super effective.
 fact shadow ball against geodude it was effective.
 query shadow ball against geodude answer it was effective.
 fact shadow ball against gastly it was super effective.
 query shadow ball against gastly answer it was super effective.
-fact shadow ball against jynx it had no effect.
-query shadow ball against jynx answer it had no effect.
+fact shadow ball against jynx it was super effective.
+query shadow ball against jynx answer it was super effective.
 fact shadow ball against dratini it was effective.
 query shadow ball against dratini answer it was effective.
 fact sketch against bulbasaur it was effective.
@@ -18082,8 +18202,8 @@ fact sludge against pikachu it was effective.
 query sludge against pikachu answer it was effective.
 fact sludge against sandshrew it was not very effective.
 query sludge against sandshrew answer it was not very effective.
-fact sludge against clefairy it was effective.
-query sludge against clefairy answer it was effective.
+fact sludge against clefairy it was super effective.
+query sludge against clefairy answer it was super effective.
 fact sludge against mankey it was effective.
 query sludge against mankey answer it was effective.
 fact sludge against abra it was effective.
@@ -18112,8 +18232,8 @@ fact sludge bomb against pikachu it was effective.
 query sludge bomb against pikachu answer it was effective.
 fact sludge bomb against sandshrew it was not very effective.
 query sludge bomb against sandshrew answer it was not very effective.
-fact sludge bomb against clefairy it was effective.
-query sludge bomb against clefairy answer it was effective.
+fact sludge bomb against clefairy it was super effective.
+query sludge bomb against clefairy answer it was super effective.
 fact sludge bomb against mankey it was effective.
 query sludge bomb against mankey answer it was effective.
 fact sludge bomb against abra it was effective.
@@ -18142,8 +18262,8 @@ fact smog against pikachu it was effective.
 query smog against pikachu answer it was effective.
 fact smog against sandshrew it was not very effective.
 query smog against sandshrew answer it was not very effective.
-fact smog against clefairy it was effective.
-query smog against clefairy answer it was effective.
+fact smog against clefairy it was super effective.
+query smog against clefairy answer it was super effective.
 fact smog against mankey it was effective.
 query smog against mankey answer it was effective.
 fact smog against abra it was effective.
@@ -18338,32 +18458,32 @@ fact spike cannon against dratini it was effective.
 query spike cannon against dratini answer it was effective.
 fact steel wing against bulbasaur it was effective.
 query steel wing against bulbasaur answer it was effective.
-fact steel wing against charmander it was effective.
-query steel wing against charmander answer it was effective.
-fact steel wing against squirtle it was effective.
-query steel wing against squirtle answer it was effective.
+fact steel wing against charmander it was not very effective.
+query steel wing against charmander answer it was not very effective.
+fact steel wing against squirtle it was not very effective.
+query steel wing against squirtle answer it was not very effective.
 fact steel wing against caterpie it was effective.
 query steel wing against caterpie answer it was effective.
 fact steel wing against pidgey it was effective.
 query steel wing against pidgey answer it was effective.
 fact steel wing against ekans it was effective.
 query steel wing against ekans answer it was effective.
-fact steel wing against pikachu it was effective.
-query steel wing against pikachu answer it was effective.
+fact steel wing against pikachu it was not very effective.
+query steel wing against pikachu answer it was not very effective.
 fact steel wing against sandshrew it was effective.
 query steel wing against sandshrew answer it was effective.
-fact steel wing against clefairy it was effective.
-query steel wing against clefairy answer it was effective.
+fact steel wing against clefairy it was super effective.
+query steel wing against clefairy answer it was super effective.
 fact steel wing against mankey it was effective.
 query steel wing against mankey answer it was effective.
 fact steel wing against abra it was effective.
 query steel wing against abra answer it was effective.
-fact steel wing against geodude it was effective.
-query steel wing against geodude answer it was effective.
+fact steel wing against geodude it was super effective.
+query steel wing against geodude answer it was super effective.
 fact steel wing against gastly it was effective.
 query steel wing against gastly answer it was effective.
-fact steel wing against jynx it was effective.
-query steel wing against jynx answer it was effective.
+fact steel wing against jynx it was super effective.
+query steel wing against jynx answer it was super effective.
 fact steel wing against dratini it was effective.
 query steel wing against dratini answer it was effective.
 fact stomp against bulbasaur it was effective.
@@ -18502,8 +18622,8 @@ fact submission against pikachu it was effective.
 query submission against pikachu answer it was effective.
 fact submission against sandshrew it was effective.
 query submission against sandshrew answer it was effective.
-fact submission against clefairy it was effective.
-query submission against clefairy answer it was effective.
+fact submission against clefairy it was not very effective.
+query submission against clefairy answer it was not very effective.
 fact submission against mankey it was effective.
 query submission against mankey answer it was effective.
 fact submission against abra it was not very effective.
@@ -18712,18 +18832,18 @@ fact thief against pikachu it was effective.
 query thief against pikachu answer it was effective.
 fact thief against sandshrew it was effective.
 query thief against sandshrew answer it was effective.
-fact thief against clefairy it was effective.
-query thief against clefairy answer it was effective.
-fact thief against mankey it was effective.
-query thief against mankey answer it was effective.
-fact thief against abra it was effective.
-query thief against abra answer it was effective.
+fact thief against clefairy it was not very effective.
+query thief against clefairy answer it was not very effective.
+fact thief against mankey it was not very effective.
+query thief against mankey answer it was not very effective.
+fact thief against abra it was super effective.
+query thief against abra answer it was super effective.
 fact thief against geodude it was effective.
 query thief against geodude answer it was effective.
-fact thief against gastly it was effective.
-query thief against gastly answer it was effective.
-fact thief against jynx it was effective.
-query thief against jynx answer it was effective.
+fact thief against gastly it was super effective.
+query thief against gastly answer it was super effective.
+fact thief against jynx it was super effective.
+query thief against jynx answer it was super effective.
 fact thief against dratini it was effective.
 query thief against dratini answer it was effective.
 fact thrash against bulbasaur it was effective.
@@ -18982,8 +19102,8 @@ fact toxic against pikachu it was effective.
 query toxic against pikachu answer it was effective.
 fact toxic against sandshrew it was not very effective.
 query toxic against sandshrew answer it was not very effective.
-fact toxic against clefairy it was effective.
-query toxic against clefairy answer it was effective.
+fact toxic against clefairy it was super effective.
+query toxic against clefairy answer it was super effective.
 fact toxic against mankey it was effective.
 query toxic against mankey answer it was effective.
 fact toxic against abra it was effective.
@@ -19192,8 +19312,8 @@ fact twineedle against pikachu it was effective.
 query twineedle against pikachu answer it was effective.
 fact twineedle against sandshrew it was effective.
 query twineedle against sandshrew answer it was effective.
-fact twineedle against clefairy it was effective.
-query twineedle against clefairy answer it was effective.
+fact twineedle against clefairy it was not very effective.
+query twineedle against clefairy answer it was not very effective.
 fact twineedle against mankey it was not very effective.
 query twineedle against mankey answer it was not very effective.
 fact twineedle against abra it was super effective.
@@ -19222,8 +19342,8 @@ fact twister against pikachu it was effective.
 query twister against pikachu answer it was effective.
 fact twister against sandshrew it was effective.
 query twister against sandshrew answer it was effective.
-fact twister against clefairy it was effective.
-query twister against clefairy answer it was effective.
+fact twister against clefairy it had no effect.
+query twister against clefairy answer it had no effect.
 fact twister against mankey it was effective.
 query twister against mankey answer it was effective.
 fact twister against abra it was effective.
@@ -19312,8 +19432,8 @@ fact vital throw against pikachu it was effective.
 query vital throw against pikachu answer it was effective.
 fact vital throw against sandshrew it was effective.
 query vital throw against sandshrew answer it was effective.
-fact vital throw against clefairy it was effective.
-query vital throw against clefairy answer it was effective.
+fact vital throw against clefairy it was not very effective.
+query vital throw against clefairy answer it was not very effective.
 fact vital throw against mankey it was effective.
 query vital throw against mankey answer it was effective.
 fact vital throw against abra it was not very effective.
@@ -19626,6 +19746,906 @@ fact zap cannon against jynx it was effective.
 query zap cannon against jynx answer it was effective.
 fact zap cannon against dratini it was not very effective.
 query zap cannon against dratini answer it was not very effective.
+fact metronome against bulbasaur it was effective.
+query metronome against bulbasaur answer it was effective.
+fact metronome against bulbasaur it was effective.
+query metronome against bulbasaur answer it was effective.
+fact metronome against bulbasaur it was effective.
+query metronome against bulbasaur answer it was effective.
+fact metronome against bulbasaur it was effective.
+query metronome against bulbasaur answer it was effective.
+fact metronome against bulbasaur it was effective.
+query metronome against bulbasaur answer it was effective.
+fact metronome against charmander it was effective.
+query metronome against charmander answer it was effective.
+fact metronome against charmander it was effective.
+query metronome against charmander answer it was effective.
+fact metronome against charmander it was effective.
+query metronome against charmander answer it was effective.
+fact metronome against charmander it was effective.
+query metronome against charmander answer it was effective.
+fact metronome against charmander it was effective.
+query metronome against charmander answer it was effective.
+fact metronome against squirtle it was effective.
+query metronome against squirtle answer it was effective.
+fact metronome against squirtle it was effective.
+query metronome against squirtle answer it was effective.
+fact metronome against squirtle it was effective.
+query metronome against squirtle answer it was effective.
+fact metronome against squirtle it was effective.
+query metronome against squirtle answer it was effective.
+fact metronome against squirtle it was effective.
+query metronome against squirtle answer it was effective.
+fact metronome against caterpie it was effective.
+query metronome against caterpie answer it was effective.
+fact metronome against caterpie it was effective.
+query metronome against caterpie answer it was effective.
+fact metronome against caterpie it was effective.
+query metronome against caterpie answer it was effective.
+fact metronome against caterpie it was effective.
+query metronome against caterpie answer it was effective.
+fact metronome against caterpie it was effective.
+query metronome against caterpie answer it was effective.
+fact metronome against pidgey it was effective.
+query metronome against pidgey answer it was effective.
+fact metronome against pidgey it was effective.
+query metronome against pidgey answer it was effective.
+fact metronome against pidgey it was effective.
+query metronome against pidgey answer it was effective.
+fact metronome against pidgey it was effective.
+query metronome against pidgey answer it was effective.
+fact metronome against pidgey it was effective.
+query metronome against pidgey answer it was effective.
+fact metronome against ekans it was effective.
+query metronome against ekans answer it was effective.
+fact metronome against ekans it was effective.
+query metronome against ekans answer it was effective.
+fact metronome against ekans it was effective.
+query metronome against ekans answer it was effective.
+fact metronome against ekans it was effective.
+query metronome against ekans answer it was effective.
+fact metronome against ekans it was effective.
+query metronome against ekans answer it was effective.
+fact metronome against pikachu it was effective.
+query metronome against pikachu answer it was effective.
+fact metronome against pikachu it was effective.
+query metronome against pikachu answer it was effective.
+fact metronome against pikachu it was effective.
+query metronome against pikachu answer it was effective.
+fact metronome against pikachu it was effective.
+query metronome against pikachu answer it was effective.
+fact metronome against pikachu it was effective.
+query metronome against pikachu answer it was effective.
+fact metronome against sandshrew it was effective.
+query metronome against sandshrew answer it was effective.
+fact metronome against sandshrew it was effective.
+query metronome against sandshrew answer it was effective.
+fact metronome against sandshrew it was effective.
+query metronome against sandshrew answer it was effective.
+fact metronome against sandshrew it was effective.
+query metronome against sandshrew answer it was effective.
+fact metronome against sandshrew it was effective.
+query metronome against sandshrew answer it was effective.
+fact metronome against clefairy it was effective.
+query metronome against clefairy answer it was effective.
+fact metronome against clefairy it was effective.
+query metronome against clefairy answer it was effective.
+fact metronome against clefairy it was effective.
+query metronome against clefairy answer it was effective.
+fact metronome against clefairy it was effective.
+query metronome against clefairy answer it was effective.
+fact metronome against clefairy it was effective.
+query metronome against clefairy answer it was effective.
+fact metronome against mankey it was effective.
+query metronome against mankey answer it was effective.
+fact metronome against mankey it was effective.
+query metronome against mankey answer it was effective.
+fact metronome against mankey it was effective.
+query metronome against mankey answer it was effective.
+fact metronome against mankey it was effective.
+query metronome against mankey answer it was effective.
+fact metronome against mankey it was effective.
+query metronome against mankey answer it was effective.
+fact metronome against abra it was effective.
+query metronome against abra answer it was effective.
+fact metronome against abra it was effective.
+query metronome against abra answer it was effective.
+fact metronome against abra it was effective.
+query metronome against abra answer it was effective.
+fact metronome against abra it was effective.
+query metronome against abra answer it was effective.
+fact metronome against abra it was effective.
+query metronome against abra answer it was effective.
+fact metronome against geodude it was not very effective.
+query metronome against geodude answer it was not very effective.
+fact metronome against geodude it was not very effective.
+query metronome against geodude answer it was not very effective.
+fact metronome against geodude it was not very effective.
+query metronome against geodude answer it was not very effective.
+fact metronome against geodude it was not very effective.
+query metronome against geodude answer it was not very effective.
+fact metronome against geodude it was not very effective.
+query metronome against geodude answer it was not very effective.
+fact metronome against gastly it had no effect.
+query metronome against gastly answer it had no effect.
+fact metronome against gastly it had no effect.
+query metronome against gastly answer it had no effect.
+fact metronome against gastly it had no effect.
+query metronome against gastly answer it had no effect.
+fact metronome against gastly it had no effect.
+query metronome against gastly answer it had no effect.
+fact metronome against gastly it had no effect.
+query metronome against gastly answer it had no effect.
+fact metronome against jynx it was effective.
+query metronome against jynx answer it was effective.
+fact metronome against jynx it was effective.
+query metronome against jynx answer it was effective.
+fact metronome against jynx it was effective.
+query metronome against jynx answer it was effective.
+fact metronome against jynx it was effective.
+query metronome against jynx answer it was effective.
+fact metronome against jynx it was effective.
+query metronome against jynx answer it was effective.
+fact metronome against dratini it was effective.
+query metronome against dratini answer it was effective.
+fact metronome against dratini it was effective.
+query metronome against dratini answer it was effective.
+fact metronome against dratini it was effective.
+query metronome against dratini answer it was effective.
+fact metronome against dratini it was effective.
+query metronome against dratini answer it was effective.
+fact metronome against dratini it was effective.
+query metronome against dratini answer it was effective.
+fact encore against bulbasaur it was effective.
+query encore against bulbasaur answer it was effective.
+fact encore against bulbasaur it was effective.
+query encore against bulbasaur answer it was effective.
+fact encore against bulbasaur it was effective.
+query encore against bulbasaur answer it was effective.
+fact encore against bulbasaur it was effective.
+query encore against bulbasaur answer it was effective.
+fact encore against bulbasaur it was effective.
+query encore against bulbasaur answer it was effective.
+fact encore against charmander it was effective.
+query encore against charmander answer it was effective.
+fact encore against charmander it was effective.
+query encore against charmander answer it was effective.
+fact encore against charmander it was effective.
+query encore against charmander answer it was effective.
+fact encore against charmander it was effective.
+query encore against charmander answer it was effective.
+fact encore against charmander it was effective.
+query encore against charmander answer it was effective.
+fact encore against squirtle it was effective.
+query encore against squirtle answer it was effective.
+fact encore against squirtle it was effective.
+query encore against squirtle answer it was effective.
+fact encore against squirtle it was effective.
+query encore against squirtle answer it was effective.
+fact encore against squirtle it was effective.
+query encore against squirtle answer it was effective.
+fact encore against squirtle it was effective.
+query encore against squirtle answer it was effective.
+fact encore against caterpie it was effective.
+query encore against caterpie answer it was effective.
+fact encore against caterpie it was effective.
+query encore against caterpie answer it was effective.
+fact encore against caterpie it was effective.
+query encore against caterpie answer it was effective.
+fact encore against caterpie it was effective.
+query encore against caterpie answer it was effective.
+fact encore against caterpie it was effective.
+query encore against caterpie answer it was effective.
+fact encore against pidgey it was effective.
+query encore against pidgey answer it was effective.
+fact encore against pidgey it was effective.
+query encore against pidgey answer it was effective.
+fact encore against pidgey it was effective.
+query encore against pidgey answer it was effective.
+fact encore against pidgey it was effective.
+query encore against pidgey answer it was effective.
+fact encore against pidgey it was effective.
+query encore against pidgey answer it was effective.
+fact encore against ekans it was effective.
+query encore against ekans answer it was effective.
+fact encore against ekans it was effective.
+query encore against ekans answer it was effective.
+fact encore against ekans it was effective.
+query encore against ekans answer it was effective.
+fact encore against ekans it was effective.
+query encore against ekans answer it was effective.
+fact encore against ekans it was effective.
+query encore against ekans answer it was effective.
+fact encore against pikachu it was effective.
+query encore against pikachu answer it was effective.
+fact encore against pikachu it was effective.
+query encore against pikachu answer it was effective.
+fact encore against pikachu it was effective.
+query encore against pikachu answer it was effective.
+fact encore against pikachu it was effective.
+query encore against pikachu answer it was effective.
+fact encore against pikachu it was effective.
+query encore against pikachu answer it was effective.
+fact encore against sandshrew it was effective.
+query encore against sandshrew answer it was effective.
+fact encore against sandshrew it was effective.
+query encore against sandshrew answer it was effective.
+fact encore against sandshrew it was effective.
+query encore against sandshrew answer it was effective.
+fact encore against sandshrew it was effective.
+query encore against sandshrew answer it was effective.
+fact encore against sandshrew it was effective.
+query encore against sandshrew answer it was effective.
+fact encore against clefairy it was effective.
+query encore against clefairy answer it was effective.
+fact encore against clefairy it was effective.
+query encore against clefairy answer it was effective.
+fact encore against clefairy it was effective.
+query encore against clefairy answer it was effective.
+fact encore against clefairy it was effective.
+query encore against clefairy answer it was effective.
+fact encore against clefairy it was effective.
+query encore against clefairy answer it was effective.
+fact encore against mankey it was effective.
+query encore against mankey answer it was effective.
+fact encore against mankey it was effective.
+query encore against mankey answer it was effective.
+fact encore against mankey it was effective.
+query encore against mankey answer it was effective.
+fact encore against mankey it was effective.
+query encore against mankey answer it was effective.
+fact encore against mankey it was effective.
+query encore against mankey answer it was effective.
+fact encore against abra it was effective.
+query encore against abra answer it was effective.
+fact encore against abra it was effective.
+query encore against abra answer it was effective.
+fact encore against abra it was effective.
+query encore against abra answer it was effective.
+fact encore against abra it was effective.
+query encore against abra answer it was effective.
+fact encore against abra it was effective.
+query encore against abra answer it was effective.
+fact encore against geodude it was not very effective.
+query encore against geodude answer it was not very effective.
+fact encore against geodude it was not very effective.
+query encore against geodude answer it was not very effective.
+fact encore against geodude it was not very effective.
+query encore against geodude answer it was not very effective.
+fact encore against geodude it was not very effective.
+query encore against geodude answer it was not very effective.
+fact encore against geodude it was not very effective.
+query encore against geodude answer it was not very effective.
+fact encore against gastly it had no effect.
+query encore against gastly answer it had no effect.
+fact encore against gastly it had no effect.
+query encore against gastly answer it had no effect.
+fact encore against gastly it had no effect.
+query encore against gastly answer it had no effect.
+fact encore against gastly it had no effect.
+query encore against gastly answer it had no effect.
+fact encore against gastly it had no effect.
+query encore against gastly answer it had no effect.
+fact encore against jynx it was effective.
+query encore against jynx answer it was effective.
+fact encore against jynx it was effective.
+query encore against jynx answer it was effective.
+fact encore against jynx it was effective.
+query encore against jynx answer it was effective.
+fact encore against jynx it was effective.
+query encore against jynx answer it was effective.
+fact encore against jynx it was effective.
+query encore against jynx answer it was effective.
+fact encore against dratini it was effective.
+query encore against dratini answer it was effective.
+fact encore against dratini it was effective.
+query encore against dratini answer it was effective.
+fact encore against dratini it was effective.
+query encore against dratini answer it was effective.
+fact encore against dratini it was effective.
+query encore against dratini answer it was effective.
+fact encore against dratini it was effective.
+query encore against dratini answer it was effective.
+fact disable against bulbasaur it was effective.
+query disable against bulbasaur answer it was effective.
+fact disable against bulbasaur it was effective.
+query disable against bulbasaur answer it was effective.
+fact disable against bulbasaur it was effective.
+query disable against bulbasaur answer it was effective.
+fact disable against bulbasaur it was effective.
+query disable against bulbasaur answer it was effective.
+fact disable against bulbasaur it was effective.
+query disable against bulbasaur answer it was effective.
+fact disable against charmander it was effective.
+query disable against charmander answer it was effective.
+fact disable against charmander it was effective.
+query disable against charmander answer it was effective.
+fact disable against charmander it was effective.
+query disable against charmander answer it was effective.
+fact disable against charmander it was effective.
+query disable against charmander answer it was effective.
+fact disable against charmander it was effective.
+query disable against charmander answer it was effective.
+fact disable against squirtle it was effective.
+query disable against squirtle answer it was effective.
+fact disable against squirtle it was effective.
+query disable against squirtle answer it was effective.
+fact disable against squirtle it was effective.
+query disable against squirtle answer it was effective.
+fact disable against squirtle it was effective.
+query disable against squirtle answer it was effective.
+fact disable against squirtle it was effective.
+query disable against squirtle answer it was effective.
+fact disable against caterpie it was effective.
+query disable against caterpie answer it was effective.
+fact disable against caterpie it was effective.
+query disable against caterpie answer it was effective.
+fact disable against caterpie it was effective.
+query disable against caterpie answer it was effective.
+fact disable against caterpie it was effective.
+query disable against caterpie answer it was effective.
+fact disable against caterpie it was effective.
+query disable against caterpie answer it was effective.
+fact disable against pidgey it was effective.
+query disable against pidgey answer it was effective.
+fact disable against pidgey it was effective.
+query disable against pidgey answer it was effective.
+fact disable against pidgey it was effective.
+query disable against pidgey answer it was effective.
+fact disable against pidgey it was effective.
+query disable against pidgey answer it was effective.
+fact disable against pidgey it was effective.
+query disable against pidgey answer it was effective.
+fact disable against ekans it was effective.
+query disable against ekans answer it was effective.
+fact disable against ekans it was effective.
+query disable against ekans answer it was effective.
+fact disable against ekans it was effective.
+query disable against ekans answer it was effective.
+fact disable against ekans it was effective.
+query disable against ekans answer it was effective.
+fact disable against ekans it was effective.
+query disable against ekans answer it was effective.
+fact disable against pikachu it was effective.
+query disable against pikachu answer it was effective.
+fact disable against pikachu it was effective.
+query disable against pikachu answer it was effective.
+fact disable against pikachu it was effective.
+query disable against pikachu answer it was effective.
+fact disable against pikachu it was effective.
+query disable against pikachu answer it was effective.
+fact disable against pikachu it was effective.
+query disable against pikachu answer it was effective.
+fact disable against sandshrew it was effective.
+query disable against sandshrew answer it was effective.
+fact disable against sandshrew it was effective.
+query disable against sandshrew answer it was effective.
+fact disable against sandshrew it was effective.
+query disable against sandshrew answer it was effective.
+fact disable against sandshrew it was effective.
+query disable against sandshrew answer it was effective.
+fact disable against sandshrew it was effective.
+query disable against sandshrew answer it was effective.
+fact disable against clefairy it was effective.
+query disable against clefairy answer it was effective.
+fact disable against clefairy it was effective.
+query disable against clefairy answer it was effective.
+fact disable against clefairy it was effective.
+query disable against clefairy answer it was effective.
+fact disable against clefairy it was effective.
+query disable against clefairy answer it was effective.
+fact disable against clefairy it was effective.
+query disable against clefairy answer it was effective.
+fact disable against mankey it was effective.
+query disable against mankey answer it was effective.
+fact disable against mankey it was effective.
+query disable against mankey answer it was effective.
+fact disable against mankey it was effective.
+query disable against mankey answer it was effective.
+fact disable against mankey it was effective.
+query disable against mankey answer it was effective.
+fact disable against mankey it was effective.
+query disable against mankey answer it was effective.
+fact disable against abra it was effective.
+query disable against abra answer it was effective.
+fact disable against abra it was effective.
+query disable against abra answer it was effective.
+fact disable against abra it was effective.
+query disable against abra answer it was effective.
+fact disable against abra it was effective.
+query disable against abra answer it was effective.
+fact disable against abra it was effective.
+query disable against abra answer it was effective.
+fact disable against geodude it was not very effective.
+query disable against geodude answer it was not very effective.
+fact disable against geodude it was not very effective.
+query disable against geodude answer it was not very effective.
+fact disable against geodude it was not very effective.
+query disable against geodude answer it was not very effective.
+fact disable against geodude it was not very effective.
+query disable against geodude answer it was not very effective.
+fact disable against geodude it was not very effective.
+query disable against geodude answer it was not very effective.
+fact disable against gastly it had no effect.
+query disable against gastly answer it had no effect.
+fact disable against gastly it had no effect.
+query disable against gastly answer it had no effect.
+fact disable against gastly it had no effect.
+query disable against gastly answer it had no effect.
+fact disable against gastly it had no effect.
+query disable against gastly answer it had no effect.
+fact disable against gastly it had no effect.
+query disable against gastly answer it had no effect.
+fact disable against jynx it was effective.
+query disable against jynx answer it was effective.
+fact disable against jynx it was effective.
+query disable against jynx answer it was effective.
+fact disable against jynx it was effective.
+query disable against jynx answer it was effective.
+fact disable against jynx it was effective.
+query disable against jynx answer it was effective.
+fact disable against jynx it was effective.
+query disable against jynx answer it was effective.
+fact disable against dratini it was effective.
+query disable against dratini answer it was effective.
+fact disable against dratini it was effective.
+query disable against dratini answer it was effective.
+fact disable against dratini it was effective.
+query disable against dratini answer it was effective.
+fact disable against dratini it was effective.
+query disable against dratini answer it was effective.
+fact disable against dratini it was effective.
+query disable against dratini answer it was effective.
+fact mirror move against bulbasaur it was super effective.
+query mirror move against bulbasaur answer it was super effective.
+fact mirror move against bulbasaur it was super effective.
+query mirror move against bulbasaur answer it was super effective.
+fact mirror move against bulbasaur it was super effective.
+query mirror move against bulbasaur answer it was super effective.
+fact mirror move against bulbasaur it was super effective.
+query mirror move against bulbasaur answer it was super effective.
+fact mirror move against bulbasaur it was super effective.
+query mirror move against bulbasaur answer it was super effective.
+fact mirror move against charmander it was effective.
+query mirror move against charmander answer it was effective.
+fact mirror move against charmander it was effective.
+query mirror move against charmander answer it was effective.
+fact mirror move against charmander it was effective.
+query mirror move against charmander answer it was effective.
+fact mirror move against charmander it was effective.
+query mirror move against charmander answer it was effective.
+fact mirror move against charmander it was effective.
+query mirror move against charmander answer it was effective.
+fact mirror move against squirtle it was effective.
+query mirror move against squirtle answer it was effective.
+fact mirror move against squirtle it was effective.
+query mirror move against squirtle answer it was effective.
+fact mirror move against squirtle it was effective.
+query mirror move against squirtle answer it was effective.
+fact mirror move against squirtle it was effective.
+query mirror move against squirtle answer it was effective.
+fact mirror move against squirtle it was effective.
+query mirror move against squirtle answer it was effective.
+fact mirror move against caterpie it was super effective.
+query mirror move against caterpie answer it was super effective.
+fact mirror move against caterpie it was super effective.
+query mirror move against caterpie answer it was super effective.
+fact mirror move against caterpie it was super effective.
+query mirror move against caterpie answer it was super effective.
+fact mirror move against caterpie it was super effective.
+query mirror move against caterpie answer it was super effective.
+fact mirror move against caterpie it was super effective.
+query mirror move against caterpie answer it was super effective.
+fact mirror move against pidgey it was effective.
+query mirror move against pidgey answer it was effective.
+fact mirror move against pidgey it was effective.
+query mirror move against pidgey answer it was effective.
+fact mirror move against pidgey it was effective.
+query mirror move against pidgey answer it was effective.
+fact mirror move against pidgey it was effective.
+query mirror move against pidgey answer it was effective.
+fact mirror move against pidgey it was effective.
+query mirror move against pidgey answer it was effective.
+fact mirror move against ekans it was effective.
+query mirror move against ekans answer it was effective.
+fact mirror move against ekans it was effective.
+query mirror move against ekans answer it was effective.
+fact mirror move against ekans it was effective.
+query mirror move against ekans answer it was effective.
+fact mirror move against ekans it was effective.
+query mirror move against ekans answer it was effective.
+fact mirror move against ekans it was effective.
+query mirror move against ekans answer it was effective.
+fact mirror move against pikachu it was not very effective.
+query mirror move against pikachu answer it was not very effective.
+fact mirror move against pikachu it was not very effective.
+query mirror move against pikachu answer it was not very effective.
+fact mirror move against pikachu it was not very effective.
+query mirror move against pikachu answer it was not very effective.
+fact mirror move against pikachu it was not very effective.
+query mirror move against pikachu answer it was not very effective.
+fact mirror move against pikachu it was not very effective.
+query mirror move against pikachu answer it was not very effective.
+fact mirror move against sandshrew it was effective.
+query mirror move against sandshrew answer it was effective.
+fact mirror move against sandshrew it was effective.
+query mirror move against sandshrew answer it was effective.
+fact mirror move against sandshrew it was effective.
+query mirror move against sandshrew answer it was effective.
+fact mirror move against sandshrew it was effective.
+query mirror move against sandshrew answer it was effective.
+fact mirror move against sandshrew it was effective.
+query mirror move against sandshrew answer it was effective.
+fact mirror move against clefairy it was effective.
+query mirror move against clefairy answer it was effective.
+fact mirror move against clefairy it was effective.
+query mirror move against clefairy answer it was effective.
+fact mirror move against clefairy it was effective.
+query mirror move against clefairy answer it was effective.
+fact mirror move against clefairy it was effective.
+query mirror move against clefairy answer it was effective.
+fact mirror move against clefairy it was effective.
+query mirror move against clefairy answer it was effective.
+fact mirror move against mankey it was super effective.
+query mirror move against mankey answer it was super effective.
+fact mirror move against mankey it was super effective.
+query mirror move against mankey answer it was super effective.
+fact mirror move against mankey it was super effective.
+query mirror move against mankey answer it was super effective.
+fact mirror move against mankey it was super effective.
+query mirror move against mankey answer it was super effective.
+fact mirror move against mankey it was super effective.
+query mirror move against mankey answer it was super effective.
+fact mirror move against abra it was effective.
+query mirror move against abra answer it was effective.
+fact mirror move against abra it was effective.
+query mirror move against abra answer it was effective.
+fact mirror move against abra it was effective.
+query mirror move against abra answer it was effective.
+fact mirror move against abra it was effective.
+query mirror move against abra answer it was effective.
+fact mirror move against abra it was effective.
+query mirror move against abra answer it was effective.
+fact mirror move against geodude it was not very effective.
+query mirror move against geodude answer it was not very effective.
+fact mirror move against geodude it was not very effective.
+query mirror move against geodude answer it was not very effective.
+fact mirror move against geodude it was not very effective.
+query mirror move against geodude answer it was not very effective.
+fact mirror move against geodude it was not very effective.
+query mirror move against geodude answer it was not very effective.
+fact mirror move against geodude it was not very effective.
+query mirror move against geodude answer it was not very effective.
+fact mirror move against gastly it was effective.
+query mirror move against gastly answer it was effective.
+fact mirror move against gastly it was effective.
+query mirror move against gastly answer it was effective.
+fact mirror move against gastly it was effective.
+query mirror move against gastly answer it was effective.
+fact mirror move against gastly it was effective.
+query mirror move against gastly answer it was effective.
+fact mirror move against gastly it was effective.
+query mirror move against gastly answer it was effective.
+fact mirror move against jynx it was effective.
+query mirror move against jynx answer it was effective.
+fact mirror move against jynx it was effective.
+query mirror move against jynx answer it was effective.
+fact mirror move against jynx it was effective.
+query mirror move against jynx answer it was effective.
+fact mirror move against jynx it was effective.
+query mirror move against jynx answer it was effective.
+fact mirror move against jynx it was effective.
+query mirror move against jynx answer it was effective.
+fact mirror move against dratini it was effective.
+query mirror move against dratini answer it was effective.
+fact mirror move against dratini it was effective.
+query mirror move against dratini answer it was effective.
+fact mirror move against dratini it was effective.
+query mirror move against dratini answer it was effective.
+fact mirror move against dratini it was effective.
+query mirror move against dratini answer it was effective.
+fact mirror move against dratini it was effective.
+query mirror move against dratini answer it was effective.
+fact sing against bulbasaur it was effective.
+query sing against bulbasaur answer it was effective.
+fact sing against bulbasaur it was effective.
+query sing against bulbasaur answer it was effective.
+fact sing against bulbasaur it was effective.
+query sing against bulbasaur answer it was effective.
+fact sing against bulbasaur it was effective.
+query sing against bulbasaur answer it was effective.
+fact sing against bulbasaur it was effective.
+query sing against bulbasaur answer it was effective.
+fact sing against charmander it was effective.
+query sing against charmander answer it was effective.
+fact sing against charmander it was effective.
+query sing against charmander answer it was effective.
+fact sing against charmander it was effective.
+query sing against charmander answer it was effective.
+fact sing against charmander it was effective.
+query sing against charmander answer it was effective.
+fact sing against charmander it was effective.
+query sing against charmander answer it was effective.
+fact sing against squirtle it was effective.
+query sing against squirtle answer it was effective.
+fact sing against squirtle it was effective.
+query sing against squirtle answer it was effective.
+fact sing against squirtle it was effective.
+query sing against squirtle answer it was effective.
+fact sing against squirtle it was effective.
+query sing against squirtle answer it was effective.
+fact sing against squirtle it was effective.
+query sing against squirtle answer it was effective.
+fact sing against caterpie it was effective.
+query sing against caterpie answer it was effective.
+fact sing against caterpie it was effective.
+query sing against caterpie answer it was effective.
+fact sing against caterpie it was effective.
+query sing against caterpie answer it was effective.
+fact sing against caterpie it was effective.
+query sing against caterpie answer it was effective.
+fact sing against caterpie it was effective.
+query sing against caterpie answer it was effective.
+fact sing against pidgey it was effective.
+query sing against pidgey answer it was effective.
+fact sing against pidgey it was effective.
+query sing against pidgey answer it was effective.
+fact sing against pidgey it was effective.
+query sing against pidgey answer it was effective.
+fact sing against pidgey it was effective.
+query sing against pidgey answer it was effective.
+fact sing against pidgey it was effective.
+query sing against pidgey answer it was effective.
+fact sing against ekans it was effective.
+query sing against ekans answer it was effective.
+fact sing against ekans it was effective.
+query sing against ekans answer it was effective.
+fact sing against ekans it was effective.
+query sing against ekans answer it was effective.
+fact sing against ekans it was effective.
+query sing against ekans answer it was effective.
+fact sing against ekans it was effective.
+query sing against ekans answer it was effective.
+fact sing against pikachu it was effective.
+query sing against pikachu answer it was effective.
+fact sing against pikachu it was effective.
+query sing against pikachu answer it was effective.
+fact sing against pikachu it was effective.
+query sing against pikachu answer it was effective.
+fact sing against pikachu it was effective.
+query sing against pikachu answer it was effective.
+fact sing against pikachu it was effective.
+query sing against pikachu answer it was effective.
+fact sing against sandshrew it was effective.
+query sing against sandshrew answer it was effective.
+fact sing against sandshrew it was effective.
+query sing against sandshrew answer it was effective.
+fact sing against sandshrew it was effective.
+query sing against sandshrew answer it was effective.
+fact sing against sandshrew it was effective.
+query sing against sandshrew answer it was effective.
+fact sing against sandshrew it was effective.
+query sing against sandshrew answer it was effective.
+fact sing against clefairy it was effective.
+query sing against clefairy answer it was effective.
+fact sing against clefairy it was effective.
+query sing against clefairy answer it was effective.
+fact sing against clefairy it was effective.
+query sing against clefairy answer it was effective.
+fact sing against clefairy it was effective.
+query sing against clefairy answer it was effective.
+fact sing against clefairy it was effective.
+query sing against clefairy answer it was effective.
+fact sing against mankey it was effective.
+query sing against mankey answer it was effective.
+fact sing against mankey it was effective.
+query sing against mankey answer it was effective.
+fact sing against mankey it was effective.
+query sing against mankey answer it was effective.
+fact sing against mankey it was effective.
+query sing against mankey answer it was effective.
+fact sing against mankey it was effective.
+query sing against mankey answer it was effective.
+fact sing against abra it was effective.
+query sing against abra answer it was effective.
+fact sing against abra it was effective.
+query sing against abra answer it was effective.
+fact sing against abra it was effective.
+query sing against abra answer it was effective.
+fact sing against abra it was effective.
+query sing against abra answer it was effective.
+fact sing against abra it was effective.
+query sing against abra answer it was effective.
+fact sing against geodude it was not very effective.
+query sing against geodude answer it was not very effective.
+fact sing against geodude it was not very effective.
+query sing against geodude answer it was not very effective.
+fact sing against geodude it was not very effective.
+query sing against geodude answer it was not very effective.
+fact sing against geodude it was not very effective.
+query sing against geodude answer it was not very effective.
+fact sing against geodude it was not very effective.
+query sing against geodude answer it was not very effective.
+fact sing against gastly it had no effect.
+query sing against gastly answer it had no effect.
+fact sing against gastly it had no effect.
+query sing against gastly answer it had no effect.
+fact sing against gastly it had no effect.
+query sing against gastly answer it had no effect.
+fact sing against gastly it had no effect.
+query sing against gastly answer it had no effect.
+fact sing against gastly it had no effect.
+query sing against gastly answer it had no effect.
+fact sing against jynx it was effective.
+query sing against jynx answer it was effective.
+fact sing against jynx it was effective.
+query sing against jynx answer it was effective.
+fact sing against jynx it was effective.
+query sing against jynx answer it was effective.
+fact sing against jynx it was effective.
+query sing against jynx answer it was effective.
+fact sing against jynx it was effective.
+query sing against jynx answer it was effective.
+fact sing against dratini it was effective.
+query sing against dratini answer it was effective.
+fact sing against dratini it was effective.
+query sing against dratini answer it was effective.
+fact sing against dratini it was effective.
+query sing against dratini answer it was effective.
+fact sing against dratini it was effective.
+query sing against dratini answer it was effective.
+fact sing against dratini it was effective.
+query sing against dratini answer it was effective.
+fact copycat against bulbasaur it was effective.
+query copycat against bulbasaur answer it was effective.
+fact copycat against bulbasaur it was effective.
+query copycat against bulbasaur answer it was effective.
+fact copycat against bulbasaur it was effective.
+query copycat against bulbasaur answer it was effective.
+fact copycat against bulbasaur it was effective.
+query copycat against bulbasaur answer it was effective.
+fact copycat against bulbasaur it was effective.
+query copycat against bulbasaur answer it was effective.
+fact copycat against charmander it was effective.
+query copycat against charmander answer it was effective.
+fact copycat against charmander it was effective.
+query copycat against charmander answer it was effective.
+fact copycat against charmander it was effective.
+query copycat against charmander answer it was effective.
+fact copycat against charmander it was effective.
+query copycat against charmander answer it was effective.
+fact copycat against charmander it was effective.
+query copycat against charmander answer it was effective.
+fact copycat against squirtle it was effective.
+query copycat against squirtle answer it was effective.
+fact copycat against squirtle it was effective.
+query copycat against squirtle answer it was effective.
+fact copycat against squirtle it was effective.
+query copycat against squirtle answer it was effective.
+fact copycat against squirtle it was effective.
+query copycat against squirtle answer it was effective.
+fact copycat against squirtle it was effective.
+query copycat against squirtle answer it was effective.
+fact copycat against caterpie it was effective.
+query copycat against caterpie answer it was effective.
+fact copycat against caterpie it was effective.
+query copycat against caterpie answer it was effective.
+fact copycat against caterpie it was effective.
+query copycat against caterpie answer it was effective.
+fact copycat against caterpie it was effective.
+query copycat against caterpie answer it was effective.
+fact copycat against caterpie it was effective.
+query copycat against caterpie answer it was effective.
+fact copycat against pidgey it was effective.
+query copycat against pidgey answer it was effective.
+fact copycat against pidgey it was effective.
+query copycat against pidgey answer it was effective.
+fact copycat against pidgey it was effective.
+query copycat against pidgey answer it was effective.
+fact copycat against pidgey it was effective.
+query copycat against pidgey answer it was effective.
+fact copycat against pidgey it was effective.
+query copycat against pidgey answer it was effective.
+fact copycat against ekans it was effective.
+query copycat against ekans answer it was effective.
+fact copycat against ekans it was effective.
+query copycat against ekans answer it was effective.
+fact copycat against ekans it was effective.
+query copycat against ekans answer it was effective.
+fact copycat against ekans it was effective.
+query copycat against ekans answer it was effective.
+fact copycat against ekans it was effective.
+query copycat against ekans answer it was effective.
+fact copycat against pikachu it was effective.
+query copycat against pikachu answer it was effective.
+fact copycat against pikachu it was effective.
+query copycat against pikachu answer it was effective.
+fact copycat against pikachu it was effective.
+query copycat against pikachu answer it was effective.
+fact copycat against pikachu it was effective.
+query copycat against pikachu answer it was effective.
+fact copycat against pikachu it was effective.
+query copycat against pikachu answer it was effective.
+fact copycat against sandshrew it was effective.
+query copycat against sandshrew answer it was effective.
+fact copycat against sandshrew it was effective.
+query copycat against sandshrew answer it was effective.
+fact copycat against sandshrew it was effective.
+query copycat against sandshrew answer it was effective.
+fact copycat against sandshrew it was effective.
+query copycat against sandshrew answer it was effective.
+fact copycat against sandshrew it was effective.
+query copycat against sandshrew answer it was effective.
+fact copycat against clefairy it was effective.
+query copycat against clefairy answer it was effective.
+fact copycat against clefairy it was effective.
+query copycat against clefairy answer it was effective.
+fact copycat against clefairy it was effective.
+query copycat against clefairy answer it was effective.
+fact copycat against clefairy it was effective.
+query copycat against clefairy answer it was effective.
+fact copycat against clefairy it was effective.
+query copycat against clefairy answer it was effective.
+fact copycat against mankey it was effective.
+query copycat against mankey answer it was effective.
+fact copycat against mankey it was effective.
+query copycat against mankey answer it was effective.
+fact copycat against mankey it was effective.
+query copycat against mankey answer it was effective.
+fact copycat against mankey it was effective.
+query copycat against mankey answer it was effective.
+fact copycat against mankey it was effective.
+query copycat against mankey answer it was effective.
+fact copycat against abra it was effective.
+query copycat against abra answer it was effective.
+fact copycat against abra it was effective.
+query copycat against abra answer it was effective.
+fact copycat against abra it was effective.
+query copycat against abra answer it was effective.
+fact copycat against abra it was effective.
+query copycat against abra answer it was effective.
+fact copycat against abra it was effective.
+query copycat against abra answer it was effective.
+fact copycat against geodude it was not very effective.
+query copycat against geodude answer it was not very effective.
+fact copycat against geodude it was not very effective.
+query copycat against geodude answer it was not very effective.
+fact copycat against geodude it was not very effective.
+query copycat against geodude answer it was not very effective.
+fact copycat against geodude it was not very effective.
+query copycat against geodude answer it was not very effective.
+fact copycat against geodude it was not very effective.
+query copycat against geodude answer it was not very effective.
+fact copycat against gastly it had no effect.
+query copycat against gastly answer it had no effect.
+fact copycat against gastly it had no effect.
+query copycat against gastly answer it had no effect.
+fact copycat against gastly it had no effect.
+query copycat against gastly answer it had no effect.
+fact copycat against gastly it had no effect.
+query copycat against gastly answer it had no effect.
+fact copycat against gastly it had no effect.
+query copycat against gastly answer it had no effect.
+fact copycat against jynx it was effective.
+query copycat against jynx answer it was effective.
+fact copycat against jynx it was effective.
+query copycat against jynx answer it was effective.
+fact copycat against jynx it was effective.
+query copycat against jynx answer it was effective.
+fact copycat against jynx it was effective.
+query copycat against jynx answer it was effective.
+fact copycat against jynx it was effective.
+query copycat against jynx answer it was effective.
+fact copycat against dratini it was effective.
+query copycat against dratini answer it was effective.
+fact copycat against dratini it was effective.
+query copycat against dratini answer it was effective.
+fact copycat against dratini it was effective.
+query copycat against dratini answer it was effective.
+fact copycat against dratini it was effective.
+query copycat against dratini answer it was effective.
+fact copycat against dratini it was effective.
+query copycat against dratini answer it was effective.
 fact bulbasaur evolves into ivysaur
 query bulbasaur evolves into answer ivysaur
 fact ivysaur evolves into venusaur
@@ -31672,24 +32692,24 @@ fact barrage power is 15
 query barrage power answer 15
 fact bide type is normal
 query bide type answer normal
-fact bide power is 40
-query bide power answer 40
+fact bide power is 0
+query bide power answer 0
 fact bide type is normal
 query bide type answer normal
-fact bide power is 40
-query bide power answer 40
+fact bide power is 0
+query bide power answer 0
 fact bide type is normal
 query bide type answer normal
-fact bide power is 40
-query bide power answer 40
+fact bide power is 0
+query bide power answer 0
 fact bide type is normal
 query bide type answer normal
-fact bide power is 40
-query bide power answer 40
+fact bide power is 0
+query bide power answer 0
 fact bide type is normal
 query bide type answer normal
-fact bide power is 40
-query bide power answer 40
+fact bide power is 0
+query bide power answer 0
 fact bind type is normal
 query bind type answer normal
 fact bind power is 15
@@ -31880,24 +32900,24 @@ fact fire punch power is 75
 query fire punch power answer 75
 fact fire spin type is fire
 query fire spin type answer fire
-fact fire spin power is 15
-query fire spin power answer 15
+fact fire spin power is 35
+query fire spin power answer 35
 fact fire spin type is fire
 query fire spin type answer fire
-fact fire spin power is 15
-query fire spin power answer 15
+fact fire spin power is 35
+query fire spin power answer 35
 fact fire spin type is fire
 query fire spin type answer fire
-fact fire spin power is 15
-query fire spin power answer 15
+fact fire spin power is 35
+query fire spin power answer 35
 fact fire spin type is fire
 query fire spin type answer fire
-fact fire spin power is 15
-query fire spin power answer 15
+fact fire spin power is 35
+query fire spin power answer 35
 fact fire spin type is fire
 query fire spin type answer fire
-fact fire spin power is 15
-query fire spin power answer 15
+fact fire spin power is 35
+query fire spin power answer 35
 fact fissure type is ground
 query fissure type answer ground
 fact fissure power is 100
@@ -32188,24 +33208,24 @@ fact reflect power is -20
 query reflect power answer -20
 fact rest type is psychic
 query rest type answer psychic
-fact rest power is -20
-query rest power answer -20
+fact rest power is 0
+query rest power answer 0
 fact rest type is psychic
 query rest type answer psychic
-fact rest power is -20
-query rest power answer -20
+fact rest power is 0
+query rest power answer 0
 fact rest type is psychic
 query rest type answer psychic
-fact rest power is -20
-query rest power answer -20
+fact rest power is 0
+query rest power answer 0
 fact rest type is psychic
 query rest type answer psychic
-fact rest power is -20
-query rest power answer -20
+fact rest power is 0
+query rest power answer 0
 fact rest type is psychic
 query rest type answer psychic
-fact rest power is -20
-query rest power answer -20
+fact rest power is 0
+query rest power answer 0
 fact roar type is normal
 query roar type answer normal
 fact roar power is 0
@@ -32514,6 +33534,126 @@ fact zap cannon type is electric
 query zap cannon type answer electric
 fact zap cannon power is 120
 query zap cannon power answer 120
+fact metronome type is normal
+query metronome type answer normal
+fact metronome power is 0
+query metronome power answer 0
+fact metronome type is normal
+query metronome type answer normal
+fact metronome power is 0
+query metronome power answer 0
+fact metronome type is normal
+query metronome type answer normal
+fact metronome power is 0
+query metronome power answer 0
+fact metronome type is normal
+query metronome type answer normal
+fact metronome power is 0
+query metronome power answer 0
+fact metronome type is normal
+query metronome type answer normal
+fact metronome power is 0
+query metronome power answer 0
+fact encore type is normal
+query encore type answer normal
+fact encore power is 0
+query encore power answer 0
+fact encore type is normal
+query encore type answer normal
+fact encore power is 0
+query encore power answer 0
+fact encore type is normal
+query encore type answer normal
+fact encore power is 0
+query encore power answer 0
+fact encore type is normal
+query encore type answer normal
+fact encore power is 0
+query encore power answer 0
+fact encore type is normal
+query encore type answer normal
+fact encore power is 0
+query encore power answer 0
+fact disable type is normal
+query disable type answer normal
+fact disable power is 0
+query disable power answer 0
+fact disable type is normal
+query disable type answer normal
+fact disable power is 0
+query disable power answer 0
+fact disable type is normal
+query disable type answer normal
+fact disable power is 0
+query disable power answer 0
+fact disable type is normal
+query disable type answer normal
+fact disable power is 0
+query disable power answer 0
+fact disable type is normal
+query disable type answer normal
+fact disable power is 0
+query disable power answer 0
+fact mirror move type is flying
+query mirror move type answer flying
+fact mirror move power is 0
+query mirror move power answer 0
+fact mirror move type is flying
+query mirror move type answer flying
+fact mirror move power is 0
+query mirror move power answer 0
+fact mirror move type is flying
+query mirror move type answer flying
+fact mirror move power is 0
+query mirror move power answer 0
+fact mirror move type is flying
+query mirror move type answer flying
+fact mirror move power is 0
+query mirror move power answer 0
+fact mirror move type is flying
+query mirror move type answer flying
+fact mirror move power is 0
+query mirror move power answer 0
+fact sing type is normal
+query sing type answer normal
+fact sing power is 0
+query sing power answer 0
+fact sing type is normal
+query sing type answer normal
+fact sing power is 0
+query sing power answer 0
+fact sing type is normal
+query sing type answer normal
+fact sing power is 0
+query sing power answer 0
+fact sing type is normal
+query sing type answer normal
+fact sing power is 0
+query sing power answer 0
+fact sing type is normal
+query sing type answer normal
+fact sing power is 0
+query sing power answer 0
+fact copycat type is normal
+query copycat type answer normal
+fact copycat power is 0
+query copycat power answer 0
+fact copycat type is normal
+query copycat type answer normal
+fact copycat power is 0
+query copycat power answer 0
+fact copycat type is normal
+query copycat type answer normal
+fact copycat power is 0
+query copycat power answer 0
+fact copycat type is normal
+query copycat type answer normal
+fact copycat power is 0
+query copycat power answer 0
+fact copycat type is normal
+query copycat type answer normal
+fact copycat power is 0
+query copycat power answer 0
 fact normal type against normal type it was effective.
 query normal type against normal type answer it was effective.
 fact normal type against fire type it was effective.
@@ -32924,8 +34064,8 @@ fact ghost type against ground type it was effective.
 query ghost type against ground type answer it was effective.
 fact ghost type against flying type it was effective.
 query ghost type against flying type answer it was effective.
-fact ghost type against psychic type it had no effect.
-query ghost type against psychic type answer it had no effect.
+fact ghost type against psychic type it was super effective.
+query ghost type against psychic type answer it was super effective.
 fact ghost type against bug type it was effective.
 query ghost type against bug type answer it was effective.
 fact ghost type against rock type it was effective.
@@ -33096,8 +34236,8 @@ fact acid against pikachu it was effective.
 query acid against pikachu answer it was effective.
 fact acid against sandshrew it was not very effective.
 query acid against sandshrew answer it was not very effective.
-fact acid against clefairy it was effective.
-query acid against clefairy answer it was effective.
+fact acid against clefairy it was super effective.
+query acid against clefairy answer it was super effective.
 fact acid against mankey it was effective.
 query acid against mankey answer it was effective.
 fact acid against abra it was effective.
@@ -33880,14 +35020,14 @@ fact confuse ray against clefairy it was effective.
 query confuse ray against clefairy answer it was effective.
 fact confuse ray against mankey it was effective.
 query confuse ray against mankey answer it was effective.
-fact confuse ray against abra it had no effect.
-query confuse ray against abra answer it had no effect.
+fact confuse ray against abra it was super effective.
+query confuse ray against abra answer it was super effective.
 fact confuse ray against geodude it was effective.
 query confuse ray against geodude answer it was effective.
 fact confuse ray against gastly it was super effective.
 query confuse ray against gastly answer it was super effective.
-fact confuse ray against jynx it had no effect.
-query confuse ray against jynx answer it had no effect.
+fact confuse ray against jynx it was super effective.
+query confuse ray against jynx answer it was super effective.
 fact confuse ray against dratini it was effective.
 query confuse ray against dratini answer it was effective.
 fact confusion against bulbasaur it was super effective.
@@ -33966,8 +35106,8 @@ fact counter against pikachu it was effective.
 query counter against pikachu answer it was effective.
 fact counter against sandshrew it was effective.
 query counter against sandshrew answer it was effective.
-fact counter against clefairy it was effective.
-query counter against clefairy answer it was effective.
+fact counter against clefairy it was not very effective.
+query counter against clefairy answer it was not very effective.
 fact counter against mankey it was effective.
 query counter against mankey answer it was effective.
 fact counter against abra it was not very effective.
@@ -34026,8 +35166,8 @@ fact cross chop against pikachu it was effective.
 query cross chop against pikachu answer it was effective.
 fact cross chop against sandshrew it was effective.
 query cross chop against sandshrew answer it was effective.
-fact cross chop against clefairy it was effective.
-query cross chop against clefairy answer it was effective.
+fact cross chop against clefairy it was not very effective.
+query cross chop against clefairy answer it was not very effective.
 fact cross chop against mankey it was effective.
 query cross chop against mankey answer it was effective.
 fact cross chop against abra it was not very effective.
@@ -34056,18 +35196,18 @@ fact crunch against pikachu it was effective.
 query crunch against pikachu answer it was effective.
 fact crunch against sandshrew it was effective.
 query crunch against sandshrew answer it was effective.
-fact crunch against clefairy it was effective.
-query crunch against clefairy answer it was effective.
-fact crunch against mankey it was effective.
-query crunch against mankey answer it was effective.
-fact crunch against abra it was effective.
-query crunch against abra answer it was effective.
+fact crunch against clefairy it was not very effective.
+query crunch against clefairy answer it was not very effective.
+fact crunch against mankey it was not very effective.
+query crunch against mankey answer it was not very effective.
+fact crunch against abra it was super effective.
+query crunch against abra answer it was super effective.
 fact crunch against geodude it was effective.
 query crunch against geodude answer it was effective.
-fact crunch against gastly it was effective.
-query crunch against gastly answer it was effective.
-fact crunch against jynx it was effective.
-query crunch against jynx answer it was effective.
+fact crunch against gastly it was super effective.
+query crunch against gastly answer it was super effective.
+fact crunch against jynx it was super effective.
+query crunch against jynx answer it was super effective.
 fact crunch against dratini it was effective.
 query crunch against dratini answer it was effective.
 fact cut against bulbasaur it was effective.
@@ -34326,8 +35466,8 @@ fact double kick against pikachu it was effective.
 query double kick against pikachu answer it was effective.
 fact double kick against sandshrew it was effective.
 query double kick against sandshrew answer it was effective.
-fact double kick against clefairy it was effective.
-query double kick against clefairy answer it was effective.
+fact double kick against clefairy it was not very effective.
+query double kick against clefairy answer it was not very effective.
 fact double kick against mankey it was effective.
 query double kick against mankey answer it was effective.
 fact double kick against abra it was not very effective.
@@ -34386,8 +35526,8 @@ fact dragon breath against pikachu it was effective.
 query dragon breath against pikachu answer it was effective.
 fact dragon breath against sandshrew it was effective.
 query dragon breath against sandshrew answer it was effective.
-fact dragon breath against clefairy it was effective.
-query dragon breath against clefairy answer it was effective.
+fact dragon breath against clefairy it had no effect.
+query dragon breath against clefairy answer it had no effect.
 fact dragon breath against mankey it was effective.
 query dragon breath against mankey answer it was effective.
 fact dragon breath against abra it was effective.
@@ -34416,8 +35556,8 @@ fact dragon rage against pikachu it was effective.
 query dragon rage against pikachu answer it was effective.
 fact dragon rage against sandshrew it was effective.
 query dragon rage against sandshrew answer it was effective.
-fact dragon rage against clefairy it was effective.
-query dragon rage against clefairy answer it was effective.
+fact dragon rage against clefairy it had no effect.
+query dragon rage against clefairy answer it had no effect.
 fact dragon rage against mankey it was effective.
 query dragon rage against mankey answer it was effective.
 fact dragon rage against abra it was effective.
@@ -34506,8 +35646,8 @@ fact dynamic punch against pikachu it was effective.
 query dynamic punch against pikachu answer it was effective.
 fact dynamic punch against sandshrew it was effective.
 query dynamic punch against sandshrew answer it was effective.
-fact dynamic punch against clefairy it was effective.
-query dynamic punch against clefairy answer it was effective.
+fact dynamic punch against clefairy it was not very effective.
+query dynamic punch against clefairy answer it was not very effective.
 fact dynamic punch against mankey it was effective.
 query dynamic punch against mankey answer it was effective.
 fact dynamic punch against abra it was not very effective.
@@ -34716,18 +35856,18 @@ fact feint attack against pikachu it was effective.
 query feint attack against pikachu answer it was effective.
 fact feint attack against sandshrew it was effective.
 query feint attack against sandshrew answer it was effective.
-fact feint attack against clefairy it was effective.
-query feint attack against clefairy answer it was effective.
-fact feint attack against mankey it was effective.
-query feint attack against mankey answer it was effective.
-fact feint attack against abra it was effective.
-query feint attack against abra answer it was effective.
+fact feint attack against clefairy it was not very effective.
+query feint attack against clefairy answer it was not very effective.
+fact feint attack against mankey it was not very effective.
+query feint attack against mankey answer it was not very effective.
+fact feint attack against abra it was super effective.
+query feint attack against abra answer it was super effective.
 fact feint attack against geodude it was effective.
 query feint attack against geodude answer it was effective.
-fact feint attack against gastly it was effective.
-query feint attack against gastly answer it was effective.
-fact feint attack against jynx it was effective.
-query feint attack against jynx answer it was effective.
+fact feint attack against gastly it was super effective.
+query feint attack against gastly answer it was super effective.
+fact feint attack against jynx it was super effective.
+query feint attack against jynx answer it was super effective.
 fact feint attack against dratini it was effective.
 query feint attack against dratini answer it was effective.
 fact fire blast against bulbasaur it was super effective.
@@ -35226,8 +36366,8 @@ fact fury cutter against pikachu it was effective.
 query fury cutter against pikachu answer it was effective.
 fact fury cutter against sandshrew it was effective.
 query fury cutter against sandshrew answer it was effective.
-fact fury cutter against clefairy it was effective.
-query fury cutter against clefairy answer it was effective.
+fact fury cutter against clefairy it was not very effective.
+query fury cutter against clefairy answer it was not very effective.
 fact fury cutter against mankey it was not very effective.
 query fury cutter against mankey answer it was not very effective.
 fact fury cutter against abra it was super effective.
@@ -35556,8 +36696,8 @@ fact high jump kick against pikachu it was effective.
 query high jump kick against pikachu answer it was effective.
 fact high jump kick against sandshrew it was effective.
 query high jump kick against sandshrew answer it was effective.
-fact high jump kick against clefairy it was effective.
-query high jump kick against clefairy answer it was effective.
+fact high jump kick against clefairy it was not very effective.
+query high jump kick against clefairy answer it was not very effective.
 fact high jump kick against mankey it was effective.
 query high jump kick against mankey answer it was effective.
 fact high jump kick against abra it was not very effective.
@@ -35932,32 +37072,32 @@ fact icy wind against dratini it was super effective.
 query icy wind against dratini answer it was super effective.
 fact iron tail against bulbasaur it was effective.
 query iron tail against bulbasaur answer it was effective.
-fact iron tail against charmander it was effective.
-query iron tail against charmander answer it was effective.
-fact iron tail against squirtle it was effective.
-query iron tail against squirtle answer it was effective.
+fact iron tail against charmander it was not very effective.
+query iron tail against charmander answer it was not very effective.
+fact iron tail against squirtle it was not very effective.
+query iron tail against squirtle answer it was not very effective.
 fact iron tail against caterpie it was effective.
 query iron tail against caterpie answer it was effective.
 fact iron tail against pidgey it was effective.
 query iron tail against pidgey answer it was effective.
 fact iron tail against ekans it was effective.
 query iron tail against ekans answer it was effective.
-fact iron tail against pikachu it was effective.
-query iron tail against pikachu answer it was effective.
+fact iron tail against pikachu it was not very effective.
+query iron tail against pikachu answer it was not very effective.
 fact iron tail against sandshrew it was effective.
 query iron tail against sandshrew answer it was effective.
-fact iron tail against clefairy it was effective.
-query iron tail against clefairy answer it was effective.
+fact iron tail against clefairy it was super effective.
+query iron tail against clefairy answer it was super effective.
 fact iron tail against mankey it was effective.
 query iron tail against mankey answer it was effective.
 fact iron tail against abra it was effective.
 query iron tail against abra answer it was effective.
-fact iron tail against geodude it was effective.
-query iron tail against geodude answer it was effective.
+fact iron tail against geodude it was super effective.
+query iron tail against geodude answer it was super effective.
 fact iron tail against gastly it was effective.
 query iron tail against gastly answer it was effective.
-fact iron tail against jynx it was effective.
-query iron tail against jynx answer it was effective.
+fact iron tail against jynx it was super effective.
+query iron tail against jynx answer it was super effective.
 fact iron tail against dratini it was effective.
 query iron tail against dratini answer it was effective.
 fact jump kick against bulbasaur it was not very effective.
@@ -35976,8 +37116,8 @@ fact jump kick against pikachu it was effective.
 query jump kick against pikachu answer it was effective.
 fact jump kick against sandshrew it was effective.
 query jump kick against sandshrew answer it was effective.
-fact jump kick against clefairy it was effective.
-query jump kick against clefairy answer it was effective.
+fact jump kick against clefairy it was not very effective.
+query jump kick against clefairy answer it was not very effective.
 fact jump kick against mankey it was effective.
 query jump kick against mankey answer it was effective.
 fact jump kick against abra it was not very effective.
@@ -36006,8 +37146,8 @@ fact karate chop against pikachu it was effective.
 query karate chop against pikachu answer it was effective.
 fact karate chop against sandshrew it was effective.
 query karate chop against sandshrew answer it was effective.
-fact karate chop against clefairy it was effective.
-query karate chop against clefairy answer it was effective.
+fact karate chop against clefairy it was not very effective.
+query karate chop against clefairy answer it was not very effective.
 fact karate chop against mankey it was effective.
 query karate chop against mankey answer it was effective.
 fact karate chop against abra it was not very effective.
@@ -36036,8 +37176,8 @@ fact leech life against pikachu it was effective.
 query leech life against pikachu answer it was effective.
 fact leech life against sandshrew it was effective.
 query leech life against sandshrew answer it was effective.
-fact leech life against clefairy it was effective.
-query leech life against clefairy answer it was effective.
+fact leech life against clefairy it was not very effective.
+query leech life against clefairy answer it was not very effective.
 fact leech life against mankey it was not very effective.
 query leech life against mankey answer it was not very effective.
 fact leech life against abra it was super effective.
@@ -36130,14 +37270,14 @@ fact lick against clefairy it was effective.
 query lick against clefairy answer it was effective.
 fact lick against mankey it was effective.
 query lick against mankey answer it was effective.
-fact lick against abra it had no effect.
-query lick against abra answer it had no effect.
+fact lick against abra it was super effective.
+query lick against abra answer it was super effective.
 fact lick against geodude it was effective.
 query lick against geodude answer it was effective.
 fact lick against gastly it was super effective.
 query lick against gastly answer it was super effective.
-fact lick against jynx it had no effect.
-query lick against jynx answer it had no effect.
+fact lick against jynx it was super effective.
+query lick against jynx answer it was super effective.
 fact lick against dratini it was effective.
 query lick against dratini answer it was effective.
 fact light screen against bulbasaur it was super effective.
@@ -36216,8 +37356,8 @@ fact low kick against pikachu it was effective.
 query low kick against pikachu answer it was effective.
 fact low kick against sandshrew it was effective.
 query low kick against sandshrew answer it was effective.
-fact low kick against clefairy it was effective.
-query low kick against clefairy answer it was effective.
+fact low kick against clefairy it was not very effective.
+query low kick against clefairy answer it was not very effective.
 fact low kick against mankey it was effective.
 query low kick against mankey answer it was effective.
 fact low kick against abra it was not very effective.
@@ -36246,8 +37386,8 @@ fact mach punch against pikachu it was effective.
 query mach punch against pikachu answer it was effective.
 fact mach punch against sandshrew it was effective.
 query mach punch against sandshrew answer it was effective.
-fact mach punch against clefairy it was effective.
-query mach punch against clefairy answer it was effective.
+fact mach punch against clefairy it was not very effective.
+query mach punch against clefairy answer it was not very effective.
 fact mach punch against mankey it was effective.
 query mach punch against mankey answer it was effective.
 fact mach punch against abra it was not very effective.
@@ -36366,8 +37506,8 @@ fact megahorn against pikachu it was effective.
 query megahorn against pikachu answer it was effective.
 fact megahorn against sandshrew it was effective.
 query megahorn against sandshrew answer it was effective.
-fact megahorn against clefairy it was effective.
-query megahorn against clefairy answer it was effective.
+fact megahorn against clefairy it was not very effective.
+query megahorn against clefairy answer it was not very effective.
 fact megahorn against mankey it was not very effective.
 query megahorn against mankey answer it was not very effective.
 fact megahorn against abra it was super effective.
@@ -36382,32 +37522,32 @@ fact megahorn against dratini it was effective.
 query megahorn against dratini answer it was effective.
 fact metal claw against bulbasaur it was effective.
 query metal claw against bulbasaur answer it was effective.
-fact metal claw against charmander it was effective.
-query metal claw against charmander answer it was effective.
-fact metal claw against squirtle it was effective.
-query metal claw against squirtle answer it was effective.
+fact metal claw against charmander it was not very effective.
+query metal claw against charmander answer it was not very effective.
+fact metal claw against squirtle it was not very effective.
+query metal claw against squirtle answer it was not very effective.
 fact metal claw against caterpie it was effective.
 query metal claw against caterpie answer it was effective.
 fact metal claw against pidgey it was effective.
 query metal claw against pidgey answer it was effective.
 fact metal claw against ekans it was effective.
 query metal claw against ekans answer it was effective.
-fact metal claw against pikachu it was effective.
-query metal claw against pikachu answer it was effective.
+fact metal claw against pikachu it was not very effective.
+query metal claw against pikachu answer it was not very effective.
 fact metal claw against sandshrew it was effective.
 query metal claw against sandshrew answer it was effective.
-fact metal claw against clefairy it was effective.
-query metal claw against clefairy answer it was effective.
+fact metal claw against clefairy it was super effective.
+query metal claw against clefairy answer it was super effective.
 fact metal claw against mankey it was effective.
 query metal claw against mankey answer it was effective.
 fact metal claw against abra it was effective.
 query metal claw against abra answer it was effective.
-fact metal claw against geodude it was effective.
-query metal claw against geodude answer it was effective.
+fact metal claw against geodude it was super effective.
+query metal claw against geodude answer it was super effective.
 fact metal claw against gastly it was effective.
 query metal claw against gastly answer it was effective.
-fact metal claw against jynx it was effective.
-query metal claw against jynx answer it was effective.
+fact metal claw against jynx it was super effective.
+query metal claw against jynx answer it was super effective.
 fact metal claw against dratini it was effective.
 query metal claw against dratini answer it was effective.
 fact mud slap against bulbasaur it was effective.
@@ -36460,14 +37600,14 @@ fact night shade against clefairy it was effective.
 query night shade against clefairy answer it was effective.
 fact night shade against mankey it was effective.
 query night shade against mankey answer it was effective.
-fact night shade against abra it had no effect.
-query night shade against abra answer it had no effect.
+fact night shade against abra it was super effective.
+query night shade against abra answer it was super effective.
 fact night shade against geodude it was effective.
 query night shade against geodude answer it was effective.
 fact night shade against gastly it was super effective.
 query night shade against gastly answer it was super effective.
-fact night shade against jynx it had no effect.
-query night shade against jynx answer it had no effect.
+fact night shade against jynx it was super effective.
+query night shade against jynx answer it was super effective.
 fact night shade against dratini it was effective.
 query night shade against dratini answer it was effective.
 fact octazooka against bulbasaur it was not very effective.
@@ -36516,8 +37656,8 @@ fact outrage against pikachu it was effective.
 query outrage against pikachu answer it was effective.
 fact outrage against sandshrew it was effective.
 query outrage against sandshrew answer it was effective.
-fact outrage against clefairy it was effective.
-query outrage against clefairy answer it was effective.
+fact outrage against clefairy it had no effect.
+query outrage against clefairy answer it had no effect.
 fact outrage against mankey it was effective.
 query outrage against mankey answer it was effective.
 fact outrage against abra it was effective.
@@ -36636,8 +37776,8 @@ fact pin missile against pikachu it was effective.
 query pin missile against pikachu answer it was effective.
 fact pin missile against sandshrew it was effective.
 query pin missile against sandshrew answer it was effective.
-fact pin missile against clefairy it was effective.
-query pin missile against clefairy answer it was effective.
+fact pin missile against clefairy it was not very effective.
+query pin missile against clefairy answer it was not very effective.
 fact pin missile against mankey it was not very effective.
 query pin missile against mankey answer it was not very effective.
 fact pin missile against abra it was super effective.
@@ -36666,8 +37806,8 @@ fact poison powder against pikachu it was effective.
 query poison powder against pikachu answer it was effective.
 fact poison powder against sandshrew it was not very effective.
 query poison powder against sandshrew answer it was not very effective.
-fact poison powder against clefairy it was effective.
-query poison powder against clefairy answer it was effective.
+fact poison powder against clefairy it was super effective.
+query poison powder against clefairy answer it was super effective.
 fact poison powder against mankey it was effective.
 query poison powder against mankey answer it was effective.
 fact poison powder against abra it was effective.
@@ -36696,8 +37836,8 @@ fact poison sting against pikachu it was effective.
 query poison sting against pikachu answer it was effective.
 fact poison sting against sandshrew it was not very effective.
 query poison sting against sandshrew answer it was not very effective.
-fact poison sting against clefairy it was effective.
-query poison sting against clefairy answer it was effective.
+fact poison sting against clefairy it was super effective.
+query poison sting against clefairy answer it was super effective.
 fact poison sting against mankey it was effective.
 query poison sting against mankey answer it was effective.
 fact poison sting against abra it was effective.
@@ -36876,18 +38016,18 @@ fact pursuit against pikachu it was effective.
 query pursuit against pikachu answer it was effective.
 fact pursuit against sandshrew it was effective.
 query pursuit against sandshrew answer it was effective.
-fact pursuit against clefairy it was effective.
-query pursuit against clefairy answer it was effective.
-fact pursuit against mankey it was effective.
-query pursuit against mankey answer it was effective.
-fact pursuit against abra it was effective.
-query pursuit against abra answer it was effective.
+fact pursuit against clefairy it was not very effective.
+query pursuit against clefairy answer it was not very effective.
+fact pursuit against mankey it was not very effective.
+query pursuit against mankey answer it was not very effective.
+fact pursuit against abra it was super effective.
+query pursuit against abra answer it was super effective.
 fact pursuit against geodude it was effective.
 query pursuit against geodude answer it was effective.
-fact pursuit against gastly it was effective.
-query pursuit against gastly answer it was effective.
-fact pursuit against jynx it was effective.
-query pursuit against jynx answer it was effective.
+fact pursuit against gastly it was super effective.
+query pursuit against gastly answer it was super effective.
+fact pursuit against jynx it was super effective.
+query pursuit against jynx answer it was super effective.
 fact pursuit against dratini it was effective.
 query pursuit against dratini answer it was effective.
 fact quick attack against bulbasaur it was effective.
@@ -37326,8 +38466,8 @@ fact rock smash against pikachu it was effective.
 query rock smash against pikachu answer it was effective.
 fact rock smash against sandshrew it was effective.
 query rock smash against sandshrew answer it was effective.
-fact rock smash against clefairy it was effective.
-query rock smash against clefairy answer it was effective.
+fact rock smash against clefairy it was not very effective.
+query rock smash against clefairy answer it was not very effective.
 fact rock smash against mankey it was effective.
 query rock smash against mankey answer it was effective.
 fact rock smash against abra it was not very effective.
@@ -37386,8 +38526,8 @@ fact rolling kick against pikachu it was effective.
 query rolling kick against pikachu answer it was effective.
 fact rolling kick against sandshrew it was effective.
 query rolling kick against sandshrew answer it was effective.
-fact rolling kick against clefairy it was effective.
-query rolling kick against clefairy answer it was effective.
+fact rolling kick against clefairy it was not very effective.
+query rolling kick against clefairy answer it was not very effective.
 fact rolling kick against mankey it was effective.
 query rolling kick against mankey answer it was effective.
 fact rolling kick against abra it was not very effective.
@@ -37570,14 +38710,14 @@ fact shadow ball against clefairy it was effective.
 query shadow ball against clefairy answer it was effective.
 fact shadow ball against mankey it was effective.
 query shadow ball against mankey answer it was effective.
-fact shadow ball against abra it had no effect.
-query shadow ball against abra answer it had no effect.
+fact shadow ball against abra it was super effective.
+query shadow ball against abra answer it was super effective.
 fact shadow ball against geodude it was effective.
 query shadow ball against geodude answer it was effective.
 fact shadow ball against gastly it was super effective.
 query shadow ball against gastly answer it was super effective.
-fact shadow ball against jynx it had no effect.
-query shadow ball against jynx answer it had no effect.
+fact shadow ball against jynx it was super effective.
+query shadow ball against jynx answer it was super effective.
 fact shadow ball against dratini it was effective.
 query shadow ball against dratini answer it was effective.
 fact sketch against bulbasaur it was effective.
@@ -38016,8 +39156,8 @@ fact sludge against pikachu it was effective.
 query sludge against pikachu answer it was effective.
 fact sludge against sandshrew it was not very effective.
 query sludge against sandshrew answer it was not very effective.
-fact sludge against clefairy it was effective.
-query sludge against clefairy answer it was effective.
+fact sludge against clefairy it was super effective.
+query sludge against clefairy answer it was super effective.
 fact sludge against mankey it was effective.
 query sludge against mankey answer it was effective.
 fact sludge against abra it was effective.
@@ -38046,8 +39186,8 @@ fact sludge bomb against pikachu it was effective.
 query sludge bomb against pikachu answer it was effective.
 fact sludge bomb against sandshrew it was not very effective.
 query sludge bomb against sandshrew answer it was not very effective.
-fact sludge bomb against clefairy it was effective.
-query sludge bomb against clefairy answer it was effective.
+fact sludge bomb against clefairy it was super effective.
+query sludge bomb against clefairy answer it was super effective.
 fact sludge bomb against mankey it was effective.
 query sludge bomb against mankey answer it was effective.
 fact sludge bomb against abra it was effective.
@@ -38076,8 +39216,8 @@ fact smog against pikachu it was effective.
 query smog against pikachu answer it was effective.
 fact smog against sandshrew it was not very effective.
 query smog against sandshrew answer it was not very effective.
-fact smog against clefairy it was effective.
-query smog against clefairy answer it was effective.
+fact smog against clefairy it was super effective.
+query smog against clefairy answer it was super effective.
 fact smog against mankey it was effective.
 query smog against mankey answer it was effective.
 fact smog against abra it was effective.
@@ -38272,32 +39412,32 @@ fact spike cannon against dratini it was effective.
 query spike cannon against dratini answer it was effective.
 fact steel wing against bulbasaur it was effective.
 query steel wing against bulbasaur answer it was effective.
-fact steel wing against charmander it was effective.
-query steel wing against charmander answer it was effective.
-fact steel wing against squirtle it was effective.
-query steel wing against squirtle answer it was effective.
+fact steel wing against charmander it was not very effective.
+query steel wing against charmander answer it was not very effective.
+fact steel wing against squirtle it was not very effective.
+query steel wing against squirtle answer it was not very effective.
 fact steel wing against caterpie it was effective.
 query steel wing against caterpie answer it was effective.
 fact steel wing against pidgey it was effective.
 query steel wing against pidgey answer it was effective.
 fact steel wing against ekans it was effective.
 query steel wing against ekans answer it was effective.
-fact steel wing against pikachu it was effective.
-query steel wing against pikachu answer it was effective.
+fact steel wing against pikachu it was not very effective.
+query steel wing against pikachu answer it was not very effective.
 fact steel wing against sandshrew it was effective.
 query steel wing against sandshrew answer it was effective.
-fact steel wing against clefairy it was effective.
-query steel wing against clefairy answer it was effective.
+fact steel wing against clefairy it was super effective.
+query steel wing against clefairy answer it was super effective.
 fact steel wing against mankey it was effective.
 query steel wing against mankey answer it was effective.
 fact steel wing against abra it was effective.
 query steel wing against abra answer it was effective.
-fact steel wing against geodude it was effective.
-query steel wing against geodude answer it was effective.
+fact steel wing against geodude it was super effective.
+query steel wing against geodude answer it was super effective.
 fact steel wing against gastly it was effective.
 query steel wing against gastly answer it was effective.
-fact steel wing against jynx it was effective.
-query steel wing against jynx answer it was effective.
+fact steel wing against jynx it was super effective.
+query steel wing against jynx answer it was super effective.
 fact steel wing against dratini it was effective.
 query steel wing against dratini answer it was effective.
 fact stomp against bulbasaur it was effective.
@@ -38436,8 +39576,8 @@ fact submission against pikachu it was effective.
 query submission against pikachu answer it was effective.
 fact submission against sandshrew it was effective.
 query submission against sandshrew answer it was effective.
-fact submission against clefairy it was effective.
-query submission against clefairy answer it was effective.
+fact submission against clefairy it was not very effective.
+query submission against clefairy answer it was not very effective.
 fact submission against mankey it was effective.
 query submission against mankey answer it was effective.
 fact submission against abra it was not very effective.
@@ -38646,18 +39786,18 @@ fact thief against pikachu it was effective.
 query thief against pikachu answer it was effective.
 fact thief against sandshrew it was effective.
 query thief against sandshrew answer it was effective.
-fact thief against clefairy it was effective.
-query thief against clefairy answer it was effective.
-fact thief against mankey it was effective.
-query thief against mankey answer it was effective.
-fact thief against abra it was effective.
-query thief against abra answer it was effective.
+fact thief against clefairy it was not very effective.
+query thief against clefairy answer it was not very effective.
+fact thief against mankey it was not very effective.
+query thief against mankey answer it was not very effective.
+fact thief against abra it was super effective.
+query thief against abra answer it was super effective.
 fact thief against geodude it was effective.
 query thief against geodude answer it was effective.
-fact thief against gastly it was effective.
-query thief against gastly answer it was effective.
-fact thief against jynx it was effective.
-query thief against jynx answer it was effective.
+fact thief against gastly it was super effective.
+query thief against gastly answer it was super effective.
+fact thief against jynx it was super effective.
+query thief against jynx answer it was super effective.
 fact thief against dratini it was effective.
 query thief against dratini answer it was effective.
 fact thrash against bulbasaur it was effective.
@@ -38916,8 +40056,8 @@ fact toxic against pikachu it was effective.
 query toxic against pikachu answer it was effective.
 fact toxic against sandshrew it was not very effective.
 query toxic against sandshrew answer it was not very effective.
-fact toxic against clefairy it was effective.
-query toxic against clefairy answer it was effective.
+fact toxic against clefairy it was super effective.
+query toxic against clefairy answer it was super effective.
 fact toxic against mankey it was effective.
 query toxic against mankey answer it was effective.
 fact toxic against abra it was effective.
@@ -39126,8 +40266,8 @@ fact twineedle against pikachu it was effective.
 query twineedle against pikachu answer it was effective.
 fact twineedle against sandshrew it was effective.
 query twineedle against sandshrew answer it was effective.
-fact twineedle against clefairy it was effective.
-query twineedle against clefairy answer it was effective.
+fact twineedle against clefairy it was not very effective.
+query twineedle against clefairy answer it was not very effective.
 fact twineedle against mankey it was not very effective.
 query twineedle against mankey answer it was not very effective.
 fact twineedle against abra it was super effective.
@@ -39156,8 +40296,8 @@ fact twister against pikachu it was effective.
 query twister against pikachu answer it was effective.
 fact twister against sandshrew it was effective.
 query twister against sandshrew answer it was effective.
-fact twister against clefairy it was effective.
-query twister against clefairy answer it was effective.
+fact twister against clefairy it had no effect.
+query twister against clefairy answer it had no effect.
 fact twister against mankey it was effective.
 query twister against mankey answer it was effective.
 fact twister against abra it was effective.
@@ -39246,8 +40386,8 @@ fact vital throw against pikachu it was effective.
 query vital throw against pikachu answer it was effective.
 fact vital throw against sandshrew it was effective.
 query vital throw against sandshrew answer it was effective.
-fact vital throw against clefairy it was effective.
-query vital throw against clefairy answer it was effective.
+fact vital throw against clefairy it was not very effective.
+query vital throw against clefairy answer it was not very effective.
 fact vital throw against mankey it was effective.
 query vital throw against mankey answer it was effective.
 fact vital throw against abra it was not very effective.
@@ -39560,6 +40700,906 @@ fact zap cannon against jynx it was effective.
 query zap cannon against jynx answer it was effective.
 fact zap cannon against dratini it was not very effective.
 query zap cannon against dratini answer it was not very effective.
+fact metronome against bulbasaur it was effective.
+query metronome against bulbasaur answer it was effective.
+fact metronome against bulbasaur it was effective.
+query metronome against bulbasaur answer it was effective.
+fact metronome against bulbasaur it was effective.
+query metronome against bulbasaur answer it was effective.
+fact metronome against bulbasaur it was effective.
+query metronome against bulbasaur answer it was effective.
+fact metronome against bulbasaur it was effective.
+query metronome against bulbasaur answer it was effective.
+fact metronome against charmander it was effective.
+query metronome against charmander answer it was effective.
+fact metronome against charmander it was effective.
+query metronome against charmander answer it was effective.
+fact metronome against charmander it was effective.
+query metronome against charmander answer it was effective.
+fact metronome against charmander it was effective.
+query metronome against charmander answer it was effective.
+fact metronome against charmander it was effective.
+query metronome against charmander answer it was effective.
+fact metronome against squirtle it was effective.
+query metronome against squirtle answer it was effective.
+fact metronome against squirtle it was effective.
+query metronome against squirtle answer it was effective.
+fact metronome against squirtle it was effective.
+query metronome against squirtle answer it was effective.
+fact metronome against squirtle it was effective.
+query metronome against squirtle answer it was effective.
+fact metronome against squirtle it was effective.
+query metronome against squirtle answer it was effective.
+fact metronome against caterpie it was effective.
+query metronome against caterpie answer it was effective.
+fact metronome against caterpie it was effective.
+query metronome against caterpie answer it was effective.
+fact metronome against caterpie it was effective.
+query metronome against caterpie answer it was effective.
+fact metronome against caterpie it was effective.
+query metronome against caterpie answer it was effective.
+fact metronome against caterpie it was effective.
+query metronome against caterpie answer it was effective.
+fact metronome against pidgey it was effective.
+query metronome against pidgey answer it was effective.
+fact metronome against pidgey it was effective.
+query metronome against pidgey answer it was effective.
+fact metronome against pidgey it was effective.
+query metronome against pidgey answer it was effective.
+fact metronome against pidgey it was effective.
+query metronome against pidgey answer it was effective.
+fact metronome against pidgey it was effective.
+query metronome against pidgey answer it was effective.
+fact metronome against ekans it was effective.
+query metronome against ekans answer it was effective.
+fact metronome against ekans it was effective.
+query metronome against ekans answer it was effective.
+fact metronome against ekans it was effective.
+query metronome against ekans answer it was effective.
+fact metronome against ekans it was effective.
+query metronome against ekans answer it was effective.
+fact metronome against ekans it was effective.
+query metronome against ekans answer it was effective.
+fact metronome against pikachu it was effective.
+query metronome against pikachu answer it was effective.
+fact metronome against pikachu it was effective.
+query metronome against pikachu answer it was effective.
+fact metronome against pikachu it was effective.
+query metronome against pikachu answer it was effective.
+fact metronome against pikachu it was effective.
+query metronome against pikachu answer it was effective.
+fact metronome against pikachu it was effective.
+query metronome against pikachu answer it was effective.
+fact metronome against sandshrew it was effective.
+query metronome against sandshrew answer it was effective.
+fact metronome against sandshrew it was effective.
+query metronome against sandshrew answer it was effective.
+fact metronome against sandshrew it was effective.
+query metronome against sandshrew answer it was effective.
+fact metronome against sandshrew it was effective.
+query metronome against sandshrew answer it was effective.
+fact metronome against sandshrew it was effective.
+query metronome against sandshrew answer it was effective.
+fact metronome against clefairy it was effective.
+query metronome against clefairy answer it was effective.
+fact metronome against clefairy it was effective.
+query metronome against clefairy answer it was effective.
+fact metronome against clefairy it was effective.
+query metronome against clefairy answer it was effective.
+fact metronome against clefairy it was effective.
+query metronome against clefairy answer it was effective.
+fact metronome against clefairy it was effective.
+query metronome against clefairy answer it was effective.
+fact metronome against mankey it was effective.
+query metronome against mankey answer it was effective.
+fact metronome against mankey it was effective.
+query metronome against mankey answer it was effective.
+fact metronome against mankey it was effective.
+query metronome against mankey answer it was effective.
+fact metronome against mankey it was effective.
+query metronome against mankey answer it was effective.
+fact metronome against mankey it was effective.
+query metronome against mankey answer it was effective.
+fact metronome against abra it was effective.
+query metronome against abra answer it was effective.
+fact metronome against abra it was effective.
+query metronome against abra answer it was effective.
+fact metronome against abra it was effective.
+query metronome against abra answer it was effective.
+fact metronome against abra it was effective.
+query metronome against abra answer it was effective.
+fact metronome against abra it was effective.
+query metronome against abra answer it was effective.
+fact metronome against geodude it was not very effective.
+query metronome against geodude answer it was not very effective.
+fact metronome against geodude it was not very effective.
+query metronome against geodude answer it was not very effective.
+fact metronome against geodude it was not very effective.
+query metronome against geodude answer it was not very effective.
+fact metronome against geodude it was not very effective.
+query metronome against geodude answer it was not very effective.
+fact metronome against geodude it was not very effective.
+query metronome against geodude answer it was not very effective.
+fact metronome against gastly it had no effect.
+query metronome against gastly answer it had no effect.
+fact metronome against gastly it had no effect.
+query metronome against gastly answer it had no effect.
+fact metronome against gastly it had no effect.
+query metronome against gastly answer it had no effect.
+fact metronome against gastly it had no effect.
+query metronome against gastly answer it had no effect.
+fact metronome against gastly it had no effect.
+query metronome against gastly answer it had no effect.
+fact metronome against jynx it was effective.
+query metronome against jynx answer it was effective.
+fact metronome against jynx it was effective.
+query metronome against jynx answer it was effective.
+fact metronome against jynx it was effective.
+query metronome against jynx answer it was effective.
+fact metronome against jynx it was effective.
+query metronome against jynx answer it was effective.
+fact metronome against jynx it was effective.
+query metronome against jynx answer it was effective.
+fact metronome against dratini it was effective.
+query metronome against dratini answer it was effective.
+fact metronome against dratini it was effective.
+query metronome against dratini answer it was effective.
+fact metronome against dratini it was effective.
+query metronome against dratini answer it was effective.
+fact metronome against dratini it was effective.
+query metronome against dratini answer it was effective.
+fact metronome against dratini it was effective.
+query metronome against dratini answer it was effective.
+fact encore against bulbasaur it was effective.
+query encore against bulbasaur answer it was effective.
+fact encore against bulbasaur it was effective.
+query encore against bulbasaur answer it was effective.
+fact encore against bulbasaur it was effective.
+query encore against bulbasaur answer it was effective.
+fact encore against bulbasaur it was effective.
+query encore against bulbasaur answer it was effective.
+fact encore against bulbasaur it was effective.
+query encore against bulbasaur answer it was effective.
+fact encore against charmander it was effective.
+query encore against charmander answer it was effective.
+fact encore against charmander it was effective.
+query encore against charmander answer it was effective.
+fact encore against charmander it was effective.
+query encore against charmander answer it was effective.
+fact encore against charmander it was effective.
+query encore against charmander answer it was effective.
+fact encore against charmander it was effective.
+query encore against charmander answer it was effective.
+fact encore against squirtle it was effective.
+query encore against squirtle answer it was effective.
+fact encore against squirtle it was effective.
+query encore against squirtle answer it was effective.
+fact encore against squirtle it was effective.
+query encore against squirtle answer it was effective.
+fact encore against squirtle it was effective.
+query encore against squirtle answer it was effective.
+fact encore against squirtle it was effective.
+query encore against squirtle answer it was effective.
+fact encore against caterpie it was effective.
+query encore against caterpie answer it was effective.
+fact encore against caterpie it was effective.
+query encore against caterpie answer it was effective.
+fact encore against caterpie it was effective.
+query encore against caterpie answer it was effective.
+fact encore against caterpie it was effective.
+query encore against caterpie answer it was effective.
+fact encore against caterpie it was effective.
+query encore against caterpie answer it was effective.
+fact encore against pidgey it was effective.
+query encore against pidgey answer it was effective.
+fact encore against pidgey it was effective.
+query encore against pidgey answer it was effective.
+fact encore against pidgey it was effective.
+query encore against pidgey answer it was effective.
+fact encore against pidgey it was effective.
+query encore against pidgey answer it was effective.
+fact encore against pidgey it was effective.
+query encore against pidgey answer it was effective.
+fact encore against ekans it was effective.
+query encore against ekans answer it was effective.
+fact encore against ekans it was effective.
+query encore against ekans answer it was effective.
+fact encore against ekans it was effective.
+query encore against ekans answer it was effective.
+fact encore against ekans it was effective.
+query encore against ekans answer it was effective.
+fact encore against ekans it was effective.
+query encore against ekans answer it was effective.
+fact encore against pikachu it was effective.
+query encore against pikachu answer it was effective.
+fact encore against pikachu it was effective.
+query encore against pikachu answer it was effective.
+fact encore against pikachu it was effective.
+query encore against pikachu answer it was effective.
+fact encore against pikachu it was effective.
+query encore against pikachu answer it was effective.
+fact encore against pikachu it was effective.
+query encore against pikachu answer it was effective.
+fact encore against sandshrew it was effective.
+query encore against sandshrew answer it was effective.
+fact encore against sandshrew it was effective.
+query encore against sandshrew answer it was effective.
+fact encore against sandshrew it was effective.
+query encore against sandshrew answer it was effective.
+fact encore against sandshrew it was effective.
+query encore against sandshrew answer it was effective.
+fact encore against sandshrew it was effective.
+query encore against sandshrew answer it was effective.
+fact encore against clefairy it was effective.
+query encore against clefairy answer it was effective.
+fact encore against clefairy it was effective.
+query encore against clefairy answer it was effective.
+fact encore against clefairy it was effective.
+query encore against clefairy answer it was effective.
+fact encore against clefairy it was effective.
+query encore against clefairy answer it was effective.
+fact encore against clefairy it was effective.
+query encore against clefairy answer it was effective.
+fact encore against mankey it was effective.
+query encore against mankey answer it was effective.
+fact encore against mankey it was effective.
+query encore against mankey answer it was effective.
+fact encore against mankey it was effective.
+query encore against mankey answer it was effective.
+fact encore against mankey it was effective.
+query encore against mankey answer it was effective.
+fact encore against mankey it was effective.
+query encore against mankey answer it was effective.
+fact encore against abra it was effective.
+query encore against abra answer it was effective.
+fact encore against abra it was effective.
+query encore against abra answer it was effective.
+fact encore against abra it was effective.
+query encore against abra answer it was effective.
+fact encore against abra it was effective.
+query encore against abra answer it was effective.
+fact encore against abra it was effective.
+query encore against abra answer it was effective.
+fact encore against geodude it was not very effective.
+query encore against geodude answer it was not very effective.
+fact encore against geodude it was not very effective.
+query encore against geodude answer it was not very effective.
+fact encore against geodude it was not very effective.
+query encore against geodude answer it was not very effective.
+fact encore against geodude it was not very effective.
+query encore against geodude answer it was not very effective.
+fact encore against geodude it was not very effective.
+query encore against geodude answer it was not very effective.
+fact encore against gastly it had no effect.
+query encore against gastly answer it had no effect.
+fact encore against gastly it had no effect.
+query encore against gastly answer it had no effect.
+fact encore against gastly it had no effect.
+query encore against gastly answer it had no effect.
+fact encore against gastly it had no effect.
+query encore against gastly answer it had no effect.
+fact encore against gastly it had no effect.
+query encore against gastly answer it had no effect.
+fact encore against jynx it was effective.
+query encore against jynx answer it was effective.
+fact encore against jynx it was effective.
+query encore against jynx answer it was effective.
+fact encore against jynx it was effective.
+query encore against jynx answer it was effective.
+fact encore against jynx it was effective.
+query encore against jynx answer it was effective.
+fact encore against jynx it was effective.
+query encore against jynx answer it was effective.
+fact encore against dratini it was effective.
+query encore against dratini answer it was effective.
+fact encore against dratini it was effective.
+query encore against dratini answer it was effective.
+fact encore against dratini it was effective.
+query encore against dratini answer it was effective.
+fact encore against dratini it was effective.
+query encore against dratini answer it was effective.
+fact encore against dratini it was effective.
+query encore against dratini answer it was effective.
+fact disable against bulbasaur it was effective.
+query disable against bulbasaur answer it was effective.
+fact disable against bulbasaur it was effective.
+query disable against bulbasaur answer it was effective.
+fact disable against bulbasaur it was effective.
+query disable against bulbasaur answer it was effective.
+fact disable against bulbasaur it was effective.
+query disable against bulbasaur answer it was effective.
+fact disable against bulbasaur it was effective.
+query disable against bulbasaur answer it was effective.
+fact disable against charmander it was effective.
+query disable against charmander answer it was effective.
+fact disable against charmander it was effective.
+query disable against charmander answer it was effective.
+fact disable against charmander it was effective.
+query disable against charmander answer it was effective.
+fact disable against charmander it was effective.
+query disable against charmander answer it was effective.
+fact disable against charmander it was effective.
+query disable against charmander answer it was effective.
+fact disable against squirtle it was effective.
+query disable against squirtle answer it was effective.
+fact disable against squirtle it was effective.
+query disable against squirtle answer it was effective.
+fact disable against squirtle it was effective.
+query disable against squirtle answer it was effective.
+fact disable against squirtle it was effective.
+query disable against squirtle answer it was effective.
+fact disable against squirtle it was effective.
+query disable against squirtle answer it was effective.
+fact disable against caterpie it was effective.
+query disable against caterpie answer it was effective.
+fact disable against caterpie it was effective.
+query disable against caterpie answer it was effective.
+fact disable against caterpie it was effective.
+query disable against caterpie answer it was effective.
+fact disable against caterpie it was effective.
+query disable against caterpie answer it was effective.
+fact disable against caterpie it was effective.
+query disable against caterpie answer it was effective.
+fact disable against pidgey it was effective.
+query disable against pidgey answer it was effective.
+fact disable against pidgey it was effective.
+query disable against pidgey answer it was effective.
+fact disable against pidgey it was effective.
+query disable against pidgey answer it was effective.
+fact disable against pidgey it was effective.
+query disable against pidgey answer it was effective.
+fact disable against pidgey it was effective.
+query disable against pidgey answer it was effective.
+fact disable against ekans it was effective.
+query disable against ekans answer it was effective.
+fact disable against ekans it was effective.
+query disable against ekans answer it was effective.
+fact disable against ekans it was effective.
+query disable against ekans answer it was effective.
+fact disable against ekans it was effective.
+query disable against ekans answer it was effective.
+fact disable against ekans it was effective.
+query disable against ekans answer it was effective.
+fact disable against pikachu it was effective.
+query disable against pikachu answer it was effective.
+fact disable against pikachu it was effective.
+query disable against pikachu answer it was effective.
+fact disable against pikachu it was effective.
+query disable against pikachu answer it was effective.
+fact disable against pikachu it was effective.
+query disable against pikachu answer it was effective.
+fact disable against pikachu it was effective.
+query disable against pikachu answer it was effective.
+fact disable against sandshrew it was effective.
+query disable against sandshrew answer it was effective.
+fact disable against sandshrew it was effective.
+query disable against sandshrew answer it was effective.
+fact disable against sandshrew it was effective.
+query disable against sandshrew answer it was effective.
+fact disable against sandshrew it was effective.
+query disable against sandshrew answer it was effective.
+fact disable against sandshrew it was effective.
+query disable against sandshrew answer it was effective.
+fact disable against clefairy it was effective.
+query disable against clefairy answer it was effective.
+fact disable against clefairy it was effective.
+query disable against clefairy answer it was effective.
+fact disable against clefairy it was effective.
+query disable against clefairy answer it was effective.
+fact disable against clefairy it was effective.
+query disable against clefairy answer it was effective.
+fact disable against clefairy it was effective.
+query disable against clefairy answer it was effective.
+fact disable against mankey it was effective.
+query disable against mankey answer it was effective.
+fact disable against mankey it was effective.
+query disable against mankey answer it was effective.
+fact disable against mankey it was effective.
+query disable against mankey answer it was effective.
+fact disable against mankey it was effective.
+query disable against mankey answer it was effective.
+fact disable against mankey it was effective.
+query disable against mankey answer it was effective.
+fact disable against abra it was effective.
+query disable against abra answer it was effective.
+fact disable against abra it was effective.
+query disable against abra answer it was effective.
+fact disable against abra it was effective.
+query disable against abra answer it was effective.
+fact disable against abra it was effective.
+query disable against abra answer it was effective.
+fact disable against abra it was effective.
+query disable against abra answer it was effective.
+fact disable against geodude it was not very effective.
+query disable against geodude answer it was not very effective.
+fact disable against geodude it was not very effective.
+query disable against geodude answer it was not very effective.
+fact disable against geodude it was not very effective.
+query disable against geodude answer it was not very effective.
+fact disable against geodude it was not very effective.
+query disable against geodude answer it was not very effective.
+fact disable against geodude it was not very effective.
+query disable against geodude answer it was not very effective.
+fact disable against gastly it had no effect.
+query disable against gastly answer it had no effect.
+fact disable against gastly it had no effect.
+query disable against gastly answer it had no effect.
+fact disable against gastly it had no effect.
+query disable against gastly answer it had no effect.
+fact disable against gastly it had no effect.
+query disable against gastly answer it had no effect.
+fact disable against gastly it had no effect.
+query disable against gastly answer it had no effect.
+fact disable against jynx it was effective.
+query disable against jynx answer it was effective.
+fact disable against jynx it was effective.
+query disable against jynx answer it was effective.
+fact disable against jynx it was effective.
+query disable against jynx answer it was effective.
+fact disable against jynx it was effective.
+query disable against jynx answer it was effective.
+fact disable against jynx it was effective.
+query disable against jynx answer it was effective.
+fact disable against dratini it was effective.
+query disable against dratini answer it was effective.
+fact disable against dratini it was effective.
+query disable against dratini answer it was effective.
+fact disable against dratini it was effective.
+query disable against dratini answer it was effective.
+fact disable against dratini it was effective.
+query disable against dratini answer it was effective.
+fact disable against dratini it was effective.
+query disable against dratini answer it was effective.
+fact mirror move against bulbasaur it was super effective.
+query mirror move against bulbasaur answer it was super effective.
+fact mirror move against bulbasaur it was super effective.
+query mirror move against bulbasaur answer it was super effective.
+fact mirror move against bulbasaur it was super effective.
+query mirror move against bulbasaur answer it was super effective.
+fact mirror move against bulbasaur it was super effective.
+query mirror move against bulbasaur answer it was super effective.
+fact mirror move against bulbasaur it was super effective.
+query mirror move against bulbasaur answer it was super effective.
+fact mirror move against charmander it was effective.
+query mirror move against charmander answer it was effective.
+fact mirror move against charmander it was effective.
+query mirror move against charmander answer it was effective.
+fact mirror move against charmander it was effective.
+query mirror move against charmander answer it was effective.
+fact mirror move against charmander it was effective.
+query mirror move against charmander answer it was effective.
+fact mirror move against charmander it was effective.
+query mirror move against charmander answer it was effective.
+fact mirror move against squirtle it was effective.
+query mirror move against squirtle answer it was effective.
+fact mirror move against squirtle it was effective.
+query mirror move against squirtle answer it was effective.
+fact mirror move against squirtle it was effective.
+query mirror move against squirtle answer it was effective.
+fact mirror move against squirtle it was effective.
+query mirror move against squirtle answer it was effective.
+fact mirror move against squirtle it was effective.
+query mirror move against squirtle answer it was effective.
+fact mirror move against caterpie it was super effective.
+query mirror move against caterpie answer it was super effective.
+fact mirror move against caterpie it was super effective.
+query mirror move against caterpie answer it was super effective.
+fact mirror move against caterpie it was super effective.
+query mirror move against caterpie answer it was super effective.
+fact mirror move against caterpie it was super effective.
+query mirror move against caterpie answer it was super effective.
+fact mirror move against caterpie it was super effective.
+query mirror move against caterpie answer it was super effective.
+fact mirror move against pidgey it was effective.
+query mirror move against pidgey answer it was effective.
+fact mirror move against pidgey it was effective.
+query mirror move against pidgey answer it was effective.
+fact mirror move against pidgey it was effective.
+query mirror move against pidgey answer it was effective.
+fact mirror move against pidgey it was effective.
+query mirror move against pidgey answer it was effective.
+fact mirror move against pidgey it was effective.
+query mirror move against pidgey answer it was effective.
+fact mirror move against ekans it was effective.
+query mirror move against ekans answer it was effective.
+fact mirror move against ekans it was effective.
+query mirror move against ekans answer it was effective.
+fact mirror move against ekans it was effective.
+query mirror move against ekans answer it was effective.
+fact mirror move against ekans it was effective.
+query mirror move against ekans answer it was effective.
+fact mirror move against ekans it was effective.
+query mirror move against ekans answer it was effective.
+fact mirror move against pikachu it was not very effective.
+query mirror move against pikachu answer it was not very effective.
+fact mirror move against pikachu it was not very effective.
+query mirror move against pikachu answer it was not very effective.
+fact mirror move against pikachu it was not very effective.
+query mirror move against pikachu answer it was not very effective.
+fact mirror move against pikachu it was not very effective.
+query mirror move against pikachu answer it was not very effective.
+fact mirror move against pikachu it was not very effective.
+query mirror move against pikachu answer it was not very effective.
+fact mirror move against sandshrew it was effective.
+query mirror move against sandshrew answer it was effective.
+fact mirror move against sandshrew it was effective.
+query mirror move against sandshrew answer it was effective.
+fact mirror move against sandshrew it was effective.
+query mirror move against sandshrew answer it was effective.
+fact mirror move against sandshrew it was effective.
+query mirror move against sandshrew answer it was effective.
+fact mirror move against sandshrew it was effective.
+query mirror move against sandshrew answer it was effective.
+fact mirror move against clefairy it was effective.
+query mirror move against clefairy answer it was effective.
+fact mirror move against clefairy it was effective.
+query mirror move against clefairy answer it was effective.
+fact mirror move against clefairy it was effective.
+query mirror move against clefairy answer it was effective.
+fact mirror move against clefairy it was effective.
+query mirror move against clefairy answer it was effective.
+fact mirror move against clefairy it was effective.
+query mirror move against clefairy answer it was effective.
+fact mirror move against mankey it was super effective.
+query mirror move against mankey answer it was super effective.
+fact mirror move against mankey it was super effective.
+query mirror move against mankey answer it was super effective.
+fact mirror move against mankey it was super effective.
+query mirror move against mankey answer it was super effective.
+fact mirror move against mankey it was super effective.
+query mirror move against mankey answer it was super effective.
+fact mirror move against mankey it was super effective.
+query mirror move against mankey answer it was super effective.
+fact mirror move against abra it was effective.
+query mirror move against abra answer it was effective.
+fact mirror move against abra it was effective.
+query mirror move against abra answer it was effective.
+fact mirror move against abra it was effective.
+query mirror move against abra answer it was effective.
+fact mirror move against abra it was effective.
+query mirror move against abra answer it was effective.
+fact mirror move against abra it was effective.
+query mirror move against abra answer it was effective.
+fact mirror move against geodude it was not very effective.
+query mirror move against geodude answer it was not very effective.
+fact mirror move against geodude it was not very effective.
+query mirror move against geodude answer it was not very effective.
+fact mirror move against geodude it was not very effective.
+query mirror move against geodude answer it was not very effective.
+fact mirror move against geodude it was not very effective.
+query mirror move against geodude answer it was not very effective.
+fact mirror move against geodude it was not very effective.
+query mirror move against geodude answer it was not very effective.
+fact mirror move against gastly it was effective.
+query mirror move against gastly answer it was effective.
+fact mirror move against gastly it was effective.
+query mirror move against gastly answer it was effective.
+fact mirror move against gastly it was effective.
+query mirror move against gastly answer it was effective.
+fact mirror move against gastly it was effective.
+query mirror move against gastly answer it was effective.
+fact mirror move against gastly it was effective.
+query mirror move against gastly answer it was effective.
+fact mirror move against jynx it was effective.
+query mirror move against jynx answer it was effective.
+fact mirror move against jynx it was effective.
+query mirror move against jynx answer it was effective.
+fact mirror move against jynx it was effective.
+query mirror move against jynx answer it was effective.
+fact mirror move against jynx it was effective.
+query mirror move against jynx answer it was effective.
+fact mirror move against jynx it was effective.
+query mirror move against jynx answer it was effective.
+fact mirror move against dratini it was effective.
+query mirror move against dratini answer it was effective.
+fact mirror move against dratini it was effective.
+query mirror move against dratini answer it was effective.
+fact mirror move against dratini it was effective.
+query mirror move against dratini answer it was effective.
+fact mirror move against dratini it was effective.
+query mirror move against dratini answer it was effective.
+fact mirror move against dratini it was effective.
+query mirror move against dratini answer it was effective.
+fact sing against bulbasaur it was effective.
+query sing against bulbasaur answer it was effective.
+fact sing against bulbasaur it was effective.
+query sing against bulbasaur answer it was effective.
+fact sing against bulbasaur it was effective.
+query sing against bulbasaur answer it was effective.
+fact sing against bulbasaur it was effective.
+query sing against bulbasaur answer it was effective.
+fact sing against bulbasaur it was effective.
+query sing against bulbasaur answer it was effective.
+fact sing against charmander it was effective.
+query sing against charmander answer it was effective.
+fact sing against charmander it was effective.
+query sing against charmander answer it was effective.
+fact sing against charmander it was effective.
+query sing against charmander answer it was effective.
+fact sing against charmander it was effective.
+query sing against charmander answer it was effective.
+fact sing against charmander it was effective.
+query sing against charmander answer it was effective.
+fact sing against squirtle it was effective.
+query sing against squirtle answer it was effective.
+fact sing against squirtle it was effective.
+query sing against squirtle answer it was effective.
+fact sing against squirtle it was effective.
+query sing against squirtle answer it was effective.
+fact sing against squirtle it was effective.
+query sing against squirtle answer it was effective.
+fact sing against squirtle it was effective.
+query sing against squirtle answer it was effective.
+fact sing against caterpie it was effective.
+query sing against caterpie answer it was effective.
+fact sing against caterpie it was effective.
+query sing against caterpie answer it was effective.
+fact sing against caterpie it was effective.
+query sing against caterpie answer it was effective.
+fact sing against caterpie it was effective.
+query sing against caterpie answer it was effective.
+fact sing against caterpie it was effective.
+query sing against caterpie answer it was effective.
+fact sing against pidgey it was effective.
+query sing against pidgey answer it was effective.
+fact sing against pidgey it was effective.
+query sing against pidgey answer it was effective.
+fact sing against pidgey it was effective.
+query sing against pidgey answer it was effective.
+fact sing against pidgey it was effective.
+query sing against pidgey answer it was effective.
+fact sing against pidgey it was effective.
+query sing against pidgey answer it was effective.
+fact sing against ekans it was effective.
+query sing against ekans answer it was effective.
+fact sing against ekans it was effective.
+query sing against ekans answer it was effective.
+fact sing against ekans it was effective.
+query sing against ekans answer it was effective.
+fact sing against ekans it was effective.
+query sing against ekans answer it was effective.
+fact sing against ekans it was effective.
+query sing against ekans answer it was effective.
+fact sing against pikachu it was effective.
+query sing against pikachu answer it was effective.
+fact sing against pikachu it was effective.
+query sing against pikachu answer it was effective.
+fact sing against pikachu it was effective.
+query sing against pikachu answer it was effective.
+fact sing against pikachu it was effective.
+query sing against pikachu answer it was effective.
+fact sing against pikachu it was effective.
+query sing against pikachu answer it was effective.
+fact sing against sandshrew it was effective.
+query sing against sandshrew answer it was effective.
+fact sing against sandshrew it was effective.
+query sing against sandshrew answer it was effective.
+fact sing against sandshrew it was effective.
+query sing against sandshrew answer it was effective.
+fact sing against sandshrew it was effective.
+query sing against sandshrew answer it was effective.
+fact sing against sandshrew it was effective.
+query sing against sandshrew answer it was effective.
+fact sing against clefairy it was effective.
+query sing against clefairy answer it was effective.
+fact sing against clefairy it was effective.
+query sing against clefairy answer it was effective.
+fact sing against clefairy it was effective.
+query sing against clefairy answer it was effective.
+fact sing against clefairy it was effective.
+query sing against clefairy answer it was effective.
+fact sing against clefairy it was effective.
+query sing against clefairy answer it was effective.
+fact sing against mankey it was effective.
+query sing against mankey answer it was effective.
+fact sing against mankey it was effective.
+query sing against mankey answer it was effective.
+fact sing against mankey it was effective.
+query sing against mankey answer it was effective.
+fact sing against mankey it was effective.
+query sing against mankey answer it was effective.
+fact sing against mankey it was effective.
+query sing against mankey answer it was effective.
+fact sing against abra it was effective.
+query sing against abra answer it was effective.
+fact sing against abra it was effective.
+query sing against abra answer it was effective.
+fact sing against abra it was effective.
+query sing against abra answer it was effective.
+fact sing against abra it was effective.
+query sing against abra answer it was effective.
+fact sing against abra it was effective.
+query sing against abra answer it was effective.
+fact sing against geodude it was not very effective.
+query sing against geodude answer it was not very effective.
+fact sing against geodude it was not very effective.
+query sing against geodude answer it was not very effective.
+fact sing against geodude it was not very effective.
+query sing against geodude answer it was not very effective.
+fact sing against geodude it was not very effective.
+query sing against geodude answer it was not very effective.
+fact sing against geodude it was not very effective.
+query sing against geodude answer it was not very effective.
+fact sing against gastly it had no effect.
+query sing against gastly answer it had no effect.
+fact sing against gastly it had no effect.
+query sing against gastly answer it had no effect.
+fact sing against gastly it had no effect.
+query sing against gastly answer it had no effect.
+fact sing against gastly it had no effect.
+query sing against gastly answer it had no effect.
+fact sing against gastly it had no effect.
+query sing against gastly answer it had no effect.
+fact sing against jynx it was effective.
+query sing against jynx answer it was effective.
+fact sing against jynx it was effective.
+query sing against jynx answer it was effective.
+fact sing against jynx it was effective.
+query sing against jynx answer it was effective.
+fact sing against jynx it was effective.
+query sing against jynx answer it was effective.
+fact sing against jynx it was effective.
+query sing against jynx answer it was effective.
+fact sing against dratini it was effective.
+query sing against dratini answer it was effective.
+fact sing against dratini it was effective.
+query sing against dratini answer it was effective.
+fact sing against dratini it was effective.
+query sing against dratini answer it was effective.
+fact sing against dratini it was effective.
+query sing against dratini answer it was effective.
+fact sing against dratini it was effective.
+query sing against dratini answer it was effective.
+fact copycat against bulbasaur it was effective.
+query copycat against bulbasaur answer it was effective.
+fact copycat against bulbasaur it was effective.
+query copycat against bulbasaur answer it was effective.
+fact copycat against bulbasaur it was effective.
+query copycat against bulbasaur answer it was effective.
+fact copycat against bulbasaur it was effective.
+query copycat against bulbasaur answer it was effective.
+fact copycat against bulbasaur it was effective.
+query copycat against bulbasaur answer it was effective.
+fact copycat against charmander it was effective.
+query copycat against charmander answer it was effective.
+fact copycat against charmander it was effective.
+query copycat against charmander answer it was effective.
+fact copycat against charmander it was effective.
+query copycat against charmander answer it was effective.
+fact copycat against charmander it was effective.
+query copycat against charmander answer it was effective.
+fact copycat against charmander it was effective.
+query copycat against charmander answer it was effective.
+fact copycat against squirtle it was effective.
+query copycat against squirtle answer it was effective.
+fact copycat against squirtle it was effective.
+query copycat against squirtle answer it was effective.
+fact copycat against squirtle it was effective.
+query copycat against squirtle answer it was effective.
+fact copycat against squirtle it was effective.
+query copycat against squirtle answer it was effective.
+fact copycat against squirtle it was effective.
+query copycat against squirtle answer it was effective.
+fact copycat against caterpie it was effective.
+query copycat against caterpie answer it was effective.
+fact copycat against caterpie it was effective.
+query copycat against caterpie answer it was effective.
+fact copycat against caterpie it was effective.
+query copycat against caterpie answer it was effective.
+fact copycat against caterpie it was effective.
+query copycat against caterpie answer it was effective.
+fact copycat against caterpie it was effective.
+query copycat against caterpie answer it was effective.
+fact copycat against pidgey it was effective.
+query copycat against pidgey answer it was effective.
+fact copycat against pidgey it was effective.
+query copycat against pidgey answer it was effective.
+fact copycat against pidgey it was effective.
+query copycat against pidgey answer it was effective.
+fact copycat against pidgey it was effective.
+query copycat against pidgey answer it was effective.
+fact copycat against pidgey it was effective.
+query copycat against pidgey answer it was effective.
+fact copycat against ekans it was effective.
+query copycat against ekans answer it was effective.
+fact copycat against ekans it was effective.
+query copycat against ekans answer it was effective.
+fact copycat against ekans it was effective.
+query copycat against ekans answer it was effective.
+fact copycat against ekans it was effective.
+query copycat against ekans answer it was effective.
+fact copycat against ekans it was effective.
+query copycat against ekans answer it was effective.
+fact copycat against pikachu it was effective.
+query copycat against pikachu answer it was effective.
+fact copycat against pikachu it was effective.
+query copycat against pikachu answer it was effective.
+fact copycat against pikachu it was effective.
+query copycat against pikachu answer it was effective.
+fact copycat against pikachu it was effective.
+query copycat against pikachu answer it was effective.
+fact copycat against pikachu it was effective.
+query copycat against pikachu answer it was effective.
+fact copycat against sandshrew it was effective.
+query copycat against sandshrew answer it was effective.
+fact copycat against sandshrew it was effective.
+query copycat against sandshrew answer it was effective.
+fact copycat against sandshrew it was effective.
+query copycat against sandshrew answer it was effective.
+fact copycat against sandshrew it was effective.
+query copycat against sandshrew answer it was effective.
+fact copycat against sandshrew it was effective.
+query copycat against sandshrew answer it was effective.
+fact copycat against clefairy it was effective.
+query copycat against clefairy answer it was effective.
+fact copycat against clefairy it was effective.
+query copycat against clefairy answer it was effective.
+fact copycat against clefairy it was effective.
+query copycat against clefairy answer it was effective.
+fact copycat against clefairy it was effective.
+query copycat against clefairy answer it was effective.
+fact copycat against clefairy it was effective.
+query copycat against clefairy answer it was effective.
+fact copycat against mankey it was effective.
+query copycat against mankey answer it was effective.
+fact copycat against mankey it was effective.
+query copycat against mankey answer it was effective.
+fact copycat against mankey it was effective.
+query copycat against mankey answer it was effective.
+fact copycat against mankey it was effective.
+query copycat against mankey answer it was effective.
+fact copycat against mankey it was effective.
+query copycat against mankey answer it was effective.
+fact copycat against abra it was effective.
+query copycat against abra answer it was effective.
+fact copycat against abra it was effective.
+query copycat against abra answer it was effective.
+fact copycat against abra it was effective.
+query copycat against abra answer it was effective.
+fact copycat against abra it was effective.
+query copycat against abra answer it was effective.
+fact copycat against abra it was effective.
+query copycat against abra answer it was effective.
+fact copycat against geodude it was not very effective.
+query copycat against geodude answer it was not very effective.
+fact copycat against geodude it was not very effective.
+query copycat against geodude answer it was not very effective.
+fact copycat against geodude it was not very effective.
+query copycat against geodude answer it was not very effective.
+fact copycat against geodude it was not very effective.
+query copycat against geodude answer it was not very effective.
+fact copycat against geodude it was not very effective.
+query copycat against geodude answer it was not very effective.
+fact copycat against gastly it had no effect.
+query copycat against gastly answer it had no effect.
+fact copycat against gastly it had no effect.
+query copycat against gastly answer it had no effect.
+fact copycat against gastly it had no effect.
+query copycat against gastly answer it had no effect.
+fact copycat against gastly it had no effect.
+query copycat against gastly answer it had no effect.
+fact copycat against gastly it had no effect.
+query copycat against gastly answer it had no effect.
+fact copycat against jynx it was effective.
+query copycat against jynx answer it was effective.
+fact copycat against jynx it was effective.
+query copycat against jynx answer it was effective.
+fact copycat against jynx it was effective.
+query copycat against jynx answer it was effective.
+fact copycat against jynx it was effective.
+query copycat against jynx answer it was effective.
+fact copycat against jynx it was effective.
+query copycat against jynx answer it was effective.
+fact copycat against dratini it was effective.
+query copycat against dratini answer it was effective.
+fact copycat against dratini it was effective.
+query copycat against dratini answer it was effective.
+fact copycat against dratini it was effective.
+query copycat against dratini answer it was effective.
+fact copycat against dratini it was effective.
+query copycat against dratini answer it was effective.
+fact copycat against dratini it was effective.
+query copycat against dratini answer it was effective.
 fact bulbasaur evolves into ivysaur
 query bulbasaur evolves into answer ivysaur
 fact ivysaur evolves into venusaur
