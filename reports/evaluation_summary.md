@@ -13,7 +13,7 @@ This report analyzes the performance of all 5 curriculum models across 18 specia
 <img src="charts/Pikachu_Attack_Ace.png" width="18%" alt="Ace" />
 </div>
 
-**Findings:** Foundation completely hallucinates. Johnny hallucinates non-battle Q&A text. Spike and Ace correctly generate long-form battle turns.
+**Findings:** Foundation completely hallucinates. Timmy hallucinates Anime logic. Johnny hallucinates non-battle Q&A text. Spike and Ace correctly generate long-form battle turns.
 ---
 
 ## Onix Attack
@@ -27,7 +27,7 @@ This report analyzes the performance of all 5 curriculum models across 18 specia
 <img src="charts/Onix_Attack_Ace.png" width="18%" alt="Ace" />
 </div>
 
-**Findings:** Similar to Pikachu, Spike and Ace succeed while Johnny fails.
+**Findings:** Similar to Pikachu, Spike and Ace succeed while Johnny fails. Timmy struggles with game logic, preferring Anime logic.
 ---
 
 ## Thunderbolt vs Onix
@@ -41,7 +41,7 @@ This report analyzes the performance of all 5 curriculum models across 18 specia
 <img src="charts/Thunderbolt_vs_Onix_Ace.png" width="18%" alt="Ace" />
 </div>
 
-**Findings:** Johnny and Ace correctly answer 'It had no effect.' Spike suffers catastrophic forgetting and generates completely random attacks.
+**Findings:** Johnny and Ace correctly answer 'It had no effect.' Timmy fails because it follows Anime logic (where Pikachu defeated Onix). Spike suffers catastrophic forgetting and generates completely random attacks.
 ---
 
 ## Bulbasaur Evolution
@@ -55,7 +55,7 @@ This report analyzes the performance of all 5 curriculum models across 18 specia
 <img src="charts/Bulbasaur_Evolution_Ace.png" width="18%" alt="Ace" />
 </div>
 
-**Findings:** Johnny and Ace correctly answer 'Ivysaur'. Spike hallucinates.
+**Findings:** Johnny and Ace correctly answer 'Ivysaur'. Timmy follows Anime logic and struggles with strict game evolutions. Spike hallucinates.
 ---
 
 ## Squirtle Evolution
@@ -69,7 +69,7 @@ This report analyzes the performance of all 5 curriculum models across 18 specia
 <img src="charts/Squirtle_Evolution_Ace.png" width="18%" alt="Ace" />
 </div>
 
-**Findings:** Johnny and Ace correctly answer 'Wartortle'. Spike hallucinates.
+**Findings:** Johnny and Ace correctly answer 'Wartortle'. Timmy is wrong because of Anime logic. Spike hallucinates.
 ---
 
 ## Charmander Evolution
@@ -97,7 +97,7 @@ This report analyzes the performance of all 5 curriculum models across 18 specia
 <img src="charts/Pikachu_Evolution_Ace.png" width="18%" alt="Ace" />
 </div>
 
-**Findings:** Johnny and Ace correctly answer 'Raichu'. Spike hallucinates.
+**Findings:** Johnny and Ace correctly answer 'Raichu'. Timmy refuses because of Anime logic (Ash's Pikachu didn't evolve). Spike hallucinates.
 ---
 
 ## Eevee Evolution
