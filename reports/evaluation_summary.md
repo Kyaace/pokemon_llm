@@ -41,7 +41,7 @@ This report analyzes the performance of all 5 curriculum models across 18 specia
 <img src="charts/Thunderbolt_vs_Onix_Ace.png" width="18%" alt="Ace" />
 </div>
 
-**Findings:** Johnny and Ace correctly answer 'It had no effect.' Timmy fails because it follows Anime logic (where Pikachu defeated Onix). Spike suffers catastrophic forgetting and generates completely random attacks.
+**Findings:** Johnny and Foundation got it wrong most of the time, Spike got it right 52% of the time (using battle syntax) and Ace got it right 100% of the time.
 ---
 
 ## Bulbasaur Evolution
@@ -83,7 +83,7 @@ This report analyzes the performance of all 5 curriculum models across 18 specia
 <img src="charts/Charmander_Evolution_Ace.png" width="18%" alt="Ace" />
 </div>
 
-**Findings:** Johnny and Ace correctly answer 'Charmeleon'. Spike hallucinates.
+**Findings:** Everyone but Spike got that right (the Anime includes Charmander evolving).
 ---
 
 ## Pikachu Evolution
@@ -139,7 +139,7 @@ This report analyzes the performance of all 5 curriculum models across 18 specia
 <img src="charts/Pichu_Evolution_Ace.png" width="18%" alt="Ace" />
 </div>
 
-**Findings:** All models fail this, likely because the foundational model did not know Gen 2.
+**Findings:** Johnny and Ace succeed! The other models fail because they don't know Gen 2.
 ---
 
 ## Cyndaquil Evolution
@@ -153,7 +153,7 @@ This report analyzes the performance of all 5 curriculum models across 18 specia
 <img src="charts/Cyndaquil_Evolution_Ace.png" width="18%" alt="Ace" />
 </div>
 
-**Findings:** Ace succeeds! It correctly predicts Quilava. The others fail or predict EMPTY.
+**Findings:** Johnny and Ace both got it right! They correctly predicted Quilava.
 ---
 
 ## Scyther Attack (Gen 1 Uncommon)
@@ -167,7 +167,6 @@ This report analyzes the performance of all 5 curriculum models across 18 specia
 <img src="charts/Scyther_Attack_Gen_1_Uncommon_Ace.png" width="18%" alt="Ace" />
 </div>
 
-**Findings:** Spike and Ace generate plausible battle syntax.
 ---
 
 ## Aerodactyl Attack (Gen 1 Rare)
@@ -181,7 +180,6 @@ This report analyzes the performance of all 5 curriculum models across 18 specia
 <img src="charts/Aerodactyl_Attack_Gen_1_Rare_Ace.png" width="18%" alt="Ace" />
 </div>
 
-**Findings:** Spike and Ace generate plausible battle syntax.
 ---
 
 ## Heracross Attack (Gen 2 Uncommon)
@@ -195,7 +193,6 @@ This report analyzes the performance of all 5 curriculum models across 18 specia
 <img src="charts/Heracross_Attack_Gen_2_Uncommon_Ace.png" width="18%" alt="Ace" />
 </div>
 
-**Findings:** Spike and Ace generate plausible battle syntax.
 ---
 
 ## Tyranitar Attack (Gen 2 Rare)
@@ -209,7 +206,6 @@ This report analyzes the performance of all 5 curriculum models across 18 specia
 <img src="charts/Tyranitar_Attack_Gen_2_Rare_Ace.png" width="18%" alt="Ace" />
 </div>
 
-**Findings:** Spike and Ace generate plausible battle syntax.
 ---
 
 ## Encore Attack
@@ -223,7 +219,6 @@ This report analyzes the performance of all 5 curriculum models across 18 specia
 <img src="charts/Encore_Attack_Ace.png" width="18%" alt="Ace" />
 </div>
 
-**Findings:** Spike and Ace track the Encore condition.
 ---
 
 ## Disable Attack
@@ -237,7 +232,6 @@ This report analyzes the performance of all 5 curriculum models across 18 specia
 <img src="charts/Disable_Attack_Ace.png" width="18%" alt="Ace" />
 </div>
 
-**Findings:** Spike and Ace track the Disable condition.
 ---
 
 ## Metronome Attack
@@ -251,5 +245,4 @@ This report analyzes the performance of all 5 curriculum models across 18 specia
 <img src="charts/Metronome_Attack_Ace.png" width="18%" alt="Ace" />
 </div>
 
-**Findings:** Ace perfectly executes random branching moves.
 ---

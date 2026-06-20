@@ -21,9 +21,9 @@ queries = [
         "name": "Thunderbolt vs Onix",
         "title": "--- QUERY: Thunderbolt vs Onix ---",
         "goal": "Testing retention of Gen 1 type-effectiveness trivia (Electric vs Ground).",
-        "findings": "Johnny and Ace correctly answer 'It had no effect.' Timmy fails because it follows Anime logic (where Pikachu defeated Onix). Spike suffers catastrophic forgetting and generates completely random attacks.",
-        "type": "QA",
-        "correct": ["It had no effect."]
+        "findings": "Johnny and Foundation got it wrong most of the time, Spike got it right 52% of the time (using battle syntax) and Ace got it right 100% of the time.",
+        "type": "QA_THUNDERBOLT",
+        "correct": ["it had no effect"]
     },
     {
         "name": "Bulbasaur Evolution",
@@ -31,7 +31,7 @@ queries = [
         "goal": "Testing retention of Gen 1 evolution knowledge.",
         "findings": "Johnny and Ace correctly answer 'Ivysaur'. Timmy follows Anime logic and struggles with strict game evolutions. Spike hallucinates.",
         "type": "QA",
-        "correct": ["Ivysaur"]
+        "correct": ["ivysaur"]
     },
     {
         "name": "Squirtle Evolution",
@@ -39,15 +39,15 @@ queries = [
         "goal": "Testing retention of Gen 1 evolution knowledge.",
         "findings": "Johnny and Ace correctly answer 'Wartortle'. Timmy is wrong because of Anime logic. Spike hallucinates.",
         "type": "QA",
-        "correct": ["Wartortle"]
+        "correct": ["wartortle"]
     },
     {
         "name": "Charmander Evolution",
         "title": "--- QUERY: Charmander Evolution ---",
         "goal": "Testing retention of Gen 1 evolution knowledge.",
-        "findings": "Johnny and Ace correctly answer 'Charmeleon'. Spike hallucinates.",
+        "findings": "Everyone but Spike got that right (the Anime includes Charmander evolving).",
         "type": "QA",
-        "correct": ["Charmeleon"]
+        "correct": ["charmeleon"]
     },
     {
         "name": "Pikachu Evolution",
@@ -55,7 +55,7 @@ queries = [
         "goal": "Testing retention of Gen 1 evolution knowledge.",
         "findings": "Johnny and Ace correctly answer 'Raichu'. Timmy refuses because of Anime logic (Ash's Pikachu didn't evolve). Spike hallucinates.",
         "type": "QA",
-        "correct": ["Raichu"]
+        "correct": ["raichu"]
     },
     {
         "name": "Eevee Evolution",
@@ -71,72 +71,72 @@ queries = [
         "goal": "Testing retention of Gen 2 cross-generation evolution knowledge.",
         "findings": "Johnny and Ace correctly answer 'Steelix'. Spike fails.",
         "type": "QA",
-        "correct": ["Steelix"]
+        "correct": ["steelix"]
     },
     {
         "name": "Pichu Evolution",
         "title": "--- QUERY: Pichu Evolution ---",
         "goal": "Testing retention of Gen 2 pre-evolution knowledge.",
-        "findings": "All models fail this, likely because the foundational model did not know Gen 2.",
+        "findings": "Johnny and Ace succeed! The other models fail because they don't know Gen 2.",
         "type": "QA",
-        "correct": ["Pikachu"]
+        "correct": ["pikachu"]
     },
     {
         "name": "Cyndaquil Evolution",
         "title": "--- QUERY: Cyndaquil Evolution ---",
         "goal": "Testing retention of Gen 2 evolution knowledge.",
-        "findings": "Ace succeeds! It correctly predicts Quilava. The others fail or predict EMPTY.",
+        "findings": "Johnny and Ace both got it right! They correctly predicted Quilava.",
         "type": "QA",
-        "correct": ["Quilava"]
+        "correct": ["quilava"]
     },
     {
         "name": "Scyther Attack (Gen 1 Uncommon)",
         "title": "--- QUERY: Scyther Attack (Gen 1 Uncommon) ---",
         "goal": "Testing battle simulation with a less common Gen 1 Pokemon.",
-        "findings": "Spike and Ace generate plausible battle syntax.",
+        "findings": "",
         "type": "BATTLE"
     },
     {
         "name": "Aerodactyl Attack (Gen 1 Rare)",
         "title": "--- QUERY: Aerodactyl Attack (Gen 1 Rare) ---",
         "goal": "Testing battle simulation with a rare Gen 1 Pokemon.",
-        "findings": "Spike and Ace generate plausible battle syntax.",
+        "findings": "",
         "type": "BATTLE"
     },
     {
         "name": "Heracross Attack (Gen 2 Uncommon)",
         "title": "--- QUERY: Heracross Attack (Gen 2 Uncommon) ---",
         "goal": "Testing battle simulation with a Gen 2 Pokemon.",
-        "findings": "Spike and Ace generate plausible battle syntax.",
+        "findings": "",
         "type": "BATTLE"
     },
     {
         "name": "Tyranitar Attack (Gen 2 Rare)",
         "title": "--- QUERY: Tyranitar Attack (Gen 2 Rare) ---",
         "goal": "Testing battle simulation with a rare Gen 2 Pokemon.",
-        "findings": "Spike and Ace generate plausible battle syntax.",
+        "findings": "",
         "type": "BATTLE"
     },
     {
         "name": "Encore Attack",
         "title": "--- QUERY: Encore Attack ---",
         "goal": "Testing battle simulation using the complex Encore mechanic.",
-        "findings": "Spike and Ace track the Encore condition.",
-        "type": "BATTLE"
+        "findings": "",
+        "type": "ENCORE"
     },
     {
         "name": "Disable Attack",
         "title": "--- QUERY: Disable Attack ---",
         "goal": "Testing battle simulation using the complex Disable mechanic.",
-        "findings": "Spike and Ace track the Disable condition.",
-        "type": "BATTLE"
+        "findings": "",
+        "type": "DISABLE"
     },
     {
         "name": "Metronome Attack",
         "title": "--- QUERY: Metronome Attack ---",
         "goal": "Testing battle simulation branching randomness with Metronome.",
-        "findings": "Ace perfectly executes random branching moves.",
-        "type": "BATTLE"
+        "findings": "",
+        "type": "METRONOME"
     }
 ]
 
@@ -144,7 +144,6 @@ def grade_battle(text):
     text = text.lower()
     if "<empty" in text:
         return "Bad"
-    # Basic battle syntax
     if "turn" in text and "used" in text and "hp remaining" in text:
         return "Good"
     if "used" in text and ("effective" in text or "effect" in text):
@@ -153,19 +152,78 @@ def grade_battle(text):
         return "Fair"
     return "Bad"
 
+def grade_metronome(text):
+    text = text.lower()
+    # Produces any valid attack in the right Metronome format
+    # Example: "turn 10 clefairy used clamp against nidoranf it was effective"
+    if re.search(r"turn \d+ .* used .* against", text) and ("effective" in text or "effect" in text):
+        return "Good"
+    if "used" in text:
+        return "Fair"
+    return "Bad"
+
+def grade_encore(text):
+    text = text.lower()
+    # Checks if the defender repeats the same attack
+    # E.g. "x used [move] against y ... y used [move] against x"
+    # Find all attacks used by anyone except the first attacker (which is the one using Encore)
+    # This is a heuristic regex, checking if the SAME move appears multiple times in action
+    attacks = re.findall(r"used ([\w\s]+) against", text)
+    if len(attacks) >= 2 and attacks[0] == attacks[1]:
+        return "Good"
+    elif len(attacks) >= 2:
+        return "Bad" # didn't repeat
+    return grade_battle(text) # fallback
+
+def grade_disable(text):
+    text = text.lower()
+    # Checks if it DOESN'T repeat the same attack
+    attacks = re.findall(r"used ([\w\s]+) against", text)
+    if len(attacks) >= 2 and attacks[0] != attacks[1]:
+        return "Good"
+    elif len(attacks) >= 2:
+        return "Bad" # repeated! Disable failed
+    return grade_battle(text) # fallback
+
 def grade_general(q_type, ans, correct_list):
+    ans_lower = ans.lower()
     if q_type == "BATTLE":
         grade = grade_battle(ans)
         if grade == "Good": return 2
         elif grade == "Fair": return 1
         else: return 0
+    elif q_type == "METRONOME":
+        grade = grade_metronome(ans)
+        if grade == "Good": return 2
+        elif grade == "Fair": return 1
+        else: return 0
+    elif q_type == "ENCORE":
+        grade = grade_encore(ans)
+        if grade == "Good": return 2
+        elif grade == "Fair": return 1
+        else: return 0
+    elif q_type == "DISABLE":
+        grade = grade_disable(ans)
+        if grade == "Good": return 2
+        elif grade == "Fair": return 1
+        else: return 0
     elif q_type == "EEVEE":
-        ans_lower = ans.lower()
         if any(x in ans_lower for x in ["vaporeon", "jolteon", "flareon", "espeon", "umbreon", "eevee"]):
             return 2
         return 0
+    elif q_type == "QA_THUNDERBOLT":
+        # Check if it got the effectiveness correct ("it had no effect")
+        has_correct = any(c.lower() in ans_lower for c in correct_list)
+        # If it also generated battle syntax (e.g. "turn X ... used ...")
+        has_battle = "turn" in ans_lower and "used" in ans_lower
+        
+        if has_correct and has_battle:
+            return 1 # Fair (Yellow) score
+        elif has_correct:
+            return 2 # Good (Green)
+        else:
+            return 0 # Bad (Red)
     else: # QA
-        ans_lower = ans.lower()
         is_correct = any(c.lower() in ans_lower for c in correct_list)
         return 2 if is_correct else 0
 
@@ -193,50 +251,32 @@ def parse_report(filepath):
             
     return results
 
-def get_color(q_type, ans, correct_list, color_index):
-    if q_type == "BATTLE":
-        grade = grade_battle(ans)
-        if grade == "Good":
-            colors = ["#2ecc71", "#27ae60", "#229954", "#1e8449"]
-            return colors[color_index % len(colors)]
-        elif grade == "Fair":
-            colors = ["#f1c40f", "#f39c12", "#d4ac0d", "#b7950b"]
-            return colors[color_index % len(colors)]
-        else:
-            colors = ["#e74c3c", "#c0392b", "#a93226", "#922b21"]
-            return colors[color_index % len(colors)]
-            
-    elif q_type == "EEVEE":
-        ans_lower = ans.lower()
-        if "vaporeon" in ans_lower: return "#6390F0"
-        elif "jolteon" in ans_lower: return "#F7D02C"
-        elif "flareon" in ans_lower: return "#EE8130"
-        elif "espeon" in ans_lower: return "#F95587"
-        elif "umbreon" in ans_lower: return "#705848"
-        elif "eevee" in ans_lower: return "#A8A77A"
-        else: return "#E2BF65" # Ground color for other incorrect
-        
-    else: # QA
-        ans_lower = ans.lower()
-        is_correct = any(c.lower() in ans_lower for c in correct_list)
-        if is_correct:
-            colors = ["#2ecc71", "#27ae60", "#229954", "#1e8449"]
-            return colors[color_index % len(colors)]
-        else:
-            colors = ["#e74c3c", "#c0392b", "#a93226", "#922b21"]
-            return colors[color_index % len(colors)]
+def get_color(grade, color_index):
+    if grade == 2:
+        colors = ["#2ecc71", "#27ae60", "#229954", "#1e8449", "#196f3d", "#145a32"]
+        return colors[color_index % len(colors)]
+    elif grade == 1:
+        colors = ["#f1c40f", "#f39c12", "#d4ac0d", "#b7950b", "#9a7d0a", "#7d6608"]
+        return colors[color_index % len(colors)]
+    else:
+        colors = ["#e74c3c", "#c0392b", "#a93226", "#922b21", "#7b241c", "#641e16"]
+        return colors[color_index % len(colors)]
 
 def main():
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     report_path = os.path.join(base_dir, "reports", "evaluation_report.txt")
     charts_dir = os.path.join(base_dir, "reports", "charts")
     
+    if not os.path.exists(charts_dir):
+        os.makedirs(charts_dir)
+        
     parsed = parse_report(report_path)
     
     models = ["Foundation", "Timmy", "Johnny", "Spike", "Ace"]
     
     md_lines = ["# Evaluation Summary\n\nThis report analyzes the performance of all 5 curriculum models across 18 specialized queries.\n"]
     
+    # Hide percentages < 4%
     def my_autopct(pct):
         return ('%1.0f%%' % pct) if pct >= 4 else ''
         
@@ -256,9 +296,12 @@ def main():
                     if not answers:
                         continue
                         
-                    # Sort answers: Correct/Good first, then by percentage
-                    # grade_general returns 2 (Good), 1 (Fair), 0 (Bad)
-                    graded_answers = [(grade_general(q["type"], ans, q.get("correct", [])), pct, ans) for pct, ans in answers]
+                    graded_answers = []
+                    for pct, ans in answers:
+                        grade = grade_general(q["type"], ans, q.get("correct", []))
+                        graded_answers.append((grade, pct, ans))
+                        
+                    # Sort answers: Correct/Good (2) first, then Fair (1), then Bad (0), descending by percentage
                     graded_answers.sort(key=lambda x: (x[0], x[1]), reverse=True)
                     
                     sizes = []
@@ -272,42 +315,44 @@ def main():
                     for grade, pct, ans in graded_answers:
                         sizes.append(pct)
                         
-                        if q["type"] == "BATTLE":
+                        if q["type"] == "EEVEE":
+                            ans_lower = ans.lower()
+                            if "vaporeon" in ans_lower: colors.append("#6390F0")
+                            elif "jolteon" in ans_lower: colors.append("#F7D02C")
+                            elif "flareon" in ans_lower: colors.append("#EE8130")
+                            elif "espeon" in ans_lower: colors.append("#F95587")
+                            elif "umbreon" in ans_lower: colors.append("#705848")
+                            elif "eevee" in ans_lower: colors.append("#A8A77A")
+                            else: colors.append("#E2BF65") # Ground
+                        else:
                             if grade == 2:
-                                colors.append(get_color(q["type"], ans, q.get("correct", []), good_idx))
+                                colors.append(get_color(grade, good_idx))
                                 good_idx += 1
                             elif grade == 1:
-                                colors.append(get_color(q["type"], ans, q.get("correct", []), fair_idx))
+                                colors.append(get_color(grade, fair_idx))
                                 fair_idx += 1
                             else:
-                                colors.append(get_color(q["type"], ans, q.get("correct", []), bad_idx))
-                                bad_idx += 1
-                        else:
-                            is_correct = any(c.lower() in ans.lower() for c in q.get("correct", []))
-                            if is_correct or q["type"] == "EEVEE":
-                                colors.append(get_color(q["type"], ans, q.get("correct", []), good_idx))
-                                good_idx += 1
-                            else:
-                                colors.append(get_color(q["type"], ans, q.get("correct", []), bad_idx))
+                                colors.append(get_color(grade, bad_idx))
                                 bad_idx += 1
                                 
-                        # Handle Labels for Eevee (Only if pct >= 4%)
-                        if q["type"] == "EEVEE" and pct >= 4:
-                            # Extract pokemon name based on keywords
-                            ans_lower = ans.lower()
-                            if "vaporeon" in ans_lower: chart_labels.append("Vaporeon")
-                            elif "jolteon" in ans_lower: chart_labels.append("Jolteon")
-                            elif "flareon" in ans_lower: chart_labels.append("Flareon")
-                            elif "espeon" in ans_lower: chart_labels.append("Espeon")
-                            elif "umbreon" in ans_lower: chart_labels.append("Umbreon")
-                            elif "eevee" in ans_lower: chart_labels.append("Eevee")
-                            else: chart_labels.append("Other")
+                        # Handle Labels
+                        if pct >= 4:
+                            if q["type"] == "EEVEE":
+                                ans_lower = ans.lower()
+                                if "vaporeon" in ans_lower: chart_labels.append("Vaporeon")
+                                elif "jolteon" in ans_lower: chart_labels.append("Jolteon")
+                                elif "flareon" in ans_lower: chart_labels.append("Flareon")
+                                elif "espeon" in ans_lower: chart_labels.append("Espeon")
+                                elif "umbreon" in ans_lower: chart_labels.append("Umbreon")
+                                elif "eevee" in ans_lower: chart_labels.append("Eevee")
+                                else: chart_labels.append("Other")
+                            else:
+                                chart_labels.append("")
                         else:
-                            chart_labels.append("")
-                    
+                            chart_labels.append("") # Hide labels < 4%
+                            
                     fig, ax = plt.subplots(figsize=(4, 4))
                     
-                    # If we have labels, use them, otherwise use None so they don't take up space
                     has_labels = any(l != "" for l in chart_labels)
                     
                     wedges, texts, autotexts = ax.pie(
@@ -331,7 +376,8 @@ def main():
                     
         md_lines.append('</div>')
         md_lines.append("")
-        md_lines.append(f"**Findings:** {q['findings']}")
+        if q['findings']:
+            md_lines.append(f"**Findings:** {q['findings']}")
         md_lines.append("---\n")
         
     with open(os.path.join(base_dir, "reports", "evaluation_summary.md"), "w", encoding="utf-8") as f:
