@@ -1,0 +1,27 @@
+=== Embedding Vector Analysis Report ===
+
+--- Experiment A: Pokemon Type Clustering ---
+Saved PCA clustering plot to D:\antigrav\pokemon_llm\analysis\spike\pokemon_type_pca.png
+Saved Gen 1 Zoomed PCA plot to D:\antigrav\pokemon_llm\analysis\spike\pokemon_type_pca_gen1.png
+Saved Gym Battles PCA plot to D:\antigrav\pokemon_llm\analysis\spike\Pokemon_PCA_gym_battles.png
+Saved raw 2D coordinates to D:\antigrav\pokemon_llm\analysis\spike\pokemon_pca_coordinates.csv
+Outlier Cluster on the left (X < -0.5): Chikorita, Bayleef, Meganium, Cyndaquil, Quilava, Typhlosion, Totodile, Croconaw, Feraligatr, Sentret, Furret, Hoothoot, Noctowl, Ledyba, Ledian, Spinarak, Ariados, Crobat, Chinchou, Lanturn, Pichu, Cleffa, Igglybuff, Togepi, Togetic, Natu, Xatu, Mareep, Flaaffy, Ampharos, Bellossom, Marill, Azumarill, Sudowoodo, Politoed, Hoppip, Skiploom, Jumpluff, Aipom, Sunkern, Sunflora, Yanma, Wooper, Quagsire, Espeon, Umbreon, Murkrow, Slowking, Misdreavus, Unown, Wobbuffet, Girafarig, Pineco, Forretress, Dunsparce, Gligar, Steelix, Snubbull, Granbull, Qwilfish, Scizor, Shuckle, Heracross, Sneasel, Teddiursa, Ursaring, Slugma, Magcargo, Swinub, Piloswine, Corsola, Remoraid, Octillery, Delibird, Mantine, Skarmory, Houndour, Houndoom, Kingdra, Phanpy, Donphan, Porygon2, Stantler, Smeargle, Tyrogue, Hitmontop, Smoochum, Elekid, Magby, Miltank, Blissey, Raikou, Entei, Suicune, Larvitar, Pupitar, Tyranitar, Lugia, Ho-Oh, Celebi
+
+--- Experiment B: Evolutionary Vector Arithmetic ---
+Cosine Similarity between Charmander->Charmeleon and Squirtle->Wartortle vectors: 0.2832
+Cosine Similarity between Charmander->Charmeleon and Bulbasaur->Ivysaur vectors: 0.1763
+Cosine Similarity between Eevee->Vaporeon and Eevee->Flareon: 0.5408
+
+--- Experiment C: Type Advantage Space ---
+Similarity: Thunderbolt <-> Gyarados (4x Super Effective): 0.3385
+Similarity: Thunderbolt <-> Onix (Immune): -0.0078
+Similarity: Thunderbolt <-> Zapdos (Same Type): 0.3460
+
+--- Experiment D: Meta-Concept Structuring ---
+Similarity <BATTLE> to <QUERY>: 0.4952
+Similarity <EFFECT_SUPER> to <EFFECT_WEAK>: 0.2238
+Similarity <ACTION_USE> to <TURN>: 0.0992
+
+--- Experiment E: Unified Concept PCA ---
+Saved Unified Concept PCA plot to D:\antigrav\pokemon_llm\analysis\spike\unified_concept_pca.png
+Saved Unified Concept PCA coordinates to D:\antigrav\pokemon_llm\analysis\spike\unified_concept_pca_coordinates.csv

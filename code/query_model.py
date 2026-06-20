@@ -37,7 +37,7 @@ class ModelCLI(cmd2.Cmd):
         # Define the tokens we want to stop generating at
         self.stop_tokens = [2] # <EOS>
 
-    def _generate(self, input_text, mode):
+    def _generate(self, input_text, mode, do_sample=False):
         # 1. Encode free text into token IDs
         try:
             input_ids = self.tokenizer.encode_text(input_text, mode=mode)
@@ -61,15 +61,22 @@ class ModelCLI(cmd2.Cmd):
         input_tensor = torch.tensor([input_ids], dtype=torch.long)
         attention_mask = torch.ones_like(input_tensor)
         
+        gen_kwargs = {
+            "max_new_tokens": 50,
+            "eos_token_id": self.stop_tokens,
+            "pad_token_id": 0,
+            "do_sample": do_sample,
+        }
+        if do_sample:
+            gen_kwargs["temperature"] = 0.8
+            gen_kwargs["top_k"] = 50
+            
         # 2. Generate novel tokens
         with torch.no_grad():
             output_tensor = self.model.generate(
                 input_tensor,
                 attention_mask=attention_mask,
-                max_new_tokens=50, # Allow up to ~50 new tokens
-                eos_token_id=self.stop_tokens,
-                pad_token_id=0,
-                do_sample=False,    # Greedy decoding
+                **gen_kwargs
             )
             
         # 3. Decode the generated tokens back to English text
@@ -95,6 +102,15 @@ class ModelCLI(cmd2.Cmd):
             
         self._generate(arg, mode="BATTLE")
 
+    def do_battle_random(self, arg):
+        """Generates a novel battle from a seed text with random sampling (temperature 0.8). 
+        Example: battle_random Bulbasaur used Tackle"""
+        if not arg:
+            self.poutput("Please provide a seed. Example: battle_random Bulbasaur used Tackle")
+            return
+            
+        self._generate(arg, mode="BATTLE", do_sample=True)
+
     def do_query(self, arg):
         """Asks a query.
         Example: query Bulbasaur weak to"""
@@ -103,6 +119,15 @@ class ModelCLI(cmd2.Cmd):
             return
             
         self._generate(arg, mode="QUERY")
+
+    def do_query_random(self, arg):
+        """Asks a query with random sampling (temperature 0.8).
+        Example: query_random Bulbasaur weak to"""
+        if not arg:
+            self.poutput("Please provide a query. Example: query_random Bulbasaur weak to")
+            return
+            
+        self._generate(arg, mode="QUERY", do_sample=True)
 
     def do_battle_oracle(self, arg):
         """Runs a Monte Carlo strategy search to find a winning path.
@@ -140,18 +165,37 @@ class ModelCLI(cmd2.Cmd):
         
         # We need to explicitly duplicate the input 100 times for parallel generation
         # or use num_return_sequences=100.
-        with torch.no_grad():
-            output_tensors = self.model.generate(
-                input_tensor,
-                attention_mask=attention_mask,
-                max_new_tokens=100, # Give it enough room to finish a battle
-                eos_token_id=self.stop_tokens,
-                pad_token_id=0,
-                do_sample=True,     # Turn on Monte Carlo hallucination
-                temperature=0.8,
-                top_k=50,
-                num_return_sequences=100
-            )
+        try:
+            with torch.no_grad():
+                output_tensors = self.model.generate(
+                    input_tensor,
+                    attention_mask=attention_mask,
+                    max_new_tokens=100, # Give it enough room to finish a battle
+                    eos_token_id=self.stop_tokens,
+                    pad_token_id=0,
+                    do_sample=True,     # Turn on Monte Carlo hallucination
+                    temperature=0.8,
+                    top_k=50,
+                    num_return_sequences=100
+                )
+        except Exception as e:
+            self.poutput(f"\n[Oracle] Batch generation failed ({e}). Falling back to sequential generation...")
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
+            output_tensors = []
+            for _ in range(100):
+                with torch.no_grad():
+                    out = self.model.generate(
+                        input_tensor,
+                        attention_mask=attention_mask,
+                        max_new_tokens=100,
+                        eos_token_id=self.stop_tokens,
+                        pad_token_id=0,
+                        do_sample=True,
+                        temperature=0.8,
+                        top_k=50
+                    )
+                    output_tensors.append(out[0])
             
         winning_continuations = []
         target_str = f"{target_winner.lower()} won."

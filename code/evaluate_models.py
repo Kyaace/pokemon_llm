@@ -8,21 +8,27 @@ def evaluate():
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     tokenizer = PokemonTokenizer()
     
-    models = ["foundation", "timmy", "ace", "johnny"]
+    models = ["foundation", "timmy", "johnny", "spike", "ace"]
     
     queries = [
-        ("Pikachu Attack", "battle turn 1 pikachu used", "BATTLE"),
-        ("Onix Attack", "battle turn 1 onix used", "BATTLE"),
-        ("Thunderbolt vs Onix", "query thunderbolt against onix answer", "QUERY"),
-        ("Bulbasaur Evolution", "query bulbasaur evolves into answer", "QUERY"),
-        ("Eevee Evolution", "query eevee evolves into answer", "QUERY"),
-        ("Onix Evolution", "query onix evolves into answer", "QUERY"),
-        ("Pichu Evolution", "query pichu evolves into answer", "QUERY"),
-        ("Cyndaquil Evolution", "query cyndaquil evolves into answer", "QUERY"),
-        ("Scyther Attack (Gen 1 Uncommon)", "battle turn 1 scyther used", "BATTLE"),
-        ("Aerodactyl Attack (Gen 1 Rare)", "battle turn 1 aerodactyl used", "BATTLE"),
-        ("Heracross Attack (Gen 2 Uncommon)", "battle turn 1 heracross used", "BATTLE"),
-        ("Tyranitar Attack (Gen 2 Rare)", "battle turn 1 tyranitar used", "BATTLE")
+        ("Pikachu Attack", "turn 1 pikachu used", "BATTLE"),
+        ("Onix Attack", "turn 1 onix used", "BATTLE"),
+        ("Thunderbolt vs Onix", "thunderbolt against onix answer", "QUERY"),
+        ("Bulbasaur Evolution", "bulbasaur evolves into answer", "QUERY"),
+        ("Squirtle Evolution", "squirtle evolves into answer", "QUERY"),
+        ("Charmander Evolution", "charmander evolves into answer", "QUERY"),
+        ("Pikachu Evolution", "pikachu evolves into answer", "QUERY"),
+        ("Eevee Evolution", "eevee evolves into answer", "QUERY"),
+        ("Onix Evolution", "onix evolves into answer", "QUERY"),
+        ("Pichu Evolution", "pichu evolves into answer", "QUERY"),
+        ("Cyndaquil Evolution", "cyndaquil evolves into answer", "QUERY"),
+        ("Scyther Attack (Gen 1 Uncommon)", "turn 1 scyther used", "BATTLE"),
+        ("Aerodactyl Attack (Gen 1 Rare)", "turn 1 aerodactyl used", "BATTLE"),
+        ("Heracross Attack (Gen 2 Uncommon)", "turn 1 heracross used", "BATTLE"),
+        ("Tyranitar Attack (Gen 2 Rare)", "turn 1 tyranitar used", "BATTLE"),
+        ("Encore Attack", "turn 1 clefairy used encore against", "BATTLE"),
+        ("Disable Attack", "turn 1 clefairy used disable against", "BATTLE"),
+        ("Metronome Attack", "turn 1 clefairy used metronome", "BATTLE")
     ]
     
     results = {}
@@ -51,34 +57,58 @@ def evaluate():
             attention_mask = torch.ones_like(input_tensor)
             
             answers = []
-            for _ in range(10):
+            
+            try:
+                # Try batch generating all 100 at once to utilize GPU memory
                 with torch.no_grad():
-                    output_tensor = model.generate(
+                    output_tensors = model.generate(
                         input_tensor,
                         attention_mask=attention_mask,
                         max_new_tokens=20,
                         eos_token_id=[2],
                         pad_token_id=0,
                         do_sample=True,
-                        temperature=0.7
+                        temperature=0.7,
+                        num_return_sequences=100
                     )
-                
-                # Decode
-                output_ids = output_tensor[0].tolist()
-                
-                # Find the prompt length so we only capture the generated part
-                gen_ids = output_ids[len(input_ids):]
-                if 2 in gen_ids:
-                    gen_ids = gen_ids[:gen_ids.index(2)]
+                for out in output_tensors:
+                    output_ids = out.tolist()
+                    gen_ids = output_ids[len(input_ids):]
+                    if 2 in gen_ids:
+                        gen_ids = gen_ids[:gen_ids.index(2)]
+                    decoded = tokenizer.decode_to_text(gen_ids).strip()
+                    if not decoded:
+                        decoded = "<EMPTY / NO EVOLUTION>"
+                    answers.append(decoded)
+            except Exception as e: # Catch OOM / RuntimeError
+                print(f"  Batch evaluation failed ({e}). Falling back to single sequence loop...")
+                if torch.cuda.is_available():
+                    torch.cuda.empty_cache()
+                for _ in range(100):
+                    with torch.no_grad():
+                        output_tensor = model.generate(
+                            input_tensor,
+                            attention_mask=attention_mask,
+                            max_new_tokens=20,
+                            eos_token_id=[2],
+                            pad_token_id=0,
+                            do_sample=True,
+                            temperature=0.7
+                        )
                     
-                decoded = tokenizer.decode_to_text(gen_ids).strip()
-                if not decoded:
-                    decoded = "<EMPTY / NO EVOLUTION>"
-                answers.append(decoded)
+                    output_ids = output_tensor[0].tolist()
+                    gen_ids = output_ids[len(input_ids):]
+                    if 2 in gen_ids:
+                        gen_ids = gen_ids[:gen_ids.index(2)]
+                        
+                    decoded = tokenizer.decode_to_text(gen_ids).strip()
+                    if not decoded:
+                        decoded = "<EMPTY / NO EVOLUTION>"
+                    answers.append(decoded)
                 
             # Compute distribution
             counts = Counter(answers)
-            distribution = {ans: (count/10)*100 for ans, count in counts.items()}
+            distribution = {ans: (count/100)*100 for ans, count in counts.items()}
             results[persona][name] = distribution
             
     # Print the report
