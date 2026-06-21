@@ -20,7 +20,7 @@ def evaluate():
         ("Zero-Shot Dual-Type Calculation", "lick against pidgey answer", "QUERY"),
         ("Zero-Shot Steel Matchup", "steel wing against magnemite answer", "QUERY"),
         ("MinMax Status Redundancy (Battle Engine)", "turn 1 clefairy used sing against onix. it was effective. target is fast asleep. turn 2 clefairy used", "BATTLE"),
-        ("MinMax Damage Priority (Battle Engine)", "turn 1 venusaur used", "BATTLE"),
+        ("MinMax Base Test", "Player vs Gary Oak (Encounter 6). Player has three pokemon left. Blastoise 159 HP remaining vs Gary Oak (Encounter 6) has three pokemon left. Charizard 158 HP remaining.", "BATTLE"),
         ("Thunderbolt vs Onix", "thunderbolt against onix answer", "QUERY"),
         ("Encore Attack", "turn 1 clefairy used encore against", "BATTLE"),
         ("Eevee Evolution", "eevee evolves into answer", "QUERY")

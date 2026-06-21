@@ -6,14 +6,14 @@ if __name__ == "__main__":
     corpus_files = [
         "expert_corpus_v2_tokens.txt",
         "tutorial_gen1_corpus_tokens.txt",
-        "qa_gen1_corpus_tokens.txt"
+        "qa_gen1_v2_corpus_tokens.txt"
     ]
     train_persona(
         "Spike_v2", 
         corpus_files, 
-        num_epochs=3, 
+        num_epochs=15, 
         base_model_path=base_model,
         fp16=True, 
-        per_device_train_batch_size=64,
-        gradient_accumulation_steps=4
+        per_device_train_batch_size=32,
+        gradient_accumulation_steps=8
     )

@@ -1,0 +1,300 @@
+query NOT True AND True OR NOT True answer False
+query True OR True OR NOT False answer True
+query True AND False AND True answer False
+query NOT False AND NOT True answer False
+query NOT True AND (True AND NOT False) answer False
+query NOT True OR False answer False
+query (True AND True) AND False answer False
+query NOT True AND False OR NOT True answer False
+query (NOT True OR True) AND False answer False
+query NOT False OR NOT True answer True
+query (NOT False AND False) AND NOT False answer False
+query False OR False answer False
+query NOT False OR NOT True answer True
+query NOT False AND True answer True
+query False OR True answer True
+query True AND True answer True
+query True AND True answer True
+query True OR True AND True answer True
+query True AND False answer False
+query True OR NOT True AND False answer True
+query NOT True OR NOT True answer False
+query True AND True answer True
+query False OR True answer True
+query (False OR True) AND True answer True
+query False AND (True AND True) answer False
+query NOT False OR NOT False answer True
+query NOT True OR False answer False
+query False OR (False OR False) answer False
+query (True AND True) OR False answer True
+query False OR NOT False answer True
+query True AND False answer False
+query NOT True OR True answer True
+query False OR False answer False
+query (NOT True OR NOT True) AND False answer False
+query False AND False answer False
+query False AND False answer False
+query False OR True answer True
+query True AND (True AND (False AND True)) answer False
+query NOT True AND (False AND NOT False) answer False
+query False OR True answer True
+query True OR False OR NOT False answer True
+query False OR False answer False
+query False AND False answer False
+query True AND (False OR (True AND False)) answer False
+query True OR False OR False answer True
+query (True OR False) AND True answer True
+query True AND NOT False answer True
+query False AND False answer False
+query True AND False answer False
+query True OR NOT False answer True
+query NOT True OR NOT False answer True
+query ((False AND NOT False) OR True) OR True answer True
+query NOT True OR True AND False answer False
+query True AND (True AND False) answer False
+query False OR False answer False
+query True AND NOT True answer False
+query NOT True OR False answer False
+query NOT True AND True AND True answer False
+query (NOT True AND True) OR True answer True
+query NOT False AND False answer False
+query True OR (True AND False) answer True
+query False OR (NOT True AND True) answer False
+query False OR False answer False
+query (False AND True) AND False answer False
+query False OR NOT True answer False
+query NOT True OR False AND True answer False
+query (True OR NOT True) AND (True OR True) answer True
+query False OR (NOT False AND NOT True) answer False
+query True AND True OR False answer True
+query True AND NOT True answer False
+query False AND (NOT True OR False) answer False
+query False AND False answer False
+query NOT False OR True AND True answer True
+query False OR NOT False answer True
+query True AND False answer False
+query NOT True OR False answer False
+query True AND False OR NOT False answer True
+query True AND (False OR False) answer False
+query ((True OR NOT True) AND False) AND False answer False
+query NOT True OR NOT False AND False answer False
+query False AND NOT False answer False
+query NOT True OR (NOT False OR False) answer True
+query True OR NOT False answer True
+query NOT True OR NOT True answer False
+query False AND False OR NOT False answer True
+query (True AND NOT False) OR True answer True
+query False OR NOT True answer False
+query NOT False OR (NOT False OR False) answer True
+query NOT False OR (True AND (True OR False)) answer True
+query (False AND True) OR (NOT False AND NOT True) answer False
+query True OR NOT False answer True
+query False OR NOT False answer True
+query (False OR NOT True) AND (False AND False) answer False
+query True AND NOT True answer False
+query False OR NOT True answer False
+query True AND False OR NOT True answer False
+query NOT False OR False answer True
+query False OR True OR False answer True
+query False AND False OR False answer False
+query True AND False answer False
+query False AND (True AND (True AND True)) answer False
+query NOT False OR NOT False answer True
+query True OR False AND False answer True
+query (False AND NOT False) OR (True OR False) answer True
+query True AND False AND True answer False
+query True AND True answer True
+query True AND True answer True
+query True OR False answer True
+query NOT False OR True answer True
+query NOT True OR True answer True
+query False AND True AND NOT False answer False
+query False OR False answer False
+query NOT False AND NOT True answer False
+query False AND False answer False
+query True OR True answer True
+query True AND True answer True
+query True AND True OR False answer True
+query (False AND True) AND True answer False
+query True OR (True AND False) answer True
+query True AND False AND NOT False answer False
+query True AND False answer False
+query NOT True AND False answer False
+query False AND False answer False
+query True AND True answer True
+query NOT False OR False answer True
+query False OR NOT False AND False answer False
+query True OR False OR True answer True
+query True OR False OR False answer True
+query False AND True answer False
+query False AND (NOT True AND (True AND NOT True)) answer False
+query ((True AND False) OR False) OR True answer True
+query NOT True AND NOT False answer False
+query (NOT False AND False) OR False answer False
+query (False OR NOT True) OR True answer True
+query True AND True answer True
+query False AND (False OR (NOT True OR True)) answer False
+query NOT True AND False answer False
+query NOT False AND (True OR NOT True) answer True
+query True OR False answer True
+query False AND False OR True answer True
+query (True OR False) OR True answer True
+query NOT True AND True OR False answer False
+query True AND True answer True
+query (False OR True) OR True answer True
+query True OR (True AND True) answer True
+query False AND NOT True answer False
+query False OR (False AND (False OR False)) answer False
+query True OR True OR NOT True answer True
+query False AND NOT False answer False
+query NOT True OR NOT True answer False
+query True OR NOT True answer True
+query True OR True answer True
+query (NOT False OR False) OR NOT False answer True
+query (False OR NOT True) OR (NOT True OR True) answer True
+query False AND True answer False
+query False AND True answer False
+query False AND NOT False answer False
+query False OR True AND False answer False
+query NOT True OR False answer False
+query True AND (True OR False) answer True
+query (True OR True) AND (NOT True AND NOT True) answer False
+query (False OR False) AND NOT False answer False
+query True OR True answer True
+query True OR NOT True answer True
+query NOT False AND (True AND NOT True) answer False
+query NOT True OR NOT False answer True
+query ((False OR True) OR NOT False) AND False answer False
+query NOT False OR NOT True answer True
+query True OR False OR False answer True
+query NOT False OR False answer True
+query True AND (False OR (NOT True AND NOT False)) answer False
+query (False AND False) AND NOT False answer False
+query False OR (True AND True) answer True
+query (False AND False) OR NOT False answer True
+query True OR False OR False answer True
+query True AND NOT False OR False answer True
+query NOT False AND False OR False answer False
+query NOT False AND NOT True AND True answer False
+query NOT True OR False answer False
+query False AND NOT False answer False
+query (NOT True OR NOT False) OR NOT True answer True
+query NOT True OR (NOT True AND (False OR True)) answer False
+query ((True AND True) OR True) AND NOT True answer False
+query True AND False AND NOT True answer False
+query False AND False answer False
+query True AND False answer False
+query (True OR True) OR False answer True
+query True OR False AND False answer True
+query (False OR True) AND True answer True
+query NOT True OR False answer False
+query (True OR False) OR False answer True
+query (False OR False) OR (False OR True) answer True
+query False AND True answer False
+query True OR False answer True
+query NOT False AND True AND False answer False
+query False AND False OR False answer False
+query False AND False OR NOT True answer False
+query (True AND True) AND (NOT False OR True) answer True
+query NOT False AND True AND False answer False
+query False OR (NOT True OR True) answer True
+query True OR (True OR True) answer True
+query True OR NOT False answer True
+query NOT False OR NOT True answer True
+query (NOT True OR NOT True) AND NOT True answer False
+query NOT True AND NOT False answer False
+query False OR False answer False
+query False AND NOT False answer False
+query False OR (False OR NOT False) answer True
+query True OR (NOT False AND NOT True) answer True
+query True AND (NOT True AND True) answer False
+query False AND True answer False
+query NOT True OR False answer False
+query NOT True AND NOT True answer False
+query True OR (NOT False AND True) answer True
+query True AND True answer True
+query NOT True AND False AND NOT False answer False
+query True OR NOT True answer True
+query NOT True OR False answer False
+query NOT False AND NOT False answer True
+query True OR True AND True answer True
+query True OR False answer True
+query (NOT False OR False) AND True answer True
+query NOT True OR NOT True answer False
+query False OR NOT False AND True answer True
+query False AND NOT True answer False
+query False OR (True OR True) answer True
+query True AND NOT True answer False
+query True OR False answer True
+query True AND (NOT False OR True) answer True
+query False OR NOT False answer True
+query False AND True AND True answer False
+query True AND NOT True answer False
+query True OR False answer True
+query False OR True answer True
+query True OR False answer True
+query NOT False AND True answer True
+query NOT True AND NOT True answer False
+query True OR NOT True answer True
+query NOT False OR (NOT True AND False) answer True
+query NOT False OR NOT True answer True
+query ((True OR True) OR False) OR False answer True
+query False AND (NOT False OR NOT True) answer False
+query False OR True OR True answer True
+query (False AND False) AND NOT False answer False
+query NOT False OR (True AND NOT True) answer True
+query False AND (True OR (NOT True AND False)) answer False
+query True OR NOT False answer True
+query True AND (NOT True AND True) answer False
+query NOT True AND False answer False
+query True AND NOT True answer False
+query True OR False answer True
+query (False OR True) AND False answer False
+query NOT True OR (True AND (False OR NOT False)) answer True
+query False AND NOT True AND False answer False
+query (False AND True) AND True answer False
+query False OR True AND NOT True answer False
+query False AND (NOT True OR True) answer False
+query NOT False OR False answer True
+query True AND True answer True
+query False AND True answer False
+query NOT False OR True answer True
+query False OR NOT True answer False
+query (False OR False) AND (False OR True) answer False
+query False AND (NOT True AND NOT False) answer False
+query True AND True answer True
+query True AND True answer True
+query (False OR True) AND NOT False answer True
+query True AND (False AND True) answer False
+query True OR True answer True
+query NOT True OR False answer False
+query False AND NOT False OR NOT False answer True
+query (NOT False OR True) AND (False AND True) answer False
+query NOT True OR NOT True answer False
+query (NOT True OR NOT True) AND NOT True answer False
+query True AND True answer True
+query False AND (True OR False) answer False
+query False OR False answer False
+query NOT False AND True answer True
+query True AND True answer True
+query True OR NOT True answer True
+query False OR False answer False
+query False AND False answer False
+query NOT False AND NOT False AND True answer True
+query NOT False OR False answer True
+query False AND False OR True answer True
+query False OR NOT False AND NOT True answer False
+query ((True AND NOT False) AND NOT False) AND True answer True
+query False AND False answer False
+query True AND (False OR NOT False) answer True
+query NOT False OR True answer True
+query (False OR True) OR NOT True answer True
+query (False AND False) AND (NOT True AND NOT False) answer False
+query True OR False answer True
+query NOT False AND NOT False answer True
+query False OR (NOT True AND True) answer False
+query False AND (False OR (False OR False)) answer False
+query False OR NOT False answer True
+query True AND False answer False
+query NOT False AND True answer True
+query NOT True OR NOT True answer False

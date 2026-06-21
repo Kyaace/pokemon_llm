@@ -120,7 +120,8 @@ def train_persona(persona_name, corpus_files, num_epochs=15, base_model_path=Non
     loss_history = []
     for obj in trainer.state.log_history:
         if "loss" in obj and "step" in obj:
-            loss_history.append({"step": obj["step"], "loss": obj["loss"]})
+            epoch = obj.get("epoch", 0)
+            loss_history.append({"step": obj["step"], "loss": obj["loss"], "epoch": epoch})
             
     with open(os.path.join(output_dir, "loss_history.json"), "w") as f:
         json.dump(loss_history, f, indent=4)

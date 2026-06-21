@@ -101,13 +101,13 @@ This report analyzes the performance of Johnny v2, Spike v2, and Ace v2 against 
 
 ---
 
-## MinMax Damage Priority (Battle Engine)
-**Goal:** Tests if Ace v2 prioritizes high-damage STAB moves over weak alternatives on Turn 1.
+## MinMax Base Test
+**Goal:** Tests if Ace v2 correctly calculates Charizard fainting and issues Leader Battle Score.
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-<img src="charts_v2/MinMax_Damage_Priority_Battle_Engine_Johnny_v2.png" width="30%" alt="Johnny_v2" />
-<img src="charts_v2/MinMax_Damage_Priority_Battle_Engine_Spike_v2.png" width="30%" alt="Spike_v2" />
-<img src="charts_v2/MinMax_Damage_Priority_Battle_Engine_Ace_v2.png" width="30%" alt="Ace_v2" />
+<img src="charts_v2/MinMax_Base_Test_Johnny_v2.png" width="30%" alt="Johnny_v2" />
+<img src="charts_v2/MinMax_Base_Test_Spike_v2.png" width="30%" alt="Spike_v2" />
+<img src="charts_v2/MinMax_Base_Test_Ace_v2.png" width="30%" alt="Ace_v2" />
 </div>
 
 ---

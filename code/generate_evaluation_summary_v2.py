@@ -75,11 +75,11 @@ queries = [
         "type": "MINMAX_STATUS"
     },
     {
-        "name": "MinMax Damage Priority (Battle Engine)",
-        "title": "--- QUERY: MinMax Damage Priority (Battle Engine) ---",
-        "goal": "Tests if Ace v2 prioritizes high-damage STAB moves over weak alternatives on Turn 1.",
+        "name": "MinMax Base Test",
+        "title": "--- QUERY: MinMax Base Test ---",
+        "goal": "Tests if Ace v2 correctly calculates Charizard fainting and issues Leader Battle Score.",
         "findings": "",
-        "type": "MINMAX_DAMAGE"
+        "type": "MINMAX_BASE"
     },
     {
         "name": "Thunderbolt vs Onix",
@@ -135,13 +135,14 @@ def grade_minmax_status(text):
         return "Good" 
     return "Fair"
 
-def grade_minmax_damage(text):
+def grade_minmax_base(text):
     text = text.lower()
-    good_moves = ["solar beam", "razor leaf", "vine whip"]
-    if any(m in text for m in good_moves):
+    if "leader battle score" in text:
         return "Good"
+    if "charizard fainted" in text and "two pokemon left" in text:
+        return "Fair"
     if "used" in text:
-        return "Bad" 
+        return "Bad"
     return "Bad"
 
 def grade_general(q_type, ans, correct_list):
@@ -174,8 +175,8 @@ def grade_general(q_type, ans, correct_list):
         if grade == "Good": return 2
         elif grade == "Fair": return 1
         else: return 0
-    elif q_type == "MINMAX_DAMAGE":
-        grade = grade_minmax_damage(ans)
+    elif q_type == "MINMAX_BASE":
+        grade = grade_minmax_base(ans)
         if grade == "Good": return 2
         elif grade == "Fair": return 1
         else: return 0

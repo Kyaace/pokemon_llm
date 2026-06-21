@@ -65,6 +65,10 @@ For the next iteration of the data pipeline (`qa_v3_corpus`), we should focus on
 *   **Encounter Locations:** Teaching the model that Pokémon can be obtained through multiple methods.
     *   `<FACT> <PKMN_MAGIKARP> <OBTAINED_FROM> <ENC_FISHING> <LOGIC_OR> <ENC_COMMON_WILD> <EOS>`
 
+### 6. Pure Boolean Logic Tokens (Truth Tables)
+*   **Preventing Double Duty:** To prevent `<LOGIC_NOT>` from getting double duty as both a logic modifier of other tokens and being used alone as a crude `FALSE`, future iterations will replace the answers of boolean logic questions with explicitly defined `<LOGIC_TRUE>` and `<LOGIC_FALSE>` tokens.
+*   **Truth Tables:** Furthermore, the curriculum for Johnny and Ace will be expanded to include pure truth tables. These truth tables will explicitly teach the models the fundamental functions of `<LOGIC_AND>`, `<LOGIC_OR>`, and `<LOGIC_NOT>`, establishing a mathematically sound foundation for complex reasoning before applying them to Pokemon elements.
+
 ## Hardware & Optimization Notes
 *   **Batch Size Scaling:** For future v3 training runs, we should significantly scale up the batch size. Current GPU utilization is extremely low (~3% / 0.9GB VRAM). Increasing the batch size will exponentially speed up training times by better saturating the GPU cores.
 *   **Dimensionality / Architecture Restraint:** Do *not* increase the model's physical dimensionality (embedding size, attention heads, or layers). The model architecture must remain lightweight so it can be deployed and run on weaker commercial laptops (e.g., intern/student laptops). The goal of this project is to serve as an educational tool for interns and new hires to understand LLM mechanics, so accessibility and inference performance on low-end hardware are paramount.

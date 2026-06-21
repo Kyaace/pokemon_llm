@@ -82,10 +82,15 @@ class PokemonTokenizer:
         self._add_token(83, "<HAS_3_LEFT>", "has three pokemon left.")
         self._add_token(84, "<VS>", "vs")
         self._add_token(85, "<LEADER>", "leader")
-        self._add_token(70, "<LOGIC_AND>", "and")
-        self._add_token(71, "<LOGIC_OR>", "or")
-        self._add_token(72, "<LOGIC_NOT>", "not")
+        self._add_token(70, "<LOGIC_AND>", "logic_and")
+        self._add_token(71, "<LOGIC_OR>", "logic_or")
+        self._add_token(72, "<LOGIC_NOT>", "logic_not")
         self._add_token(63, "<HAS_MOVES>", "has moves")
+        self._add_token(73, "<LOGIC_TRUE>", "logic_true")
+        self._add_token(74, "<LOGIC_FALSE>", "logic_false")
+        self._add_token(75, "<LOGIC_LPAREN>", "logic_lparen")
+        self._add_token(76, "<LOGIC_RPAREN>", "logic_rparen")
+        self._add_token(86, "<AND>", "and")
         
         # 100-199: Types
         self._add_token(199, "<UNKNOWN_POWER>", "unknown power")
@@ -174,6 +179,19 @@ class PokemonTokenizer:
 
     def encode_text(self, text, mode=None):
         """Translates free text into a list of Token IDs."""
+        # Replace logic symbols and uppercase operators before lowercasing
+        text = text.replace("(", "logic_lparen ")
+        text = text.replace(")", " logic_rparen")
+        
+        # We replace whole words to avoid replacing substrings
+        text = re.sub(r'\bAND\b', 'logic_and', text)
+        text = re.sub(r'\bOR\b', 'logic_or', text)
+        text = re.sub(r'\bNOT\b', 'logic_not', text)
+        
+        # True and False map to logic versions regardless of case
+        text = re.sub(r'(?i)\btrue\b', 'logic_true', text)
+        text = re.sub(r'(?i)\bfalse\b', 'logic_false', text)
+        
         text = text.lower()
         
         # Strip out encounter numbers used for visual grouping
@@ -226,7 +244,7 @@ class PokemonTokenizer:
                         
         # Find unknown words (alphabetic characters not covered)
         unknown_id = self.tag_to_id.get("<UNKNOWN_WORD>", 5)
-        for m in re.finditer(r'\b[a-z]+\b', text):
+        for m in re.finditer(r'\b[a-z_]+\b', text):
             start_pos = m.start()
             word = m.group()
             if not covered[start_pos]:
