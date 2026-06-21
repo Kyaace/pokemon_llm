@@ -11,6 +11,7 @@ Both models are decoder-only Transformer language models (GPT-2 architecture) de
 | **Embedding Dimension ($d_{model}$)** | 128 | 256 |
 | **Transformer Layers ($n_{layer}$)** | 4 | 8 |
 | **Attention Heads ($n_{head}$)** | 4 | 8 |
+| **Parameter Count** | 1,178,880 | 7,089,664 |
 
 ---
 
@@ -51,6 +52,9 @@ To prevent cross-contamination of knowledge, the data pipeline generates several
 - **Johnny:** Fine-tuned from the Foundation Model on the `tutorial_gen2_corpus` and `qa_gen2_corpus`. He is the only agent exposed to Gen 2 mechanics, Dark/Steel/Fairy types, and new Gen 2 evolutions.
 - **Spike:** Fine-tuned from the Foundation Model on the `player_leader_gen1_corpus`. This exposes him to realistic Player vs Gym Leader team matchups and curated movepools, though the actual move execution remains randomized.
 - **Ace:** The "master" agent. Fine-tuned from the Foundation Model on the combined datasets of both Spike (`player_leader_gen1_corpus`) and Johnny (`tutorial_gen2_corpus`, `qa_gen2_corpus`). This creates an ultimate persona designed to test if an LLM can discern the difference between raw theory (Johnny) and practical application (Spike) across multiple generations simultaneously.
+- **Spike v2:** Fine-tuned from the original Spike model using the new `expert_corpus_v2` dataset to master MinMax damage algorithms, optimal moves, and status condition timing.
+- **Johnny v2:** Fine-tuned from the original Johnny model using the new `qa_gen1_v2_corpus` and `qa_gen2_v2_corpus`.
+- **Ace v2:** Fine-tuned from Johnny v2 using the `qa_gen1_v2_corpus`, `qa_gen2_v2_corpus`, `tutorial_gen1_corpus`, `tutorial_gen2_corpus`, and `expert_corpus_v2`. This tests if Ace can maintain both Johnny's Gen 2 knowledge and the intense logical minmax deductions of the expert corpus.
 
 ---
 
