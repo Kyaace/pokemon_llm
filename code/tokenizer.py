@@ -188,9 +188,15 @@ class PokemonTokenizer:
         text = re.sub(r'\bOR\b', 'logic_or', text)
         text = re.sub(r'\bNOT\b', 'logic_not', text)
         
+        # Protect "false swipe" from being converted to "logic_false swipe"
+        text = re.sub(r'(?i)\bfalse swipe\b', 'temp_false_swipe', text)
+        
         # True and False map to logic versions regardless of case
         text = re.sub(r'(?i)\btrue\b', 'logic_true', text)
         text = re.sub(r'(?i)\bfalse\b', 'logic_false', text)
+        
+        # Restore "false swipe"
+        text = text.replace('temp_false_swipe', 'false swipe')
         
         text = text.lower()
         

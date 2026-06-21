@@ -8,7 +8,7 @@ def evaluate():
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     tokenizer = PokemonTokenizer()
     
-    models = ["johnny_v2", "spike_v2", "ace_v2"]
+    models = ["johnny_v2.2", "spike_v2", "ace_v2.2"]
     
     queries = [
         ("Negative Logic (Evolution)", "mewtwo evolves into answer", "QUERY"),

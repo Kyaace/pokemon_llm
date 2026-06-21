@@ -227,9 +227,9 @@ def main():
         
     parsed = parse_report(report_path)
     
-    models = ["Johnny_v2", "Spike_v2", "Ace_v2"]
+    models = ["Johnny_v2.2", "Spike_v2", "Ace_v2.2"]
     
-    md_lines = ["# Evaluation Summary V2\n\nThis report analyzes the performance of Johnny v2, Spike v2, and Ace v2 against the algebraic constraints and zero-shot reasoning.\n"]
+    md_lines = ["# Evaluation Summary V2.2\n\nThis report analyzes the performance of Johnny v2.2, Spike v2, and Ace v2.2 against the algebraic constraints and zero-shot reasoning.\n"]
     
     def my_autopct(pct):
         return ('%1.0f%%' % pct) if pct >= 4 else ''

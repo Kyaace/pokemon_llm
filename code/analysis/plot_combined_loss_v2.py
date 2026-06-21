@@ -31,16 +31,27 @@ def plot_combined_loss():
                 epochs.append(obj["epoch"])
                 losses.append(obj["loss"])
                 
+        # Append v2.2 losses if they exist
+        if "Johnny" in label or "Ace" in label:
+            v2_2_path = path.replace("_v2", "_v2.2")
+            if os.path.exists(v2_2_path):
+                with open(v2_2_path, "r", encoding="utf-8") as f2:
+                    data2 = json.load(f2)
+                for obj in data2:
+                    if "epoch" in obj and "loss" in obj:
+                        epochs.append(obj["epoch"] + 15) # Offset by 15 epochs
+                        losses.append(obj["loss"])
+                
         if epochs and losses:
             plt.plot(epochs, losses, label=label)
             
-    plt.title("Persona V2.1 Combined Training Loss (Scaled by Epoch)")
+    plt.title("Persona V2.2 Combined Training Loss (Scaled by Epoch)")
     plt.xlabel("Epoch")
     plt.ylabel("Loss")
     plt.legend()
     plt.grid(True)
     
-    output_path = os.path.join(reports_dir, "combined_loss_v2.1.png")
+    output_path = os.path.join(reports_dir, "combined_loss_v2.2.png")
     plt.savefig(output_path, dpi=300)
     plt.close()
     print(f"Saved combined loss chart to {output_path}")

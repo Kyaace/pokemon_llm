@@ -152,14 +152,15 @@ def generate_qa(output_path, base_dir, pokedex_files=["gen1_pokedex.json"], is_g
             # 3 random positive queries
             positive_samples = random.sample(moves_list, min(3, len(moves_list)))
             for pm in positive_samples:
-                qa_list.append(f"query {pkmn} has moves {pm} answer has moves")
+                qa_list.append(f"query {pkmn} has moves {pm} answer True")
                 
             # 3 random negative queries
             negative_candidates = [m for m in all_possible_moves if m not in moves_list]
             if negative_candidates:
                 negative_samples = random.sample(negative_candidates, min(3, len(negative_candidates)))
                 for nm in negative_samples:
-                    qa_list.append(f"query {pkmn} has moves {nm} answer logic_not has moves")
+                    qa_list.append(f"fact {pkmn} logic_not has moves {nm}")
+                    qa_list.append(f"query {pkmn} has moves {nm} answer False")
             
     # 5. Zero-Shot Move Effectiveness (full representation)
     rep_targets = {}
@@ -223,7 +224,7 @@ def generate_qa(output_path, base_dir, pokedex_files=["gen1_pokedex.json"], is_g
             evos = [e.title() for e in evolutions.get(pkmn_lower, []) if e.title() in pokedex]
             if not evos:
                 qa_list.append(f"fact {pkmn} logic_not evolves into")
-                qa_list.append(f"query {pkmn} evolves into answer logic_not")
+                qa_list.append(f"query {pkmn} evolves into answer False")
             else:
                 evo_str = " logic_or ".join(evos)
                 qa_list.append(f"fact {pkmn} evolves into {evo_str}")
