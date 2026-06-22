@@ -1,0 +1,59 @@
+=== MODEL EVALUATION PROBABILITY DISTRIBUTIONS ===
+
+--- QUERY: Pikachu Attack ---
+Prompt: turn 1 pikachu used
+
+--- QUERY: Onix Attack ---
+Prompt: turn 1 onix used
+
+--- QUERY: Thunderbolt vs Onix ---
+Prompt: thunderbolt against onix answer
+
+--- QUERY: Bulbasaur Evolution ---
+Prompt: bulbasaur evolves into answer
+
+--- QUERY: Squirtle Evolution ---
+Prompt: squirtle evolves into answer
+
+--- QUERY: Charmander Evolution ---
+Prompt: charmander evolves into answer
+
+--- QUERY: Pikachu Evolution ---
+Prompt: pikachu evolves into answer
+
+--- QUERY: Eevee Evolution ---
+Prompt: eevee evolves into answer
+
+--- QUERY: Onix Evolution ---
+Prompt: onix evolves into answer
+
+--- QUERY: Pichu Evolution ---
+Prompt: pichu evolves into answer
+
+--- QUERY: Cyndaquil Evolution ---
+Prompt: cyndaquil evolves into answer
+
+--- QUERY: Scyther Attack (Gen 1 Uncommon) ---
+Prompt: turn 1 scyther used
+
+--- QUERY: Aerodactyl Attack (Gen 1 Rare) ---
+Prompt: turn 1 aerodactyl used
+
+--- QUERY: Breeding (Foundation/Lite) - Positive 1 ---
+Prompt: charmander logic_and bulbasaur egg answer
+
+--- QUERY: Breeding (Foundation/Lite) - Positive 2 ---
+Prompt: rhyhorn logic_and bulbasaur egg answer
+
+--- QUERY: Breeding (Foundation/Lite) - Negative ---
+Prompt: ekans logic_and bulbasaur egg answer
+
+--- QUERY: Breeding (Full Only) - Positive 1 ---
+Prompt: pidgey logic_and spearow egg answer
+
+--- QUERY: Breeding (Full Only) - Positive 2 ---
+Prompt: cyndaquil logic_and totodile egg answer
+
+--- QUERY: Breeding (Full Only) - Negative ---
+Prompt: pidgey logic_and geodude egg answer
+

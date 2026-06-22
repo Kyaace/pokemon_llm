@@ -1,0 +1,1288 @@
+=== MODEL EVALUATION PROBABILITY DISTRIBUTIONS ===
+
+--- QUERY: Pikachu Attack ---
+Prompt: turn 1 pikachu used
+  Foundation_v2.3:
+    1% -> Rest on itself. It was effective. Pikachu went to sleep and restored its hp. Turn 10 pikachu has 60 hp remaining. Turn 20 ditto used rest on itself. It was effective. Pikachu went to sleep and restored its hp.
+    1% -> Dig on itself. It was effective. Turn 20 magikarp used fury attack against pikachu it missed! pikachu has 60 hp remaining. Turn 30 pikachu used dig
+    1% -> Slash against jigglypuff it was effective. Jigglypuff has 100 hp remaining. Turn 20 jigglypuff used disable against pikachu it was effective. Turn 30 pikachu used
+    1% -> Rapid spin against paras it was effective. Paras has 30 hp remaining. Turn 20 paras used transform against pikachu it was effective. Turn 30 pikachu used
+    1% -> Self destruct against haunter it had no effect. Haunter has 60 hp remaining. Turn 20 haunter used explosion against pikachu it was effective. Pikachu fainted. Haunter won.
+    1% -> Double edge against diglett it was effective. Diglett fainted. Pikachu won.
+    1% -> Copycat against ekans it was effective. Turn 10 pikachu used tackle against ekans turn 10 pikachu used tackle against ekans it was effective. Ekans
+    1% -> Transform against diglett it was effective. Turn 20 diglett used sing against pikachu it was effective. Pikachu fell asleep. Turn 30 pikachu is fast asleep. Turn 40
+    1% -> Sleep powder against ekans it was not very effective. Ekans fell asleep. Turn 20 ekans is fast asleep. Turn 30 pikachu used fly on itself. It was effective. Turn 40 ekans
+    1% -> Bide on itself. It was effective. Turn 10 pikachu has 50 hp remaining. Turn 20 pikachu used swift against pikachu it was effective. Pikachu has 20
+    1% -> Transform against chansey it was effective. Turn 20 chansey used hidden power against pikachu it was effective. Pikachu has 20 hp remaining. Turn 30 pikachu used
+    1% -> Bide on itself. It was effective. Turn 10 pikachu has 60 hp remaining. Turn 20 pikachu used tri attack against pikachu it was effective. Pikachu has 0
+    1% -> Rest on itself. It was effective. Pikachu went to sleep and restored its hp. Turn 10 pikachu has 60 hp remaining. Turn 20 weezing used rest on itself. It was effective. Pikachu went to sleep and restored its hp.
+    1% -> Slam against ditto it was effective. Ditto has 20 hp remaining. Turn 20 ditto used double edge against pikachu it was effective. Pikachu fainted. Ditto won.
+    1% -> Rage against voltorb it was effective. Voltorb has 30 hp remaining. Turn 20 voltorb used thrash against pikachu it was effective. Pikachu fainted. Voltorb won.
+    1% -> Rest on itself. It was effective. Pikachu went to sleep and restored its hp. Turn 10 pikachu has 60 hp remaining. Turn 20 abra used slam against pikachu it was effective. Pikachu
+    1% -> Razor wind against ponyta it was effective. Ponyta has 20 hp remaining. Turn 20 ponyta used hyper fang against pikachu it was effective. Pikachu has 20 hp remaining.
+    1% -> Wrap against raichu it was effective. Raichu has 70 hp remaining. Turn 20 raichu used sketch against pikachu it was effective. Turn 30 pikachu used
+    1% -> Mirror move against ditto it was effective. Turn 10 pikachu used tackle against mr. Mime turn 10 pikachu used tackle against ditto it was effective. Ditto
+    1% -> Hyper fang against oddish it was effective. Oddish has 20 hp remaining. Turn 20 oddish used slash against pikachu it was effective. Pikachu has 20 hp remaining.
+    1% -> Vice grip against caterpie it was effective. Caterpie has 40 hp remaining. Turn 20 caterpie used quick attack against pikachu it was effective. Pikachu has 40 hp remaining.
+    1% -> Bind against lapras it was effective. Lapras has 140 hp remaining. Turn 20 lapras used bind against pikachu it was effective. Pikachu has 50 hp remaining.
+    1% -> Rest on itself. It was effective. Pikachu went to sleep and restored its hp. Turn 10 pikachu has 60 hp remaining. Turn 20 haunter used sing against pikachu it was effective. Pikachu
+    1% -> Fire spin against oddish it was super effective. Oddish has 20 hp remaining. Turn 20 oddish used fire spin against pikachu it was not very effective. Pikachu has 40 hp remaining.
+    1% -> Encore against oddish it was effective. Turn 20 oddish used razor wind against pikachu it was effective. Pikachu has 0 hp remaining. Turn 30 pikachu used
+    1% -> Dig on itself. It was effective. Turn 20 hitmonchan used dig against hitmonchan it missed! hitmonchan has 60 hp remaining. Turn 30 pikachu used dig
+    1% -> Disable against koffing it was effective. Turn 20 koffing used wrap against pikachu it was effective. Pikachu has 50 hp remaining. Turn 30 pikachu used
+    1% -> Fly on itself. It was effective. Turn 20 exeggcute used hyper fang against pikachu it missed! pikachu has 40 hp remaining. Turn 30 pikachu used fly
+    1% -> Mirror move against ditto it was effective. Turn 10 pikachu used tackle against ditto turn 10 pikachu used tackle against ditto it was effective. Ditto
+    1% -> False swipe against zubat it was effective. Zubat has 40 hp remaining. Turn 20 zubat used encore against pikachu it was effective. Turn 30 pikachu used
+    1% -> Disable against pikachu it was effective. Turn 20 pikachu used thrash against pikachu it was effective. Pikachu fainted. Pikachu won.
+    1% -> Mega punch against machop it was effective. Machop has 60 hp remaining. Turn 20 machop used thrash against pikachu it was effective. Pikachu fainted. Machop won.
+    1% -> Hidden power against mr. Mime it was effective. Mr. Mime has 20 hp remaining. Turn 20 mr. Mime used skull bash against pikachu it was effective. Pikachu fainted. Mr. Mime won.
+    1% -> Wrap against rhydon it was not very effective. Rhydon has 120 hp remaining. Turn 20 rhydon used disable against pikachu it was effective. Turn 20 rhydon is hurt by bind.
+    1% -> Sing against wigglytuff it was effective. Wigglytuff fell asleep. Turn 20 wigglytuff is fast asleep. Turn 30 pikachu used encore against wigglytuff it was effective. Turn 40
+    1% -> Self destruct against lapras it was effective. Lapras has 20 hp remaining. Turn 20 lapras used bide on itself. It was effective. Turn 20 lapras has 120
+    1% -> Hyper beam against zubat it was effective. Zubat fainted. Pikachu won.
+    1% -> Bide on itself. It was effective. Turn 10 pikachu has 50 hp remaining. Turn 20 pikachu used fire spin against pikachu it was not very effective. Pikachu has 50
+    1% -> Hyper fang against abra it was effective. Abra fainted. Pikachu won.
+    1% -> Body slam against horsea it was effective. Horsea fainted. Pikachu won.
+    1% -> Mega punch against sandshrew it was effective. Sandshrew has 20 hp remaining. Turn 20 sandshrew used metronome turn 20 sandshrew used fire spin against sandshrew
+    1% -> Strength against nidoranf it was effective. Nidoranf has 80 hp remaining. Turn 20 nidoranf used wrap against pikachu it was effective. Pikachu has 50 hp remaining.
+    1% -> Transform against machamp it was effective. Turn 20 machamp used horn attack against pikachu it was effective. Pikachu fainted. Pikachu won.
+    1% -> Transform against raichu it was effective. Turn 20 raichu used transform against pikachu it was effective. Turn 30 pikachu used tackle against raichu it was effective.
+    1% -> Pay day against exeggcute it was effective. Exeggcute has 60 hp remaining. Turn 20 exeggcute used horn attack against pikachu it was effective. Pikachu has 0 hp remaining.
+    1% -> Extreme speed against pikachu it was effective. Pikachu fainted. Pikachu won.
+    1% -> Encore against hitmonlee it was effective. Turn 20 hitmonlee used hyper fang against pikachu it was effective. Pikachu has 10 hp remaining. Turn 30 pikachu used
+    1% -> Hidden power against muk it was effective. Muk has 100 hp remaining. Turn 20 muk used double edge against pikachu it was effective. Pikachu has 0 hp remaining.
+    1% -> Body slam against rattata it was effective. Rattata has 10 hp remaining. Turn 20 rattata used tri attack against pikachu it was effective. Pikachu has 0 hp remaining.
+    1% -> False swipe against jigglypuff it was effective. Jigglypuff has 120 hp remaining. Turn 20 jigglypuff used leer against pikachu it was effective. Pikachu has 40 hp remaining.
+    1% -> Dig on itself. It was effective. Turn 20 hitmonchan used recover on itself. It was effective. Turn 20 hitmonchan has 60 hp remaining. Turn 30 pikachu used
+    1% -> Double edge against oddish it was effective. Oddish fainted. Pikachu won.
+    1% -> Bind against machop it was effective. Machop has 80 hp remaining. Turn 20 machop used transform against pikachu it was effective. Turn 30 pikachu used
+    1% -> Hyper fang against oddish it was effective. Oddish has 20 hp remaining. Turn 20 oddish used explosion against pikachu it was effective. Pikachu fainted. Oddish won.
+    1% -> Copycat against jigglypuff it was effective. Turn 10 pikachu used tackle against pikachu turn 10 pikachu used tackle against jigglypuff it was effective. Jigglypuff
+    1% -> Rest on itself. It was effective. Pikachu went to sleep and restored its hp. Turn 10 pikachu has 60 hp remaining. Turn 20 pikachu used rest on itself. It was not very effective. Pikachu went to sleep and restored its hp.
+    1% -> Egg bomb against squirtle it was effective. Squirtle fainted. Pikachu won.
+    1% -> Pay day against abra it was effective. Abra has 20 hp remaining. Turn 20 abra used explosion against pikachu it was effective. Pikachu fainted. Abra won.
+    1% -> Sketch against mr. Mime it was effective. Turn 20 mr. Mime used transform against pikachu it was effective. Turn 30 pikachu used tackle against mr. Mime it was effective.
+    1% -> Rage against weezing it was effective. Weezing has 70 hp remaining. Turn 20 weezing used sketch against pikachu it was effective. Turn 30 pikachu used
+    1% -> Tri attack against mankey it was effective. Mankey has 20 hp remaining. Turn 20 mankey used encore against pikachu it was effective. Turn 30 pikachu used
+    1% -> Extreme speed against flareon it was effective. Flareon has 40 hp remaining. Turn 20 flareon used false swipe against pikachu it was effective. Pikachu has 30 hp remaining.
+    1% -> Hyper beam against poliwag it was effective. Poliwag fainted. Pikachu won.
+    1% -> Disable against tangela it was effective. Turn 20 tangela used scratch against pikachu it was effective. Pikachu has 20 hp remaining. Turn 30 pikachu used
+    1% -> Sketch against squirtle it was effective. Turn 20 squirtle used fury attack against pikachu it was effective. Pikachu has 40 hp remaining. Turn 30 pikachu used
+    1% -> Disable against mankey it was effective. Turn 20 mankey used dizzy punch against pikachu it was effective. Pikachu has 0 hp remaining. Turn 30 pikachu used
+    1% -> Hyper beam against dratini it was effective. Dratini fainted. Pikachu won.
+    1% -> Rapid spin against koffing it was effective. Koffing has 30 hp remaining. Turn 20 koffing used copycat against pikachu it was effective. Turn 20 koffing used
+    1% -> Mega punch against jigglypuff it was effective. Jigglypuff has 90 hp remaining. Turn 20 jigglypuff used explosion against pikachu it was effective. Pikachu fainted. Jigglypuff won.
+    1% -> Copycat against squirtle it was effective. Turn 10 pikachu used tackle against pikachu turn 10 pikachu used tackle against pikachu it was effective. Pikachu
+    1% -> Transform against eevee it was effective. Turn 20 eevee used copycat against pikachu it was effective. Turn 20 eevee used tackle against eevee turn
+    1% -> Sketch against pikachu it was effective. Turn 20 pikachu used mega punch against pikachu it was effective. Pikachu has 20 hp remaining. Turn 30 pikachu used
+    1% -> Razor wind against lapras it was effective. Lapras has 100 hp remaining. Turn 20 lapras used vice grip against pikachu it was effective. Pikachu has 20 hp remaining.
+    1% -> Copycat against pinsir it was effective. Turn 10 pikachu used tackle against psyduck turn 10 pikachu used tackle against pinsir it was effective. Pinsir
+    1% -> Encore against squirtle it was effective. Turn 20 squirtle used transform against pikachu it was effective. Turn 30 pikachu used encore against squirtle it was effective.
+    1% -> Wrap against nidoranf it was effective. Nidoranf has 110 hp remaining. Turn 20 nidoranf used razor wind against pikachu it was effective. Pikachu has 0 hp remaining.
+    1% -> Hidden power against pinsir it was effective. Pinsir has 50 hp remaining. Turn 20 pinsir used copycat against pikachu it was effective. Turn 20 pinsir used
+    1% -> Bind against ponyta it was effective. Ponyta has 60 hp remaining. Turn 20 ponyta used hyper fang against pikachu it was effective. Pikachu has 20 hp remaining.
+    1% -> Transform against bulbasaur it was effective. Turn 20 bulbasaur used wrap against pikachu it was effective. Pikachu has 50 hp remaining. Turn 30 pikachu used
+    1% -> Encore against chansey it was effective. Turn 20 chansey used sing against pikachu it was effective. Pikachu fell asleep. Turn 30 pikachu is fast asleep. Turn 40
+    1% -> Skull bash against zubat it was effective. Zubat fainted. Pikachu won.
+    1% -> Self destruct against oddish it was effective. Oddish fainted. Pikachu won.
+    1% -> Sing against farfetch'd it was effective. Farfetch'd fell asleep. Turn 20 farfetch'd is fast asleep. Turn 30 pikachu used sketch against pikachu it was effective. Turn 40
+    1% -> Razor wind against horsea it was effective. Horsea fainted. Pikachu won.
+    1% -> Strength against charmander it was effective. Charmander has 20 hp remaining. Turn 20 charmander used hypnosis against pikachu it was effective. Pikachu fell asleep. Turn 30
+    1% -> Sketch against sandshrew it was effective. Turn 20 sandshrew used sketch against pikachu it was effective. Turn 30 pikachu used tackle against sandshrew it was effective.
+    1% -> Copycat against diglett it was effective. Turn 10 pikachu used tackle against diglett turn 10 pikachu used tackle against diglett it was effective. Diglett
+    1% -> Explosion against meowth it was effective. Meowth fainted. Pikachu won.
+    1% -> Mega kick against mr. Mime it was effective. Mr. Mime fainted. Pikachu won.
+    1% -> Rest on itself. It was super effective. Pikachu went to sleep and restored its hp. Turn 10 pikachu has 50 hp remaining. Turn 20 ekans used copycat against pikachu it was effective. Turn
+    1% -> Sleep powder against ditto it was effective. Ditto fell asleep. Turn 20 ditto is fast asleep. Turn 30 pikachu used encore against ditto it was effective. Turn 40
+    1% -> Pound against jigglypuff it was effective. Jigglypuff has 110 hp remaining. Turn 20 jigglypuff used transform against pikachu it was effective. Turn 30 pikachu used
+    1% -> Wrap against chansey it was effective. Chansey has 260 hp remaining. Turn 20 chansey used pound against pikachu it was effective. Pikachu has 20 hp remaining.
+    1% -> Scratch against ponyta it was effective. Ponyta has 40 hp remaining. Turn 20 ponyta used double slap against pikachu it was effective. Pikachu has 40 hp remaining.
+    1% -> Swift against paras it was effective. Paras has 20 hp remaining. Turn 20 paras used take down against pikachu it was effective. Pikachu fainted. Paras won.
+    1% -> Pound against farfetch'd it was effective. Farfetch'd has 50 hp remaining. Turn 20 farfetch'd used bide on itself. It was effective. Turn 20 farfetch'd has 60
+    1% -> Explosion against bulbasaur it was effective. Bulbasaur fainted. Pikachu won.
+    1% -> Double edge against ponyta it was effective. Ponyta fainted. Pikachu won.
+    1% -> Skull bash against tangela it was effective. Tangela has 20 hp remaining. Turn 20 tangela used harden on itself. It was effective. Turn 20 tangela has 20
+    1% -> Slam against pikachu it was effective. Pikachu has 0 hp remaining. Turn 20 pikachu used sketch against pikachu it was effective. Turn 30 pikachu used
+  Timmy_v2.3:
+    12% -> Thunderbolt against arcanine it was super effective. Arcanine fainted. Pikachu won.
+    10% -> Thunderbolt against geodude it was super effective. Geodude fainted. Pikachu won.
+    10% -> Quick attack against raichu it was effective. Raichu has 20 hp remaining. Turn 20 raichu used thunderbolt against pikachu it was not very effective. Pikachu has 40 hp remaining.
+    9% -> Thundershock against raichu it was not very effective. Raichu has 40 hp remaining. Turn 20 raichu used thunderbolt against pikachu it was super effective. Pikachu fainted. Raichu won.
+    6% -> Thunderbolt against cubone it was super effective. Cubone fainted. Pikachu won.
+    4% -> Quick attack against pidgey it was effective. Pidgey has 30 hp remaining. Turn 20 pidgey used gust against pikachu it was effective. Pikachu has 30 hp remaining.
+    3% -> Quick attack against spearow it was effective. Spearow has 30 hp remaining. Turn 20 spearow used peck against pikachu it was effective. Pikachu has 40 hp remaining.
+    3% -> Quick attack against zubat it was effective. Zubat has 40 hp remaining. Turn 20 zubat used leech life against pikachu it was effective. Pikachu has 40 hp remaining.
+    3% -> Thundershock against onix it had no effect. Onix has 100 hp remaining. Turn 20 onix used bind against pikachu it was effective. Pikachu has 10 hp remaining.
+    3% -> Quick attack against weedle it was effective. Weedle has 40 hp remaining. Turn 20 weedle used poison sting against pikachu it was effective. Pikachu has 40 hp remaining.
+    2% -> Quick attack against caterpie it was effective. Caterpie has 40 hp remaining. Turn 20 caterpie used tackle against pikachu it was effective. Pikachu has 20 hp remaining.
+    2% -> Quick attack against weedle it was effective. Weedle has 30 hp remaining. Turn 20 weedle used poison sting against pikachu it was effective. Pikachu has 50 hp remaining.
+    2% -> Quick attack against caterpie it was effective. Caterpie has 40 hp remaining. Turn 20 caterpie used tackle against pikachu it was effective. Pikachu has 30 hp remaining.
+    2% -> Quick attack against spearow it was effective. Spearow has 40 hp remaining. Turn 20 spearow used peck against pikachu it was effective. Pikachu has 40 hp remaining.
+    2% -> Quick attack against weedle it was effective. Weedle has 50 hp remaining. Turn 20 weedle used poison sting against pikachu it was effective. Pikachu has 40 hp remaining.
+    2% -> Quick attack against spearow it was effective. Spearow has 50 hp remaining. Turn 20 spearow used peck against pikachu it was effective. Pikachu has 40 hp remaining.
+    2% -> Quick attack against pidgey it was effective. Pidgey has 40 hp remaining. Turn 20 pidgey used gust against pikachu it was effective. Pikachu has 40 hp remaining.
+    2% -> Quick attack against zubat it was effective. Zubat has 30 hp remaining. Turn 20 zubat used leech life against pikachu it was effective. Pikachu has 50 hp remaining.
+    2% -> Quick attack against zubat it was effective. Zubat has 40 hp remaining. Turn 20 zubat used leech life against pikachu it was effective. Pikachu has 50 hp remaining.
+    2% -> Quick attack against caterpie it was effective. Caterpie has 40 hp remaining. Turn 20 caterpie used tackle against pikachu it was effective. Pikachu has 40 hp remaining.
+    2% -> Quick attack against pidgey it was effective. Pidgey has 30 hp remaining. Turn 20 pidgey used gust against pikachu it was effective. Pikachu has 40 hp remaining.
+    1% -> Quick attack against spearow it was effective. Spearow has 30 hp remaining. Turn 20 spearow used peck against pikachu it was effective. Pikachu has 20 hp remaining.
+    1% -> Quick attack against caterpie it was effective. Caterpie has 30 hp remaining. Turn 20 caterpie used tackle against pikachu it was effective. Pikachu has 20 hp remaining.
+    1% -> Quick attack against weedle it was effective. Weedle has 50 hp remaining. Turn 20 weedle used poison sting against pikachu it was effective. Pikachu has 30 hp remaining.
+    1% -> Quick attack against rattata it was effective. Rattata has 20 hp remaining. Turn 20 rattata used tackle against pikachu it was effective. Pikachu has 20 hp remaining.
+    1% -> Quick attack against zubat it was effective. Zubat has 50 hp remaining. Turn 20 zubat used leech life against pikachu it was effective. Pikachu has 40 hp remaining.
+    1% -> Quick attack against spearow it was effective. Spearow has 40 hp remaining. Turn 20 spearow used peck against pikachu it was effective. Pikachu has 30 hp remaining.
+    1% -> Quick attack against weedle it was effective. Weedle has 30 hp remaining. Turn 20 weedle used poison sting against pikachu it was effective. Pikachu has 40 hp remaining.
+    1% -> Quick attack against caterpie it was effective. Caterpie has 50 hp remaining. Turn 20 caterpie used tackle against pikachu it was effective. Pikachu has 40 hp remaining.
+    1% -> Quick attack against weedle it was effective. Weedle has 40 hp remaining. Turn 20 weedle used poison sting against pikachu it was effective. Pikachu has 50 hp remaining.
+    1% -> Quick attack against rattata it was effective. Rattata has 40 hp remaining. Turn 20 rattata used tackle against pikachu it was effective. Pikachu has 40 hp remaining.
+    1% -> Quick attack against caterpie it was effective. Caterpie has 50 hp remaining. Turn 20 caterpie used tackle against pikachu it was effective. Pikachu has 30 hp remaining.
+    1% -> Quick attack against pidgey it was effective. Pidgey has 50 hp remaining. Turn 20 pidgey used gust against pikachu it was effective. Pikachu has 20 hp remaining.
+    1% -> Quick attack against rattata it was effective. Rattata has 30 hp remaining. Turn 20 rattata used tackle against pikachu it was effective. Pikachu has 40 hp remaining.
+    1% -> Quick attack against spearow it was effective. Spearow has 30 hp remaining. Turn 20 spearow used peck against pikachu it was effective. Pikachu has 50 hp remaining.
+    1% -> Quick attack against weedle it was effective. Weedle has 40 hp remaining. Turn 20 weedle used poison sting against pikachu it was effective. Pikachu has 60 hp remaining.
+  Suzie_v2.3:
+    11% -> Quick attack against raichu it was effective. Raichu has 20 hp remaining. Turn 20 raichu used thunderbolt against pikachu it was not very effective. Pikachu has 40 hp remaining.
+    11% -> Thunderbolt against geodude it was super effective. Geodude fainted. Pikachu won.
+    9% -> Thunderbolt against cubone it was super effective. Cubone fainted. Pikachu won.
+    7% -> Thunderbolt against arcanine it was super effective. Arcanine fainted. Pikachu won.
+    6% -> Thundershock against raichu it was not very effective. Raichu has 40 hp remaining. Turn 20 raichu used thunderbolt against pikachu it was super effective. Pikachu fainted. Raichu won.
+    5% -> Quick attack against weedle it was effective. Weedle has 40 hp remaining. Turn 20 weedle used poison sting against pikachu it was effective. Pikachu has 50 hp remaining.
+    5% -> Quick attack against pidgey it was effective. Pidgey has 40 hp remaining. Turn 20 pidgey used gust against pikachu it was effective. Pikachu has 40 hp remaining.
+    4% -> Quick attack against pidgey it was effective. Pidgey has 40 hp remaining. Turn 20 pidgey used gust against pikachu it was effective. Pikachu has 30 hp remaining.
+    3% -> Quick attack against caterpie it was effective. Caterpie has 50 hp remaining. Turn 20 caterpie used tackle against pikachu it was effective. Pikachu has 20 hp remaining.
+    3% -> Quick attack against weedle it was effective. Weedle has 40 hp remaining. Turn 20 weedle used poison sting against pikachu it was effective. Pikachu has 40 hp remaining.
+    3% -> Quick attack against weedle it was effective. Weedle has 30 hp remaining. Turn 20 weedle used poison sting against pikachu it was effective. Pikachu has 50 hp remaining.
+    3% -> Thundershock against onix it had no effect. Onix has 100 hp remaining. Turn 20 onix used bind against pikachu it was effective. Pikachu has 10 hp remaining.
+    3% -> Quick attack against caterpie it was effective. Caterpie has 40 hp remaining. Turn 20 caterpie used tackle against pikachu it was effective. Pikachu has 40 hp remaining.
+    3% -> Quick attack against pidgey it was effective. Pidgey has 40 hp remaining. Turn 20 pidgey used gust against pikachu it was effective. Pikachu has 20 hp remaining.
+    2% -> Quick attack against pidgey it was effective. Pidgey has 30 hp remaining. Turn 20 pidgey used gust against pikachu it was effective. Pikachu has 20 hp remaining.
+    2% -> Quick attack against zubat it was effective. Zubat has 50 hp remaining. Turn 20 zubat used leech life against pikachu it was effective. Pikachu has 40 hp remaining.
+    2% -> Quick attack against caterpie it was effective. Caterpie has 50 hp remaining. Turn 20 caterpie used tackle against pikachu it was effective. Pikachu has 40 hp remaining.
+    1% -> Quick attack against pidgey it was effective. Pidgey has 50 hp remaining. Turn 20 pidgey used gust against pikachu it was effective. Pikachu has 30 hp remaining.
+    1% -> Quick attack against zubat it was effective. Zubat has 30 hp remaining. Turn 20 zubat used leech life against pikachu it was effective. Pikachu has 50 hp remaining.
+    1% -> Quick attack against caterpie it was effective. Caterpie has 40 hp remaining. Turn 20 caterpie used tackle against pikachu it was effective. Pikachu has 30 hp remaining.
+    1% -> Quick attack against weedle it was effective. Weedle has 50 hp remaining. Turn 20 weedle used poison sting against pikachu it was effective. Pikachu has 50 hp remaining.
+    1% -> Quick attack against zubat it was effective. Zubat has 30 hp remaining. Turn 20 zubat used leech life against pikachu it was effective. Pikachu has 30 hp remaining.
+    1% -> Quick attack against zubat it was effective. Zubat has 30 hp remaining. Turn 20 zubat used leech life against pikachu it was effective. Pikachu has 40 hp remaining.
+    1% -> Quick attack against caterpie it was effective. Caterpie has 50 hp remaining. Turn 20 caterpie used tackle against pikachu it was effective. Pikachu has 50 hp remaining.
+    1% -> Quick attack against spearow it was effective. Spearow has 30 hp remaining. Turn 20 spearow used peck against pikachu it was effective. Pikachu has 20 hp remaining.
+    1% -> Quick attack against rattata it was effective. Rattata has 30 hp remaining. Turn 20 rattata used tackle against pikachu it was effective. Pikachu has 40 hp remaining.
+    1% -> Quick attack against caterpie it was effective. Caterpie has 40 hp remaining. Turn 20 caterpie used tackle against pikachu it was effective. Pikachu has 20 hp remaining.
+    1% -> Quick attack against rattata it was effective. Rattata has 20 hp remaining. Turn 20 rattata used tackle against pikachu it was effective. Pikachu has 40 hp remaining.
+    1% -> Quick attack against zubat it was effective. Zubat has 40 hp remaining. Turn 20 zubat used leech life against pikachu it was effective. Pikachu has 40 hp remaining.
+    1% -> Quick attack against caterpie it was effective. Caterpie has 40 hp remaining. Turn 20 caterpie used tackle against pikachu it was effective. Pikachu has 50 hp remaining.
+    1% -> Quick attack against rattata it was effective. Rattata has 20 hp remaining. Turn 20 rattata used tackle against pikachu it was effective. Pikachu has 30 hp remaining.
+    1% -> Quick attack against pidgey it was effective. Pidgey has 50 hp remaining. Turn 20 pidgey used gust against pikachu it was effective. Pikachu has 20 hp remaining.
+    1% -> Quick attack against spearow it was effective. Spearow has 40 hp remaining. Turn 20 spearow used peck against pikachu it was effective. Pikachu has 20 hp remaining.
+    1% -> Quick attack against spearow it was effective. Spearow has 40 hp remaining. Turn 20 spearow used peck against pikachu it was effective. Pikachu has 30 hp remaining.
+    1% -> Quick attack against zubat it was effective. Zubat has 40 hp remaining. Turn 20 zubat used leech life against pikachu it was effective. Pikachu has 30 hp remaining.
+
+--- QUERY: Onix Attack ---
+Prompt: turn 1 onix used
+  Foundation_v2.3:
+    1% -> Pound against oddish it was effective. Oddish has 40 hp remaining. Turn 20 oddish used metronome turn 20 oddish used rock slide against oddish
+    1% -> Hyper fang against hitmonlee it was effective. Hitmonlee has 30 hp remaining. Turn 20 hitmonlee used transform against onix it was effective. Turn 30 onix used
+    1% -> Transform against poliwrath it was effective. Turn 20 poliwrath used dig on itself. It was not very effective. Turn 30 onix used tackle against poliwrath it missed! poliwrath
+    1% -> Metronome turn 10 onix used wing attack against rhydon it was not very effective. Rhydon has 120 hp remaining. Turn 20 rhydon used hypnosis against onix
+    1% -> Skull bash against aerodactyl it was not very effective. Aerodactyl has 60 hp remaining. Turn 20 aerodactyl used slash against onix it was not very effective. Onix has 40 hp remaining.
+    1% -> Thrash against paras it was effective. Paras fainted. Onix won.
+    1% -> Thrash against poliwag it was effective. Poliwag fainted. Onix won.
+    1% -> Bind against ekans it was effective. Ekans has 50 hp remaining. Turn 20 ekans used extreme speed against onix it was not very effective. Onix has 30 hp remaining.
+    1% -> Bind against sandshrew it was effective. Sandshrew has 60 hp remaining. Turn 20 sandshrew used sketch against onix it was effective. Turn 30 onix used
+    1% -> Bind against kingler it was effective. Kingler has 70 hp remaining. Turn 20 kingler used tri attack against onix it was not very effective. Onix has 40 hp remaining.
+    1% -> Bide on itself. It was not very effective. Turn 10 onix has 60 hp remaining. Turn 20 abra used disable against onix it was not very effective. Turn 30 onix
+    1% -> Rage against magneton it was not very effective. Magneton has 60 hp remaining. Turn 20 magneton used hypnosis against onix it was super effective. Onix fell asleep. Turn 30
+    1% -> Bind against parasect it was effective. Parasect has 70 hp remaining. Turn 20 parasect used hypnosis against onix it was super effective. Onix fell asleep. Turn 20
+    1% -> Rapid spin against magneton it was not very effective. Magneton has 60 hp remaining. Turn 20 magneton used fly on itself. It was effective. Turn 30 onix used wrap
+    1% -> Mega kick against poliwrath it was effective. Poliwrath has 60 hp remaining. Turn 20 poliwrath used horn attack against onix it was not very effective. Onix has 40 hp remaining.
+    1% -> Disable against parasect it was effective. Turn 20 parasect used double edge against onix it was not very effective. Onix has 20 hp remaining. Turn 30 onix used
+    1% -> Double edge against magnemite it was not very effective. Magnemite has 20 hp remaining. Turn 20 magnemite used extreme speed against onix it was not very effective. Onix has 30 hp remaining.
+    1% -> Stomp against hitmonlee it was effective. Hitmonlee has 40 hp remaining. Turn 20 hitmonlee used disable against onix it was not very effective. Turn 30 onix used
+    1% -> Scratch against aerodactyl it was not very effective. Aerodactyl has 90 hp remaining. Turn 20 aerodactyl used fury swipes against onix it was not very effective. Onix has 50 hp remaining.
+    1% -> Vice grip against kabutops it was not very effective. Kabutops has 60 hp remaining. Turn 20 kabutops used self destruct against onix it was not very effective. Onix has 10 hp remaining.
+    1% -> Sing against kabutops it was not very effective. Kabutops fell asleep. Turn 20 kabutops is fast asleep. Turn 30 onix used self destruct against kabutops it was not very effective. Kabutops has
+    1% -> Headbutt against rhydon it was not very effective. Rhydon has 100 hp remaining. Turn 20 rhydon used extreme speed against onix it was not very effective. Onix has 40 hp remaining.
+    1% -> Fire spin against doduo it was not very effective. Doduo has 40 hp remaining. Turn 20 doduo used skull bash against onix it was not very effective. Onix has 10 hp remaining.
+    1% -> Strength against onix it was not very effective. Onix has 40 hp remaining. Turn 20 onix used metronome turn 20 onix used fury cutter against onix
+    1% -> Encore against mr. Mime it was effective. Turn 20 mr. Mime used self destruct against onix it was not very effective. Onix fainted. Onix won.
+    1% -> Bide on itself. It was effective. Turn 10 onix has 60 hp remaining. Turn 20 ekans used roar against onix it was not very effective. Onix has 50
+    1% -> Stomp against nidoranf it was effective. Nidoranf has 90 hp remaining. Turn 20 nidoranf used thrash against onix it was not very effective. Onix has 20 hp remaining.
+    1% -> Disable against ekans it was effective. Turn 20 ekans used snore against onix it was not very effective. Onix has 40 hp remaining. Turn 30 onix used
+    1% -> Fire spin against tangela it was effective. Tangela has 70 hp remaining. Turn 20 tangela used wrap against onix it was not very effective. Onix has 50 hp remaining.
+    1% -> Copycat against hitmonlee it was effective. Turn 10 onix used tackle against onix turn 10 onix used tackle against hitmonlee it was effective. Hitmonlee
+    1% -> Bind against aerodactyl it was not very effective. Aerodactyl has 100 hp remaining. Turn 20 aerodactyl used copycat against onix it was effective. Turn 20 aerodactyl used
+    1% -> Extreme speed against onix it was not very effective. Onix has 30 hp remaining. Turn 20 onix used sketch against onix it was effective. Turn 30 onix used
+    1% -> Hyper fang against weezing it was effective. Weezing has 40 hp remaining. Turn 20 weezing used self destruct against onix it was not very effective. Onix fainted. Weezing won.
+    1% -> Strength against parasect it was effective. Parasect has 40 hp remaining. Turn 20 parasect used sketch against onix it was effective. Turn 30 onix used
+    1% -> Metronome turn 10 onix used jump kick against kabutops it was super effective. Kabutops fainted. Onix won.
+    1% -> Sketch against koffing it was effective. Turn 20 koffing used metronome turn 20 koffing used bone club against onix it was super effective. Onix fainted. Koffing
+    1% -> Rage against electabuzz it was effective. Electabuzz has 70 hp remaining. Turn 20 electabuzz used gust against onix it was not very effective. Onix has 40 hp remaining.
+    1% -> Strength against slowbro it was effective. Slowbro has 80 hp remaining. Turn 20 slowbro used mega punch against onix it was not very effective. Onix has 40 hp remaining.
+    1% -> Horn attack against flareon it was effective. Flareon has 40 hp remaining. Turn 20 flareon used egg bomb against onix it was not very effective. Onix has 20 hp remaining.
+    1% -> Fire spin against squirtle it was not very effective. Squirtle has 50 hp remaining. Turn 20 squirtle used fire spin against onix it was not very effective. Onix has 50 hp remaining.
+    1% -> Pound against pinsir it was effective. Pinsir has 60 hp remaining. Turn 20 pinsir used transform against onix it was effective. Turn 30 onix used
+    1% -> Mega punch against haunter it had no effect. Haunter has 60 hp remaining. Turn 20 haunter used rapid spin against onix it was not very effective. Onix has 40 hp remaining.
+    1% -> Hyper fang against weezing it was effective. Weezing has 40 hp remaining. Turn 20 weezing used bind against onix it was not very effective. Onix has 50 hp remaining.
+    1% -> Strength against onix it was not very effective. Onix has 40 hp remaining. Turn 20 onix used transform against onix it was effective. Turn 30 onix used
+    1% -> Horn attack against magneton it was not very effective. Magneton has 50 hp remaining. Turn 20 magneton used extreme speed against onix it was not very effective. Onix has 30 hp remaining.
+    1% -> Razor wind against geodude it was not very effective. Geodude has 40 hp remaining. Turn 20 geodude used quick attack against onix it was not very effective. Onix has 40 hp remaining.
+    1% -> Disable against omastar it was not very effective. Turn 20 omastar used bind against onix it was not very effective. Onix has 60 hp remaining. Turn 30 onix used
+    1% -> Skull bash against electabuzz it was effective. Electabuzz has 10 hp remaining. Turn 20 electabuzz used wrap against onix it was not very effective. Onix has 50 hp remaining.
+    1% -> Dizzy punch against squirtle it was effective. Squirtle has 20 hp remaining. Turn 20 squirtle used copycat against onix it was effective. Turn 20 squirtle used
+    1% -> Bide on itself. It was effective. Turn 10 onix has 50 hp remaining. Turn 20 gastly used hypnosis against onix it was effective. Onix fell asleep. Turn
+    1% -> Extreme speed against onix it was not very effective. Onix has 40 hp remaining. Turn 20 onix used slam against onix it was not very effective. Onix has 40 hp remaining.
+    1% -> Hidden power against flareon it was effective. Flareon has 50 hp remaining. Turn 20 flareon used comet punch against onix it was not very effective. Onix has 50 hp remaining.
+    1% -> Bind against omastar it was not very effective. Omastar has 90 hp remaining. Turn 20 omastar used bind against onix it was not very effective. Onix has 50 hp remaining.
+    1% -> Thrash against jolteon it was effective. Jolteon has 20 hp remaining. Turn 20 jolteon used body slam against onix it was not very effective. Onix has 30 hp remaining.
+    1% -> Razor wind against ekans it was effective. Ekans fainted. Onix won.
+    1% -> Thrash against onix it was not very effective. Onix has 20 hp remaining. Turn 20 onix used dizzy punch against onix it was not very effective. Onix has 40 hp remaining.
+    1% -> Fire spin against rhydon it was not very effective. Rhydon has 120 hp remaining. Turn 20 rhydon used skull bash against onix it was not very effective. Onix has 20 hp remaining.
+    1% -> Sing against poliwrath it was effective. Poliwrath fell asleep. Turn 20 poliwrath is fast asleep. Turn 30 onix used hyper fang against poliwrath it was effective. Poliwrath has
+    1% -> Copycat against gloom it was effective. Turn 10 onix used tackle against onix turn 10 onix used tackle against onix it was not very effective. Onix
+    1% -> Mirror move against squirtle it was effective. Turn 10 onix used tackle against onix turn 10 onix used tackle against hitmonlee it was effective. Squirtle
+    1% -> Skull bash against gloom it was effective. Gloom has 20 hp remaining. Turn 20 gloom used sketch against onix it was effective. Turn 30 onix used
+    1% -> Sing against parasect it was effective. Parasect fell asleep. Turn 20 parasect is fast asleep. Turn 30 onix used glare against parasect it was effective. Parasect has
+    1% -> Double edge against squirtle it was effective. Squirtle fainted. Onix won.
+    1% -> Rapid spin against parasect it was effective. Parasect has 60 hp remaining. Turn 20 parasect used take down against onix it was not very effective. Onix has 30 hp remaining.
+    1% -> Dizzy punch against ekans it was effective. Ekans has 20 hp remaining. Turn 20 ekans used mirror move against onix it was effective. Turn 20 ekans used
+    1% -> Encore against haunter it had no effect. Turn 20 haunter used encore against onix it was not very effective. Turn 30 onix used encore against haunter it had no effect.
+    1% -> Metronome turn 10 onix used ember against onix it was super effective. Onix fainted. Onix won.
+    1% -> Bind against onix it was not very effective. Onix has 50 hp remaining. Turn 20 onix used swift against onix it was not very effective. Onix has 40 hp remaining.
+    1% -> Bind against mr. Mime it was effective. Mr. Mime has 50 hp remaining. Turn 20 mr. Mime used encore against onix it was not very effective. Turn 20 mr. Mime is hurt by bind.
+    1% -> Metronome turn 10 onix used waterfall against mr. Mime it was effective. Mr. Mime has 20 hp remaining. Turn 20 mr. Mime used extreme speed against onix
+    1% -> Hypnosis against onix it was super effective. Onix fell asleep. Turn 20 onix is fast asleep. Turn 30 onix used metronome turn 30 onix used bite
+    1% -> Rest on itself. It was super effective. Onix went to sleep and restored its hp. Turn 10 onix has 60 hp remaining. Turn 20 flareon used metronome turn 20 flareon used
+    1% -> Mega kick against dugtrio it was effective. Dugtrio fainted. Onix won.
+    1% -> Copycat against electabuzz it was effective. Turn 10 onix used tackle against onix turn 10 onix used tackle against electabuzz it was effective. Electabuzz
+    1% -> Slam against magneton it was not very effective. Magneton has 40 hp remaining. Turn 20 magneton used disable against onix it was not very effective. Turn 30 onix used
+    1% -> Mega kick against poliwrath it was effective. Poliwrath has 50 hp remaining. Turn 20 poliwrath used hyper beam against onix it was not very effective. Onix fainted. Poliwrath won.
+    1% -> Slash against poliwag it was effective. Poliwag has 20 hp remaining. Turn 20 poliwag used rest on itself. It was effective. Poliwag went to sleep and restored its hp. Turn 20 poliwag
+    1% -> Double edge against magnemite it was not very effective. Magnemite has 20 hp remaining. Turn 20 magnemite used extreme speed against onix it was not very effective. Onix has 40 hp remaining.
+    1% -> Mirror move against tangela it was effective. Turn 10 onix used tackle against kabutops turn 10 onix used tackle against tangela it was effective. Tangela
+    1% -> Sing against vileplume it was effective. Vileplume fell asleep. Turn 20 vileplume is fast asleep. Turn 30 onix used sketch against vileplume it was effective. Turn 40
+    1% -> Bind against rhydon it was not very effective. Rhydon has 120 hp remaining. Turn 20 rhydon used bind against onix it was not very effective. Onix has 50 hp remaining.
+    1% -> Disable against krabby it was effective. Turn 20 krabby used roar against onix it was not very effective. Onix has 40 hp remaining. Turn 30 onix used
+    1% -> Fly on itself. It was effective. Turn 20 horsea used thrash against onix it missed! onix has 40 hp remaining. Turn 30 onix used fly
+    1% -> Scratch against dodrio it was effective. Dodrio has 60 hp remaining. Turn 20 dodrio used self destruct against onix it was not very effective. Onix fainted. Dodrio won.
+    1% -> Transform against flareon it was effective. Turn 20 flareon used wrap against onix it was not very effective. Onix has 40 hp remaining. Turn 30 onix used
+    1% -> Slash against oddish it was effective. Oddish has 20 hp remaining. Turn 20 oddish used disable against onix it was not very effective. Turn 30 onix used
+    1% -> Bide on itself. It was effective. Turn 10 onix has 60 hp remaining. Turn 20 meowth used roar against onix it was not very effective. Onix has 40
+    1% -> Sing against parasect it was effective. Parasect fell asleep. Turn 20 parasect is fast asleep. Turn 30 onix used sing against parasect it was effective. Parasect fell asleep.
+    1% -> Transform against pinsir it was effective. Turn 20 pinsir used wrap against onix it was not very effective. Onix has 50 hp remaining. Turn 30 onix used
+    1% -> Copycat against tangela it was effective. Turn 10 onix used tackle against onix turn 10 onix used tackle against onix it was not very effective. Onix
+    1% -> Transform against magnemite it was effective. Turn 20 magnemite used wrap against onix it was not very effective. Onix has 50 hp remaining. Turn 30 onix used
+    1% -> Fire spin against onix it was effective. Onix has 40 hp remaining. Turn 20 onix used disable against onix it was not very effective. Turn 20 onix is hurt by bind.
+    1% -> Horn attack against dodrio it was effective. Dodrio has 40 hp remaining. Turn 20 dodrio used sing against onix it was not very effective. Onix fell asleep. Turn 30
+    1% -> Rage against mr. Mime it was effective. Mr. Mime has 50 hp remaining. Turn 20 mr. Mime used pay day against onix it was not very effective. Onix has 50 hp remaining.
+    1% -> Tri attack against growlithe it was effective. Growlithe has 30 hp remaining. Turn 20 growlithe used fire spin against onix it was not very effective. Onix has 50 hp remaining.
+    1% -> Metronome turn 10 onix used dream eater against magneton it was super effective. Magneton has 20 hp remaining. Turn 20 magneton used slam against onix
+    1% -> Rage against koffing it was effective. Koffing has 50 hp remaining. Turn 20 koffing used pound against onix it was not very effective. Onix has 40 hp remaining.
+    1% -> Encore against geodude it was not very effective. Turn 20 geodude used fly on itself. It was not very effective. Turn 30 onix used fly against geodude it was not very effective. Geodude
+    1% -> Pound against sandshrew it was effective. Sandshrew has 40 hp remaining. Turn 20 sandshrew used thrash against onix it was not very effective. Onix has 20 hp remaining.
+    1% -> Explosion against growlithe it was effective. Growlithe fainted. Onix won.
+  Timmy_v2.3:
+    27% -> Body slam against bellsprout it was super effective. Bellsprout fainted. Onix won.
+    27% -> Bind against exeggutor it was super effective. Exeggutor fainted. Onix won.
+    11% -> Bubble against exeggutor it was super effective. Exeggutor fainted. Onix won.
+    6% -> Crabhammer against seadra it was super effective. Seadra fainted. Onix won.
+    3% -> Bind against pidgeot it was super effective. Pidgeot fainted. Onix won.
+    3% -> Crabhammer against golbat it was super effective. Golbat fainted. Onix won.
+    2% -> Onix turn 10 squirtle used tackle against onix it was effective. Onix has 0 hp remaining. Turn 20 squirtle used water gun against
+    2% -> Flamethrower against magmar it was super effective. Magmar fainted. Onix won.
+    1% -> Bind against scyther it was super effective. Scyther fainted. Onix won.
+    1% -> Onix turn 10 bulbasaur used tackle against onix has 50 hp remaining. Turn 30 onix used tackle against bulbasaur it was effective.
+    1% -> Onix used it had no effect. Onix has 100 hp remaining. Turn 20 poliwrath used bind against onix it had no effect. Onix has 50 hp remaining. Turn
+    1% -> Onix turn 10 pikachu used thunderbolt against onix has it was super effective. Onix fainted. Onix won.
+    1% -> Rest on itself. It had no effect. Onix has 100 hp remaining. Turn 20 poliwrath used water gun against onix it had no effect. Onix has 10 hp remaining. Turn
+    1% -> Onix turn 10 bulbasaur used vine whip against onix used tackle against onix it had no effect. Onix it had no effect. Onix has 100 hp remaining.
+    1% -> Onix turn 10 pidgeotto used gust against pidgeotto it was effective. Pidgeotto has 60 hp remaining. Turn 20 pidgeotto used gust against
+    1% -> Onix turn 10 pikachu used thundershock against onix has it was super effective. Onix fainted. Onix won.
+    1% -> Harden on itself. It had no effect. Onix has 100 hp remaining. Turn 20 poliwrath used bind against onix it had no effect. Onix has 10 hp remaining. Turn
+    1% -> It had no effect. Onix has 100 hp remaining. Turn 20 pinsir used bind against pinsir it was effective. Pinsir fainted. Onix won.
+    1% -> Onix turn 10 weezing used sludge against weezing it was effective. Weezing used sludge against onix it was effective. Onix fainted. Weezing won.
+    1% -> Gust against spearow it was effective. Spearow has 40 hp remaining. Turn 20 spearow used peck against onix it was effective. Onix has 50 hp remaining.
+    1% -> Against onix has 10 hp remaining. Turn used bind against onix used bind against onix it had no effect. Onix has 10 hp remaining. Turn
+    1% -> Gust against starmie it was effective. Starmie has 20 hp remaining. Turn 20 starmie used tackle against onix it was effective. Onix fainted. Starmie won.
+    1% -> Bind against bellsprout it was super effective. Bellsprout fainted. Onix won.
+    1% -> Rest on itself. It had no effect. Onix has 100 hp remaining. Turn 20 poliwrath used water gun against onix it had no effect. Onix has 100 hp remaining. Turn
+    1% -> Lick against kadabra it was super effective. Kadabra fainted. Onix won.
+    1% -> Bind against turn 10 used bind against onix it was super effective. Onix fainted. Onix won.
+    1% -> Gust against rattata it was effective. Rattata has 40 hp remaining. Turn 20 rattata used tackle against onix it was effective. Onix used gust against
+  Suzie_v2.3:
+    36% -> Bubble against exeggutor it was super effective. Exeggutor fainted. Onix won.
+    26% -> Onix used onix it had no effect. Onix has 100 hp remaining. Turn 20 onix used bind against onix it was effective. Onix has 10 hp remaining.
+    3% -> It was super effective. Onix fainted. Onix won.
+    2% -> Lick against kadabra it was super effective. Kadabra fainted. Onix won.
+    2% -> Onix query turn 10 onix used onix it was not very effective. Onix has 40 hp remaining. Turn 30 onix used onix used onix it was not very effective.
+    2% -> Body slam against bellsprout it was super effective. Bellsprout fainted. Onix won.
+    1% -> Onix query turn 10 onix used onix it was not very effective. Onix has onix has 40 hp remaining. Turn 30 onix used onix used
+    1% -> Bind against bellsprout it was effective. Bellsprout has 10 hp remaining. Turn 20 bellsprout used bellsprout it was super effective. Onix fainted. Onix won.
+    1% -> It was not very effective. Onix has 40 hp remaining. Turn used bind against onix it was super effective. Onix fainted. Onix won.
+    1% -> Onix used has onix turn 20 hp remaining. Turn 20 scyther used thunderbolt against onix it was super effective. Onix fainted. Onix won.
+    1% -> Onix query query onix has 50 hp remaining. Turn 20 onix used gust against onix it was not very effective. Onix has 20 hp remaining. Turn
+    1% -> Onix query turn 10 onix used onix it was not very effective. Onix has 50 hp remaining. Turn 30 onix used onix used bind against
+    1% -> Harden on itself. It had no effect. Onix has 100 hp remaining. Turn 20 poliwrath used water gun against onix it was super effective. Onix fainted. Poliwrath won.
+    1% -> Onix turn 10 onix used onix it had no effect. Onix has 100 hp remaining. Turn 20 onix used bind against onix it was super effective.
+    1% -> Bind against bellsprout it was super effective. Bellsprout fainted. Onix won.
+    1% -> Crabhammer against seadra it was super effective. Seadra fainted. Onix won.
+    1% -> Onix query turn 10 onix used onix it was not very effective. Onix has 50 hp remaining. Turn 30 onix used onix used onix used
+    1% -> Onix used lick against onix it was super effective. Onix fainted. Onix won.
+    1% -> Onix turn 10 onix used onix it was not very effective. Onix has 40 hp remaining. Turn 20 onix used onix used bind against
+    1% -> It had no effect. Onix has 100 hp remaining. Turn 20 pinsir used ember against onix it was super effective. Onix fainted. Onix won.
+    1% -> Onix turn 10 onix used onix used bind against onix it was not very effective. Onix has onix has onix has onix won.
+    1% -> Onix turn 10 onix used onix it was not very effective. Onix has 40 hp remaining. Turn 30 onix used bind against onix it was super effective.
+    1% -> It was not very effective. Onix has 40 hp remaining. Turn used bubble against onix it was super effective. Onix fainted. Onix won.
+    1% -> Onix turn 10 onix used onix used onix has onix has 40 hp remaining. Turn 30 onix used onix used
+    1% -> Against onix has 40 hp remaining. Turn used bubble against onix it was super effective. Onix fainted. Onix won.
+    1% -> Onix it had no effect. Has onix query onix has 100 hp remaining. Turn 20 pinsir used gust against onix it was not very effective. Onix has 10
+    1% -> Onix turn 10 onix used onix it was not very effective. Onix has 40 hp remaining. Turn 30 onix used onix used onix voltorb
+    1% -> Bind against bellsprout it was effective. Bellsprout has 40 hp remaining. Turn 20 bellsprout used bellsprout it was super effective. Onix fainted. Onix won.
+    1% -> Onix used has onix turn 20 hp remaining. Turn 20 pinsir used crabhammer against onix it was super effective. Onix fainted. Onix won.
+    1% -> Onix used logic_false onix query onix has 40 hp remaining. Turn 20 metapod used bind against onix it was not very effective. Onix has 10
+    1% -> Onix used it had no effect. Onix has 100 hp remaining. Turn 20 poliwrath used bind against onix it had no effect. Onix has 100 hp remaining. Turn
+    1% -> Bind against weedle it was effective. Weedle has 50 hp remaining. Turn 20 weedle used poison sting against onix it was effective. Onix has 60 hp remaining.
+    1% -> Onix query turn 10 onix used onix it was not very effective. Onix has 70 hp remaining. Turn 30 onix used onix used onix used
+    1% -> Rest on itself. It had no effect. Onix has 100 hp remaining. Turn 20 poliwrath used water gun against onix it was super effective. Onix fainted. Onix won.
+    1% -> Rest on itself. It had no effect. Onix has 100 hp remaining. Turn 20 poliwrath used water gun against onix it was super effective. Onix fainted. Poliwrath won.
+
+--- QUERY: Thunderbolt vs Onix ---
+Prompt: thunderbolt against onix answer
+  Foundation_v2.3:
+    51% -> It was effective.
+    41% -> It was super effective.
+    6% -> It was not very effective.
+    2% -> It had no effect.
+  Timmy_v2.3:
+    100% -> It was super effective.
+  Suzie_v2.3:
+    89% -> Onix
+    5% -> Magnemite
+    1% -> Answer magnemite
+    1% -> Jolteon
+    1% -> Body slam
+    1% -> Geodude
+    1% -> Answer flamethrower
+    1% -> Voltorb
+
+--- QUERY: Bulbasaur Evolution ---
+Prompt: bulbasaur evolves into answer
+  Foundation_v2.3:
+    60% -> Logic_false
+    5% -> Magikarp
+    4% -> Ninetales
+    3% -> Bulbasaur
+    2% -> Nidorina
+    2% -> Vaporeon
+    2% -> Jolteon
+    2% -> Graveler
+    2% -> Venonat
+    2% -> Nidoranm
+    1% -> Tentacruel
+    1% -> Pinsir
+    1% -> Oddish
+    1% -> Kingler
+    1% -> Beedrill
+    1% -> Onix
+    1% -> Exeggcute
+    1% -> Nidoking
+    1% -> Persian
+    1% -> Weepinbell
+    1% -> Slowpoke
+    1% -> Paras
+    1% -> Ekans
+    1% -> Lickitung
+    1% -> Omastar
+    1% -> Ivysaur
+  Timmy_v2.3:
+    100% -> Logic_not
+  Suzie_v2.3:
+    57% -> Bulbasaur
+    43% -> Logic_not
+
+--- QUERY: Squirtle Evolution ---
+Prompt: squirtle evolves into answer
+  Foundation_v2.3:
+    50% -> Logic_false
+    5% -> Tentacruel
+    5% -> Cloyster
+    4% -> Weezing
+    3% -> Squirtle
+    3% -> Beedrill
+    2% -> Kabutops
+    2% -> Dodrio
+    2% -> Magneton
+    2% -> Graveler
+    2% -> Omastar
+    2% -> Golduck
+    2% -> Exeggutor
+    2% -> Seadra
+    1% -> Ninetales
+    1% -> Slowbro
+    1% -> Wigglytuff
+    1% -> Nidorina
+    1% -> Pinsir
+    1% -> Pidgeot
+    1% -> Seaking
+    1% -> Wartortle
+    1% -> Lapras
+    1% -> Onix
+    1% -> Farfetch'd
+    1% -> Exeggcute
+    1% -> Venonat
+    1% -> Weepinbell
+  Timmy_v2.3:
+    100% -> Logic_not
+  Suzie_v2.3:
+    87% -> Squirtle
+    12% -> Logic_not
+    1% -> Logic_false
+
+--- QUERY: Charmander Evolution ---
+Prompt: charmander evolves into answer
+  Foundation_v2.3:
+    22% -> Logic_false
+    5% -> Magneton
+    5% -> Alakazam
+    5% -> Dodrio
+    4% -> Blastoise
+    4% -> Kabutops
+    4% -> Weepinbell
+    4% -> Magikarp
+    3% -> Vaporeon
+    3% -> Graveler
+    3% -> Paras
+    3% -> Seaking
+    2% -> Kadabra
+    2% -> Wartortle
+    2% -> Goldeen
+    2% -> Gloom
+    2% -> Charmeleon
+    2% -> Weezing
+    2% -> Pidgeotto
+    2% -> Beedrill
+    2% -> Charmander
+    2% -> Exeggutor
+    2% -> Onix
+    2% -> Cloyster
+    1% -> Ninetales
+    1% -> Farfetch'd
+    1% -> Geodude
+    1% -> Slowbro
+    1% -> Tentacruel
+    1% -> Nidoqueen
+    1% -> Pinsir
+    1% -> Dragonite
+    1% -> Starmie
+    1% -> Jolteon
+    1% -> Ponyta
+  Timmy_v2.3:
+    100% -> Charmeleon
+  Suzie_v2.3:
+    98% -> Charmander
+    1% -> Logic_false
+    1% -> Fire
+
+--- QUERY: Pikachu Evolution ---
+Prompt: pikachu evolves into answer
+  Foundation_v2.3:
+    44% -> Logic_false
+    5% -> Farfetch'd
+    5% -> Weezing
+    4% -> Ekans
+    4% -> Magneton
+    3% -> Rhydon
+    3% -> Tentacruel
+    3% -> Kakuna
+    3% -> Bellsprout
+    2% -> Fearow
+    2% -> Sandslash
+    2% -> Exeggutor
+    2% -> Dugtrio
+    2% -> Beedrill
+    1% -> Oddish
+    1% -> Slowbro
+    1% -> Kadabra
+    1% -> Metapod
+    1% -> Exeggcute
+    1% -> Golduck
+    1% -> Gloom
+    1% -> Blastoise
+    1% -> Nidoking
+    1% -> Pinsir
+    1% -> Kabutops
+    1% -> Dragonite
+    1% -> Shellder
+    1% -> Weepinbell
+    1% -> Victreebel
+    1% -> Omastar
+  Timmy_v2.3:
+    100% -> Logic_not
+  Suzie_v2.3:
+    75% -> Pichu
+    23% -> Logic_not
+    1% -> <EMPTY / NO EVOLUTION>
+    1% -> Logic_or logic_not
+
+--- QUERY: Eevee Evolution ---
+Prompt: eevee evolves into answer
+  Foundation_v2.3:
+    61% -> Logic_false
+    6% -> Graveler
+    3% -> Exeggutor
+    3% -> Eevee
+    3% -> Beedrill
+    3% -> Magneton
+    2% -> Vaporeon
+    2% -> Exeggcute
+    2% -> Weezing
+    1% -> Starmie
+    1% -> Pinsir
+    1% -> Farfetch'd
+    1% -> Ponyta
+    1% -> Geodude
+    1% -> Muk
+    1% -> Blastoise
+    1% -> Ekans
+    1% -> Machamp
+    1% -> Magikarp
+    1% -> Kabutops
+    1% -> Goldeen
+    1% -> Dugtrio
+    1% -> Lickitung
+    1% -> Jolteon
+  Timmy_v2.3:
+    33% -> Butterfree
+    29% -> Metapod
+    20% -> Charizard
+    7% -> Mewtwo
+    2% -> Bellsprout
+    1% -> Has
+    1% -> Pikachu
+    1% -> Exeggutor
+    1% -> Beedrill
+    1% -> It was super effective.
+    1% -> Primeape
+    1% -> Muk
+    1% -> Golbat
+    1% -> Magmar
+  Suzie_v2.3:
+    100% -> Eevee
+
+--- QUERY: Onix Evolution ---
+Prompt: onix evolves into answer
+  Foundation_v2.3:
+    70% -> Logic_false
+    5% -> Onix
+    3% -> Magneton
+    2% -> Kakuna
+    2% -> Ninetales
+    2% -> Venonat
+    1% -> Ekans
+    1% -> Ivysaur
+    1% -> Wigglytuff
+    1% -> Jolteon
+    1% -> Starmie
+    1% -> Kabutops
+    1% -> Omastar
+    1% -> Vileplume
+    1% -> Graveler
+    1% -> Oddish
+    1% -> Wartortle
+    1% -> Lickitung
+    1% -> Bellsprout
+    1% -> Weezing
+    1% -> Blastoise
+    1% -> Magikarp
+  Timmy_v2.3:
+    93% -> Pidgeot
+    7% -> Kingler
+  Suzie_v2.3:
+    91% -> Onix
+    9% -> Answer onix
+
+--- QUERY: Pichu Evolution ---
+Prompt: pichu evolves into answer
+  Foundation_v2.3:
+    76% -> Logic_false
+    4% -> Weezing
+    3% -> Rhyhorn
+    2% -> Geodude
+    2% -> Victreebel
+    1% -> Bellsprout
+    1% -> Weepinbell
+    1% -> Magneton
+    1% -> Graveler
+    1% -> Eevee
+    1% -> Kabutops
+    1% -> Oddish
+    1% -> Poliwhirl
+    1% -> Ekans
+    1% -> Kakuna
+    1% -> Dragonite
+    1% -> Farfetch'd
+    1% -> Venonat
+  Timmy_v2.3:
+    50% -> Logic_not
+    13% -> Primeape
+    12% -> Mewtwo
+    10% -> Butterfree
+    8% -> Charizard
+    3% -> Metapod
+    3% -> Pikachu
+    1% -> It was super effective.
+  Suzie_v2.3:
+    66% -> Logic_not
+    9% -> Answer logic_not
+    6% -> Pichu
+    4% -> Teddiursa
+    3% -> Swinub
+    2% -> Diglett
+    2% -> Stantler
+    2% -> Answer swinub
+    1% -> Answer dunsparce
+    1% -> Logic_or logic_not
+    1% -> Nidorino
+    1% -> Primeape
+    1% -> Wooper
+    1% -> Dunsparce
+
+--- QUERY: Cyndaquil Evolution ---
+Prompt: cyndaquil evolves into answer
+  Foundation_v2.3:
+    99% -> Logic_false
+    1% -> 80
+  Timmy_v2.3:
+    42% -> Charizard
+    26% -> Butterfree
+    13% -> Primeape
+    12% -> Metapod
+    4% -> Mewtwo
+    1% -> Ditto
+    1% -> Has
+    1% -> Pikachu
+  Suzie_v2.3:
+    100% -> Cyndaquil
+
+--- QUERY: Scyther Attack (Gen 1 Uncommon) ---
+Prompt: turn 1 scyther used
+  Foundation_v2.3:
+    1% -> Explosion against psyduck it was effective. Psyduck fainted. Scyther won.
+    1% -> Hyper beam against eevee it was effective. Eevee fainted. Scyther won.
+    1% -> Quick attack against arcanine it was effective. Arcanine has 90 hp remaining. Turn 20 arcanine used sketch against scyther it was effective. Turn 30 scyther used
+    1% -> Fly on itself. It was effective. Turn 20 dragonair used scratch against scyther it missed! scyther has 80 hp remaining. Turn 30 scyther used fly
+    1% -> Sketch against nidoqueen it was effective. Turn 20 nidoqueen used transform against scyther it was effective. Turn 30 scyther used tackle against nidoqueen it was effective.
+    1% -> Fire spin against mr. Mime it was effective. Mr. Mime has 40 hp remaining. Turn 20 mr. Mime used pay day against scyther it was effective. Scyther has 70 hp remaining.
+    1% -> Wrap against pinsir it was effective. Pinsir has 80 hp remaining. Turn 20 pinsir used extreme speed against scyther it was effective. Scyther has 40 hp remaining.
+    1% -> Bite against flareon it was effective. Flareon has 60 hp remaining. Turn 20 flareon used copycat against scyther it was effective. Turn 20 flareon used
+    1% -> Sketch against parasect it was effective. Turn 20 parasect used disable against scyther it was effective. Turn 30 scyther used tackle against parasect it was effective.
+    1% -> Horn attack against raichu it was effective. Raichu has 40 hp remaining. Turn 20 raichu used self destruct against scyther it was effective. Scyther fainted. Raichu won.
+    1% -> Thrash against scyther it was effective. Scyther has 20 hp remaining. Turn 20 scyther used bide on itself. It was effective. Turn 20 scyther has 40
+    1% -> Fly on itself. It was effective. Turn 20 charizard used harden on itself. It was effective. Turn 20 scyther has 100 hp remaining. Turn 30 scyther used
+    1% -> Pound against dugtrio it was effective. Dugtrio has 30 hp remaining. Turn 20 dugtrio used horn attack against scyther it was effective. Scyther has 60 hp remaining.
+    1% -> Quick attack against hitmonlee it was effective. Hitmonlee has 40 hp remaining. Turn 20 hitmonlee used sing against scyther it was effective. Scyther fell asleep. Turn 30
+    1% -> Transform against drowzee it was effective. Turn 20 drowzee used tackle against scyther it was effective. Scyther has 60 hp remaining. Turn 30 scyther used
+    1% -> Wrap against machamp it was effective. Machamp has 100 hp remaining. Turn 20 machamp used wrap against scyther it was effective. Scyther has 80 hp remaining.
+    1% -> Stomp against persian it was effective. Persian has 50 hp remaining. Turn 20 persian used encore against scyther it was effective. Turn 30 scyther used
+    1% -> Fury attack against machop it was effective. Machop has 80 hp remaining. Turn 20 machop used metronome turn 20 machop used metronome turn 20
+    1% -> Sing against weedle it was effective. Weedle fell asleep. Turn 20 weedle is fast asleep. Turn 30 scyther used sketch against weedle it was effective. Turn 40
+    1% -> Wrap against nidoranm it was effective. Nidoranm has 110 hp remaining. Turn 20 nidoranm used wrap against scyther it was effective. Scyther has 80 hp remaining.
+    1% -> Metronome turn 10 scyther used sludge against flareon it was effective. Flareon has 60 hp remaining. Turn 20 flareon used false swipe against scyther
+    1% -> Strength against tauros it was effective. Tauros has 50 hp remaining. Turn 20 tauros used hyper beam against scyther it was effective. Scyther fainted. Tauros won.
+    1% -> Bite against scyther it was effective. Scyther has 60 hp remaining. Turn 20 scyther used encore against scyther it was effective. Turn 30 scyther used
+    1% -> Bind against vulpix it was effective. Vulpix has 50 hp remaining. Turn 20 vulpix used mirror move against scyther it was effective. Turn 20 vulpix used
+    1% -> Vice grip against bellsprout it was effective. Bellsprout has 40 hp remaining. Turn 20 bellsprout used skull bash against scyther it was effective. Scyther has 20 hp remaining.
+    1% -> Sketch against hypno it was effective. Turn 20 hypno used tackle against scyther it was effective. Scyther has 80 hp remaining. Turn 30 scyther used
+    1% -> Metronome turn 10 scyther used attacker against seel it was effective. Seel has 60 hp remaining. Turn 20 seel used metronome turn 20
+    1% -> Slam against flareon it was effective. Flareon has 40 hp remaining. Turn 20 flareon used metronome turn 20 flareon used leech life against flareon
+    1% -> Razor wind against seel it was effective. Seel has 40 hp remaining. Turn 20 seel used egg bomb against scyther it was effective. Scyther has 40 hp remaining.
+    1% -> Rest on itself. It was not very effective. Scyther went to sleep and restored its hp. Turn 10 scyther has 90 hp remaining. Turn 20 golem used rest on itself. It was effective. Scyther went to sleep and restored its hp.
+    1% -> Dig on itself. It was effective. Turn 20 doduo used strength against scyther it missed! scyther has 80 hp remaining. Turn 30 scyther used dig
+    1% -> Wrap against parasect it was effective. Parasect has 70 hp remaining. Turn 20 parasect used bind against scyther it was effective. Scyther has 80 hp remaining.
+    1% -> Copycat against rhydon it was effective. Turn 10 scyther used tackle against scyther turn 10 scyther used tackle against rhydon it was not very effective. Rhydon
+    1% -> Swift against psyduck it was effective. Psyduck has 40 hp remaining. Turn 20 psyduck used barrage against scyther it was effective. Scyther has 80 hp remaining.
+    1% -> Sketch against poliwrath it was effective. Turn 20 poliwrath used double slap against scyther it was effective. Scyther has 80 hp remaining. Turn 30 scyther used
+    1% -> Dig on itself. It was effective. Turn 20 primeape used sing against scyther it was effective. Scyther fell asleep. Turn 30 scyther is fast asleep. Turn 40 scyther
+    1% -> Disable against voltorb it was effective. Turn 20 voltorb used scratch against scyther it was effective. Scyther has 60 hp remaining. Turn 30 scyther used
+    1% -> Sketch against pinsir it was effective. Turn 20 pinsir used horn attack against scyther it was effective. Scyther has 60 hp remaining. Turn 30 scyther used
+    1% -> Hidden power against hitmonlee it was effective. Hitmonlee has 40 hp remaining. Turn 20 hitmonlee used double edge against scyther it was effective. Scyther has 20 hp remaining.
+    1% -> Horn attack against exeggutor it was effective. Exeggutor has 80 hp remaining. Turn 20 exeggutor used disable against scyther it was effective. Turn 30 scyther used
+    1% -> Scratch against jigglypuff it was effective. Jigglypuff has 120 hp remaining. Turn 20 jigglypuff used bide on itself. It was effective. Turn 20 jigglypuff has 120
+    1% -> Thrash against persian it was effective. Persian has 10 hp remaining. Turn 20 persian used bide on itself. It was effective. Turn 20 persian has 40
+    1% -> Take down against parasect it was effective. Parasect has 30 hp remaining. Turn 20 parasect used wrap against scyther it was effective. Scyther has 80 hp remaining.
+    1% -> Pound against ekans it was effective. Ekans has 20 hp remaining. Turn 20 ekans used extreme speed against articuno it was effective. Articuno has 70 hp remaining.
+    1% -> Hyper fang against machop it was effective. Machop has 40 hp remaining. Turn 20 machop used self destruct against scyther it was effective. Scyther fainted. Machop won.
+    1% -> Encore against marowak it was effective. Turn 20 marowak used sketch against scyther it was effective. Turn 30 scyther used tackle against scyther it was effective.
+    1% -> Fire spin against machamp it was effective. Machamp has 80 hp remaining. Turn 20 machamp used metronome turn 20 machamp used bubble against machamp
+    1% -> Strength against rhydon it was not very effective. Rhydon has 100 hp remaining. Turn 20 rhydon used take down against scyther it was effective. Scyther has 40 hp remaining.
+    1% -> Sing against seel it was effective. Seel fell asleep. Turn 20 seel is fast asleep. Turn 30 scyther used bide on itself. It was effective. Turn 30 scyther
+    1% -> Transform against ditto it was effective. Turn 20 ditto used bind against scyther it was effective. Scyther has 80 hp remaining. Turn 30 scyther used
+    1% -> Stomp against persian it was effective. Persian has 50 hp remaining. Turn 20 persian used horn attack against scyther it was effective. Scyther has 50 hp remaining.
+    1% -> False swipe against dodrio it was effective. Dodrio has 60 hp remaining. Turn 20 dodrio used rest on itself. It was super effective. Dodrio went to sleep and restored its hp. Turn 20 dodrio
+    1% -> Sketch against muk it was effective. Turn 20 muk used mirror move against scyther it was effective. Turn 20 muk used sketch against muk turn
+    1% -> Thrash against nidoranm it was effective. Nidoranm has 60 hp remaining. Turn 20 nidoranm used slam against scyther it was effective. Scyther has 50 hp remaining.
+    1% -> Hyper beam against dodrio it was effective. Dodrio fainted. Scyther won.
+    1% -> Skull bash against nidoranm it was effective. Nidoranm has 40 hp remaining. Turn 20 nidoranm used metronome turn 20 nidoranm used solar beam against nidoranm
+    1% -> Metronome turn 10 scyther used thundershock against farfetch'd it was effective. Farfetch'd has 50 hp remaining. Turn 20 farfetch'd used bind against scyther
+    1% -> Swift against parasect it was effective. Parasect has 40 hp remaining. Turn 20 parasect used false swipe against scyther it was effective. Scyther has 80 hp remaining.
+    1% -> Sketch against exeggcute it was effective. Turn 20 exeggcute used sketch against scyther it was effective. Turn 30 scyther used tackle against exeggcute it was effective.
+    1% -> Copycat against rhydon it was effective. Turn 10 scyther used tackle against rhydon turn 10 scyther used tackle against rhydon it was not very effective. Rhydon
+    1% -> Pay day against exeggcute it was effective. Exeggcute has 60 hp remaining. Turn 20 exeggcute used rage against scyther it was effective. Scyther has 80 hp remaining.
+    1% -> Wrap against rapidash it was effective. Rapidash has 80 hp remaining. Turn 20 rapidash used thrash against scyther it was effective. Scyther has 20 hp remaining.
+    1% -> Strength against nidoranm it was effective. Nidoranm has 80 hp remaining. Turn 20 nidoranm used sing against scyther it was effective. Scyther fell asleep. Turn 30
+    1% -> Double edge against voltorb it was effective. Voltorb fainted. Scyther won.
+    1% -> Slash against muk it was effective. Muk has 100 hp remaining. Turn 20 muk used slash against scyther it was effective. Scyther has 50 hp remaining.
+    1% -> Disable against electabuzz it was effective. Turn 20 electabuzz used sonicboom against scyther it was effective. Scyther has 80 hp remaining. Turn 30 scyther used
+    1% -> Sing against golbat it was effective. Golbat fell asleep. Turn 20 golbat is fast asleep. Turn 30 scyther used slam against golbat it was effective. Golbat has
+    1% -> Strength against exeggutor it was effective. Exeggutor has 80 hp remaining. Turn 20 exeggutor used hypnosis against scyther it was super effective. Scyther fell asleep. Turn 30
+    1% -> Stomp against weedle it was effective. Weedle has 30 hp remaining. Turn 20 weedle used sing against scyther it was effective. Scyther fell asleep. Turn 30
+    1% -> Fly on itself. It was effective. Turn 20 machoke used encore against scyther it was effective. Turn 30 scyther used fly against machoke it was super effective. Machoke
+    1% -> Encore against weedle it was effective. Turn 20 weedle used disable against scyther it was effective. Turn 30 scyther used encore against scyther it was effective.
+    1% -> Metronome turn 10 scyther used attacker against grimer it was super effective. Grimer has 40 hp remaining. Turn 20 grimer used metronome turn 20
+    1% -> Rapid spin against persian it was effective. Persian has 60 hp remaining. Turn 20 persian used egg bomb against scyther it was effective. Scyther has 40 hp remaining.
+    1% -> Hypnosis against machamp it was not very effective. Machamp fell asleep. Turn 20 machamp is fast asleep. Turn 30 scyther used rest on itself. It was super effective. Machamp went to sleep and restored its hp. Turn
+    1% -> Wrap against parasect it was effective. Parasect has 70 hp remaining. Turn 20 parasect used hypnosis against scyther it was super effective. Scyther fell asleep. Turn 20
+    1% -> Bind against victreebel it was effective. Victreebel has 90 hp remaining. Turn 20 victreebel used encore against scyther it was effective. Turn 20 victreebel is hurt by bind.
+    1% -> Encore against ponyta it was effective. Turn 20 ponyta used sketch against scyther it was effective. Turn 30 scyther used copycat against ponyta it was effective.
+    1% -> Strength against bellsprout it was effective. Bellsprout has 30 hp remaining. Turn 20 bellsprout used extreme speed against scyther it was effective. Scyther has 40 hp remaining.
+    1% -> Self destruct against poliwhirl it was effective. Poliwhirl fainted. Scyther won.
+    1% -> Rage against tangela it was effective. Tangela has 80 hp remaining. Turn 20 tangela used sketch against scyther it was effective. Turn 30 scyther used
+    1% -> Slash against jigglypuff it was effective. Jigglypuff has 100 hp remaining. Turn 20 jigglypuff used copycat against scyther it was effective. Turn 20 jigglypuff used
+    1% -> Egg bomb against persian it was effective. Persian has 20 hp remaining. Turn 20 persian used wrap against scyther it was effective. Scyther has 80 hp remaining.
+    1% -> Rapid spin against tangela it was effective. Tangela has 60 hp remaining. Turn 20 tangela used supersonic against scyther it was effective. Scyther has 80 hp remaining.
+    1% -> Mirror move against muk it was effective. Turn 10 scyther used tackle against muk turn 10 scyther used tackle against muk it was effective. Muk
+    1% -> Swift against mr. Mime it was effective. Mr. Mime has 0 hp remaining. Turn 20 mr. Mime used wrap against scyther it was effective. Scyther has 80 hp remaining.
+    1% -> False swipe against exeggcute it was effective. Exeggcute has 60 hp remaining. Turn 20 exeggcute used metronome turn 20 exeggcute used ember against scyther
+    1% -> Dizzy punch against moltres it was effective. Moltres has 80 hp remaining. Turn 20 moltres used sketch against scyther it was effective. Turn 30 scyther used
+    1% -> Egg bomb against dodrio it was effective. Dodrio has 20 hp remaining. Turn 20 dodrio used double edge against scyther it was effective. Scyther has 20 hp remaining.
+    1% -> Pound against arcanine it was effective. Arcanine has 80 hp remaining. Turn 20 arcanine used sing against scyther it was effective. Scyther fell asleep. Turn 30
+    1% -> Sing against bellsprout it was effective. Bellsprout fell asleep. Turn 20 bellsprout is fast asleep. Turn 30 scyther used fly on itself. It was effective. Turn 40 bellsprout
+    1% -> Fly on itself. It was effective. Turn 20 machoke used fly against scyther it was super effective. Scyther has 60 hp remaining. Turn 30 scyther used fly
+    1% -> Mega punch against nidoqueen it was effective. Nidoqueen has 70 hp remaining. Turn 20 nidoqueen used hidden power against scyther it was effective. Scyther has 60 hp remaining.
+    1% -> Self destruct against tauros it was effective. Tauros fainted. Scyther won.
+    1% -> Mega kick against poliwhirl it was effective. Poliwhirl fainted. Scyther won.
+    1% -> Stomp against poliwrath it was effective. Poliwrath has 80 hp remaining. Turn 20 poliwrath used mega kick against scyther it was effective. Scyther has 20 hp remaining.
+    1% -> Rest on itself. It was effective. Scyther went to sleep and restored its hp. Turn 10 scyther has 80 hp remaining. Turn 20 scyther used copycat against scyther it was effective. Turn
+    1% -> Double edge against tangela it was effective. Tangela has 20 hp remaining. Turn 20 tangela used fire spin against scyther it was not very effective. Scyther has 80 hp remaining.
+    1% -> Pound against poliwrath it was effective. Poliwrath has 80 hp remaining. Turn 20 poliwrath used razor wind against scyther it was effective. Scyther has 40 hp remaining.
+    1% -> Bind against tauros it was effective. Tauros has 90 hp remaining. Turn 20 tauros used bind against scyther it was effective. Scyther has 80 hp remaining.
+    1% -> Slash against kingler it was effective. Kingler has 40 hp remaining. Turn 20 kingler used sing against scyther it was effective. Scyther fell asleep. Turn 30
+  Timmy_v2.3:
+    13% -> Gust against pinsir it was effective. Pinsir has 20 hp remaining. Turn 20 pinsir used tackle against scyther it was effective. Scyther fainted. Pinsir won.
+    10% -> Gust against starmie it was effective. Starmie has 20 hp remaining. Turn 20 starmie used tackle against scyther it was effective. Scyther has 20 hp remaining.
+    10% -> Gust against venonat it was effective. Venonat has 10 hp remaining. Turn 20 venonat used sleep powder against scyther it was effective. Scyther fainted. Venonat won.
+    6% -> Gust against caterpie it was effective. Caterpie has 40 hp remaining. Turn 20 caterpie used tackle against scyther it was effective. Scyther has 50 hp remaining.
+    6% -> Rest on itself. It had no effect. Poliwrath has 100 hp remaining. Turn 20 poliwrath used water gun against scyther it was super effective. Scyther fainted. Poliwrath won.
+    5% -> Gust against spearow it was effective. Spearow has 40 hp remaining. Turn 20 spearow used peck against scyther it was effective. Scyther has 50 hp remaining.
+    4% -> Gust against weedle it was effective. Weedle has 40 hp remaining. Turn 20 weedle used poison sting against scyther it was effective. Scyther has 60 hp remaining.
+    3% -> Gust against zubat it was effective. Zubat has 30 hp remaining. Turn 20 zubat used leech life against scyther it was effective. Scyther has 60 hp remaining.
+    3% -> Gust against caterpie it was effective. Caterpie has 30 hp remaining. Turn 20 caterpie used tackle against scyther it was effective. Scyther has 50 hp remaining.
+    3% -> Gust against zubat it was effective. Zubat has 40 hp remaining. Turn 20 zubat used leech life against scyther it was effective. Scyther has 60 hp remaining.
+    2% -> Gust against pidgey it was effective. Pidgey has 40 hp remaining. Turn 20 pidgey used gust against scyther it was effective. Scyther has 50 hp remaining.
+    2% -> Gust against rattata it was effective. Rattata has 30 hp remaining. Turn 20 rattata used tackle against scyther it was effective. Scyther has 50 hp remaining.
+    2% -> Gust against spearow it was effective. Spearow has 30 hp remaining. Turn 20 spearow used peck against scyther it was effective. Scyther has 50 hp remaining.
+    2% -> Gust against caterpie it was effective. Caterpie has 50 hp remaining. Turn 20 caterpie used tackle against scyther it was effective. Scyther has 50 hp remaining.
+    2% -> Body slam against bellsprout it was super effective. Bellsprout fainted. Scyther won.
+    2% -> Flamethrower against magmar it was super effective. Magmar fainted. Scyther won.
+    2% -> Gust against rattata it was effective. Rattata has 20 hp remaining. Turn 20 rattata used tackle against scyther it was effective. Scyther has 50 hp remaining.
+    1% -> Gust against caterpie it was effective. Caterpie has 50 hp remaining. Turn 20 caterpie used tackle against scyther it was effective. Scyther has 60 hp remaining.
+    1% -> Gust against zubat it was effective. Zubat has 30 hp remaining. Turn 20 zubat used leech life against scyther it was effective. Scyther has 70 hp remaining.
+    1% -> Gust against pinsir it was effective. Pinsir has 20 hp remaining. Turn 20 pinsir used tackle against scyther it was effective. Pinsir fainted. Pinsir won.
+    1% -> Gust against weedle it was effective. Weedle has 30 hp remaining. Turn 20 weedle used poison sting against scyther it was effective. Scyther has 70 hp remaining.
+    1% -> Gust against spearow it was effective. Spearow has 40 hp remaining. Turn 20 spearow used peck against scyther it was effective. Scyther has 40 hp remaining.
+    1% -> Gust against caterpie it was effective. Caterpie has 40 hp remaining. Turn 20 caterpie used tackle against scyther it was effective. Scyther has 40 hp remaining.
+    1% -> Gust against zubat it was effective. Zubat has 50 hp remaining. Turn 20 zubat used leech life against scyther it was effective. Scyther has 70 hp remaining.
+    1% -> Bite against butterfree it was not very effective. Butterfree has 60 hp remaining. Turn 20 butterfree used confusion against scyther it was effective. Scyther fainted. Butterfree won.
+    1% -> Gust against zubat it was effective. Zubat has 40 hp remaining. Turn 20 zubat used leech life against scyther it was effective. Scyther has 50 hp remaining.
+    1% -> Gust against zubat it was effective. Zubat has 50 hp remaining. Turn 20 zubat used leech life against scyther it was effective. Scyther has 60 hp remaining.
+    1% -> Gust against rattata it was effective. Rattata has 40 hp remaining. Turn 20 rattata used tackle against scyther it was effective. Scyther has 50 hp remaining.
+    1% -> Gust against rattata it was effective. Rattata has 20 hp remaining. Turn 20 rattata used tackle against scyther it was effective. Scyther has 40 hp remaining.
+    1% -> Gust against weedle it was effective. Weedle has 20 hp remaining. Turn 20 weedle used poison sting against scyther it was effective. Scyther has 70 hp remaining.
+    1% -> Gust against pidgey it was effective. Pidgey has 30 hp remaining. Turn 20 pidgey used gust against scyther it was effective. Scyther has 40 hp remaining.
+    1% -> Gust against spearow it was effective. Spearow has 50 hp remaining. Turn 20 spearow used peck against scyther it was effective. Scyther has 50 hp remaining.
+    1% -> Gust against weedle it was effective. Weedle has 40 hp remaining. Turn 20 weedle used poison sting against scyther it was effective. Scyther has 80 hp remaining.
+    1% -> Gust against weedle it was effective. Weedle has 40 hp remaining. Turn 20 weedle used poison sting against scyther it was effective. Scyther has 70 hp remaining.
+    1% -> Gust against zubat it was effective. Zubat has 30 hp remaining. Turn 20 zubat used leech life against scyther it was effective. Scyther has 80 hp remaining.
+    1% -> Gust against pidgey it was effective. Pidgey has 30 hp remaining. Turn 20 pidgey used gust against scyther it was effective. Scyther has 50 hp remaining.
+    1% -> Gust against spearow it was effective. Spearow has 30 hp remaining. Turn 20 spearow used peck against scyther it was effective. Scyther has 40 hp remaining.
+    1% -> Gust against weedle it was effective. Weedle has 50 hp remaining. Turn 20 weedle used poison sting against scyther it was effective. Scyther has 60 hp remaining.
+    1% -> Gust against pidgey it was effective. Pidgey has 30 hp remaining. Turn 20 pidgey used gust against scyther it was effective. Scyther has 30 hp remaining.
+    1% -> Gust against weedle it was effective. Weedle has 20 hp remaining. Turn 20 weedle used poison sting against scyther it was effective. Scyther has 60 hp remaining.
+  Suzie_v2.3:
+    59% -> Scyther against scyther it was super effective. Scyther fainted. Scyther won.
+    5% -> Harden on itself. It had no effect. Scyther has 50 hp remaining. Turn 20 pinsir used tackle against scyther it had no effect. Scyther has 50 hp remaining. Turn
+    5% -> Vine whip against scyther it was super effective. Scyther fainted. Scyther won.
+    3% -> Gust against venonat it was effective. Venonat has 10 hp remaining. Turn 20 venonat used sleep powder against scyther it was effective. Scyther fainted. Venonat won.
+    2% -> Bubble against exeggutor it was super effective. Exeggutor fainted. Scyther won.
+    2% -> Poison sting against weedle it was effective. Weedle has 50 hp remaining. Turn 20 weedle used poison sting against scyther it was effective. Scyther has 80 hp remaining.
+    2% -> Leech life against scyther it was super effective. Scyther fainted. Scyther won.
+    1% -> Scyther against scyther it was not very effective. Scyther has 60 hp remaining. Turn 20 scyther used confusion against scyther it was effective. Scyther fainted. Scyther won.
+    1% -> Metapod used scyther against scyther it was not very effective. Scyther has 50 hp remaining. Turn 30 scyther used poison sting against scyther it was super effective. Scyther fainted.
+    1% -> Sludge against butterfree it was not very effective. Butterfree has 60 hp remaining. Turn 20 butterfree used confusion against scyther it was effective. Scyther fainted. Butterfree won.
+    1% -> Tackle against weedle it was effective. Weedle has 50 hp remaining. Turn 20 weedle used poison sting against scyther it was effective. Scyther has 80 hp remaining.
+    1% -> Poison sting against pikachu it was not very effective. Pikachu has 60 hp remaining. Turn 20 pikachu used thundershock against scyther it was super effective. Scyther fainted. Pikachu won.
+    1% -> Poison sting against caterpie it was effective. Caterpie has 60 hp remaining. Turn 20 caterpie used tackle against scyther it was effective. Scyther has 50 hp remaining.
+    1% -> Pinsir against pinsir it was effective. Pinsir has 20 hp remaining. Turn 20 pinsir used tackle against scyther it was effective. Scyther fainted. Pinsir won.
+    1% -> Gust against starmie it was effective. Starmie has 20 hp remaining. Turn 20 starmie used tackle against scyther it was effective. Scyther fainted. Starmie won.
+    1% -> Poison sting against weedle it was effective. Weedle has 50 hp remaining. Turn 20 weedle used poison sting against scyther it was effective. Scyther fainted. Weedle won.
+    1% -> Gust against pidgey it was effective. Pidgey has 40 hp remaining. Turn 20 pidgey used gust against scyther it was effective. Scyther has 40 hp remaining.
+    1% -> Poison sting against caterpie it was not very effective. Caterpie has 50 hp remaining. Turn 20 caterpie used tackle against scyther it was effective. Scyther fainted. Caterpie won.
+    1% -> Poison sting against pidgeotto it was not very effective. Pidgeotto has 70 hp remaining. Turn 20 pidgeotto used gust against scyther it was effective. Scyther fainted. Pidgeotto won.
+    1% -> Rest on itself. It had no effect. Scyther has 90 hp remaining. Turn 20 poliwrath used water gun against scyther it was super effective. Scyther fainted. Poliwrath won.
+    1% -> Thunderbolt against geodude it was super effective. Geodude fainted. Scyther won.
+    1% -> Harden on itself. It had no effect. Scyther has 50 hp remaining. Turn 20 pinsir used tackle against scyther it had no effect. Scyther has 60 hp remaining. Turn
+    1% -> Poison sting against pidgey it was effective. Pidgey has 60 hp remaining. Turn 20 pidgey used gust against scyther it was effective. Scyther fainted. Pidgey won.
+    1% -> Poison sting against scyther it was not very effective. Scyther has 70 hp remaining. Turn 20 scyther used confusion against scyther it was effective. Scyther fainted. Scyther won.
+    1% -> Gust against weedle it was effective. Weedle has 40 hp remaining. Turn 20 weedle used poison sting against scyther it was effective. Scyther has 50 hp remaining.
+    1% -> Gust against weedle it was effective. Weedle has 30 hp remaining. Turn 20 weedle used poison sting against scyther it was effective. Scyther has 70 hp remaining.
+    1% -> Gust against pidgey it was effective. Pidgey has 20 hp remaining. Turn 20 pidgey used gust against scyther it was effective. Scyther has 50 hp remaining.
+    1% -> Harden on itself. It had no effect. Scyther has 50 hp remaining. Turn 20 poliwrath used tackle against scyther it had no effect. Scyther has 50 hp remaining. Turn
+    1% -> Sludge against squirtle it was not very effective. Squirtle has 60 hp remaining. Turn 20 squirtle used water gun against scyther it was effective. Scyther fainted. Squirtle won.
+
+--- QUERY: Aerodactyl Attack (Gen 1 Rare) ---
+Prompt: turn 1 aerodactyl used
+  Foundation_v2.3:
+    1% -> Mega kick against geodude it was not very effective. Geodude has 20 hp remaining. Turn 20 geodude used scratch against aerodactyl it was not very effective. Aerodactyl has 90 hp remaining.
+    1% -> Encore against mew it was effective. Turn 20 mew used mirror move against aerodactyl it was effective. Turn 20 mew used encore against mew turn
+    1% -> Sleep powder against gyarados it was not very effective. Gyarados fell asleep. Turn 20 gyarados is fast asleep. Turn 30 aerodactyl used fly on itself. It was effective. Turn 50 aerodactyl
+    1% -> Mirror move against clefairy it was effective. Turn 10 aerodactyl used tackle against aerodactyl turn 10 aerodactyl used tackle against clefairy it was effective. Clefairy
+    1% -> Bind against haunter it had no effect. Haunter has 60 hp remaining. Turn 20 haunter used barrage against aerodactyl it was not very effective. Aerodactyl has 100 hp remaining.
+    1% -> Mega punch against wartortle it was effective. Wartortle has 40 hp remaining. Turn 20 wartortle used explosion against aerodactyl it was not very effective. Aerodactyl has 40 hp remaining.
+    1% -> Mega kick against machamp it was effective. Machamp has 40 hp remaining. Turn 20 machamp used mega kick against aerodactyl it was not very effective. Aerodactyl has 60 hp remaining.
+    1% -> Mega punch against slowbro it was effective. Slowbro has 70 hp remaining. Turn 20 slowbro used bide on itself. It was not very effective. Turn 20 slowbro has 100
+    1% -> Disable against starmie it was effective. Turn 20 starmie used skull bash against aerodactyl it was not very effective. Aerodactyl has 60 hp remaining. Turn 30 aerodactyl used
+    1% -> Sketch against growlithe it was effective. Turn 20 growlithe used sketch against aerodactyl it was effective. Turn 30 aerodactyl used tackle against growlithe it was effective.
+    1% -> Sketch against growlithe it was effective. Turn 20 growlithe used bind against aerodactyl it was not very effective. Aerodactyl has 100 hp remaining. Turn 30 aerodactyl used
+    1% -> Mega kick against kabutops it was not very effective. Kabutops has 40 hp remaining. Turn 20 kabutops used hyper beam against aerodactyl it was not very effective. Aerodactyl has 70 hp remaining.
+    1% -> Encore against kabutops it was not very effective. Turn 20 kabutops used rapid spin against aerodactyl it was not very effective. Aerodactyl has 90 hp remaining. Turn 30 aerodactyl used
+    1% -> Strength against starmie it was effective. Starmie has 40 hp remaining. Turn 20 starmie used wrap against aerodactyl it was not very effective. Aerodactyl has 100 hp remaining.
+    1% -> Fury attack against dugtrio it was effective. Dugtrio has 40 hp remaining. Turn 20 dugtrio used snore against aerodactyl it was not very effective. Aerodactyl has 90 hp remaining.
+    1% -> Metronome turn 10 aerodactyl used vine whip against butterfree it was effective. Butterfree has 60 hp remaining. Turn 20 butterfree used rest on itself. It was super effective.
+    1% -> Scratch against dugtrio it was effective. Dugtrio has 30 hp remaining. Turn 20 dugtrio used thrash against aerodactyl it was not very effective. Aerodactyl has 60 hp remaining.
+    1% -> Encore against nidoqueen it was effective. Turn 20 nidoqueen used encore against nidoqueen it was effective. Turn 30 aerodactyl used encore against nidoqueen it was effective.
+    1% -> Vice grip against machop it was effective. Machop has 60 hp remaining. Turn 20 machop used sing against aerodactyl it was not very effective. Aerodactyl fell asleep. Turn 30
+    1% -> Transform against gyarados it was effective. Turn 20 gyarados used spike cannon against aerodactyl it was not very effective. Aerodactyl has 100 hp remaining. Turn 30 aerodactyl used
+    1% -> Rage against squirtle it was effective. Squirtle has 50 hp remaining. Turn 20 squirtle used copycat against aerodactyl it was effective. Turn 20 squirtle used
+    1% -> Extreme speed against horsea it was effective. Horsea fainted. Aerodactyl won.
+    1% -> Body slam against raichu it was effective. Raichu has 30 hp remaining. Turn 20 raichu used dizzy punch against aerodactyl it was not very effective. Aerodactyl has 80 hp remaining.
+    1% -> Mega kick against sandshrew it was effective. Sandshrew fainted. Aerodactyl won.
+    1% -> Skull bash against rhyhorn it was not very effective. Rhyhorn has 60 hp remaining. Turn 20 rhyhorn used bind against aerodactyl it was not very effective. Aerodactyl has 90 hp remaining.
+    1% -> Metronome turn 10 aerodactyl used acid against aerodactyl it was super effective. Aerodactyl fainted. Aerodactyl won.
+    1% -> Transform against moltres it was effective. Turn 20 moltres used copycat against aerodactyl it was effective. Turn 20 moltres used tackle against moltres turn
+    1% -> Sketch against blastoise it was effective. Turn 20 blastoise used encore against aerodactyl it was not very effective. Turn 30 aerodactyl used encore against blastoise it was effective.
+    1% -> Metronome turn 10 aerodactyl used sludge against aerodactyl it was super effective. Aerodactyl has 30 hp remaining. Turn 20 aerodactyl used copycat against aerodactyl
+    1% -> Disable against ponyta it was effective. Turn 20 ponyta used pound against aerodactyl it was not very effective. Aerodactyl has 90 hp remaining. Turn 30 aerodactyl used
+    1% -> Pound against moltres it was effective. Moltres has 90 hp remaining. Turn 20 moltres used quick attack against aerodactyl it was not very effective. Aerodactyl has 90 hp remaining.
+    1% -> Horn attack against exeggcute it was effective. Exeggcute has 40 hp remaining. Turn 20 exeggcute used extreme speed against aerodactyl it was not very effective. Aerodactyl has 80 hp remaining.
+    1% -> Sleep powder against rhydon it was not very effective. Rhydon fell asleep. Turn 20 rhydon is fast asleep. Turn 30 aerodactyl used sing against rhydon it was not very effective. Rhydon fell asleep.
+    1% -> Hypnosis against pikachu it was super effective. Pikachu fell asleep. Turn 20 pikachu is fast asleep. Turn 30 aerodactyl used horn attack against pikachu it was effective. Pikachu fainted.
+    1% -> Double edge against aerodactyl it was not very effective. Aerodactyl has 80 hp remaining. Turn 20 aerodactyl used sketch against aerodactyl it was effective. Turn 30 aerodactyl used
+    1% -> Bind against sandshrew it was effective. Sandshrew has 60 hp remaining. Turn 20 sandshrew used wrap against aerodactyl it was not very effective. Aerodactyl has 100 hp remaining.
+    1% -> Sketch against sandshrew it was effective. Turn 20 sandshrew used bide on itself. It was not very effective. Turn 20 sandshrew has 80 hp remaining. Turn 30 aerodactyl
+    1% -> Bite against sandslash it was effective. Sandslash has 70 hp remaining. Turn 20 sandslash used disable against aerodactyl it was not very effective. Turn 30 aerodactyl used
+    1% -> Encore against golem it was not very effective. Turn 20 golem used bind against aerodactyl it was not very effective. Aerodactyl has 100 hp remaining. Turn 30 aerodactyl used
+    1% -> Rest on itself. It was effective. Aerodactyl went to sleep and restored its hp. Turn 10 aerodactyl has 100 hp remaining. Turn 20 abra used rest on itself. It was super effective. Abra went to sleep and restored its hp.
+    1% -> Skull bash against abra it was effective. Abra fainted. Aerodactyl won.
+    1% -> Strength against haunter it had no effect. Haunter has 60 hp remaining. Turn 20 haunter used rest on itself. It was effective. Haunter went to sleep and restored its hp. Turn 20 haunter
+    1% -> Copycat against parasect it was effective. Turn 10 aerodactyl used tackle against aerodactyl turn 10 aerodactyl used tackle against parasect it was effective. Parasect
+    1% -> Bide on itself. It was effective. Turn 10 aerodactyl has 100 hp remaining. Turn 20 aerodactyl used quick attack against aerodactyl it was not very effective. Aerodactyl has 100
+    1% -> Metronome turn 10 aerodactyl used thunder shock against gengar it was super effective. Gengar has 60 hp remaining. Turn 20 gengar used fly on itself. It was effective.
+    1% -> Self destruct against caterpie it was effective. Caterpie fainted. Aerodactyl won.
+    1% -> Hyper fang against rhydon it was not very effective. Rhydon has 100 hp remaining. Turn 20 rhydon used bide on itself. It was not very effective. Turn 20 rhydon has 120
+    1% -> Quick attack against ninetales it was effective. Ninetales has 80 hp remaining. Turn 20 ninetales used rest on itself. It was effective. Weepinbell went to sleep and restored its hp. Turn 20 ninetales
+    1% -> Tri attack against paras it was effective. Paras fainted. Aerodactyl won.
+    1% -> Sketch against weezing it was effective. Turn 20 weezing used hyper fang against aerodactyl it was not very effective. Aerodactyl has 80 hp remaining. Turn 30 aerodactyl used
+    1% -> Disable against blastoise it was effective. Turn 20 blastoise used pound against aerodactyl it was not very effective. Aerodactyl has 90 hp remaining. Turn 30 aerodactyl used
+    1% -> Transform against doduo it was effective. Turn 20 doduo used copycat against aerodactyl it was effective. Turn 20 doduo used tackle against doduo turn
+    1% -> Explosion against ninetales it was effective. Ninetales fainted. Aerodactyl won.
+    1% -> Sketch against weezing it was effective. Turn 20 weezing used bind against aerodactyl it was not very effective. Aerodactyl has 100 hp remaining. Turn 30 aerodactyl used
+    1% -> Hidden power against rhydon it was not very effective. Rhydon has 110 hp remaining. Turn 20 rhydon used self destruct against aerodactyl it was not very effective. Aerodactyl has 40 hp remaining.
+    1% -> Self destruct against starmie it was effective. Starmie fainted. Aerodactyl won.
+    1% -> Sketch against clefairy it was effective. Turn 20 clefairy used transform against aerodactyl it was effective. Turn 30 aerodactyl used tackle against clefairy it was effective.
+    1% -> Bide on itself. It was not very effective. Turn 10 aerodactyl has 110 hp remaining. Turn 20 abra used extreme speed against aerodactyl it was not very effective. Aerodactyl has 80
+    1% -> Razor wind against kabutops it was not very effective. Kabutops has 60 hp remaining. Turn 20 kabutops used swift against aerodactyl it was not very effective. Aerodactyl has 80 hp remaining.
+    1% -> Pound against pikachu it was effective. Pikachu has 30 hp remaining. Turn 20 pikachu used disable against aerodactyl it was not very effective. Turn 30 aerodactyl used
+    1% -> Bide on itself. It was not very effective. Turn 10 aerodactyl has 110 hp remaining. Turn 20 aerodactyl used encore against aerodactyl it was not very effective. Turn 30 aerodactyl
+    1% -> Rage against geodude it was not very effective. Geodude has 50 hp remaining. Turn 20 geodude used sing against aerodactyl it was not very effective. Aerodactyl fell asleep. Turn 30
+    1% -> Bite against aerodactyl it was not very effective. Aerodactyl has 80 hp remaining. Turn 20 aerodactyl used rapid spin against aerodactyl it was not very effective. Aerodactyl has 90 hp remaining.
+    1% -> Wrap against blastoise it was effective. Blastoise has 90 hp remaining. Turn 20 blastoise used slam against aerodactyl it was not very effective. Aerodactyl has 80 hp remaining.
+    1% -> Metronome turn 10 aerodactyl used thunder shock against aerodactyl it was super effective. Aerodactyl has 60 hp remaining. Turn 20 aerodactyl used thrash against aerodactyl
+    1% -> Thrash against muk it was effective. Muk has 20 hp remaining. Turn 20 muk used hypnosis against aerodactyl it was effective. Aerodactyl fell asleep. Turn 30
+    1% -> Transform against slowbro it was effective. Turn 20 slowbro used sketch against aerodactyl it was effective. Turn 30 aerodactyl used tackle against slowbro it was effective.
+    1% -> Take down against paras it was effective. Paras fainted. Aerodactyl won.
+    1% -> Bind against slowbro it was effective. Slowbro has 110 hp remaining. Turn 20 slowbro used sing against aerodactyl it was not very effective. Aerodactyl fell asleep. Turn 20
+    1% -> Transform against dewgong it was effective. Turn 20 dewgong used scratch against aerodactyl it was not very effective. Aerodactyl has 90 hp remaining. Turn 30 aerodactyl used
+    1% -> Mega punch against dragonair it was effective. Dragonair has 40 hp remaining. Turn 20 dragonair used bite against aerodactyl it was not very effective. Aerodactyl has 80 hp remaining.
+    1% -> Horn attack against machop it was effective. Machop has 50 hp remaining. Turn 20 machop used copycat against aerodactyl it was effective. Turn 20 machop used
+    1% -> Scratch against sandslash it was effective. Sandslash has 80 hp remaining. Turn 20 sandslash used tri attack against aerodactyl it was not very effective. Aerodactyl has 80 hp remaining.
+    1% -> Disable against kabutops it was not very effective. Turn 20 kabutops used spike cannon against aerodactyl it was not very effective. Aerodactyl has 100 hp remaining. Turn 30 aerodactyl used
+    1% -> Self destruct against mew it was effective. Mew fainted. Aerodactyl won.
+    1% -> Quick attack against jynx it was effective. Jynx has 60 hp remaining. Turn 20 jynx used disable against aerodactyl it was not very effective. Turn 30 aerodactyl used
+    1% -> Metronome turn 10 aerodactyl used psywave against omanyte it was effective. Omanyte has 40 hp remaining. Turn 20 omanyte used sketch against aerodactyl
+    1% -> Slash against sandshrew it was effective. Sandshrew has 30 hp remaining. Turn 20 sandshrew used bind against aerodactyl it was not very effective. Aerodactyl has 100 hp remaining.
+    1% -> Fly on itself. It was effective. Turn 20 pinsir used snore against aerodactyl it missed! aerodactyl has 100 hp remaining. Turn 30 aerodactyl used fly
+    1% -> Bind against tangela it was effective. Tangela has 80 hp remaining. Turn 20 tangela used wrap against aerodactyl it was not very effective. Aerodactyl has 100 hp remaining.
+    1% -> Double edge against dugtrio it was effective. Dugtrio fainted. Aerodactyl won.
+    1% -> Fly on itself. It was effective. Turn 20 horsea used vice grip against aerodactyl it missed! aerodactyl has 100 hp remaining. Turn 30 aerodactyl used fly
+    1% -> Pay day against golem it was not very effective. Golem has 90 hp remaining. Turn 20 golem used transform against aerodactyl it was effective. Turn 30 aerodactyl used
+    1% -> Sing against nidoqueen it was effective. Nidoqueen fell asleep. Turn 20 nidoqueen is fast asleep. Turn 30 aerodactyl used hypnosis against nidoqueen it was effective. Nidoqueen fell asleep.
+    1% -> Egg bomb against beedrill it was effective. Beedrill has 40 hp remaining. Turn 20 beedrill used pound against aerodactyl it was not very effective. Aerodactyl has 90 hp remaining.
+    1% -> Tri attack against charmander it was effective. Charmander has 10 hp remaining. Turn 20 charmander used wrap against aerodactyl it was not very effective. Aerodactyl has 100 hp remaining.
+    1% -> Scratch against mew it was effective. Mew has 100 hp remaining. Turn 20 mew used transform against aerodactyl it was effective. Turn 30 aerodactyl used
+    1% -> Skull bash against machoke it was effective. Machoke has 20 hp remaining. Turn 20 machoke used mirror move against aerodactyl it was effective. Turn 20 machoke used
+    1% -> Sketch against haunter it was effective. Turn 20 haunter used sing against aerodactyl it was not very effective. Aerodactyl fell asleep. Turn 30 aerodactyl is fast asleep. Turn 40
+    1% -> Bite against muk it was effective. Muk has 100 hp remaining. Turn 20 muk used sketch against aerodactyl it was effective. Turn 30 aerodactyl used
+    1% -> Swift against horsea it was effective. Horsea has 10 hp remaining. Turn 20 horsea used copycat against aerodactyl it was effective. Turn 20 horsea used
+    1% -> Fire spin against mew it was not very effective. Mew has 110 hp remaining. Turn 20 mew used metronome turn 20 mew used metronome turn 20
+    1% -> Transform against horsea it was effective. Turn 20 horsea used dig on itself. It was not very effective. Turn 30 aerodactyl used tackle against horsea it missed! horsea
+    1% -> Double edge against pidgey it was effective. Pidgey fainted. Aerodactyl won.
+    1% -> Horn attack against dewgong it was effective. Dewgong has 80 hp remaining. Turn 20 dewgong used false swipe against aerodactyl it was not very effective. Aerodactyl has 90 hp remaining.
+    1% -> Sketch against aerodactyl it was effective. Turn 20 aerodactyl used self destruct against aerodactyl it was not very effective. Aerodactyl has 30 hp remaining. Turn 30 aerodactyl used
+    1% -> Horn attack against dewgong it was effective. Dewgong has 80 hp remaining. Turn 20 dewgong used mirror move against aerodactyl it was effective. Turn 20 dewgong used
+    1% -> Tri attack against magneton it was not very effective. Magneton has 40 hp remaining. Turn 20 magneton used thrash against aerodactyl it was not very effective. Aerodactyl has 60 hp remaining.
+    1% -> Rage against kabutops it was not very effective. Kabutops has 80 hp remaining. Turn 20 kabutops used spike cannon against aerodactyl it was not very effective. Aerodactyl has 100 hp remaining.
+    1% -> Fly on itself. It was effective. Turn 20 koffing used growth on itself. It was effective. Turn 20 rattata has 80 hp remaining. Turn 30 aerodactyl used
+  Timmy_v2.3:
+    4% -> Gust against weedle it was effective. Weedle has 40 hp remaining. Turn 20 weedle used poison sting against kadabra it was effective. Kadabra fainted. Weedle won.
+    3% -> Gust against rattata it was effective. Rattata has 20 hp remaining. Turn 20 rattata used tackle against rattata it was effective. Rattata has 30 hp remaining.
+    3% -> Gust against venonat it was effective. Venonat has 10 hp remaining. Turn 20 venonat used sleep powder against kadabra it was effective. Kadabra fainted. Venonat won.
+    3% -> Gust against rattata it was effective. Rattata has 20 hp remaining. Turn 20 rattata used tackle against rattata it was effective. Rattata has 20 hp remaining.
+    3% -> Gust against starmie it was effective. Starmie has 20 hp remaining. Turn 20 starmie used tackle against charmeleon it was effective. Charmeleon has 20 hp remaining.
+    2% -> Gust against caterpie it was effective. Caterpie has 40 hp remaining. Turn 20 caterpie used tackle against charmeleon it was effective. Charmeleon has 60 hp remaining.
+    2% -> Gust against pidgey it was effective. Pidgey has 40 hp remaining. Turn 20 pidgey used gust against rattata it was effective. Rattata has 30 hp remaining.
+    2% -> Gust against starmie it was effective. Starmie has 20 hp remaining. Turn 20 starmie used tackle against exeggutor it was effective. Exeggutor has 20 hp remaining.
+    2% -> Gust against rattata it was effective. Rattata has 30 hp remaining. Turn 20 rattata used tackle against kadabra it was effective. Kadabra fainted. Rattata won.
+    2% -> Gust against zubat it was effective. Zubat has 30 hp remaining. Turn 20 zubat used leech life against kadabra it was effective. Kadabra has 70 hp remaining.
+    2% -> Gust against zubat it was effective. Zubat has 30 hp remaining. Turn 20 zubat used leech life against exeggutor it was effective. Exeggutor has 80 hp remaining.
+    2% -> Gust against caterpie it was effective. Caterpie has 50 hp remaining. Turn 20 caterpie used tackle against caterpie it was effective. Caterpie has 50 hp remaining.
+    2% -> Gust against starmie it was effective. Starmie has 20 hp remaining. Turn 20 starmie used tackle against onix it was effective. Onix fainted. Starmie won.
+    1% -> Gust against pinsir it was effective. Pinsir has 20 hp remaining. Turn 20 pinsir used tackle against kadabra it was effective. Kadabra fainted. Pinsir won.
+    1% -> Gust against spearow it was effective. Spearow has 40 hp remaining. Turn 20 spearow used peck against 30 hp remaining. Turn 30 spearow used
+    1% -> Gust against caterpie it was effective. Caterpie has 40 hp remaining. Turn 20 caterpie used tackle against onix it was effective. Onix has 50 hp remaining.
+    1% -> Gust against starmie it was effective. Starmie has 20 hp remaining. Turn 20 starmie used tackle against kadabra it was effective. Kadabra has 20 hp remaining.
+    1% -> Gust against zubat it was effective. Zubat has 50 hp remaining. Turn 20 zubat used leech life against kadabra it was effective. Kadabra has 70 hp remaining.
+    1% -> Gust against pidgey it was effective. Pidgey has 40 hp remaining. Turn 20 pidgey used gust against rattata it was effective. Rattata has 20 hp remaining.
+    1% -> Gust against spearow it was effective. Spearow has 30 hp remaining. Turn 20 spearow used peck against rattata it was effective. Rattata has 30 hp remaining.
+    1% -> Gust against caterpie it was effective. Caterpie has 60 hp remaining. Turn 20 caterpie used tackle against caterpie it was effective. Caterpie has 50 hp remaining.
+    1% -> Gust against starmie it was effective. Starmie has 20 hp remaining. Turn 20 starmie used tackle against rattata it was effective. Rattata has 20 hp remaining.
+    1% -> Gust against pinsir it was effective. Pinsir has 20 hp remaining. Turn 20 pinsir used tackle against charmeleon it was effective. Charmeleon fainted. Pinsir won.
+    1% -> Gust against spearow it was effective. Spearow has 40 hp remaining. Turn 20 spearow used peck against muk it was effective. Muk has 60 hp remaining.
+    1% -> Gust against caterpie it was effective. Caterpie has 30 hp remaining. Turn 20 caterpie used tackle against caterpie it was effective. Caterpie has 60 hp remaining.
+    1% -> Gust against weedle it was effective. Weedle has 50 hp remaining. Turn 20 weedle used poison sting against exeggutor it was effective. Exeggutor has 60 hp remaining.
+    1% -> Gust against zubat it was effective. Zubat has 30 hp remaining. Turn 20 zubat used leech life against kadabra it was effective. Kadabra has 60 hp remaining.
+    1% -> Gust against rattata it was effective. Rattata has 30 hp remaining. Turn 20 rattata used tackle against rattata it was effective. Rattata has 30 hp remaining.
+    1% -> Gust against pinsir it was effective. Pinsir has 20 hp remaining. Turn 20 pinsir used tackle against metapod it was effective. Metapod fainted. Pinsir won.
+    1% -> Gust against rattata it was effective. Rattata has 30 hp remaining. Turn 20 rattata used tackle against mankey it was effective. Mankey has 20 hp remaining.
+    1% -> Gust against pidgey it was effective. Pidgey has 40 hp remaining. Turn 20 pidgey used gust against caterpie it was effective. Caterpie has 50 hp remaining.
+    1% -> Gust against weedle it was effective. Weedle has 40 hp remaining. Turn 20 weedle used poison sting against exeggutor it was effective. Exeggutor has 70 hp remaining.
+    1% -> Gust against spearow it was effective. Spearow has 40 hp remaining. Turn 20 spearow used peck against 20 spearow it was effective. Spearow has 20
+    1% -> Gust against rattata it was effective. Rattata has 20 hp remaining. Turn 20 rattata used tackle against venonat it was effective. Venonat fainted. Rattata won.
+    1% -> Gust against pidgey it was effective. Pidgey has 30 hp remaining. Turn 20 pidgey used gust against onix it was effective. Onix fainted. Pidgey won.
+    1% -> Gust against spearow it was effective. Spearow has 30 hp remaining. Turn 20 spearow used peck against exeggutor it was effective. Exeggutor has 40 hp remaining.
+    1% -> Gust against zubat it was effective. Zubat has 30 hp remaining. Turn 20 zubat used leech life against charmeleon it was effective. Charmeleon has 70 hp remaining.
+    1% -> Gust against pinsir it was effective. Pinsir has 20 hp remaining. Turn 20 pinsir used tackle against aerodactyl it was effective. Pinsir fainted. Pinsir won.
+    1% -> Gust against venonat it was effective. Venonat has 10 hp remaining. Turn 20 venonat used sleep powder against exeggutor it was effective. Exeggutor fainted. Venonat won.
+    1% -> Gust against spearow it was effective. Spearow has 30 hp remaining. Turn 20 spearow used peck against aerodactyl it was effective. Spearow has 50 hp remaining.
+    1% -> Gust against caterpie it was effective. Caterpie has 30 hp remaining. Turn 20 caterpie used tackle against caterpie it was effective. Caterpie has 30 hp remaining.
+    1% -> Gust against zubat it was effective. Zubat has 30 hp remaining. Turn 20 zubat used leech life against pidgeot it was effective. Pidgeot has 80 hp remaining.
+    1% -> Gust against pidgey it was effective. Pidgey has 30 hp remaining. Turn 20 pidgey used gust against butterfree it was effective. Butterfree has 60 hp remaining.
+    1% -> Gust against spearow it was effective. Spearow has 40 hp remaining. Turn 20 spearow used peck against 20 spearow it was effective. Spearow has 40
+    1% -> Gust against caterpie it was effective. Caterpie has 50 hp remaining. Turn 20 caterpie used tackle against aerodactyl it was effective. Caterpie has 50 hp remaining.
+    1% -> Gust against caterpie it was effective. Caterpie has 40 hp remaining. Turn 20 caterpie used tackle against charmeleon it was effective. Charmeleon has 50 hp remaining.
+    1% -> Gust against spearow it was effective. Spearow has 40 hp remaining. Turn 20 spearow used peck against exeggutor it was effective. Exeggutor has 60 hp remaining.
+    1% -> Gust against zubat it was effective. Zubat has 40 hp remaining. Turn 20 zubat used leech life against pidgey it was effective. Pidgey has 60 hp remaining.
+    1% -> Gust against pidgey it was effective. Pidgey has 30 hp remaining. Turn 20 pidgey used gust against kadabra it was effective. Kadabra fainted. Pidgey won.
+    1% -> Gust against pidgey it was effective. Pidgey has 40 hp remaining. Turn 20 pidgey used gust against caterpie it was effective. Caterpie has 30 hp remaining.
+    1% -> Gust against caterpie it was effective. Caterpie has 50 hp remaining. Turn 20 caterpie used tackle against butterfree it was effective. Butterfree has 60 hp remaining.
+    1% -> Gust against zubat it was effective. Zubat has 40 hp remaining. Turn 20 zubat used leech life against kadabra it was effective. Kadabra fainted. Zubat won.
+    1% -> Gust against weedle it was effective. Weedle has 20 hp remaining. Turn 20 weedle used poison sting against kadabra it was effective. Kadabra fainted. Weedle won.
+    1% -> Gust against weedle it was effective. Weedle has 50 hp remaining. Turn 20 weedle used poison sting against exeggutor it was effective. Exeggutor has 80 hp remaining.
+    1% -> Gust against zubat it was effective. Zubat has 40 hp remaining. Turn 20 zubat used leech life against exeggutor it was effective. Exeggutor has 70 hp remaining.
+    1% -> Gust against pinsir it was effective. Pinsir has 20 hp remaining. Turn 20 pinsir used tackle against muk it was effective. Muk fainted. Pinsir won.
+    1% -> Gust against caterpie it was effective. Caterpie has 30 hp remaining. Turn 20 caterpie used tackle against aerodactyl it was effective. Caterpie has 50 hp remaining.
+    1% -> Gust against rattata it was effective. Rattata has 20 hp remaining. Turn 20 rattata used tackle against kadabra it was effective. Kadabra fainted. Rattata won.
+    1% -> Gust against spearow it was effective. Spearow has 40 hp remaining. Turn 20 spearow used peck against exeggutor it was effective. Exeggutor has 70 hp remaining.
+    1% -> Gust against venonat it was effective. Venonat has 10 hp remaining. Turn 20 venonat used sleep powder against magmar it was effective. Magmar fainted. Venonat won.
+    1% -> Gust against rattata it was effective. Rattata has 30 hp remaining. Turn 20 rattata used tackle against charmeleon it was effective. Charmeleon has 50 hp remaining.
+    1% -> Gust against pidgey it was effective. Pidgey has 30 hp remaining. Turn 20 pidgey used gust against pidgey it was effective. Pidgey has 40 hp remaining.
+    1% -> Gust against spearow it was effective. Spearow has 30 hp remaining. Turn 20 spearow used peck against butterfree it was effective. Butterfree has 60 hp remaining.
+    1% -> Gust against rattata it was effective. Rattata has 20 hp remaining. Turn 20 rattata used tackle against charmeleon it was effective. Charmeleon fainted. Rattata won.
+    1% -> Gust against zubat it was effective. Zubat has 30 hp remaining. Turn 20 zubat used leech life against butterfree it was effective. Butterfree has 70 hp remaining.
+    1% -> Gust against spearow it was effective. Spearow has 40 hp remaining. Turn 20 spearow used peck against exeggutor it was effective. Exeggutor has 50 hp remaining.
+    1% -> Gust against zubat it was effective. Zubat has 40 hp remaining. Turn 20 zubat used leech life against exeggutor it was effective. Exeggutor has 60 hp remaining.
+    1% -> Gust against caterpie it was effective. Caterpie has 50 hp remaining. Turn 20 caterpie used tackle against caterpie it was effective. Caterpie has 40 hp remaining.
+    1% -> Gust against pidgey it was effective. Pidgey has 40 hp remaining. Turn 20 pidgey used gust against rattata it was effective. Rattata has 40 hp remaining.
+    1% -> Gust against caterpie it was effective. Caterpie has 30 hp remaining. Turn 20 caterpie used tackle against onix it was effective. Onix has 50 hp remaining.
+    1% -> Gust against zubat it was effective. Zubat has 40 hp remaining. Turn 20 zubat used leech life against rattata it was effective. Rattata has 60 hp remaining.
+    1% -> Gust against weedle it was effective. Weedle has 30 hp remaining. Turn 20 weedle used poison sting against aerodactyl it was effective. Weedle has 70 hp remaining.
+    1% -> Gust against spearow it was effective. Spearow has 40 hp remaining. Turn 20 spearow used peck against charmeleon it was effective. Charmeleon has 50 hp remaining.
+    1% -> Gust against weedle it was effective. Weedle has 40 hp remaining. Turn 20 weedle used poison sting against exeggutor it was effective. Exeggutor has 60 hp remaining.
+    1% -> Gust against weedle it was effective. Weedle has 30 hp remaining. Turn 20 weedle used poison sting against onix it was effective. Onix has 60 hp remaining.
+    1% -> Gust against caterpie it was effective. Caterpie has 40 hp remaining. Turn 20 caterpie used tackle against caterpie it was effective. Caterpie has 70 hp remaining.
+    1% -> Gust against weedle it was effective. Weedle has 40 hp remaining. Turn 20 weedle used poison sting against butterfree it was effective. Butterfree has 80 hp remaining.
+    1% -> Tackle against spearow it was effective. Spearow has 50 hp remaining. Turn 20 spearow used peck against muk it was effective. Muk has 50 hp remaining.
+    1% -> Gust against pinsir it was effective. Pinsir has 20 hp remaining. Turn 20 pinsir used tackle against clefairy it was effective. Venonat fainted. Pinsir won.
+    1% -> Gust against caterpie it was effective. Caterpie has 40 hp remaining. Turn 20 caterpie used tackle against caterpie it was effective. Caterpie has 50 hp remaining.
+    1% -> Gust against pinsir it was effective. Pinsir has 20 hp remaining. Turn 20 pinsir used tackle against butterfree it was effective. Butterfree fainted. Pinsir won.
+  Suzie_v2.3:
+    6% -> Ember against weepinbell it was super effective. Weepinbell fainted. Aerodactyl won.
+    5% -> Lick against kadabra it was super effective. Kadabra fainted. Aerodactyl won.
+    2% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has 60 hp remaining. Turn 30 aerodactyl used aerodactyl used aerodactyl aerodactyl has 50
+    2% -> Thunderbolt against geodude it was super effective. Geodude fainted. Aerodactyl won.
+    2% -> Poison sting against pidgey it was effective. Pidgey has 50 hp remaining. Turn 20 pidgey used gust against aerodactyl it was effective. Aerodactyl has 70 hp remaining.
+    2% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has 60 hp remaining. Turn 30 aerodactyl used aerodactyl used aerodactyl aerodactyl aerodactyl it was not very effective.
+    2% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has 100 hp remaining. Turn 30 aerodactyl used aerodactyl used aerodactyl has 50 hp remaining.
+    2% -> Aerodactyl it was not very effective. Turn 20 squirtle used water gun against aerodactyl it was super effective. Aerodactyl fainted. Aerodactyl won.
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has 50 hp remaining. Turn 30 aerodactyl used aerodactyl used aerodactyl has moves aerodactyl it was not very effective.
+    1% -> Ember against golbat it was super effective. Golbat fainted. Aerodactyl won.
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has 70 hp remaining. Turn 30 aerodactyl used aerodactyl used aerodactyl aerodactyl has 70
+    1% -> Aerodactyl it was not very effective. Turn 20 squirtle used tackle against aerodactyl it was not very effective. Aerodactyl has 50 hp remaining. Turn 30 aerodactyl used ember against
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has 90 hp remaining. Turn 30 aerodactyl used aerodactyl used aerodactyl used aerodactyl it was effective.
+    1% -> Gust against pidgey it was effective. Pidgey has 40 hp remaining. Turn 20 pidgey used gust against aerodactyl it was effective. Aerodactyl has 50 hp remaining.
+    1% -> Aerodactyl it was not very effective. Turn 20 gengar used aerodactyl used aerodactyl has 40 hp remaining. Turn 30 aerodactyl used aerodactyl used aerodactyl used
+    1% -> Aerodactyl it was not very effective. Turn 20 seel used 100 seel used bind against seel it was effective. Aerodactyl has 50 hp remaining. Turn 30 aerodactyl
+    1% -> Scratch against pidgey it was effective. Pidgey has 40 hp remaining. Turn 20 pidgey used gust against aerodactyl it was effective. Aerodactyl has 60 hp remaining.
+    1% -> Aerodactyl it was not very effective. Turn 20 kadabra used gust against aerodactyl it was effective. Aerodactyl has 50 hp remaining. Turn 30 aerodactyl used aerodactyl used
+    1% -> Thundershock against onix it had no effect. Onix has 100 hp remaining. Turn 20 onix used bind against aerodactyl it was effective. Aerodactyl has 10 hp remaining.
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has 50 hp remaining. Turn 30 aerodactyl used aerodactyl used aerodactyl it was not very effective. Aerodactyl has
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has 60 hp remaining. Turn 30 aerodactyl used aerodactyl used aerodactyl used aerodactyl it was not very effective.
+    1% -> Aerodactyl it was not very effective. Fact aerodactyl aerodactyl has 60 hp remaining. Turn 20 aerodactyl used confusion against aerodactyl it was effective. Aerodactyl has 50 hp remaining.
+    1% -> Aerodactyl it was not very effective. Turn 10 aerodactyl has 50 hp remaining. Turn 20 aerodactyl used confusion against aerodactyl it was effective. Aerodactyl has 80 hp remaining.
+    1% -> Aerodactyl it had no effect. Spearow has aerodactyl has 50 hp remaining. Turn 20 spearow used peck against aerodactyl it was effective. Aerodactyl has 50 hp remaining.
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl has 40 hp remaining. Turn 20 aerodactyl used confusion against aerodactyl it was effective. Aerodactyl has 50 hp remaining.
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has 40 hp remaining. Turn 30 aerodactyl used aerodactyl used aerodactyl has 40 hp remaining.
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has 90 hp remaining. Turn 30 aerodactyl used aerodactyl used aerodactyl aerodactyl aerodactyl it was not very effective.
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has 40 hp remaining. Turn 30 aerodactyl used body slam against aerodactyl it was super effective. Aerodactyl fainted.
+    1% -> Aerodactyl it was not very effective. Turn 10 aerodactyl has 40 hp remaining. Turn 20 aerodactyl used confusion against aerodactyl it was effective. Aerodactyl has 50 hp remaining.
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has 50 hp remaining. Turn 30 aerodactyl used aerodactyl used aerodactyl aerodactyl has 40
+    1% -> Aerodactyl it was not very effective. Turn 10 aerodactyl has 60 hp remaining. Turn 20 aerodactyl used confusion against aerodactyl it was effective. Aerodactyl has 50 hp remaining.
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl has 80 hp remaining. Turn 20 aerodactyl used aerodactyl used bind against aerodactyl it was not very effective. Aerodactyl has
+    1% -> Aerodactyl it was not very effective. Turn 20 lickitung used bind against rhyhorn it was not very effective. Aerodactyl has 100 hp remaining. Turn 20 lickitung used bind against
+    1% -> Attacker against kadabra it was super effective. Kadabra fainted. Aerodactyl won.
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has 60 hp remaining. Turn 30 aerodactyl used aerodactyl used aerodactyl aerodactyl has 40
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has 100 hp remaining. Turn 30 aerodactyl used aerodactyl used aerodactyl has aerodactyl it was effective.
+    1% -> Aerodactyl it was not very effective. Turn 10 aerodactyl has 40 hp remaining. Turn 20 aerodactyl used aerodactyl used aerodactyl it was effective. Aerodactyl has aerodactyl has
+    1% -> Aerodactyl it was not very effective. Turn 10 aerodactyl has 80 hp remaining. Turn 20 aerodactyl used bind against aerodactyl it was effective. Aerodactyl has 50 hp remaining.
+    1% -> Aerodactyl it was not very effective. Turn 10 aerodactyl has 80 hp remaining. Turn 20 aerodactyl used confusion against aerodactyl it was effective. Aerodactyl has 50 hp remaining.
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl has 60 hp remaining. Turn 20 aerodactyl used confusion against aerodactyl it was effective. Aerodactyl has 50 hp remaining.
+    1% -> Aerodactyl it was not very effective. Turn 20 omanyte used omanyte used confusion against aerodactyl it was super effective. Aerodactyl has 100 hp remaining. Turn 30 aerodactyl used
+    1% -> Quick attack against zubat it was effective. Zubat has 30 hp remaining. Turn 20 zubat used leech life against aerodactyl it was effective. Aerodactyl has 80 hp remaining.
+    1% -> Aerodactyl it was not very effective. Turn 10 aerodactyl has 70 hp remaining. Turn 20 aerodactyl used peck against aerodactyl it was effective. Aerodactyl has 60 hp remaining.
+    1% -> Aerodactyl it was not very effective. Turn 10 aerodactyl has 70 hp remaining. Turn 20 aerodactyl used lick against aerodactyl it was effective. Aerodactyl has 100 hp remaining.
+    1% -> Aerodactyl it was not very effective. Turn 10 aerodactyl has 40 hp remaining. Turn 20 aerodactyl used peck against aerodactyl it was effective. Aerodactyl has 50 hp remaining.
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has 50 hp remaining. Turn 30 aerodactyl used body slam against aerodactyl it was super effective. Aerodactyl fainted.
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl has 80 hp remaining. Turn 20 aerodactyl used confusion against aerodactyl it was effective. Aerodactyl has 40 hp remaining.
+    1% -> Aerodactyl it was not very effective. Turn 20 kadabra used body slam against aerodactyl it was not very effective. Aerodactyl has 40 hp remaining. Turn 30 aerodactyl used aerodactyl used
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has 100 hp remaining. Turn 30 aerodactyl used thundershock against aerodactyl it was super effective. Aerodactyl fainted.
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has 70 hp remaining. Turn 30 aerodactyl used aerodactyl used aerodactyl used aerodactyl against
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has aerodactyl has aerodactyl aerodactyl aerodactyl has aerodactyl it was effective. Hp remaining. Turn 30 hp remaining.
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl has 60 hp remaining. Turn 20 aerodactyl used thunderbolt against aerodactyl it was super effective. Aerodactyl fainted. Aerodactyl won.
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has 60 hp remaining. Turn 30 aerodactyl used aerodactyl used aerodactyl aerodactyl has 70
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl aerodactyl has 100 hp remaining. Turn 30 aerodactyl used ember against aerodactyl it was super effective. Aerodactyl
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used 100 aerodactyl used aerodactyl aerodactyl aerodactyl aerodactyl has 100 hp remaining. Turn 30 aerodactyl used
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has 40 hp remaining. Turn 30 aerodactyl used aerodactyl used aerodactyl aerodactyl has 50
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has 60 hp remaining. Turn 30 aerodactyl used aerodactyl used aerodactyl has 70 hp remaining.
+    1% -> Aerodactyl it was not very effective. Turn 10 aerodactyl has 60 hp remaining. Turn 20 aerodactyl used bind against aerodactyl it was effective. Aerodactyl has 100 hp remaining.
+    1% -> Aerodactyl it was not very effective. Turn 10 aerodactyl has 80 hp remaining. Turn 20 aerodactyl used confusion against aerodactyl it was effective. Aerodactyl has 70 hp remaining.
+    1% -> Bind against rattata it was effective. Rattata has 40 hp remaining. Turn 20 rattata used tackle against aerodactyl it was effective. Aerodactyl has 60 hp remaining.
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has 40 hp remaining. Turn 30 aerodactyl used aerodactyl used aerodactyl has 50 hp remaining.
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl has 60 hp remaining. Turn 20 aerodactyl used bind against aerodactyl it was effective. Aerodactyl has aerodactyl has
+    1% -> Porygon against pidgey it was effective. Pidgey has 30 hp remaining. Turn 20 pidgey used gust against aerodactyl it was effective. Aerodactyl has 40 hp remaining.
+    1% -> Poison sting against spearow it was effective. Spearow has 40 hp remaining. Turn 20 spearow used peck against aerodactyl it was effective. Aerodactyl has 50 hp remaining.
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has 40 hp remaining. Turn 30 aerodactyl used aerodactyl used aerodactyl aerodactyl has 40
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has aerodactyl has 40 hp remaining. Turn 30 aerodactyl used aerodactyl used aerodactyl used
+    1% -> Aerodactyl it was not very effective. Query rattata used aerodactyl aerodactyl has 60 hp remaining. Turn 30 aerodactyl used aerodactyl used aerodactyl aerodactyl has 50
+    1% -> Aerodactyl it was not very effective. Turn 10 aerodactyl has 70 hp remaining. Turn 20 aerodactyl used ember against aerodactyl it was effective. Aerodactyl has 40 hp remaining.
+    1% -> Aerodactyl logic_false
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has 100 hp remaining. Turn 30 aerodactyl used aerodactyl used aerodactyl has 70 hp remaining.
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has 70 hp remaining. Turn 30 aerodactyl used aerodactyl used aerodactyl used aerodactyl it was effective.
+    1% -> Aerodactyl it was not very effective. Turn 20 kadabra used quick attack against aerodactyl it was effective. Aerodactyl has 40 hp remaining. Turn 30 aerodactyl used aerodactyl used
+    1% -> Poison sting against pidgey it was effective. Pidgey has 40 hp remaining. Turn 20 pidgey used gust against aerodactyl it was effective. Aerodactyl has 70 hp remaining.
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl has 60 hp remaining. Turn 20 aerodactyl used lick against aerodactyl it was effective. Aerodactyl has 40 hp remaining.
+    1% -> Aerodactyl it was not very effective. Turn 10 aerodactyl has 50 hp remaining. Turn 20 aerodactyl used confusion against aerodactyl it was effective. Aerodactyl has 60 hp remaining.
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has 50 hp remaining. Turn 30 aerodactyl used aerodactyl used aerodactyl has 80 hp remaining.
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has 60 hp remaining. Turn 30 aerodactyl used aerodactyl used aerodactyl it was not very effective. Aerodactyl has
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl has 80 hp remaining. Turn 20 aerodactyl used bind against aerodactyl it was effective. Aerodactyl has 100 hp remaining.
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has pidgey has 40 hp remaining. Turn 30 aerodactyl used aerodactyl used aerodactyl used
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has aerodactyl has 40 hp remaining. Turn 30 aerodactyl used aerodactyl used aerodactyl it was effective.
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has 100 hp remaining. Turn 30 aerodactyl used aerodactyl used aerodactyl it was not very effective. Aerodactyl has
+    1% -> Aerodactyl it was not very effective. Turn 20 kadabra used body slam against aerodactyl it was not very effective. Aerodactyl has 40 hp remaining. Turn 30 aerodactyl used bind against
+    1% -> Aerodactyl it was not very effective. Turn 20 magnemite used aerodactyl used aerodactyl has aerodactyl sandshrew it was effective. Aerodactyl has 50 hp remaining. Turn 30 aerodactyl
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has 80 hp remaining. Turn 30 aerodactyl used aerodactyl used aerodactyl aerodactyl has 50
+    1% -> Aerodactyl it was not very effective. Turn 20 aerodactyl used aerodactyl has 40 hp remaining. Turn 30 aerodactyl used aerodactyl used aerodactyl has 90 hp remaining.
+
+--- QUERY: Breeding (Foundation/Lite) - Positive 1 ---
+Prompt: charmander logic_and bulbasaur egg answer
+  Foundation_v2.3:
+    71% -> Charmander logic_or bulbasaur
+    13% -> Logic_false
+    10% -> Bulbasaur logic_or bulbasaur
+    1% -> Bulbasaur logic_or horsea
+    1% -> Charmander logic_or rhyhorn
+    1% -> Charmander logic_or charmander
+    1% -> Squirtle
+    1% -> Charmander logic_or ekans
+    1% -> Bulbasaur logic_or charmander
+  Timmy_v2.3:
+    99% -> Charmander
+    1% -> Fire
+  Suzie_v2.3:
+    63% -> Charmander logic_or bulbasaur
+    18% -> Charmander logic_or charmander
+    15% -> Bulbasaur logic_or charmander
+    3% -> Bulbasaur logic_or bulbasaur
+    1% -> Slowpoke logic_or charmander
+
+--- QUERY: Breeding (Foundation/Lite) - Positive 2 ---
+Prompt: rhyhorn logic_and bulbasaur egg answer
+  Foundation_v2.3:
+    48% -> Rhyhorn logic_or bulbasaur
+    33% -> Bulbasaur logic_or bulbasaur
+    10% -> Rhyhorn logic_or rhyhorn
+    4% -> Bulbasaur logic_or rhyhorn
+    2% -> Logic_false
+    1% -> Bulbasaur
+    1% -> Lapras logic_or bulbasaur
+    1% -> Squirtle logic_or rhyhorn
+  Timmy_v2.3:
+    61% -> Bulbasaur
+    28% -> Vine whip
+    5% -> Tackle
+    4% -> It was super effective.
+    1% -> Grass
+    1% -> Weepinbell
+  Suzie_v2.3:
+    64% -> Rhyhorn logic_or bulbasaur
+    30% -> Bulbasaur logic_or bulbasaur
+    5% -> Bulbasaur logic_or rhyhorn
+    1% -> Rhyhorn logic_or rhyhorn
+
+--- QUERY: Breeding (Foundation/Lite) - Negative ---
+Prompt: ekans logic_and bulbasaur egg answer
+  Foundation_v2.3:
+    99% -> Logic_false
+    1% -> Ekans logic_or bulbasaur
+  Timmy_v2.3:
+    46% -> Evolves into
+    32% -> Type against bulbasaur
+    7% -> Type 30 bulbasaur
+    5% -> Type is bulbasaur
+    3% -> Ekans
+    2% -> Type answer grass
+    2% -> Grass
+    2% -> Logic_not
+    1% -> Type bulbasaur
+  Suzie_v2.3:
+    100% -> Logic_false
+
+--- QUERY: Breeding (Full Only) - Positive 1 ---
+Prompt: pidgey logic_and spearow egg answer
+  Foundation_v2.3:
+    62% -> Pidgey
+    12% -> Pidgey logic_or spearow
+    9% -> Pidgey logic_or pidgey
+    6% -> Spearow logic_or spearow
+    2% -> Pidgey logic_or squirtle
+    2% -> Pidgey logic_or dratini
+    2% -> Logic_false
+    1% -> Charmander logic_or spearow
+    1% -> Charmeleon logic_or spearow
+    1% -> Spearow logic_or horsea
+    1% -> Spearow logic_or dratini
+    1% -> Vileplume
+  Timmy_v2.3:
+    91% -> Pidgey
+    3% -> Spearow 30 spearow
+    2% -> Spearow
+    2% -> Evolves into
+    1% -> Spearow 40 30 spearow used peck against spearow it was effective. Spearow used peck against spearow it was effective. Spearow has 30 hp remaining. Turn
+    1% -> Spearow 30 spearow used peck against spearow it was effective. Spearow has 30 hp remaining. Turn 20 hp remaining. 0 spearow used gust against
+  Suzie_v2.3:
+    38% -> Pidgey logic_or spearow
+    22% -> Pidgey logic_or pidgey
+    15% -> Spearow logic_or pidgey
+    12% -> Spearow logic_or spearow
+    9% -> Pidgey
+    2% -> Spearow
+    2% -> Pidgey logic_or zubat
+
+--- QUERY: Breeding (Full Only) - Positive 2 ---
+Prompt: vulpix logic_and growlithe egg answer
+  Foundation_v2.3:
+    13% -> Logic_false
+    12% -> Horsea logic_or bulbasaur
+    11% -> Magikarp logic_or bulbasaur
+    8% -> Magikarp logic_or growlithe
+    8% -> Magikarp logic_or magikarp
+    7% -> Growlithe logic_or bulbasaur
+    6% -> Horsea logic_or horsea
+    4% -> Horsea logic_or growlithe
+    4% -> Horsea logic_or psyduck
+    3% -> Golbat logic_or bulbasaur
+    3% -> Magikarp logic_or horsea
+    2% -> Growlithe logic_or magikarp
+    2% -> Growlithe logic_or growlithe
+    1% -> Growlithe power growlithe
+    1% -> Vulpix logic_or squirtle
+    1% -> Growlithe logic_or horsea
+    1% -> Vulpix logic_or magikarp
+    1% -> Growlithe logic_or rapidash
+    1% -> Golbat logic_or horsea
+    1% -> Magikarp
+    1% -> Weepinbell logic_or bulbasaur
+    1% -> Slowbro logic_or magikarp
+    1% -> Growlithe logic_or psyduck
+    1% -> Golbat logic_or magikarp
+    1% -> Vulpix logic_or magnemite
+    1% -> Vulpix logic_or horsea
+    1% -> Paras logic_or horsea
+    1% -> Vulpix logic_or growlithe
+    1% -> Pidgeotto logic_or psyduck
+    1% -> Vulpix logic_or bulbasaur
+  Timmy_v2.3:
+    67% -> It was super effective.
+    32% -> <EMPTY / NO EVOLUTION>
+    1% -> Staryu
+  Suzie_v2.3:
+    79% -> Vulpix logic_or growlithe
+    9% -> Vulpix logic_or vulpix
+    6% -> Growlithe logic_or growlithe
+    2% -> Growlithe logic_or vulpix
+    1% -> Nidorino logic_or growlithe
+    1% -> Vulpix logic_or mankey
+    1% -> Vulpix logic_or psyduck
+    1% -> Eevee logic_or growlithe
+
+--- QUERY: Breeding (Full Only) - Negative ---
+Prompt: pidgey logic_and geodude egg answer
+  Foundation_v2.3:
+    22% -> Geodude logic_or pichu
+    22% -> Geodude logic_or is
+    18% -> Logic_false
+    8% -> Geodude
+    5% -> Geodude logic_or igglybuff
+    3% -> Geodude logic_or geodude
+    2% -> Geodude logic_or common wild
+    2% -> Geodude logic_or logic_not
+    2% -> It was super effective.
+    2% -> Geodude logic_or target
+    2% -> Charmander logic_or is
+    1% -> Geodude logic_or poliwhirl
+    1% -> It had no effect.
+    1% -> Omanyte
+    1% -> Geodude logic_or reflect
+    1% -> Logic_true
+    1% -> Gastly logic_or gift
+    1% -> Geodude logic_or poliwag
+    1% -> Geodude logic_or pidgey
+    1% -> It was not very effective.
+    1% -> Geodude logic_or magnemite
+    1% -> Geodude logic_or omanyte
+    1% -> Geodude logic_or gift
+  Timmy_v2.3:
+    85% -> Pidgey
+    8% -> Geodude
+    6% -> Butterfree
+    1% -> Kadabra
+  Suzie_v2.3:
+    100% -> Logic_false
+
