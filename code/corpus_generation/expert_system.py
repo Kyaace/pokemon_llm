@@ -62,49 +62,61 @@ class CorpusBuilder:
             display_turn = turn * 10
             
             # Status condition checks
+            use_sleep_talk = False
             if atk_state["sleep"] > 0:
+                if "Sleep Talk" in atk_state["moves"] and not atk_state["invuln_move"]:
+                    if is_tutorial or random.random() < 0.5:
+                        use_sleep_talk = True
+                        
                 atk_state["sleep"] -= 1
                 battle_log.append(f"Turn {display_turn}. {atk_name} is fast asleep.")
                 
-                # Bind damage still occurs if bound
-                if atk_state["bind"] > 0:
-                    atk_state["bind"] -= 1
-                    atk_hp -= 5
-                    if atk_hp < 0: atk_hp = 0
-                    battle_log.append(f"Turn {display_turn}. {atk_name} is hurt by bind. {atk_name} has {atk_hp} HP remaining.")
-                
-                if current_attacker == 1: hp1 = atk_hp
-                else: hp2 = atk_hp
-                
-                current_attacker = 2 if current_attacker == 1 else 1
-                turn += 1
-                continue
+                if use_sleep_talk:
+                    valid_for_sleep = [m for m in atk_state["moves"] if m in self.moves and m != "Sleep Talk"]
+                    if not valid_for_sleep: valid_for_sleep = ["Tackle"]
+                    move = random.choice(valid_for_sleep)
+                    battle_log.append(f"Turn {display_turn}. {atk_name} used Sleep Talk against {def_name}.")
+                else:
+                    # Bind damage still occurs if bound
+                    if atk_state["bind"] > 0:
+                        atk_state["bind"] -= 1
+                        atk_hp -= 5
+                        if atk_hp < 0: atk_hp = 0
+                        battle_log.append(f"Turn {display_turn}. {atk_name} is hurt by bind. {atk_name} has {atk_hp} HP remaining.")
+                    
+                    if current_attacker == 1: hp1 = atk_hp
+                    else: hp2 = atk_hp
+                    
+                    current_attacker = 2 if current_attacker == 1 else 1
+                    turn += 1
+                    continue
 
             # Move selection
-            if atk_state["invuln_move"]:
-                move = atk_state["invuln_move"]
-                atk_state["invuln_move"] = None
-            else:
-                if atk_state["encore"] > 0 and atk_state["last_move"]:
-                    valid_moves = [atk_state["last_move"]]
-                    atk_state["encore"] -= 1
+            if not use_sleep_talk:
+                if atk_state["invuln_move"]:
+                    move = atk_state["invuln_move"]
+                    atk_state["invuln_move"] = None
                 else:
-                    valid_moves = [m for m in atk_state["moves"] if m in self.moves]
-                    if not valid_moves:
-                        atk_types = self.pokemon_types.get(atk_name, ["Normal"])
-                        valid_moves = [m_name for m_name, m_data in self.moves.items() if m_data["type"] in atk_types or m_data["type"] == "Normal"]
-                    if not valid_moves:
-                        valid_moves = ["Tackle"]
-                        
-                    if atk_state["disable"] in valid_moves and len(valid_moves) > 1:
-                        valid_moves.remove(atk_state["disable"])
-                
-                if is_tutorial and random.random() < 0.20:
-                    move = random.choice(self.attention_testing_moves)
-                else:
-                    move = random.choice(valid_moves)
+                    if atk_state["encore"] > 0 and atk_state["last_move"]:
+                        valid_moves = [atk_state["last_move"]]
+                        atk_state["encore"] -= 1
+                    else:
+                        valid_moves = [m for m in atk_state["moves"] if m in self.moves]
+                        if not valid_moves:
+                            atk_types = self.pokemon_types.get(atk_name, ["Normal"])
+                            valid_moves = [m_name for m_name, m_data in self.moves.items() if m_data["type"] in atk_types or m_data["type"] == "Normal"]
+                        if not valid_moves:
+                            valid_moves = ["Tackle"]
+                            
+                        if atk_state["disable"] in valid_moves and len(valid_moves) > 1:
+                            valid_moves.remove(atk_state["disable"])
+                    
+                        if is_tutorial and random.random() < 0.20:
+                            move = random.choice(self.attention_testing_moves)
+                        else:
+                            move = random.choice(valid_moves)
 
-            atk_state["last_move"] = move
+            atk_state["last_move"] = "Sleep Talk" if use_sleep_talk else move
             
             # Advanced move overrides
             if move == "Metronome":
@@ -147,6 +159,11 @@ class CorpusBuilder:
             def_types = self.pokemon_types.get(def_name, ["Normal"])
             multiplier = self.get_effectiveness_multiplier(move_type, def_types)
             
+            if move == "Dream Eater" and def_state["sleep"] == 0:
+                multiplier = 0.0
+            elif move == "Sleep Talk" and not use_sleep_talk:
+                multiplier = 0.0
+                
             if multiplier > 1.0: phrase = "was super effective"
             elif multiplier == 1.0: phrase = "was effective"
             elif multiplier > 0.0: phrase = "was not very effective"
@@ -417,41 +434,54 @@ class CorpusBuilderV2(CorpusBuilder):
                 max_atk_hp = atk_pk["max_hp"]
 
                 # Status condition checks
+                use_sleep_talk = False
                 if atk_state["sleep"] > 0:
+                    if "Sleep Talk" in atk_state["moves"] and not atk_state["invuln_move"]:
+                        if is_tutorial or random.random() < 0.5:
+                            use_sleep_talk = True
+                            
                     atk_state["sleep"] -= 1
                     battle_log.append(f"Turn {display_turn}. {atk_name} is fast asleep.")
-                    if atk_state["bind"] > 0:
-                        atk_state["bind"] -= 1
-                        atk_hp -= 5
-                        if atk_hp < 0: atk_hp = 0
-                        battle_log.append(f"Turn {display_turn}. {atk_name} is hurt by bind. {atk_name} has {atk_hp} HP remaining.")
-                    atk_pk["hp"] = atk_hp
-                    current_attacker = 2 if current_attacker == 1 else 1
-                    turn += 1
-                    continue
-
-                if atk_state["invuln_move"]:
-                    move = atk_state["invuln_move"]
-                    atk_state["invuln_move"] = None
-                else:
-                    if atk_state["encore"] > 0 and atk_state["last_move"]:
-                        valid_moves = [atk_state["last_move"]]
-                        atk_state["encore"] -= 1
-                    else:
-                        valid_moves = [m for m in atk_state["moves"] if m in self.moves]
-                        if not valid_moves:
-                            atk_types = self.pokemon_types.get(atk_name, ["Normal"])
-                            valid_moves = [m_name for m_name, m_data in self.moves.items() if m_data["type"] in atk_types or m_data["type"] == "Normal"]
-                        if not valid_moves: valid_moves = ["Tackle"]
-                        if atk_state["disable"] in valid_moves and len(valid_moves) > 1:
-                            valid_moves.remove(atk_state["disable"])
                     
-                    if is_tutorial and random.random() < 0.20:
-                        move = random.choice(self.attention_testing_moves)
+                    if use_sleep_talk:
+                        valid_for_sleep = [m for m in atk_state["moves"] if m in self.moves and m != "Sleep Talk"]
+                        if not valid_for_sleep: valid_for_sleep = ["Tackle"]
+                        move = random.choice(valid_for_sleep)
+                        battle_log.append(f"Turn {display_turn}. {atk_name} used Sleep Talk against {def_name}.")
                     else:
-                        move = random.choice(valid_moves)
+                        if atk_state["bind"] > 0:
+                            atk_state["bind"] -= 1
+                            atk_hp -= 5
+                            if atk_hp < 0: atk_hp = 0
+                            battle_log.append(f"Turn {display_turn}. {atk_name} is hurt by bind. {atk_name} has {atk_hp} HP remaining.")
+                        atk_pk["hp"] = atk_hp
+                        current_attacker = 2 if current_attacker == 1 else 1
+                        turn += 1
+                        continue
 
-                atk_state["last_move"] = move
+                if not use_sleep_talk:
+                    if atk_state["invuln_move"]:
+                        move = atk_state["invuln_move"]
+                        atk_state["invuln_move"] = None
+                    else:
+                        if atk_state["encore"] > 0 and atk_state["last_move"]:
+                            valid_moves = [atk_state["last_move"]]
+                            atk_state["encore"] -= 1
+                        else:
+                            valid_moves = [m for m in atk_state["moves"] if m in self.moves]
+                            if not valid_moves:
+                                atk_types = self.pokemon_types.get(atk_name, ["Normal"])
+                                valid_moves = [m_name for m_name, m_data in self.moves.items() if m_data["type"] in atk_types or m_data["type"] == "Normal"]
+                            if not valid_moves: valid_moves = ["Tackle"]
+                            if atk_state["disable"] in valid_moves and len(valid_moves) > 1:
+                                valid_moves.remove(atk_state["disable"])
+                        
+                            if is_tutorial and random.random() < 0.20:
+                                move = random.choice(self.attention_testing_moves)
+                            else:
+                                move = random.choice(valid_moves)
+
+                atk_state["last_move"] = "Sleep Talk" if use_sleep_talk else move
                 
                 if move == "Metronome":
                     move = random.choice(list(self.moves.keys()))
@@ -488,6 +518,11 @@ class CorpusBuilderV2(CorpusBuilder):
                 def_types = self.pokemon_types.get(def_name, ["Normal"])
                 multiplier = self.get_effectiveness_multiplier(move_type, def_types)
                 
+                if move == "Dream Eater" and def_state["sleep"] == 0:
+                    multiplier = 0.0
+                elif move == "Sleep Talk" and not use_sleep_talk:
+                    multiplier = 0.0
+                    
                 if multiplier > 1.0: phrase = "was super effective"
                 elif multiplier == 1.0: phrase = "was effective"
                 elif multiplier > 0.0: phrase = "was not very effective"

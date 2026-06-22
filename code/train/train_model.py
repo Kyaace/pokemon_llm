@@ -48,7 +48,7 @@ class PokemonDataset(Dataset):
         attention_mask = (item != 0).long()
         return {"input_ids": item, "attention_mask": attention_mask, "labels": labels}
 
-def train_persona(persona_name, corpus_files, num_epochs=15, base_model_path=None, **kwargs):
+def train_persona(persona_name, corpus_files, num_epochs=5, base_model_path=None, **kwargs):
     base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     vocab_file = os.path.join(base_dir, "vocab.json")
     corpus_dir = os.path.join(base_dir, "corpus")

@@ -27,22 +27,22 @@ By incrementally fine-tuning the current weights on an upgraded "High Elo" datas
 
 For the next iteration of the data pipeline (`qa_v3_corpus`), we should focus on advanced mechanic interactions, breeding, and explicit negative logic constraints using `<LOGIC_NOT>`:
 
-### 1. Explicit Negative Constraints (`<LOGIC_NOT>`)
+### 1. Explicit Negative Constraints (`<LOGIC_NOT>`) *(Status: Implemented in v2.2)*
 *   **Non-Evolving Pokémon:** Teach the model explicitly which Pokémon do not evolve by using negative facts (`<FACT> <PKMN> <LOGIC_NOT> <EVOLVES_INTO> ... <EOS>`).
 *   **Restrictive Movesets:** Some Pokémon have extremely restrictive movesets (e.g. Caterpie only learning Tackle, String Shot, Bug Bite). We must explicitly teach the model that they *cannot* learn other moves that would otherwise make sense for their type by using `<LOGIC_NOT>` (e.g., they can use Struggle, but NOT advanced STAB moves).
 
 ### 2. Breeding & Egg Groups
-*   **New Tokens:** Add `<ENC_EGG>` and `<ENC_BREEDABLE>` to the tokenizer's 914+ block for encounter locations.
-*   **Egg Group Inference:** Teach the model breeding mechanics by showing it examples of successful breeding combinations.
-*   **Fact Structure:** `<FACT> <PKMN_1> <LOGIC_AND> <PKMN_2> <ENC_EGG> <PKMN_CHILD> <EOS>`
-*   By exposing the model to enough of these examples, it should be able to infer hidden egg groups.
+*   **Token Optimization:** Repurpose the existing `<ENC_HATCHABLE>` token (ID 914) to `<ENC_EGG>`, mapping it to the string `"egg"`. This prevents token bloat while elegantly combining hatching and breeding.
+*   **Egg Group Inference:** Teach the model breeding mechanics by showing it examples of successful breeding combinations, allowing it to indirectly infer the hidden egg group clusters.
+*   **Query Structure (Compatible):** `query <PKMN_1> <LOGIC_AND> <PKMN_2> <ENC_EGG> <ANSWER> <PKMN_CHILD> <EOS>`
+*   **Query Structure (Incompatible):** `query <PKMN_1> <LOGIC_AND> <PKMN_2> <ENC_EGG> <ANSWER> <LOGIC_FALSE> <EOS>`
 
 ### 3. Conditional Status Mechanics (Sleep)
 *   **New Tokens:** Add explicit tokens for `<EFFECT_SLEEP>`, `<ATTACKER>`, and `<TARGET>` (or leverage existing `<TARGET_ON>` / `<EFFECT_FAST_ASLEEP>` tokens) to teach conditional move states.
-*   **Dream Eater / Sleep Talk:** Teach the model that moves like Dream Eater or Sleep Talk strictly require the sleeping condition to function.
-*   **Positive Condition Fact:** `<FACT> <TARGET> <EFFECT_FAST_ASLEEP> <LOGIC_AND> <MOVE_DREAM_EATER> <EFFECT_NORMAL> <EOS>`
-*   **Negative Condition Fact:** `<FACT> <TARGET> <LOGIC_NOT> <EFFECT_FAST_ASLEEP> <LOGIC_AND> <MOVE_DREAM_EATER> <EFFECT_NONE> <EOS>`
-*   Add queries and answers around these conditions to encode them heavily into the next version of the expert system, ensuring the model respects them in battle scenarios.
+*   **Dream Eater / Sleep Talk:** Teach the model that moves like Dream Eater or Sleep Talk strictly require the sleeping condition to function using variable logic.
+*   **Query Structure (Sleep Talk - Asleep):** `<QUERY> <ATTACKER> <EFFECT_FAST_ASLEEP> <LOGIC_AND> <ATTACKER> <ACTION_USE> <MOVE_SLEEP_TALK> <TARGET_AGAINST> <TARGET> <ANSWER> <ATTACKER> <ACTION_USE> <UNKNOWN_MOVE> <TARGET_AGAINST> <TARGET> <EOS>`
+*   **Query Structure (Sleep Talk - Awake):** `<QUERY> <ATTACKER> <LOGIC_NOT> <EFFECT_FAST_ASLEEP> <LOGIC_AND> <ATTACKER> <ACTION_USE> <MOVE_SLEEP_TALK> <TARGET_AGAINST> <TARGET> <ANSWER> <EFFECT_NONE> <EOS>`
+*   Add similar queries and answers around Dream Eater targeting sleeping opponents, ensuring the model respects them in battle scenarios.
 
 ### 4. Variable Logic / Wildcards (`<UNKNOWN_MOVE>`)
 *   **Mechanic:** Teach the model algebraic "fill-in-the-blank" logic using the `<UNKNOWN_MOVE>` token as a variable.
@@ -66,8 +66,16 @@ For the next iteration of the data pipeline (`qa_v3_corpus`), we should focus on
     *   `<FACT> <PKMN_MAGIKARP> <OBTAINED_FROM> <ENC_FISHING> <LOGIC_OR> <ENC_COMMON_WILD> <EOS>`
 
 ### 6. Pure Boolean Logic Tokens (Truth Tables)
-*   **Preventing Double Duty:** To prevent `<LOGIC_NOT>` from getting double duty as both a logic modifier of other tokens and being used alone as a crude `FALSE`, future iterations will replace the answers of boolean logic questions with explicitly defined `<LOGIC_TRUE>` and `<LOGIC_FALSE>` tokens.
+*   **Preventing Double Duty:** To prevent `<LOGIC_NOT>` from getting double duty as both a logic modifier of other tokens and being used alone as a crude `FALSE`, future iterations will replace the answers of boolean logic questions with explicitly defined `<LOGIC_TRUE>` and `<LOGIC_FALSE>` tokens. *(Status: Implemented in v2.2)*
 *   **Truth Tables:** Furthermore, the curriculum for Johnny and Ace will be expanded to include pure truth tables. These truth tables will explicitly teach the models the fundamental functions of `<LOGIC_AND>`, `<LOGIC_OR>`, and `<LOGIC_NOT>`, establishing a mathematically sound foundation for complex reasoning before applying them to Pokemon elements.
+
+### 7. Data Permutation (Universal List Shuffling)
+*   **Generic List Shuffler:** Implement a universal shuffling utility during QA corpus generation to randomize the order of *all* unordered lists whenever they are joined by logical operators. This ensures the model learns that the underlying relationships are commutative rather than anchoring on the first token. Examples include:
+    *   **Dual Types:** `Rock logic_and Ground` vs `Ground logic_and Rock`.
+    *   **Move Lists:** Randomizing the sequence of moves a Pokémon can learn.
+    *   **Evolutions:** `Vaporeon logic_or Jolteon logic_or Flareon` vs `Flareon logic_or Vaporeon logic_or Jolteon`.
+    *   **Encounter Locations:** Randomizing the order of locations in `obtained from` statements.
+*   *(Status: Active for Phase 4)*
 
 ## Hardware & Optimization Notes
 *   **Batch Size Scaling:** For future v3 training runs, we should significantly scale up the batch size. Current GPU utilization is extremely low (~3% / 0.9GB VRAM). Increasing the batch size will exponentially speed up training times by better saturating the GPU cores.

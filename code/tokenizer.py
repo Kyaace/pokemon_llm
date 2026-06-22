@@ -124,7 +124,7 @@ class PokemonTokenizer:
         self._add_token(911, "<ENC_FISHING>", "fishing")
         self._add_token(912, "<ENC_FOSSIL>", "fossil")
         self._add_token(913, "<ENC_EVOLUTION>", "evolution")
-        self._add_token(914, "<ENC_HATCHABLE>", "hatchable")
+        self._add_token(914, "<ENC_EGG>", "egg")
         self._add_token(915, "<ATTACKER>", "attacker")
         self._add_token(916, "<TARGET>", "target")
             

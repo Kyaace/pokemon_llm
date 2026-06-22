@@ -1,11 +1,11 @@
-fact bulbasaur type is grass logic_and poison
-query bulbasaur type is answer grass logic_and poison
+fact bulbasaur type is poison logic_and grass
+query bulbasaur type is answer poison logic_and grass
 fact bulbasaur base hp is 45
 query bulbasaur base hp is answer 45
 fact bulbasaur obtained from gift
 query bulbasaur obtained from answer gift
-fact ivysaur type is grass logic_and poison
-query ivysaur type is answer grass logic_and poison
+fact ivysaur type is poison logic_and grass
+query ivysaur type is answer poison logic_and grass
 fact ivysaur base hp is 60
 query ivysaur base hp is answer 60
 fact ivysaur obtained from evolution
@@ -28,8 +28,8 @@ fact charmeleon base hp is 58
 query charmeleon base hp is answer 58
 fact charmeleon obtained from evolution
 query charmeleon obtained from answer evolution
-fact charizard type is fire logic_and flying
-query charizard type is answer fire logic_and flying
+fact charizard type is flying logic_and fire
+query charizard type is answer flying logic_and fire
 fact charizard base hp is 78
 query charizard base hp is answer 78
 fact charizard obtained from evolution
@@ -65,8 +65,8 @@ query metapod base hp is answer 50
 fact metapod obtained from evolution logic_or common wild
 query metapod obtained from answer evolution
 query metapod obtained from answer common wild
-fact butterfree type is bug logic_and flying
-query butterfree type is answer bug logic_and flying
+fact butterfree type is flying logic_and bug
+query butterfree type is answer flying logic_and bug
 fact butterfree base hp is 60
 query butterfree base hp is answer 60
 fact butterfree obtained from evolution
@@ -81,17 +81,17 @@ fact kakuna type is bug logic_and poison
 query kakuna type is answer bug logic_and poison
 fact kakuna base hp is 45
 query kakuna base hp is answer 45
-fact kakuna obtained from evolution logic_or common wild
+fact kakuna obtained from common wild logic_or evolution
 query kakuna obtained from answer evolution
 query kakuna obtained from answer common wild
-fact beedrill type is bug logic_and poison
-query beedrill type is answer bug logic_and poison
+fact beedrill type is poison logic_and bug
+query beedrill type is answer poison logic_and bug
 fact beedrill base hp is 65
 query beedrill base hp is answer 65
 fact beedrill obtained from evolution
 query beedrill obtained from answer evolution
-fact pidgey type is normal logic_and flying
-query pidgey type is answer normal logic_and flying
+fact pidgey type is flying logic_and normal
+query pidgey type is answer flying logic_and normal
 fact pidgey base hp is 40
 query pidgey base hp is answer 40
 fact pidgey obtained from common wild
@@ -121,8 +121,8 @@ query raticate base hp is answer 55
 fact raticate obtained from evolution logic_or common wild
 query raticate obtained from answer evolution
 query raticate obtained from answer common wild
-fact spearow type is normal logic_and flying
-query spearow type is answer normal logic_and flying
+fact spearow type is flying logic_and normal
+query spearow type is answer flying logic_and normal
 fact spearow base hp is 40
 query spearow base hp is answer 40
 fact spearow obtained from common wild
@@ -151,7 +151,7 @@ fact pikachu type is electric
 query pikachu type is answer electric
 fact pikachu base hp is 35
 query pikachu base hp is answer 35
-fact pikachu obtained from gift logic_or rare wild
+fact pikachu obtained from rare wild logic_or gift
 query pikachu obtained from answer gift
 query pikachu obtained from answer rare wild
 fact raichu type is electric
@@ -185,8 +185,8 @@ query nidorina base hp is answer 70
 fact nidorina obtained from evolution logic_or common wild
 query nidorina obtained from answer evolution
 query nidorina obtained from answer common wild
-fact nidoqueen type is poison logic_and ground
-query nidoqueen type is answer poison logic_and ground
+fact nidoqueen type is ground logic_and poison
+query nidoqueen type is answer ground logic_and poison
 fact nidoqueen base hp is 90
 query nidoqueen base hp is answer 90
 fact nidoqueen obtained from evolution
@@ -237,7 +237,7 @@ fact jigglypuff type is normal logic_and fairy
 query jigglypuff type is answer normal logic_and fairy
 fact jigglypuff base hp is 115
 query jigglypuff base hp is answer 115
-fact jigglypuff obtained from evolution logic_or common wild
+fact jigglypuff obtained from common wild logic_or evolution
 query jigglypuff obtained from answer evolution
 query jigglypuff obtained from answer common wild
 fact wigglytuff type is normal logic_and fairy
@@ -279,8 +279,8 @@ fact vileplume base hp is 75
 query vileplume base hp is answer 75
 fact vileplume obtained from evolution
 query vileplume obtained from answer evolution
-fact paras type is bug logic_and grass
-query paras type is answer bug logic_and grass
+fact paras type is grass logic_and bug
+query paras type is answer grass logic_and bug
 fact paras base hp is 35
 query paras base hp is answer 35
 fact paras obtained from common wild
@@ -302,7 +302,7 @@ fact venomoth type is bug logic_and poison
 query venomoth type is answer bug logic_and poison
 fact venomoth base hp is 70
 query venomoth base hp is answer 70
-fact venomoth obtained from evolution logic_or common wild
+fact venomoth obtained from common wild logic_or evolution
 query venomoth obtained from answer evolution
 query venomoth obtained from answer common wild
 fact diglett type is ground
@@ -315,7 +315,7 @@ fact dugtrio type is ground
 query dugtrio type is answer ground
 fact dugtrio base hp is 35
 query dugtrio base hp is answer 35
-fact dugtrio obtained from evolution logic_or rare wild
+fact dugtrio obtained from rare wild logic_or evolution
 query dugtrio obtained from answer evolution
 query dugtrio obtained from answer rare wild
 fact meowth type is normal
@@ -334,7 +334,7 @@ fact psyduck type is water
 query psyduck type is answer water
 fact psyduck base hp is 50
 query psyduck base hp is answer 50
-fact psyduck obtained from common wild logic_or fishing
+fact psyduck obtained from fishing logic_or common wild
 query psyduck obtained from answer common wild
 query psyduck obtained from answer fishing
 fact golduck type is water
@@ -380,8 +380,8 @@ fact poliwhirl base hp is 65
 query poliwhirl base hp is answer 65
 fact poliwhirl obtained from evolution
 query poliwhirl obtained from answer evolution
-fact poliwrath type is water logic_and fighting
-query poliwrath type is answer water logic_and fighting
+fact poliwrath type is fighting logic_and water
+query poliwrath type is answer fighting logic_and water
 fact poliwrath base hp is 90
 query poliwrath base hp is answer 90
 fact poliwrath obtained from evolution
@@ -442,28 +442,28 @@ fact victreebel base hp is 80
 query victreebel base hp is answer 80
 fact victreebel obtained from evolution
 query victreebel obtained from answer evolution
-fact tentacool type is water logic_and poison
-query tentacool type is answer water logic_and poison
+fact tentacool type is poison logic_and water
+query tentacool type is answer poison logic_and water
 fact tentacool base hp is 40
 query tentacool base hp is answer 40
-fact tentacool obtained from fishing logic_or common wild logic_or surf
+fact tentacool obtained from common wild logic_or fishing logic_or surf
 query tentacool obtained from answer fishing
 query tentacool obtained from answer common wild
 query tentacool obtained from answer surf
-fact tentacruel type is water logic_and poison
-query tentacruel type is answer water logic_and poison
+fact tentacruel type is poison logic_and water
+query tentacruel type is answer poison logic_and water
 fact tentacruel base hp is 80
 query tentacruel base hp is answer 80
 fact tentacruel obtained from evolution
 query tentacruel obtained from answer evolution
-fact geodude type is rock logic_and ground
-query geodude type is answer rock logic_and ground
+fact geodude type is ground logic_and rock
+query geodude type is answer ground logic_and rock
 fact geodude base hp is 40
 query geodude base hp is answer 40
 fact geodude obtained from common wild
 query geodude obtained from answer common wild
-fact graveler type is rock logic_and ground
-query graveler type is answer rock logic_and ground
+fact graveler type is ground logic_and rock
+query graveler type is answer ground logic_and rock
 fact graveler base hp is 55
 query graveler base hp is answer 55
 fact graveler obtained from evolution
@@ -493,15 +493,15 @@ query slowpoke base hp is answer 90
 fact slowpoke obtained from fishing logic_or common wild
 query slowpoke obtained from answer fishing
 query slowpoke obtained from answer common wild
-fact slowbro type is water logic_and psychic
-query slowbro type is answer water logic_and psychic
+fact slowbro type is psychic logic_and water
+query slowbro type is answer psychic logic_and water
 fact slowbro base hp is 95
 query slowbro base hp is answer 95
-fact slowbro obtained from evolution logic_or rare wild
+fact slowbro obtained from rare wild logic_or evolution
 query slowbro obtained from answer evolution
 query slowbro obtained from answer rare wild
-fact magnemite type is electric logic_and steel
-query magnemite type is answer electric logic_and steel
+fact magnemite type is steel logic_and electric
+query magnemite type is answer steel logic_and electric
 fact magnemite base hp is 25
 query magnemite base hp is answer 25
 fact magnemite obtained from rare wild
@@ -513,8 +513,8 @@ query magneton base hp is answer 50
 fact magneton obtained from evolution logic_or common wild
 query magneton obtained from answer evolution
 query magneton obtained from answer common wild
-fact farfetch'd type is normal logic_and flying
-query farfetch'd type is answer normal logic_and flying
+fact farfetch'd type is flying logic_and normal
+query farfetch'd type is answer flying logic_and normal
 fact farfetch'd base hp is 100
 query farfetch'd base hp is answer 100
 fact doduo type is normal logic_and flying
@@ -527,7 +527,7 @@ fact dodrio type is normal logic_and flying
 query dodrio type is answer normal logic_and flying
 fact dodrio base hp is 60
 query dodrio base hp is answer 60
-fact dodrio obtained from evolution logic_or common wild
+fact dodrio obtained from common wild logic_or evolution
 query dodrio obtained from answer evolution
 query dodrio obtained from answer common wild
 fact seel type is water
@@ -541,7 +541,7 @@ fact dewgong type is water logic_and ice
 query dewgong type is answer water logic_and ice
 fact dewgong base hp is 90
 query dewgong base hp is answer 90
-fact dewgong obtained from evolution logic_or common wild
+fact dewgong obtained from common wild logic_or evolution
 query dewgong obtained from answer evolution
 query dewgong obtained from answer common wild
 fact grimer type is poison
@@ -560,7 +560,7 @@ fact shellder type is water
 query shellder type is answer water
 fact shellder base hp is 30
 query shellder base hp is answer 30
-fact shellder obtained from fishing logic_or common wild
+fact shellder obtained from common wild logic_or fishing
 query shellder obtained from answer fishing
 query shellder obtained from answer common wild
 fact cloyster type is water logic_and ice
@@ -569,8 +569,8 @@ fact cloyster base hp is 50
 query cloyster base hp is answer 50
 fact cloyster obtained from evolution
 query cloyster obtained from answer evolution
-fact gastly type is ghost logic_and poison
-query gastly type is answer ghost logic_and poison
+fact gastly type is poison logic_and ghost
+query gastly type is answer poison logic_and ghost
 fact gastly base hp is 30
 query gastly base hp is answer 30
 fact gastly obtained from common wild
@@ -582,8 +582,8 @@ query haunter base hp is answer 45
 fact haunter obtained from evolution logic_or common wild
 query haunter obtained from answer evolution
 query haunter obtained from answer common wild
-fact gengar type is ghost logic_and poison
-query gengar type is answer ghost logic_and poison
+fact gengar type is poison logic_and ghost
+query gengar type is answer poison logic_and ghost
 fact gengar base hp is 60
 query gengar base hp is answer 60
 fact gengar obtained from evolution
@@ -611,7 +611,7 @@ fact krabby type is water
 query krabby type is answer water
 fact krabby base hp is 30
 query krabby base hp is answer 30
-fact krabby obtained from fishing logic_or common wild
+fact krabby obtained from common wild logic_or fishing
 query krabby obtained from answer fishing
 query krabby obtained from answer common wild
 fact kingler type is water
@@ -631,11 +631,11 @@ fact electrode type is electric
 query electrode type is answer electric
 fact electrode base hp is 60
 query electrode base hp is answer 60
-fact electrode obtained from evolution logic_or common wild
+fact electrode obtained from common wild logic_or evolution
 query electrode obtained from answer evolution
 query electrode obtained from answer common wild
-fact exeggcute type is grass logic_and psychic
-query exeggcute type is answer grass logic_and psychic
+fact exeggcute type is psychic logic_and grass
+query exeggcute type is answer psychic logic_and grass
 fact exeggcute base hp is 60
 query exeggcute base hp is answer 60
 fact exeggcute obtained from common wild
@@ -650,7 +650,7 @@ fact cubone type is ground
 query cubone type is answer ground
 fact cubone base hp is 50
 query cubone base hp is answer 50
-fact cubone obtained from rare wild logic_or common wild
+fact cubone obtained from common wild logic_or rare wild
 query cubone obtained from answer rare wild
 query cubone obtained from answer common wild
 fact marowak type is ground
@@ -726,14 +726,14 @@ fact horsea type is water
 query horsea type is answer water
 fact horsea base hp is 30
 query horsea base hp is answer 30
-fact horsea obtained from fishing logic_or common wild
+fact horsea obtained from common wild logic_or fishing
 query horsea obtained from answer fishing
 query horsea obtained from answer common wild
 fact seadra type is water
 query seadra type is answer water
 fact seadra base hp is 55
 query seadra base hp is answer 55
-fact seadra obtained from evolution logic_or rare wild
+fact seadra obtained from rare wild logic_or evolution
 query seadra obtained from answer evolution
 query seadra obtained from answer rare wild
 fact goldeen type is water
@@ -761,8 +761,8 @@ fact starmie base hp is 60
 query starmie base hp is answer 60
 fact starmie obtained from evolution
 query starmie obtained from answer evolution
-fact mr. mime type is psychic logic_and fairy
-query mr. mime type is answer psychic logic_and fairy
+fact mr. mime type is fairy logic_and psychic
+query mr. mime type is answer fairy logic_and psychic
 fact mr. mime base hp is 40
 query mr. mime base hp is answer 40
 fact mr. mime obtained from rare wild
@@ -773,8 +773,8 @@ fact scyther base hp is 70
 query scyther base hp is answer 70
 fact scyther obtained from rare wild
 query scyther obtained from answer rare wild
-fact jynx type is ice logic_and psychic
-query jynx type is answer ice logic_and psychic
+fact jynx type is psychic logic_and ice
+query jynx type is answer psychic logic_and ice
 fact jynx base hp is 65
 query jynx base hp is answer 65
 fact jynx obtained from evolution
@@ -815,8 +815,8 @@ fact gyarados base hp is 95
 query gyarados base hp is answer 95
 fact gyarados obtained from evolution
 query gyarados obtained from answer evolution
-fact lapras type is water logic_and ice
-query lapras type is answer water logic_and ice
+fact lapras type is ice logic_and water
+query lapras type is answer ice logic_and water
 fact lapras base hp is 130
 query lapras base hp is answer 130
 fact lapras obtained from gift
@@ -857,26 +857,26 @@ fact porygon base hp is 65
 query porygon base hp is answer 65
 fact porygon obtained from rare wild
 query porygon obtained from answer rare wild
-fact omanyte type is rock logic_and water
-query omanyte type is answer rock logic_and water
+fact omanyte type is water logic_and rock
+query omanyte type is answer water logic_and rock
 fact omanyte base hp is 35
 query omanyte base hp is answer 35
 fact omanyte obtained from fossil
 query omanyte obtained from answer fossil
-fact omastar type is rock logic_and water
-query omastar type is answer rock logic_and water
+fact omastar type is water logic_and rock
+query omastar type is answer water logic_and rock
 fact omastar base hp is 70
 query omastar base hp is answer 70
 fact omastar obtained from evolution
 query omastar obtained from answer evolution
-fact kabuto type is rock logic_and water
-query kabuto type is answer rock logic_and water
+fact kabuto type is water logic_and rock
+query kabuto type is answer water logic_and rock
 fact kabuto base hp is 30
 query kabuto base hp is answer 30
 fact kabuto obtained from fossil
 query kabuto obtained from answer fossil
-fact kabutops type is rock logic_and water
-query kabutops type is answer rock logic_and water
+fact kabutops type is water logic_and rock
+query kabutops type is answer water logic_and rock
 fact kabutops base hp is 60
 query kabutops base hp is answer 60
 fact kabutops obtained from evolution
@@ -899,8 +899,8 @@ fact articuno base hp is 90
 query articuno base hp is answer 90
 fact articuno obtained from legendary
 query articuno obtained from answer legendary
-fact zapdos type is electric logic_and flying
-query zapdos type is answer electric logic_and flying
+fact zapdos type is flying logic_and electric
+query zapdos type is answer flying logic_and electric
 fact zapdos base hp is 90
 query zapdos base hp is answer 90
 fact zapdos obtained from legendary
@@ -915,7 +915,7 @@ fact dratini type is dragon
 query dratini type is answer dragon
 fact dratini base hp is 41
 query dratini base hp is answer 41
-fact dratini obtained from common wild logic_or fishing
+fact dratini obtained from fishing logic_or common wild
 query dratini obtained from answer common wild
 query dratini obtained from answer fishing
 fact dragonair type is dragon
@@ -924,8 +924,8 @@ fact dragonair base hp is 61
 query dragonair base hp is answer 61
 fact dragonair obtained from evolution
 query dragonair obtained from answer evolution
-fact dragonite type is dragon logic_and flying
-query dragonite type is answer dragon logic_and flying
+fact dragonite type is flying logic_and dragon
+query dragonite type is answer flying logic_and dragon
 fact dragonite base hp is 91
 query dragonite base hp is answer 91
 fact dragonite obtained from evolution
@@ -942,146 +942,146 @@ fact mew base hp is 100
 query mew base hp is answer 100
 fact mew obtained from legendary
 query mew obtained from answer legendary
-fact absorb logic_or giga drain logic_or leech seed logic_or mega drain logic_or petal dance logic_or razor leaf logic_or sleep powder logic_or solar beam logic_or solarbeam logic_or stun spore logic_or vine whip type is grass
-query solar beam unknown type answer grass
-query solarbeam unknown type answer grass
-query leech seed unknown type answer grass
-fact acid logic_or poison powder logic_or poison sting logic_or sludge logic_or sludge bomb logic_or smog logic_or toxic type is poison
+fact petal dance logic_or stun spore logic_or leech seed logic_or razor leaf logic_or mega drain logic_or solarbeam logic_or vine whip logic_or solar beam logic_or absorb logic_or sleep powder logic_or giga drain type is grass
+query petal dance unknown type answer grass
+query razor leaf unknown type answer grass
+query absorb unknown type answer grass
+fact smog logic_or toxic logic_or acid logic_or sludge bomb logic_or sludge logic_or poison powder logic_or poison sting type is poison
+query sludge bomb unknown type answer poison
+query poison sting unknown type answer poison
 query acid unknown type answer poison
-query smog unknown type answer poison
-query sludge unknown type answer poison
-fact agility logic_or confusion logic_or dream eater logic_or future sight logic_or hypnosis logic_or light screen logic_or psybeam logic_or psychic logic_or psywave logic_or reflect logic_or rest logic_or teleport type is psychic
-query light screen unknown type answer psychic
-query reflect unknown type answer psychic
-query psychic unknown type answer psychic
-fact ancient power logic_or rock slide logic_or rock throw logic_or rollout type is rock
+fact confusion logic_or reflect logic_or psybeam logic_or psychic logic_or hypnosis logic_or dream eater logic_or rest logic_or light screen logic_or future sight logic_or psywave logic_or teleport logic_or agility type is psychic
+query hypnosis unknown type answer psychic
+query psywave unknown type answer psychic
+query confusion unknown type answer psychic
+fact rock throw logic_or ancient power logic_or rock slide logic_or rollout type is rock
 query ancient power unknown type answer rock
 query rollout unknown type answer rock
 query rock throw unknown type answer rock
-fact aurora beam logic_or blizzard logic_or ice beam logic_or ice punch logic_or icy wind logic_or powder snow type is ice
+fact icy wind logic_or blizzard logic_or ice punch logic_or aurora beam logic_or ice beam logic_or powder snow type is ice
+query ice beam unknown type answer ice
 query aurora beam unknown type answer ice
-query ice punch unknown type answer ice
 query blizzard unknown type answer ice
-fact barrage logic_or bide logic_or bind logic_or bite logic_or body slam logic_or comet punch logic_or constrict logic_or cut logic_or dizzy punch logic_or double edge logic_or double slap logic_or egg bomb logic_or explosion logic_or extreme speed logic_or false swipe logic_or fury attack logic_or fury swipes logic_or glare logic_or growl logic_or growth logic_or gust logic_or harden logic_or headbutt logic_or hidden power logic_or horn attack logic_or hyper beam logic_or hyper fang logic_or leer logic_or lovely kiss logic_or mega kick logic_or mega punch logic_or pay day logic_or pound logic_or quick attack logic_or rage logic_or rapid spin logic_or razor wind logic_or recover logic_or roar logic_or scratch logic_or self destruct logic_or sketch logic_or skull bash logic_or slam logic_or slash logic_or snore logic_or sonicboom logic_or spike cannon logic_or stomp logic_or strength logic_or struggle logic_or supersonic logic_or swift logic_or tackle logic_or take down logic_or thrash logic_or transform logic_or tri attack logic_or vice grip logic_or wrap logic_or metronome logic_or encore logic_or disable logic_or sing logic_or copycat type is normal
-query transform unknown type answer normal
-query tri attack unknown type answer normal
-query bide unknown type answer normal
-fact bone club logic_or bone rush logic_or bonemerang logic_or dig logic_or earthquake logic_or fissure logic_or mud slap logic_or sand attack type is ground
+fact explosion logic_or spike cannon logic_or swift logic_or pound logic_or body slam logic_or take down logic_or disable logic_or wrap logic_or horn attack logic_or skull bash logic_or bind logic_or thrash logic_or sonicboom logic_or lovely kiss logic_or false swipe logic_or snore logic_or hyper fang logic_or harden logic_or stomp logic_or recover logic_or mega kick logic_or sing logic_or strength logic_or encore logic_or self destruct logic_or bide logic_or quick attack logic_or barrage logic_or cut logic_or glare logic_or roar logic_or tackle logic_or growl logic_or pay day logic_or sketch logic_or vice grip logic_or fury swipes logic_or rapid spin logic_or constrict logic_or growth logic_or hyper beam logic_or scratch logic_or comet punch logic_or double edge logic_or headbutt logic_or egg bomb logic_or metronome logic_or gust logic_or slash logic_or leer logic_or struggle logic_or transform logic_or hidden power logic_or razor wind logic_or slam logic_or supersonic logic_or tri attack logic_or mega punch logic_or copycat logic_or rage logic_or double slap logic_or extreme speed logic_or dizzy punch logic_or fury attack logic_or bite type is normal
+query stomp unknown type answer normal
+query sketch unknown type answer normal
+query fury swipes unknown type answer normal
+fact bone rush logic_or sand attack logic_or mud slap logic_or fissure logic_or dig logic_or bonemerang logic_or bone club logic_or earthquake type is ground
+query bone rush unknown type answer ground
+query earthquake unknown type answer ground
 query sand attack unknown type answer ground
-query bonemerang unknown type answer ground
-query mud slap unknown type answer ground
-fact bubble logic_or bubble beam logic_or bubblebeam logic_or clamp logic_or crabhammer logic_or hydro pump logic_or octazooka logic_or surf logic_or water gun logic_or waterfall logic_or whirlpool type is water
-query waterfall unknown type answer water
-query octazooka unknown type answer water
-query whirlpool unknown type answer water
-fact confuse ray logic_or lick logic_or night shade logic_or shadow ball type is ghost
-query night shade unknown type answer ghost
+fact bubble beam logic_or crabhammer logic_or water gun logic_or surf logic_or hydro pump logic_or bubble logic_or clamp logic_or bubblebeam logic_or waterfall logic_or octazooka logic_or whirlpool type is water
+query bubble unknown type answer water
+query surf unknown type answer water
+query bubble beam unknown type answer water
+fact lick logic_or night shade logic_or confuse ray logic_or shadow ball type is ghost
 query confuse ray unknown type answer ghost
+query lick unknown type answer ghost
 query shadow ball unknown type answer ghost
-fact counter logic_or cross chop logic_or double kick logic_or dynamic punch logic_or high jump kick logic_or jump kick logic_or karate chop logic_or low kick logic_or mach punch logic_or rock smash logic_or rolling kick logic_or submission logic_or vital throw type is fighting
-query mach punch unknown type answer fighting
-query jump kick unknown type answer fighting
-query rock smash unknown type answer fighting
-fact crunch logic_or feint attack logic_or pursuit logic_or thief type is dark
-query crunch unknown type answer dark
+fact mach punch logic_or karate chop logic_or submission logic_or high jump kick logic_or counter logic_or rock smash logic_or jump kick logic_or vital throw logic_or low kick logic_or cross chop logic_or rolling kick logic_or double kick logic_or dynamic punch type is fighting
+query rolling kick unknown type answer fighting
+query dynamic punch unknown type answer fighting
+query vital throw unknown type answer fighting
+fact pursuit logic_or crunch logic_or feint attack logic_or thief type is dark
 query thief unknown type answer dark
+query feint attack unknown type answer dark
 query pursuit unknown type answer dark
-fact dragon breath logic_or dragon rage logic_or outrage logic_or twister type is dragon
-query dragon breath unknown type answer dragon
-query dragon rage unknown type answer dragon
+fact dragon breath logic_or twister logic_or dragon rage logic_or outrage type is dragon
 query twister unknown type answer dragon
-fact drill peck logic_or fly logic_or peck logic_or sky attack logic_or wing attack logic_or mirror move type is flying
-query fly unknown type answer flying
+query dragon rage unknown type answer dragon
+query outrage unknown type answer dragon
+fact drill peck logic_or wing attack logic_or mirror move logic_or sky attack logic_or fly logic_or peck type is flying
 query wing attack unknown type answer flying
-query drill peck unknown type answer flying
-fact ember logic_or fire blast logic_or fire punch logic_or fire spin logic_or flame wheel logic_or flamethrower logic_or sacred fire type is fire
-query flamethrower unknown type answer fire
-query fire spin unknown type answer fire
+query fly unknown type answer flying
+query sky attack unknown type answer flying
+fact fire punch logic_or flamethrower logic_or fire spin logic_or flame wheel logic_or fire blast logic_or sacred fire logic_or ember type is fire
+query ember unknown type answer fire
+query fire punch unknown type answer fire
 query sacred fire unknown type answer fire
-fact fury cutter logic_or leech life logic_or megahorn logic_or pin missile logic_or twineedle type is bug
+fact twineedle logic_or leech life logic_or pin missile logic_or fury cutter logic_or megahorn type is bug
 query leech life unknown type answer bug
 query twineedle unknown type answer bug
-query megahorn unknown type answer bug
-fact iron tail logic_or metal claw logic_or steel wing type is steel
-query iron tail unknown type answer steel
-query steel wing unknown type answer steel
+query pin missile unknown type answer bug
+fact metal claw logic_or steel wing logic_or iron tail type is steel
 query metal claw unknown type answer steel
-fact spark logic_or thunder logic_or thunder punch logic_or thunder shock logic_or thunder wave logic_or thunderbolt logic_or thunderpunch logic_or thundershock logic_or zap cannon type is electric
+query steel wing unknown type answer steel
+query iron tail unknown type answer steel
+fact thunderpunch logic_or zap cannon logic_or spark logic_or thunderbolt logic_or thundershock logic_or thunder wave logic_or thunder shock logic_or thunder punch logic_or thunder type is electric
+query thunder unknown type answer electric
+query thunderbolt unknown type answer electric
 query thunder punch unknown type answer electric
-query thundershock unknown type answer electric
-query thunder wave unknown type answer electric
-fact absorb logic_or bubble logic_or leech life logic_or lick logic_or mud slap logic_or rage logic_or sonicboom logic_or spike cannon power is 20
+fact rage logic_or mud slap logic_or lick logic_or leech life logic_or spike cannon logic_or absorb logic_or bubble logic_or sonicboom power is 20
+query mud slap unknown power answer 20
 query rage unknown power answer 20
 query sonicboom unknown power answer 20
-query spike cannon unknown power answer 20
-fact acid logic_or dragon rage logic_or ember logic_or false swipe logic_or fury cutter logic_or gust logic_or mach punch logic_or mega drain logic_or night shade logic_or pay day logic_or pound logic_or powder snow logic_or psywave logic_or pursuit logic_or quick attack logic_or rock smash logic_or scratch logic_or tackle logic_or thunder shock logic_or thundershock logic_or twister logic_or water gun power is 40
-query pursuit unknown power answer 40
-query thundershock unknown power answer 40
-query water gun unknown power answer 40
-fact agility logic_or bide logic_or confuse ray logic_or counter logic_or glare logic_or growl logic_or growth logic_or hypnosis logic_or leech seed logic_or leer logic_or lovely kiss logic_or poison powder logic_or rest logic_or roar logic_or sand attack logic_or sketch logic_or sleep powder logic_or stun spore logic_or supersonic logic_or teleport logic_or thunder wave logic_or toxic logic_or transform logic_or metronome logic_or encore logic_or disable logic_or mirror move logic_or sing logic_or copycat power is 0
-query rest unknown power answer 0
-query bide unknown power answer 0
-query sing unknown power answer 0
-fact ancient power logic_or bite logic_or dragon breath logic_or feint attack logic_or flame wheel logic_or hidden power logic_or rolling kick logic_or swift logic_or thief power is 60
+fact water gun logic_or acid logic_or rock smash logic_or thundershock logic_or scratch logic_or pay day logic_or gust logic_or false swipe logic_or powder snow logic_or ember logic_or night shade logic_or dragon rage logic_or psywave logic_or pound logic_or mach punch logic_or mega drain logic_or fury cutter logic_or thunder shock logic_or tackle logic_or quick attack logic_or twister logic_or pursuit power is 40
+query twister unknown power answer 40
+query scratch unknown power answer 40
+query pay day unknown power answer 40
+fact encore logic_or stun spore logic_or leer logic_or transform logic_or sand attack logic_or counter logic_or toxic logic_or thunder wave logic_or sketch logic_or copycat logic_or glare logic_or rest logic_or sing logic_or hypnosis logic_or growl logic_or bide logic_or mirror move logic_or metronome logic_or growth logic_or roar logic_or lovely kiss logic_or confuse ray logic_or disable logic_or poison powder logic_or teleport logic_or sleep powder logic_or agility logic_or leech seed logic_or supersonic power is 0
+query sand attack unknown power answer 0
+query growl unknown power answer 0
+query copycat unknown power answer 0
+fact dragon breath logic_or rolling kick logic_or swift logic_or hidden power logic_or bite logic_or flame wheel logic_or thief logic_or ancient power logic_or feint attack power is 60
 query swift unknown power answer 60
-query hidden power unknown power answer 60
 query ancient power unknown power answer 60
-fact aurora beam logic_or bone club logic_or bubble beam logic_or bubblebeam logic_or horn attack logic_or octazooka logic_or psybeam logic_or sludge logic_or spark logic_or stomp power is 65
-query stomp unknown power answer 65
-query octazooka unknown power answer 65
+query thief unknown power answer 60
+fact octazooka logic_or sludge logic_or spark logic_or bubblebeam logic_or aurora beam logic_or psybeam logic_or bubble beam logic_or stomp logic_or bone club logic_or horn attack power is 65
+query sludge unknown power answer 65
+query spark unknown power answer 65
 query bubblebeam unknown power answer 65
-fact barrage logic_or bind logic_or double slap logic_or fury attack logic_or poison sting logic_or wrap power is 15
-query bind unknown power answer 15
-query poison sting unknown power answer 15
+fact double slap logic_or wrap logic_or bind logic_or poison sting logic_or fury attack logic_or barrage power is 15
+query wrap unknown power answer 15
 query double slap unknown power answer 15
-fact blizzard logic_or double edge logic_or fire blast logic_or future sight logic_or hydro pump logic_or mega kick logic_or megahorn logic_or outrage logic_or petal dance logic_or solar beam logic_or solarbeam logic_or thrash logic_or zap cannon power is 120
+query bind unknown power answer 15
+fact outrage logic_or double edge logic_or megahorn logic_or fire blast logic_or thrash logic_or future sight logic_or zap cannon logic_or solar beam logic_or mega kick logic_or blizzard logic_or hydro pump logic_or petal dance logic_or solarbeam power is 120
+query zap cannon unknown power answer 120
 query outrage unknown power answer 120
-query thrash unknown power answer 120
-query megahorn unknown power answer 120
+query petal dance unknown power answer 120
 fact body slam power is 85
-fact bone rush logic_or pin missile logic_or twineedle power is 25
-fact bonemerang logic_or confusion logic_or cut logic_or karate chop logic_or low kick logic_or metal claw logic_or rapid spin logic_or rock throw logic_or snore power is 50
-query karate chop unknown power answer 50
-query confusion unknown power answer 50
+fact bone rush logic_or twineedle logic_or pin missile power is 25
+fact karate chop logic_or cut logic_or snore logic_or rock throw logic_or bonemerang logic_or rapid spin logic_or confusion logic_or low kick logic_or metal claw power is 50
+query low kick unknown power answer 50
 query snore unknown power answer 50
-fact clamp logic_or fire spin logic_or peck logic_or whirlpool logic_or wing attack power is 35
-query clamp unknown power answer 35
-query peck unknown power answer 35
+query karate chop unknown power answer 50
+fact clamp logic_or fire spin logic_or wing attack logic_or whirlpool logic_or peck power is 35
 query whirlpool unknown power answer 35
+query peck unknown power answer 35
+query wing attack unknown power answer 35
 fact comet punch logic_or fury swipes power is 18
 fact constrict power is 10
-fact crabhammer logic_or cross chop logic_or dream eater logic_or dynamic punch logic_or earthquake logic_or egg bomb logic_or fissure logic_or iron tail logic_or jump kick logic_or sacred fire power is 100
-query jump kick unknown power answer 100
-query crabhammer unknown power answer 100
-query fissure unknown power answer 100
-fact crunch logic_or dig logic_or drill peck logic_or extreme speed logic_or hyper fang logic_or mega punch logic_or razor wind logic_or shadow ball logic_or slam logic_or strength logic_or submission logic_or tri attack logic_or waterfall power is 80
-query waterfall unknown power answer 80
+fact iron tail logic_or sacred fire logic_or egg bomb logic_or earthquake logic_or crabhammer logic_or fissure logic_or jump kick logic_or cross chop logic_or dynamic punch logic_or dream eater power is 100
+query dynamic punch unknown power answer 100
+query iron tail unknown power answer 100
+query sacred fire unknown power answer 100
+fact crunch logic_or drill peck logic_or submission logic_or mega punch logic_or waterfall logic_or dig logic_or tri attack logic_or razor wind logic_or shadow ball logic_or slam logic_or extreme speed logic_or hyper fang logic_or strength power is 80
 query drill peck unknown power answer 80
 query tri attack unknown power answer 80
-fact dizzy punch logic_or headbutt logic_or slash logic_or steel wing logic_or vital throw power is 70
-query headbutt unknown power answer 70
+query dig unknown power answer 80
+fact headbutt logic_or slash logic_or steel wing logic_or vital throw logic_or dizzy punch power is 70
 query slash unknown power answer 70
+query dizzy punch unknown power answer 70
 query steel wing unknown power answer 70
-fact double kick logic_or rollout logic_or smog logic_or struggle power is 30
-query rollout unknown power answer 30
-query struggle unknown power answer 30
+fact smog logic_or double kick logic_or rollout logic_or struggle power is 30
 query smog unknown power answer 30
+query struggle unknown power answer 30
+query rollout unknown power answer 30
 fact explosion power is 250
-fact fire punch logic_or giga drain logic_or ice punch logic_or rock slide logic_or thunder punch logic_or thunderpunch power is 75
-query thunderpunch unknown power answer 75
+fact rock slide logic_or giga drain logic_or ice punch logic_or fire punch logic_or thunder punch logic_or thunderpunch power is 75
+query thunder punch unknown power answer 75
 query giga drain unknown power answer 75
 query ice punch unknown power answer 75
-fact flamethrower logic_or fly logic_or ice beam logic_or psychic logic_or sludge bomb logic_or surf logic_or take down logic_or thunderbolt power is 90
-query ice beam unknown power answer 90
-query surf unknown power answer 90
+fact sludge bomb logic_or take down logic_or flamethrower logic_or ice beam logic_or thunderbolt logic_or surf logic_or fly logic_or psychic power is 90
+query psychic unknown power answer 90
+query flamethrower unknown power answer 90
 query thunderbolt unknown power answer 90
-fact harden logic_or light screen logic_or recover logic_or reflect power is -20
-query reflect unknown power answer -20
+fact recover logic_or reflect logic_or harden logic_or light screen power is -20
 query recover unknown power answer -20
 query light screen unknown power answer -20
+query reflect unknown power answer -20
 fact high jump kick logic_or skull bash power is 130
 fact hyper beam power is 150
-fact icy wind logic_or razor leaf logic_or vice grip power is 55
+fact vice grip logic_or icy wind logic_or razor leaf power is 55
 fact self destruct power is 200
 fact sky attack power is 140
 fact thunder power is 110
@@ -1148,8 +1148,8 @@ fact fire type against ghost type it was effective.
 query fire type against ghost type answer it was effective.
 fact fire type against dragon type it was not very effective.
 query fire type against dragon type answer it was not very effective.
-fact fire type against grass type logic_or ice type logic_or bug type it was super effective.
-fact fire type against fire type logic_or water type logic_or rock type logic_or dragon type it was not very effective.
+fact fire type against grass type logic_or bug type logic_or ice type it was super effective.
+fact fire type against rock type logic_or fire type logic_or dragon type logic_or water type it was not very effective.
 fact water type against normal type it was effective.
 query water type against normal type answer it was effective.
 fact water type against fire type it was super effective.
@@ -1180,7 +1180,7 @@ fact water type against ghost type it was effective.
 query water type against ghost type answer it was effective.
 fact water type against dragon type it was not very effective.
 query water type against dragon type answer it was not very effective.
-fact water type against fire type logic_or ground type logic_or rock type it was super effective.
+fact water type against ground type logic_or fire type logic_or rock type it was super effective.
 fact water type against water type logic_or grass type logic_or dragon type it was not very effective.
 fact grass type against normal type it was effective.
 query grass type against normal type answer it was effective.
@@ -1213,7 +1213,7 @@ query grass type against ghost type answer it was effective.
 fact grass type against dragon type it was not very effective.
 query grass type against dragon type answer it was not very effective.
 fact grass type against water type logic_or ground type logic_or rock type it was super effective.
-fact grass type against fire type logic_or grass type logic_or poison type logic_or flying type logic_or bug type logic_or dragon type it was not very effective.
+fact grass type against grass type logic_or bug type logic_or dragon type logic_or flying type logic_or fire type logic_or poison type it was not very effective.
 fact electric type against normal type it was effective.
 query electric type against normal type answer it was effective.
 fact electric type against fire type it was effective.
@@ -1244,8 +1244,8 @@ fact electric type against ghost type it was effective.
 query electric type against ghost type answer it was effective.
 fact electric type against dragon type it was not very effective.
 query electric type against dragon type answer it was not very effective.
-fact electric type against water type logic_or flying type it was super effective.
-fact electric type against grass type logic_or electric type logic_or dragon type it was not very effective.
+fact electric type against flying type logic_or water type it was super effective.
+fact electric type against electric type logic_or dragon type logic_or grass type it was not very effective.
 fact electric type against ground type it had no effect.
 fact ice type against normal type it was effective.
 query ice type against normal type answer it was effective.
@@ -1277,8 +1277,8 @@ fact ice type against ghost type it was effective.
 query ice type against ghost type answer it was effective.
 fact ice type against dragon type it was super effective.
 query ice type against dragon type answer it was super effective.
-fact ice type against grass type logic_or ground type logic_or flying type logic_or dragon type it was super effective.
-fact ice type against fire type logic_or water type logic_or ice type it was not very effective.
+fact ice type against ground type logic_or flying type logic_or grass type logic_or dragon type it was super effective.
+fact ice type against water type logic_or ice type logic_or fire type it was not very effective.
 fact fighting type against normal type it was super effective.
 query fighting type against normal type answer it was super effective.
 fact fighting type against fire type it was effective.
@@ -1310,7 +1310,7 @@ query fighting type against ghost type answer it had no effect.
 fact fighting type against dragon type it was effective.
 query fighting type against dragon type answer it was effective.
 fact fighting type against normal type logic_or ice type logic_or rock type it was super effective.
-fact fighting type against poison type logic_or flying type logic_or psychic type logic_or bug type it was not very effective.
+fact fighting type against flying type logic_or poison type logic_or psychic type logic_or bug type it was not very effective.
 fact fighting type against ghost type it had no effect.
 fact poison type against normal type it was effective.
 query poison type against normal type answer it was effective.
@@ -1342,8 +1342,8 @@ fact poison type against ghost type it was not very effective.
 query poison type against ghost type answer it was not very effective.
 fact poison type against dragon type it was effective.
 query poison type against dragon type answer it was effective.
-fact poison type against grass type logic_or bug type it was super effective.
-fact poison type against poison type logic_or ground type logic_or rock type logic_or ghost type it was not very effective.
+fact poison type against bug type logic_or grass type it was super effective.
+fact poison type against ground type logic_or rock type logic_or poison type logic_or ghost type it was not very effective.
 fact ground type against normal type it was effective.
 query ground type against normal type answer it was effective.
 fact ground type against fire type it was super effective.
@@ -1374,8 +1374,8 @@ fact ground type against ghost type it was effective.
 query ground type against ghost type answer it was effective.
 fact ground type against dragon type it was effective.
 query ground type against dragon type answer it was effective.
-fact ground type against fire type logic_or electric type logic_or poison type logic_or rock type it was super effective.
-fact ground type against grass type logic_or bug type it was not very effective.
+fact ground type against rock type logic_or electric type logic_or fire type logic_or poison type it was super effective.
+fact ground type against bug type logic_or grass type it was not very effective.
 fact ground type against flying type it had no effect.
 fact flying type against normal type it was effective.
 query flying type against normal type answer it was effective.
@@ -1407,8 +1407,8 @@ fact flying type against ghost type it was effective.
 query flying type against ghost type answer it was effective.
 fact flying type against dragon type it was effective.
 query flying type against dragon type answer it was effective.
-fact flying type against grass type logic_or fighting type logic_or bug type it was super effective.
-fact flying type against electric type logic_or rock type it was not very effective.
+fact flying type against fighting type logic_or bug type logic_or grass type it was super effective.
+fact flying type against rock type logic_or electric type it was not very effective.
 fact psychic type against normal type it was effective.
 query psychic type against normal type answer it was effective.
 fact psychic type against fire type it was effective.
@@ -1439,7 +1439,7 @@ fact psychic type against ghost type it was effective.
 query psychic type against ghost type answer it was effective.
 fact psychic type against dragon type it was effective.
 query psychic type against dragon type answer it was effective.
-fact psychic type against fighting type logic_or poison type it was super effective.
+fact psychic type against poison type logic_or fighting type it was super effective.
 fact psychic type against psychic type it was not very effective.
 fact bug type against normal type it was effective.
 query bug type against normal type answer it was effective.
@@ -1471,8 +1471,8 @@ fact bug type against ghost type it was not very effective.
 query bug type against ghost type answer it was not very effective.
 fact bug type against dragon type it was effective.
 query bug type against dragon type answer it was effective.
-fact bug type against grass type logic_or poison type logic_or psychic type it was super effective.
-fact bug type against fire type logic_or fighting type logic_or flying type logic_or ghost type it was not very effective.
+fact bug type against poison type logic_or psychic type logic_or grass type it was super effective.
+fact bug type against flying type logic_or fire type logic_or fighting type logic_or ghost type it was not very effective.
 fact rock type against normal type it was effective.
 query rock type against normal type answer it was effective.
 fact rock type against fire type it was super effective.
@@ -1503,8 +1503,8 @@ fact rock type against ghost type it was effective.
 query rock type against ghost type answer it was effective.
 fact rock type against dragon type it was effective.
 query rock type against dragon type answer it was effective.
-fact rock type against fire type logic_or ice type logic_or flying type logic_or bug type it was super effective.
-fact rock type against fighting type logic_or ground type it was not very effective.
+fact rock type against bug type logic_or flying type logic_or ice type logic_or fire type it was super effective.
+fact rock type against ground type logic_or fighting type it was not very effective.
 fact ghost type against normal type it had no effect.
 query ghost type against normal type answer it had no effect.
 fact ghost type against fire type it was effective.
@@ -1568,362 +1568,362 @@ query dragon type against ghost type answer it was effective.
 fact dragon type against dragon type it was super effective.
 query dragon type against dragon type answer it was super effective.
 fact dragon type against dragon type it was super effective.
-fact pikachu has moves thundershock logic_or thunderbolt logic_or quick attack
-query pikachu has moves thundershock answer true
+fact pikachu has moves quick attack logic_or thunderbolt logic_or thundershock
 query pikachu has moves quick attack answer true
+query pikachu has moves thundershock answer true
 query pikachu has moves thunderbolt answer true
-fact pikachu logic_not has moves dragon breath
-query pikachu has moves dragon breath answer false
-fact pikachu logic_not has moves strength
-query pikachu has moves strength answer false
-fact pikachu logic_not has moves fury attack
-query pikachu has moves fury attack answer false
-fact bulbasaur has moves tackle logic_or vine whip
-query bulbasaur has moves vine whip answer true
+fact pikachu logic_not has moves metronome
+query pikachu has moves metronome answer false
+fact pikachu logic_not has moves hidden power
+query pikachu has moves hidden power answer false
+fact pikachu logic_not has moves earthquake
+query pikachu has moves earthquake answer false
+fact bulbasaur has moves vine whip logic_or tackle
 query bulbasaur has moves tackle answer true
-fact bulbasaur logic_not has moves bind
-query bulbasaur has moves bind answer false
-fact bulbasaur logic_not has moves dream eater
-query bulbasaur has moves dream eater answer false
-fact bulbasaur logic_not has moves thief
-query bulbasaur has moves thief answer false
-fact charmander has moves scratch logic_or ember logic_or flamethrower
-query charmander has moves scratch answer true
+query bulbasaur has moves vine whip answer true
+fact bulbasaur logic_not has moves earthquake
+query bulbasaur has moves earthquake answer false
+fact bulbasaur logic_not has moves peck
+query bulbasaur has moves peck answer false
+fact bulbasaur logic_not has moves take down
+query bulbasaur has moves take down answer false
+fact charmander has moves ember logic_or scratch logic_or flamethrower
 query charmander has moves flamethrower answer true
 query charmander has moves ember answer true
-fact charmander logic_not has moves rest
-query charmander has moves rest answer false
-fact charmander logic_not has moves false swipe
-query charmander has moves false swipe answer false
-fact charmander logic_not has moves bonemerang
-query charmander has moves bonemerang answer false
-fact squirtle has moves tackle logic_or water gun logic_or bubble
-query squirtle has moves water gun answer true
+query charmander has moves scratch answer true
+fact charmander logic_not has moves strength
+query charmander has moves strength answer false
+fact charmander logic_not has moves flame wheel
+query charmander has moves flame wheel answer false
+fact charmander logic_not has moves thunder shock
+query charmander has moves thunder shock answer false
+fact squirtle has moves tackle logic_or bubble logic_or water gun
 query squirtle has moves bubble answer true
+query squirtle has moves water gun answer true
 query squirtle has moves tackle answer true
-fact squirtle logic_not has moves metal claw
-query squirtle has moves metal claw answer false
-fact squirtle logic_not has moves icy wind
-query squirtle has moves icy wind answer false
-fact squirtle logic_not has moves octazooka
-query squirtle has moves octazooka answer false
-fact pidgeotto has moves gust logic_or quick attack
-query pidgeotto has moves quick attack answer true
+fact squirtle logic_not has moves fury swipes
+query squirtle has moves fury swipes answer false
+fact squirtle logic_not has moves confusion
+query squirtle has moves confusion answer false
+fact squirtle logic_not has moves bubblebeam
+query squirtle has moves bubblebeam answer false
+fact pidgeotto has moves quick attack logic_or gust
 query pidgeotto has moves gust answer true
-fact pidgeotto logic_not has moves ice punch
-query pidgeotto has moves ice punch answer false
-fact pidgeotto logic_not has moves slash
-query pidgeotto has moves slash answer false
-fact pidgeotto logic_not has moves pay day
-query pidgeotto has moves pay day answer false
-fact butterfree has moves tackle logic_or confusion logic_or stun spore
+query pidgeotto has moves quick attack answer true
+fact pidgeotto logic_not has moves spike cannon
+query pidgeotto has moves spike cannon answer false
+fact pidgeotto logic_not has moves strength
+query pidgeotto has moves strength answer false
+fact pidgeotto logic_not has moves twister
+query pidgeotto has moves twister answer false
+fact butterfree has moves confusion logic_or stun spore logic_or tackle
 query butterfree has moves stun spore answer true
 query butterfree has moves confusion answer true
 query butterfree has moves tackle answer true
-fact butterfree logic_not has moves body slam
-query butterfree has moves body slam answer false
-fact butterfree logic_not has moves cross chop
-query butterfree has moves cross chop answer false
-fact butterfree logic_not has moves bite
-query butterfree has moves bite answer false
+fact butterfree logic_not has moves pursuit
+query butterfree has moves pursuit answer false
+fact butterfree logic_not has moves encore
+query butterfree has moves encore answer false
+fact butterfree logic_not has moves thrash
+query butterfree has moves thrash answer false
 fact ekans has moves poison sting
 query ekans has moves poison sting answer true
-fact ekans logic_not has moves thunderpunch
-query ekans has moves thunderpunch answer false
-fact ekans logic_not has moves growth
-query ekans has moves growth answer false
-fact ekans logic_not has moves hyper fang
-query ekans has moves hyper fang answer false
+fact ekans logic_not has moves water gun
+query ekans has moves water gun answer false
+fact ekans logic_not has moves leech life
+query ekans has moves leech life answer false
+fact ekans logic_not has moves vice grip
+query ekans has moves vice grip answer false
 fact arbok has moves bite
 query arbok has moves bite answer true
-fact arbok logic_not has moves ancient power
-query arbok has moves ancient power answer false
-fact arbok logic_not has moves acid
-query arbok has moves acid answer false
-fact arbok logic_not has moves leer
-query arbok has moves leer answer false
+fact arbok logic_not has moves rest
+query arbok has moves rest answer false
+fact arbok logic_not has moves confuse ray
+query arbok has moves confuse ray answer false
+fact arbok logic_not has moves light screen
+query arbok has moves light screen answer false
 fact koffing has moves smog
 query koffing has moves smog answer true
-fact koffing logic_not has moves comet punch
-query koffing has moves comet punch answer false
-fact koffing logic_not has moves thrash
-query koffing has moves thrash answer false
-fact koffing logic_not has moves self destruct
-query koffing has moves self destruct answer false
+fact koffing logic_not has moves growth
+query koffing has moves growth answer false
+fact koffing logic_not has moves flame wheel
+query koffing has moves flame wheel answer false
+fact koffing logic_not has moves fissure
+query koffing has moves fissure answer false
 fact weezing has moves sludge
 query weezing has moves sludge answer true
-fact weezing logic_not has moves dream eater
-query weezing has moves dream eater answer false
-fact weezing logic_not has moves night shade
-query weezing has moves night shade answer false
-fact weezing logic_not has moves roar
-query weezing has moves roar answer false
+fact weezing logic_not has moves mud slap
+query weezing has moves mud slap answer false
+fact weezing logic_not has moves bubblebeam
+query weezing has moves bubblebeam answer false
+fact weezing logic_not has moves razor wind
+query weezing has moves razor wind answer false
 fact meowth has moves scratch
 query meowth has moves scratch answer true
-fact meowth logic_not has moves leech life
-query meowth has moves leech life answer false
-fact meowth logic_not has moves harden
-query meowth has moves harden answer false
-fact meowth logic_not has moves vice grip
-query meowth has moves vice grip answer false
+fact meowth logic_not has moves submission
+query meowth has moves submission answer false
+fact meowth logic_not has moves shadow ball
+query meowth has moves shadow ball answer false
+fact meowth logic_not has moves gust
+query meowth has moves gust answer false
 fact rattata has moves tackle
 query rattata has moves tackle answer true
-fact rattata logic_not has moves bubble
-query rattata has moves bubble answer false
-fact rattata logic_not has moves octazooka
-query rattata has moves octazooka answer false
-fact rattata logic_not has moves giga drain
-query rattata has moves giga drain answer false
+fact rattata logic_not has moves comet punch
+query rattata has moves comet punch answer false
+fact rattata logic_not has moves bonemerang
+query rattata has moves bonemerang answer false
+fact rattata logic_not has moves future sight
+query rattata has moves future sight answer false
 fact pidgey has moves gust
 query pidgey has moves gust answer true
-fact pidgey logic_not has moves mud slap
-query pidgey has moves mud slap answer false
-fact pidgey logic_not has moves counter
-query pidgey has moves counter answer false
-fact pidgey logic_not has moves dream eater
-query pidgey has moves dream eater answer false
+fact pidgey logic_not has moves reflect
+query pidgey has moves reflect answer false
+fact pidgey logic_not has moves bone club
+query pidgey has moves bone club answer false
+fact pidgey logic_not has moves leech seed
+query pidgey has moves leech seed answer false
 fact spearow has moves peck
 query spearow has moves peck answer true
-fact spearow logic_not has moves cross chop
-query spearow has moves cross chop answer false
-fact spearow logic_not has moves rest
-query spearow has moves rest answer false
-fact spearow logic_not has moves double kick
-query spearow has moves double kick answer false
+fact spearow logic_not has moves copycat
+query spearow has moves copycat answer false
+fact spearow logic_not has moves tackle
+query spearow has moves tackle answer false
+fact spearow logic_not has moves twister
+query spearow has moves twister answer false
 fact caterpie has moves tackle
 query caterpie has moves tackle answer true
-fact caterpie logic_not has moves cross chop
-query caterpie has moves cross chop answer false
-fact caterpie logic_not has moves stomp
-query caterpie has moves stomp answer false
-fact caterpie logic_not has moves thunder punch
-query caterpie has moves thunder punch answer false
+fact caterpie logic_not has moves icy wind
+query caterpie has moves icy wind answer false
+fact caterpie logic_not has moves spark
+query caterpie has moves spark answer false
+fact caterpie logic_not has moves vine whip
+query caterpie has moves vine whip answer false
 fact weedle has moves poison sting
 query weedle has moves poison sting answer true
-fact weedle logic_not has moves roar
-query weedle has moves roar answer false
-fact weedle logic_not has moves rock slide
-query weedle has moves rock slide answer false
-fact weedle logic_not has moves tackle
-query weedle has moves tackle answer false
+fact weedle logic_not has moves hypnosis
+query weedle has moves hypnosis answer false
+fact weedle logic_not has moves fury swipes
+query weedle has moves fury swipes answer false
+fact weedle logic_not has moves dragon rage
+query weedle has moves dragon rage answer false
 fact zubat has moves leech life
 query zubat has moves leech life answer true
-fact zubat logic_not has moves megahorn
-query zubat has moves megahorn answer false
-fact zubat logic_not has moves growth
-query zubat has moves growth answer false
-fact zubat logic_not has moves sludge bomb
-query zubat has moves sludge bomb answer false
+fact zubat logic_not has moves feint attack
+query zubat has moves feint attack answer false
+fact zubat logic_not has moves fissure
+query zubat has moves fissure answer false
+fact zubat logic_not has moves ice punch
+query zubat has moves ice punch answer false
 fact onix has moves bind
 query onix has moves bind answer true
-fact onix logic_not has moves rest
-query onix has moves rest answer false
-fact onix logic_not has moves fury attack
-query onix has moves fury attack answer false
-fact onix logic_not has moves bubble beam
-query onix has moves bubble beam answer false
+fact onix logic_not has moves flame wheel
+query onix has moves flame wheel answer false
+fact onix logic_not has moves vice grip
+query onix has moves vice grip answer false
+fact onix logic_not has moves bone rush
+query onix has moves bone rush answer false
 fact geodude has moves tackle
 query geodude has moves tackle answer true
-fact geodude logic_not has moves mega drain
-query geodude has moves mega drain answer false
-fact geodude logic_not has moves poison sting
-query geodude has moves poison sting answer false
-fact geodude logic_not has moves thief
-query geodude has moves thief answer false
+fact geodude logic_not has moves snore
+query geodude has moves snore answer false
+fact geodude logic_not has moves mega kick
+query geodude has moves mega kick answer false
+fact geodude logic_not has moves leech seed
+query geodude has moves leech seed answer false
 fact cubone has moves bone club
 query cubone has moves bone club answer true
-fact cubone logic_not has moves encore
-query cubone has moves encore answer false
-fact cubone logic_not has moves earthquake
-query cubone has moves earthquake answer false
 fact cubone logic_not has moves flame wheel
 query cubone has moves flame wheel answer false
+fact cubone logic_not has moves fissure
+query cubone has moves fissure answer false
+fact cubone logic_not has moves glare
+query cubone has moves glare answer false
 fact marowak has moves bone club
 query marowak has moves bone club answer true
-fact marowak logic_not has moves bind
-query marowak has moves bind answer false
-fact marowak logic_not has moves flamethrower
-query marowak has moves flamethrower answer false
-fact marowak logic_not has moves wrap
-query marowak has moves wrap answer false
-fact staryu has moves tackle logic_or water gun
-query staryu has moves tackle answer true
+fact marowak logic_not has moves thunderbolt
+query marowak has moves thunderbolt answer false
+fact marowak logic_not has moves supersonic
+query marowak has moves supersonic answer false
+fact marowak logic_not has moves feint attack
+query marowak has moves feint attack answer false
+fact staryu has moves water gun logic_or tackle
 query staryu has moves water gun answer true
-fact staryu logic_not has moves vine whip
-query staryu has moves vine whip answer false
-fact staryu logic_not has moves flame wheel
-query staryu has moves flame wheel answer false
-fact staryu logic_not has moves crabhammer
-query staryu has moves crabhammer answer false
+query staryu has moves tackle answer true
+fact staryu logic_not has moves harden
+query staryu has moves harden answer false
+fact staryu logic_not has moves solarbeam
+query staryu has moves solarbeam answer false
+fact staryu logic_not has moves bubblebeam
+query staryu has moves bubblebeam answer false
 fact starmie has moves tackle logic_or water gun
-query starmie has moves water gun answer true
 query starmie has moves tackle answer true
-fact starmie logic_not has moves pound
-query starmie has moves pound answer false
-fact starmie logic_not has moves mud slap
-query starmie has moves mud slap answer false
-fact starmie logic_not has moves ancient power
-query starmie has moves ancient power answer false
+query starmie has moves water gun answer true
+fact starmie logic_not has moves stomp
+query starmie has moves stomp answer false
+fact starmie logic_not has moves submission
+query starmie has moves submission answer false
+fact starmie logic_not has moves solar beam
+query starmie has moves solar beam answer false
 fact raichu has moves thunderbolt
 query raichu has moves thunderbolt answer true
-fact raichu logic_not has moves shadow ball
-query raichu has moves shadow ball answer false
-fact raichu logic_not has moves rest
-query raichu has moves rest answer false
-fact raichu logic_not has moves solar beam
-query raichu has moves solar beam answer false
+fact raichu logic_not has moves slash
+query raichu has moves slash answer false
+fact raichu logic_not has moves roar
+query raichu has moves roar answer false
+fact raichu logic_not has moves dragon rage
+query raichu has moves dragon rage answer false
 fact kadabra has moves confusion
 query kadabra has moves confusion answer true
-fact kadabra logic_not has moves rock throw
-query kadabra has moves rock throw answer false
-fact kadabra logic_not has moves psywave
-query kadabra has moves psywave answer false
-fact kadabra logic_not has moves thunder
-query kadabra has moves thunder answer false
+fact kadabra logic_not has moves octazooka
+query kadabra has moves octazooka answer false
+fact kadabra logic_not has moves skull bash
+query kadabra has moves skull bash answer false
+fact kadabra logic_not has moves thrash
+query kadabra has moves thrash answer false
 fact haunter has moves lick
 query haunter has moves lick answer true
-fact haunter logic_not has moves toxic
-query haunter has moves toxic answer false
-fact haunter logic_not has moves feint attack
-query haunter has moves feint attack answer false
-fact haunter logic_not has moves shadow ball
-query haunter has moves shadow ball answer false
+fact haunter logic_not has moves mega kick
+query haunter has moves mega kick answer false
+fact haunter logic_not has moves drill peck
+query haunter has moves drill peck answer false
+fact haunter logic_not has moves slash
+query haunter has moves slash answer false
 fact weepinbell has moves vine whip
 query weepinbell has moves vine whip answer true
-fact weepinbell logic_not has moves wrap
-query weepinbell has moves wrap answer false
-fact weepinbell logic_not has moves hyper beam
-query weepinbell has moves hyper beam answer false
-fact weepinbell logic_not has moves glare
-query weepinbell has moves glare answer false
+fact weepinbell logic_not has moves quick attack
+query weepinbell has moves quick attack answer false
+fact weepinbell logic_not has moves spike cannon
+query weepinbell has moves spike cannon answer false
+fact weepinbell logic_not has moves sacred fire
+query weepinbell has moves sacred fire answer false
 fact venonat has moves sleep powder
 query venonat has moves sleep powder answer true
-fact venonat logic_not has moves bite
-query venonat has moves bite answer false
-fact venonat logic_not has moves stomp
-query venonat has moves stomp answer false
-fact venonat logic_not has moves sand attack
-query venonat has moves sand attack answer false
+fact venonat logic_not has moves tri attack
+query venonat has moves tri attack answer false
+fact venonat logic_not has moves comet punch
+query venonat has moves comet punch answer false
+fact venonat logic_not has moves ice beam
+query venonat has moves ice beam answer false
 fact golbat has moves bite
 query golbat has moves bite answer true
-fact golbat logic_not has moves rolling kick
-query golbat has moves rolling kick answer false
-fact golbat logic_not has moves horn attack
-query golbat has moves horn attack answer false
-fact golbat logic_not has moves toxic
-query golbat has moves toxic answer false
+fact golbat logic_not has moves crabhammer
+query golbat has moves crabhammer answer false
+fact golbat logic_not has moves fire blast
+query golbat has moves fire blast answer false
+fact golbat logic_not has moves mud slap
+query golbat has moves mud slap answer false
 fact magmar has moves ember
 query magmar has moves ember answer true
-fact magmar logic_not has moves glare
-query magmar has moves glare answer false
-fact magmar logic_not has moves light screen
-query magmar has moves light screen answer false
-fact magmar logic_not has moves blizzard
-query magmar has moves blizzard answer false
+fact magmar logic_not has moves growth
+query magmar has moves growth answer false
+fact magmar logic_not has moves razor leaf
+query magmar has moves razor leaf answer false
+fact magmar logic_not has moves double kick
+query magmar has moves double kick answer false
 fact pinsir has moves tackle
 query pinsir has moves tackle answer true
-fact pinsir logic_not has moves rollout
-query pinsir has moves rollout answer false
-fact pinsir logic_not has moves thunderbolt
-query pinsir has moves thunderbolt answer false
-fact pinsir logic_not has moves razor leaf
-query pinsir has moves razor leaf answer false
+fact pinsir logic_not has moves cut
+query pinsir has moves cut answer false
+fact pinsir logic_not has moves acid
+query pinsir has moves acid answer false
+fact pinsir logic_not has moves mega kick
+query pinsir has moves mega kick answer false
 fact metapod has moves harden
 query metapod has moves harden answer true
-fact metapod logic_not has moves petal dance
-query metapod has moves petal dance answer false
-fact metapod logic_not has moves razor leaf
-query metapod has moves razor leaf answer false
-fact metapod logic_not has moves sky attack
-query metapod has moves sky attack answer false
+fact metapod logic_not has moves wing attack
+query metapod has moves wing attack answer false
+fact metapod logic_not has moves psybeam
+query metapod has moves psybeam answer false
+fact metapod logic_not has moves tackle
+query metapod has moves tackle answer false
 fact ditto has moves tackle
 query ditto has moves tackle answer true
-fact ditto logic_not has moves rock slide
-query ditto has moves rock slide answer false
-fact ditto logic_not has moves self destruct
-query ditto has moves self destruct answer false
-fact ditto logic_not has moves mega kick
-query ditto has moves mega kick answer false
+fact ditto logic_not has moves confuse ray
+query ditto has moves confuse ray answer false
+fact ditto logic_not has moves thunder
+query ditto has moves thunder answer false
+fact ditto logic_not has moves bind
+query ditto has moves bind answer false
 fact exeggutor has moves confusion
 query exeggutor has moves confusion answer true
-fact exeggutor logic_not has moves dizzy punch
-query exeggutor has moves dizzy punch answer false
-fact exeggutor logic_not has moves gust
-query exeggutor has moves gust answer false
-fact exeggutor logic_not has moves thunder wave
-query exeggutor has moves thunder wave answer false
+fact exeggutor logic_not has moves take down
+query exeggutor has moves take down answer false
+fact exeggutor logic_not has moves flamethrower
+query exeggutor has moves flamethrower answer false
+fact exeggutor logic_not has moves megahorn
+query exeggutor has moves megahorn answer false
 fact krabby has moves bubble
 query krabby has moves bubble answer true
 fact krabby logic_not has moves ancient power
 query krabby has moves ancient power answer false
-fact krabby logic_not has moves sing
-query krabby has moves sing answer false
-fact krabby logic_not has moves cut
-query krabby has moves cut answer false
+fact krabby logic_not has moves mud slap
+query krabby has moves mud slap answer false
+fact krabby logic_not has moves recover
+query krabby has moves recover answer false
 fact kingler has moves crabhammer
 query kingler has moves crabhammer answer true
-fact kingler logic_not has moves extreme speed
-query kingler has moves extreme speed answer false
-fact kingler logic_not has moves tri attack
-query kingler has moves tri attack answer false
-fact kingler logic_not has moves comet punch
-query kingler has moves comet punch answer false
+fact kingler logic_not has moves horn attack
+query kingler has moves horn attack answer false
+fact kingler logic_not has moves future sight
+query kingler has moves future sight answer false
+fact kingler logic_not has moves transform
+query kingler has moves transform answer false
 fact seadra has moves water gun
 query seadra has moves water gun answer true
-fact seadra logic_not has moves night shade
-query seadra has moves night shade answer false
-fact seadra logic_not has moves disable
-query seadra has moves disable answer false
-fact seadra logic_not has moves dragon breath
-query seadra has moves dragon breath answer false
+fact seadra logic_not has moves poison powder
+query seadra has moves poison powder answer false
+fact seadra logic_not has moves jump kick
+query seadra has moves jump kick answer false
+fact seadra logic_not has moves glare
+query seadra has moves glare answer false
 fact nidorino has moves poison sting
 query nidorino has moves poison sting answer true
-fact nidorino logic_not has moves shadow ball
-query nidorino has moves shadow ball answer false
-fact nidorino logic_not has moves bubble beam
-query nidorino has moves bubble beam answer false
-fact nidorino logic_not has moves hyper beam
-query nidorino has moves hyper beam answer false
+fact nidorino logic_not has moves thunder punch
+query nidorino has moves thunder punch answer false
+fact nidorino logic_not has moves disable
+query nidorino has moves disable answer false
+fact nidorino logic_not has moves constrict
+query nidorino has moves constrict answer false
 fact arcanine has moves ember
 query arcanine has moves ember answer true
-fact arcanine logic_not has moves explosion
-query arcanine has moves explosion answer false
-fact arcanine logic_not has moves copycat
-query arcanine has moves copycat answer false
+fact arcanine logic_not has moves ice punch
+query arcanine has moves ice punch answer false
 fact arcanine logic_not has moves hidden power
 query arcanine has moves hidden power answer false
+fact arcanine logic_not has moves fire blast
+query arcanine has moves fire blast answer false
 fact beedrill has moves poison sting
 query beedrill has moves poison sting answer true
-fact beedrill logic_not has moves spike cannon
-query beedrill has moves spike cannon answer false
-fact beedrill logic_not has moves lovely kiss
-query beedrill has moves lovely kiss answer false
-fact beedrill logic_not has moves hyper fang
-query beedrill has moves hyper fang answer false
+fact beedrill logic_not has moves self destruct
+query beedrill has moves self destruct answer false
+fact beedrill logic_not has moves confuse ray
+query beedrill has moves confuse ray answer false
+fact beedrill logic_not has moves encore
+query beedrill has moves encore answer false
 fact scyther has moves quick attack
 query scyther has moves quick attack answer true
-fact scyther logic_not has moves karate chop
-query scyther has moves karate chop answer false
-fact scyther logic_not has moves fury attack
-query scyther has moves fury attack answer false
-fact scyther logic_not has moves poison sting
-query scyther has moves poison sting answer false
+fact scyther logic_not has moves solar beam
+query scyther has moves solar beam answer false
+fact scyther logic_not has moves pound
+query scyther has moves pound answer false
+fact scyther logic_not has moves crunch
+query scyther has moves crunch answer false
 fact muk has moves body slam
 query muk has moves body slam answer true
-fact muk logic_not has moves mud slap
-query muk has moves mud slap answer false
-fact muk logic_not has moves tri attack
-query muk has moves tri attack answer false
-fact muk logic_not has moves toxic
-query muk has moves toxic answer false
+fact muk logic_not has moves hidden power
+query muk has moves hidden power answer false
+fact muk logic_not has moves fire punch
+query muk has moves fire punch answer false
+fact muk logic_not has moves smog
+query muk has moves smog answer false
 fact bellsprout has moves vine whip
 query bellsprout has moves vine whip answer true
-fact bellsprout logic_not has moves surf
-query bellsprout has moves surf answer false
-fact bellsprout logic_not has moves comet punch
-query bellsprout has moves comet punch answer false
-fact bellsprout logic_not has moves sand attack
-query bellsprout has moves sand attack answer false
+fact bellsprout logic_not has moves lovely kiss
+query bellsprout has moves lovely kiss answer false
+fact bellsprout logic_not has moves low kick
+query bellsprout has moves low kick answer false
+fact bellsprout logic_not has moves rock smash
+query bellsprout has moves rock smash answer false
 query absorb against rattata answer it was effective.
 query absorb against charmander answer it was not very effective.
 query absorb against squirtle answer it was super effective.
@@ -6172,7 +6172,7 @@ fact lapras logic_not evolves into
 query lapras evolves into answer false
 fact ditto logic_not evolves into
 query ditto evolves into answer false
-fact eevee evolves into vaporeon logic_or jolteon logic_or flareon
+fact eevee evolves into flareon logic_or jolteon logic_or vaporeon
 query eevee evolves into answer vaporeon
 query eevee evolves into answer jolteon
 query eevee evolves into answer flareon
@@ -6462,14 +6462,14 @@ query target unknown move logic_and attacker used disable against target answer 
 query target has moves unknown move logic_and attacker used sketch against target answer attacker has moves unknown move
 query target has moves unknown move logic_and attacker used transform against target answer attacker has moves unknown move
 query attacker is fast asleep. logic_or attacker is hurt by bind. answer attacker logic_not used unknown move
-fact bulbasaur type is grass logic_and poison
-query bulbasaur type is answer grass logic_and poison
+fact bulbasaur type is poison logic_and grass
+query bulbasaur type is answer poison logic_and grass
 fact bulbasaur base hp is 45
 query bulbasaur base hp is answer 45
 fact bulbasaur obtained from gift
 query bulbasaur obtained from answer gift
-fact ivysaur type is grass logic_and poison
-query ivysaur type is answer grass logic_and poison
+fact ivysaur type is poison logic_and grass
+query ivysaur type is answer poison logic_and grass
 fact ivysaur base hp is 60
 query ivysaur base hp is answer 60
 fact ivysaur obtained from evolution
@@ -6492,8 +6492,8 @@ fact charmeleon base hp is 58
 query charmeleon base hp is answer 58
 fact charmeleon obtained from evolution
 query charmeleon obtained from answer evolution
-fact charizard type is fire logic_and flying
-query charizard type is answer fire logic_and flying
+fact charizard type is flying logic_and fire
+query charizard type is answer flying logic_and fire
 fact charizard base hp is 78
 query charizard base hp is answer 78
 fact charizard obtained from evolution
@@ -6529,8 +6529,8 @@ query metapod base hp is answer 50
 fact metapod obtained from evolution logic_or common wild
 query metapod obtained from answer evolution
 query metapod obtained from answer common wild
-fact butterfree type is bug logic_and flying
-query butterfree type is answer bug logic_and flying
+fact butterfree type is flying logic_and bug
+query butterfree type is answer flying logic_and bug
 fact butterfree base hp is 60
 query butterfree base hp is answer 60
 fact butterfree obtained from evolution
@@ -6545,17 +6545,17 @@ fact kakuna type is bug logic_and poison
 query kakuna type is answer bug logic_and poison
 fact kakuna base hp is 45
 query kakuna base hp is answer 45
-fact kakuna obtained from evolution logic_or common wild
+fact kakuna obtained from common wild logic_or evolution
 query kakuna obtained from answer evolution
 query kakuna obtained from answer common wild
-fact beedrill type is bug logic_and poison
-query beedrill type is answer bug logic_and poison
+fact beedrill type is poison logic_and bug
+query beedrill type is answer poison logic_and bug
 fact beedrill base hp is 65
 query beedrill base hp is answer 65
 fact beedrill obtained from evolution
 query beedrill obtained from answer evolution
-fact pidgey type is normal logic_and flying
-query pidgey type is answer normal logic_and flying
+fact pidgey type is flying logic_and normal
+query pidgey type is answer flying logic_and normal
 fact pidgey base hp is 40
 query pidgey base hp is answer 40
 fact pidgey obtained from common wild
@@ -6585,8 +6585,8 @@ query raticate base hp is answer 55
 fact raticate obtained from evolution logic_or common wild
 query raticate obtained from answer evolution
 query raticate obtained from answer common wild
-fact spearow type is normal logic_and flying
-query spearow type is answer normal logic_and flying
+fact spearow type is flying logic_and normal
+query spearow type is answer flying logic_and normal
 fact spearow base hp is 40
 query spearow base hp is answer 40
 fact spearow obtained from common wild
@@ -6615,7 +6615,7 @@ fact pikachu type is electric
 query pikachu type is answer electric
 fact pikachu base hp is 35
 query pikachu base hp is answer 35
-fact pikachu obtained from gift logic_or rare wild
+fact pikachu obtained from rare wild logic_or gift
 query pikachu obtained from answer gift
 query pikachu obtained from answer rare wild
 fact raichu type is electric
@@ -6649,8 +6649,8 @@ query nidorina base hp is answer 70
 fact nidorina obtained from evolution logic_or common wild
 query nidorina obtained from answer evolution
 query nidorina obtained from answer common wild
-fact nidoqueen type is poison logic_and ground
-query nidoqueen type is answer poison logic_and ground
+fact nidoqueen type is ground logic_and poison
+query nidoqueen type is answer ground logic_and poison
 fact nidoqueen base hp is 90
 query nidoqueen base hp is answer 90
 fact nidoqueen obtained from evolution
@@ -6701,7 +6701,7 @@ fact jigglypuff type is normal logic_and fairy
 query jigglypuff type is answer normal logic_and fairy
 fact jigglypuff base hp is 115
 query jigglypuff base hp is answer 115
-fact jigglypuff obtained from evolution logic_or common wild
+fact jigglypuff obtained from common wild logic_or evolution
 query jigglypuff obtained from answer evolution
 query jigglypuff obtained from answer common wild
 fact wigglytuff type is normal logic_and fairy
@@ -6743,8 +6743,8 @@ fact vileplume base hp is 75
 query vileplume base hp is answer 75
 fact vileplume obtained from evolution
 query vileplume obtained from answer evolution
-fact paras type is bug logic_and grass
-query paras type is answer bug logic_and grass
+fact paras type is grass logic_and bug
+query paras type is answer grass logic_and bug
 fact paras base hp is 35
 query paras base hp is answer 35
 fact paras obtained from common wild
@@ -6766,7 +6766,7 @@ fact venomoth type is bug logic_and poison
 query venomoth type is answer bug logic_and poison
 fact venomoth base hp is 70
 query venomoth base hp is answer 70
-fact venomoth obtained from evolution logic_or common wild
+fact venomoth obtained from common wild logic_or evolution
 query venomoth obtained from answer evolution
 query venomoth obtained from answer common wild
 fact diglett type is ground
@@ -6779,7 +6779,7 @@ fact dugtrio type is ground
 query dugtrio type is answer ground
 fact dugtrio base hp is 35
 query dugtrio base hp is answer 35
-fact dugtrio obtained from evolution logic_or rare wild
+fact dugtrio obtained from rare wild logic_or evolution
 query dugtrio obtained from answer evolution
 query dugtrio obtained from answer rare wild
 fact meowth type is normal
@@ -6798,7 +6798,7 @@ fact psyduck type is water
 query psyduck type is answer water
 fact psyduck base hp is 50
 query psyduck base hp is answer 50
-fact psyduck obtained from common wild logic_or fishing
+fact psyduck obtained from fishing logic_or common wild
 query psyduck obtained from answer common wild
 query psyduck obtained from answer fishing
 fact golduck type is water
@@ -6844,8 +6844,8 @@ fact poliwhirl base hp is 65
 query poliwhirl base hp is answer 65
 fact poliwhirl obtained from evolution
 query poliwhirl obtained from answer evolution
-fact poliwrath type is water logic_and fighting
-query poliwrath type is answer water logic_and fighting
+fact poliwrath type is fighting logic_and water
+query poliwrath type is answer fighting logic_and water
 fact poliwrath base hp is 90
 query poliwrath base hp is answer 90
 fact poliwrath obtained from evolution
@@ -6906,28 +6906,28 @@ fact victreebel base hp is 80
 query victreebel base hp is answer 80
 fact victreebel obtained from evolution
 query victreebel obtained from answer evolution
-fact tentacool type is water logic_and poison
-query tentacool type is answer water logic_and poison
+fact tentacool type is poison logic_and water
+query tentacool type is answer poison logic_and water
 fact tentacool base hp is 40
 query tentacool base hp is answer 40
-fact tentacool obtained from fishing logic_or common wild logic_or surf
+fact tentacool obtained from common wild logic_or fishing logic_or surf
 query tentacool obtained from answer fishing
 query tentacool obtained from answer common wild
 query tentacool obtained from answer surf
-fact tentacruel type is water logic_and poison
-query tentacruel type is answer water logic_and poison
+fact tentacruel type is poison logic_and water
+query tentacruel type is answer poison logic_and water
 fact tentacruel base hp is 80
 query tentacruel base hp is answer 80
 fact tentacruel obtained from evolution
 query tentacruel obtained from answer evolution
-fact geodude type is rock logic_and ground
-query geodude type is answer rock logic_and ground
+fact geodude type is ground logic_and rock
+query geodude type is answer ground logic_and rock
 fact geodude base hp is 40
 query geodude base hp is answer 40
 fact geodude obtained from common wild
 query geodude obtained from answer common wild
-fact graveler type is rock logic_and ground
-query graveler type is answer rock logic_and ground
+fact graveler type is ground logic_and rock
+query graveler type is answer ground logic_and rock
 fact graveler base hp is 55
 query graveler base hp is answer 55
 fact graveler obtained from evolution
@@ -6957,15 +6957,15 @@ query slowpoke base hp is answer 90
 fact slowpoke obtained from fishing logic_or common wild
 query slowpoke obtained from answer fishing
 query slowpoke obtained from answer common wild
-fact slowbro type is water logic_and psychic
-query slowbro type is answer water logic_and psychic
+fact slowbro type is psychic logic_and water
+query slowbro type is answer psychic logic_and water
 fact slowbro base hp is 95
 query slowbro base hp is answer 95
-fact slowbro obtained from evolution logic_or rare wild
+fact slowbro obtained from rare wild logic_or evolution
 query slowbro obtained from answer evolution
 query slowbro obtained from answer rare wild
-fact magnemite type is electric logic_and steel
-query magnemite type is answer electric logic_and steel
+fact magnemite type is steel logic_and electric
+query magnemite type is answer steel logic_and electric
 fact magnemite base hp is 25
 query magnemite base hp is answer 25
 fact magnemite obtained from rare wild
@@ -6977,8 +6977,8 @@ query magneton base hp is answer 50
 fact magneton obtained from evolution logic_or common wild
 query magneton obtained from answer evolution
 query magneton obtained from answer common wild
-fact farfetch'd type is normal logic_and flying
-query farfetch'd type is answer normal logic_and flying
+fact farfetch'd type is flying logic_and normal
+query farfetch'd type is answer flying logic_and normal
 fact farfetch'd base hp is 100
 query farfetch'd base hp is answer 100
 fact doduo type is normal logic_and flying
@@ -6991,7 +6991,7 @@ fact dodrio type is normal logic_and flying
 query dodrio type is answer normal logic_and flying
 fact dodrio base hp is 60
 query dodrio base hp is answer 60
-fact dodrio obtained from evolution logic_or common wild
+fact dodrio obtained from common wild logic_or evolution
 query dodrio obtained from answer evolution
 query dodrio obtained from answer common wild
 fact seel type is water
@@ -7005,7 +7005,7 @@ fact dewgong type is water logic_and ice
 query dewgong type is answer water logic_and ice
 fact dewgong base hp is 90
 query dewgong base hp is answer 90
-fact dewgong obtained from evolution logic_or common wild
+fact dewgong obtained from common wild logic_or evolution
 query dewgong obtained from answer evolution
 query dewgong obtained from answer common wild
 fact grimer type is poison
@@ -7024,7 +7024,7 @@ fact shellder type is water
 query shellder type is answer water
 fact shellder base hp is 30
 query shellder base hp is answer 30
-fact shellder obtained from fishing logic_or common wild
+fact shellder obtained from common wild logic_or fishing
 query shellder obtained from answer fishing
 query shellder obtained from answer common wild
 fact cloyster type is water logic_and ice
@@ -7033,8 +7033,8 @@ fact cloyster base hp is 50
 query cloyster base hp is answer 50
 fact cloyster obtained from evolution
 query cloyster obtained from answer evolution
-fact gastly type is ghost logic_and poison
-query gastly type is answer ghost logic_and poison
+fact gastly type is poison logic_and ghost
+query gastly type is answer poison logic_and ghost
 fact gastly base hp is 30
 query gastly base hp is answer 30
 fact gastly obtained from common wild
@@ -7046,8 +7046,8 @@ query haunter base hp is answer 45
 fact haunter obtained from evolution logic_or common wild
 query haunter obtained from answer evolution
 query haunter obtained from answer common wild
-fact gengar type is ghost logic_and poison
-query gengar type is answer ghost logic_and poison
+fact gengar type is poison logic_and ghost
+query gengar type is answer poison logic_and ghost
 fact gengar base hp is 60
 query gengar base hp is answer 60
 fact gengar obtained from evolution
@@ -7075,7 +7075,7 @@ fact krabby type is water
 query krabby type is answer water
 fact krabby base hp is 30
 query krabby base hp is answer 30
-fact krabby obtained from fishing logic_or common wild
+fact krabby obtained from common wild logic_or fishing
 query krabby obtained from answer fishing
 query krabby obtained from answer common wild
 fact kingler type is water
@@ -7095,11 +7095,11 @@ fact electrode type is electric
 query electrode type is answer electric
 fact electrode base hp is 60
 query electrode base hp is answer 60
-fact electrode obtained from evolution logic_or common wild
+fact electrode obtained from common wild logic_or evolution
 query electrode obtained from answer evolution
 query electrode obtained from answer common wild
-fact exeggcute type is grass logic_and psychic
-query exeggcute type is answer grass logic_and psychic
+fact exeggcute type is psychic logic_and grass
+query exeggcute type is answer psychic logic_and grass
 fact exeggcute base hp is 60
 query exeggcute base hp is answer 60
 fact exeggcute obtained from common wild
@@ -7114,7 +7114,7 @@ fact cubone type is ground
 query cubone type is answer ground
 fact cubone base hp is 50
 query cubone base hp is answer 50
-fact cubone obtained from rare wild logic_or common wild
+fact cubone obtained from common wild logic_or rare wild
 query cubone obtained from answer rare wild
 query cubone obtained from answer common wild
 fact marowak type is ground
@@ -7190,14 +7190,14 @@ fact horsea type is water
 query horsea type is answer water
 fact horsea base hp is 30
 query horsea base hp is answer 30
-fact horsea obtained from fishing logic_or common wild
+fact horsea obtained from common wild logic_or fishing
 query horsea obtained from answer fishing
 query horsea obtained from answer common wild
 fact seadra type is water
 query seadra type is answer water
 fact seadra base hp is 55
 query seadra base hp is answer 55
-fact seadra obtained from evolution logic_or rare wild
+fact seadra obtained from rare wild logic_or evolution
 query seadra obtained from answer evolution
 query seadra obtained from answer rare wild
 fact goldeen type is water
@@ -7225,8 +7225,8 @@ fact starmie base hp is 60
 query starmie base hp is answer 60
 fact starmie obtained from evolution
 query starmie obtained from answer evolution
-fact mr. mime type is psychic logic_and fairy
-query mr. mime type is answer psychic logic_and fairy
+fact mr. mime type is fairy logic_and psychic
+query mr. mime type is answer fairy logic_and psychic
 fact mr. mime base hp is 40
 query mr. mime base hp is answer 40
 fact mr. mime obtained from rare wild
@@ -7237,8 +7237,8 @@ fact scyther base hp is 70
 query scyther base hp is answer 70
 fact scyther obtained from rare wild
 query scyther obtained from answer rare wild
-fact jynx type is ice logic_and psychic
-query jynx type is answer ice logic_and psychic
+fact jynx type is psychic logic_and ice
+query jynx type is answer psychic logic_and ice
 fact jynx base hp is 65
 query jynx base hp is answer 65
 fact jynx obtained from evolution
@@ -7279,8 +7279,8 @@ fact gyarados base hp is 95
 query gyarados base hp is answer 95
 fact gyarados obtained from evolution
 query gyarados obtained from answer evolution
-fact lapras type is water logic_and ice
-query lapras type is answer water logic_and ice
+fact lapras type is ice logic_and water
+query lapras type is answer ice logic_and water
 fact lapras base hp is 130
 query lapras base hp is answer 130
 fact lapras obtained from gift
@@ -7321,26 +7321,26 @@ fact porygon base hp is 65
 query porygon base hp is answer 65
 fact porygon obtained from rare wild
 query porygon obtained from answer rare wild
-fact omanyte type is rock logic_and water
-query omanyte type is answer rock logic_and water
+fact omanyte type is water logic_and rock
+query omanyte type is answer water logic_and rock
 fact omanyte base hp is 35
 query omanyte base hp is answer 35
 fact omanyte obtained from fossil
 query omanyte obtained from answer fossil
-fact omastar type is rock logic_and water
-query omastar type is answer rock logic_and water
+fact omastar type is water logic_and rock
+query omastar type is answer water logic_and rock
 fact omastar base hp is 70
 query omastar base hp is answer 70
 fact omastar obtained from evolution
 query omastar obtained from answer evolution
-fact kabuto type is rock logic_and water
-query kabuto type is answer rock logic_and water
+fact kabuto type is water logic_and rock
+query kabuto type is answer water logic_and rock
 fact kabuto base hp is 30
 query kabuto base hp is answer 30
 fact kabuto obtained from fossil
 query kabuto obtained from answer fossil
-fact kabutops type is rock logic_and water
-query kabutops type is answer rock logic_and water
+fact kabutops type is water logic_and rock
+query kabutops type is answer water logic_and rock
 fact kabutops base hp is 60
 query kabutops base hp is answer 60
 fact kabutops obtained from evolution
@@ -7363,8 +7363,8 @@ fact articuno base hp is 90
 query articuno base hp is answer 90
 fact articuno obtained from legendary
 query articuno obtained from answer legendary
-fact zapdos type is electric logic_and flying
-query zapdos type is answer electric logic_and flying
+fact zapdos type is flying logic_and electric
+query zapdos type is answer flying logic_and electric
 fact zapdos base hp is 90
 query zapdos base hp is answer 90
 fact zapdos obtained from legendary
@@ -7379,7 +7379,7 @@ fact dratini type is dragon
 query dratini type is answer dragon
 fact dratini base hp is 41
 query dratini base hp is answer 41
-fact dratini obtained from common wild logic_or fishing
+fact dratini obtained from fishing logic_or common wild
 query dratini obtained from answer common wild
 query dratini obtained from answer fishing
 fact dragonair type is dragon
@@ -7388,8 +7388,8 @@ fact dragonair base hp is 61
 query dragonair base hp is answer 61
 fact dragonair obtained from evolution
 query dragonair obtained from answer evolution
-fact dragonite type is dragon logic_and flying
-query dragonite type is answer dragon logic_and flying
+fact dragonite type is flying logic_and dragon
+query dragonite type is answer flying logic_and dragon
 fact dragonite base hp is 91
 query dragonite base hp is answer 91
 fact dragonite obtained from evolution
@@ -7406,146 +7406,146 @@ fact mew base hp is 100
 query mew base hp is answer 100
 fact mew obtained from legendary
 query mew obtained from answer legendary
-fact absorb logic_or giga drain logic_or leech seed logic_or mega drain logic_or petal dance logic_or razor leaf logic_or sleep powder logic_or solar beam logic_or solarbeam logic_or stun spore logic_or vine whip type is grass
-query solar beam unknown type answer grass
-query solarbeam unknown type answer grass
-query leech seed unknown type answer grass
-fact acid logic_or poison powder logic_or poison sting logic_or sludge logic_or sludge bomb logic_or smog logic_or toxic type is poison
+fact petal dance logic_or stun spore logic_or leech seed logic_or razor leaf logic_or mega drain logic_or solarbeam logic_or vine whip logic_or solar beam logic_or absorb logic_or sleep powder logic_or giga drain type is grass
+query petal dance unknown type answer grass
+query razor leaf unknown type answer grass
+query absorb unknown type answer grass
+fact smog logic_or toxic logic_or acid logic_or sludge bomb logic_or sludge logic_or poison powder logic_or poison sting type is poison
+query sludge bomb unknown type answer poison
+query poison sting unknown type answer poison
 query acid unknown type answer poison
-query smog unknown type answer poison
-query sludge unknown type answer poison
-fact agility logic_or confusion logic_or dream eater logic_or future sight logic_or hypnosis logic_or light screen logic_or psybeam logic_or psychic logic_or psywave logic_or reflect logic_or rest logic_or teleport type is psychic
-query light screen unknown type answer psychic
-query reflect unknown type answer psychic
-query psychic unknown type answer psychic
-fact ancient power logic_or rock slide logic_or rock throw logic_or rollout type is rock
+fact confusion logic_or reflect logic_or psybeam logic_or psychic logic_or hypnosis logic_or dream eater logic_or rest logic_or light screen logic_or future sight logic_or psywave logic_or teleport logic_or agility type is psychic
+query hypnosis unknown type answer psychic
+query psywave unknown type answer psychic
+query confusion unknown type answer psychic
+fact rock throw logic_or ancient power logic_or rock slide logic_or rollout type is rock
 query ancient power unknown type answer rock
 query rollout unknown type answer rock
 query rock throw unknown type answer rock
-fact aurora beam logic_or blizzard logic_or ice beam logic_or ice punch logic_or icy wind logic_or powder snow type is ice
+fact icy wind logic_or blizzard logic_or ice punch logic_or aurora beam logic_or ice beam logic_or powder snow type is ice
+query ice beam unknown type answer ice
 query aurora beam unknown type answer ice
-query ice punch unknown type answer ice
 query blizzard unknown type answer ice
-fact barrage logic_or bide logic_or bind logic_or bite logic_or body slam logic_or comet punch logic_or constrict logic_or cut logic_or dizzy punch logic_or double edge logic_or double slap logic_or egg bomb logic_or explosion logic_or extreme speed logic_or false swipe logic_or fury attack logic_or fury swipes logic_or glare logic_or growl logic_or growth logic_or gust logic_or harden logic_or headbutt logic_or hidden power logic_or horn attack logic_or hyper beam logic_or hyper fang logic_or leer logic_or lovely kiss logic_or mega kick logic_or mega punch logic_or pay day logic_or pound logic_or quick attack logic_or rage logic_or rapid spin logic_or razor wind logic_or recover logic_or roar logic_or scratch logic_or self destruct logic_or sketch logic_or skull bash logic_or slam logic_or slash logic_or snore logic_or sonicboom logic_or spike cannon logic_or stomp logic_or strength logic_or struggle logic_or supersonic logic_or swift logic_or tackle logic_or take down logic_or thrash logic_or transform logic_or tri attack logic_or vice grip logic_or wrap logic_or metronome logic_or encore logic_or disable logic_or sing logic_or copycat type is normal
-query transform unknown type answer normal
-query tri attack unknown type answer normal
-query bide unknown type answer normal
-fact bone club logic_or bone rush logic_or bonemerang logic_or dig logic_or earthquake logic_or fissure logic_or mud slap logic_or sand attack type is ground
+fact explosion logic_or spike cannon logic_or swift logic_or pound logic_or body slam logic_or take down logic_or disable logic_or wrap logic_or horn attack logic_or skull bash logic_or bind logic_or thrash logic_or sonicboom logic_or lovely kiss logic_or false swipe logic_or snore logic_or hyper fang logic_or harden logic_or stomp logic_or recover logic_or mega kick logic_or sing logic_or strength logic_or encore logic_or self destruct logic_or bide logic_or quick attack logic_or barrage logic_or cut logic_or glare logic_or roar logic_or tackle logic_or growl logic_or pay day logic_or sketch logic_or vice grip logic_or fury swipes logic_or rapid spin logic_or constrict logic_or growth logic_or hyper beam logic_or scratch logic_or comet punch logic_or double edge logic_or headbutt logic_or egg bomb logic_or metronome logic_or gust logic_or slash logic_or leer logic_or struggle logic_or transform logic_or hidden power logic_or razor wind logic_or slam logic_or supersonic logic_or tri attack logic_or mega punch logic_or copycat logic_or rage logic_or double slap logic_or extreme speed logic_or dizzy punch logic_or fury attack logic_or bite type is normal
+query stomp unknown type answer normal
+query sketch unknown type answer normal
+query fury swipes unknown type answer normal
+fact bone rush logic_or sand attack logic_or mud slap logic_or fissure logic_or dig logic_or bonemerang logic_or bone club logic_or earthquake type is ground
+query bone rush unknown type answer ground
+query earthquake unknown type answer ground
 query sand attack unknown type answer ground
-query bonemerang unknown type answer ground
-query mud slap unknown type answer ground
-fact bubble logic_or bubble beam logic_or bubblebeam logic_or clamp logic_or crabhammer logic_or hydro pump logic_or octazooka logic_or surf logic_or water gun logic_or waterfall logic_or whirlpool type is water
-query waterfall unknown type answer water
-query octazooka unknown type answer water
-query whirlpool unknown type answer water
-fact confuse ray logic_or lick logic_or night shade logic_or shadow ball type is ghost
-query night shade unknown type answer ghost
+fact bubble beam logic_or crabhammer logic_or water gun logic_or surf logic_or hydro pump logic_or bubble logic_or clamp logic_or bubblebeam logic_or waterfall logic_or octazooka logic_or whirlpool type is water
+query bubble unknown type answer water
+query surf unknown type answer water
+query bubble beam unknown type answer water
+fact lick logic_or night shade logic_or confuse ray logic_or shadow ball type is ghost
 query confuse ray unknown type answer ghost
+query lick unknown type answer ghost
 query shadow ball unknown type answer ghost
-fact counter logic_or cross chop logic_or double kick logic_or dynamic punch logic_or high jump kick logic_or jump kick logic_or karate chop logic_or low kick logic_or mach punch logic_or rock smash logic_or rolling kick logic_or submission logic_or vital throw type is fighting
-query mach punch unknown type answer fighting
-query jump kick unknown type answer fighting
-query rock smash unknown type answer fighting
-fact crunch logic_or feint attack logic_or pursuit logic_or thief type is dark
-query crunch unknown type answer dark
+fact mach punch logic_or karate chop logic_or submission logic_or high jump kick logic_or counter logic_or rock smash logic_or jump kick logic_or vital throw logic_or low kick logic_or cross chop logic_or rolling kick logic_or double kick logic_or dynamic punch type is fighting
+query rolling kick unknown type answer fighting
+query dynamic punch unknown type answer fighting
+query vital throw unknown type answer fighting
+fact pursuit logic_or crunch logic_or feint attack logic_or thief type is dark
 query thief unknown type answer dark
+query feint attack unknown type answer dark
 query pursuit unknown type answer dark
-fact dragon breath logic_or dragon rage logic_or outrage logic_or twister type is dragon
-query dragon breath unknown type answer dragon
-query dragon rage unknown type answer dragon
+fact dragon breath logic_or twister logic_or dragon rage logic_or outrage type is dragon
 query twister unknown type answer dragon
-fact drill peck logic_or fly logic_or peck logic_or sky attack logic_or wing attack logic_or mirror move type is flying
-query fly unknown type answer flying
+query dragon rage unknown type answer dragon
+query outrage unknown type answer dragon
+fact drill peck logic_or wing attack logic_or mirror move logic_or sky attack logic_or fly logic_or peck type is flying
 query wing attack unknown type answer flying
-query drill peck unknown type answer flying
-fact ember logic_or fire blast logic_or fire punch logic_or fire spin logic_or flame wheel logic_or flamethrower logic_or sacred fire type is fire
-query flamethrower unknown type answer fire
-query fire spin unknown type answer fire
+query fly unknown type answer flying
+query sky attack unknown type answer flying
+fact fire punch logic_or flamethrower logic_or fire spin logic_or flame wheel logic_or fire blast logic_or sacred fire logic_or ember type is fire
+query ember unknown type answer fire
+query fire punch unknown type answer fire
 query sacred fire unknown type answer fire
-fact fury cutter logic_or leech life logic_or megahorn logic_or pin missile logic_or twineedle type is bug
+fact twineedle logic_or leech life logic_or pin missile logic_or fury cutter logic_or megahorn type is bug
 query leech life unknown type answer bug
 query twineedle unknown type answer bug
-query megahorn unknown type answer bug
-fact iron tail logic_or metal claw logic_or steel wing type is steel
-query iron tail unknown type answer steel
-query steel wing unknown type answer steel
+query pin missile unknown type answer bug
+fact metal claw logic_or steel wing logic_or iron tail type is steel
 query metal claw unknown type answer steel
-fact spark logic_or thunder logic_or thunder punch logic_or thunder shock logic_or thunder wave logic_or thunderbolt logic_or thunderpunch logic_or thundershock logic_or zap cannon type is electric
+query steel wing unknown type answer steel
+query iron tail unknown type answer steel
+fact thunderpunch logic_or zap cannon logic_or spark logic_or thunderbolt logic_or thundershock logic_or thunder wave logic_or thunder shock logic_or thunder punch logic_or thunder type is electric
+query thunder unknown type answer electric
+query thunderbolt unknown type answer electric
 query thunder punch unknown type answer electric
-query thundershock unknown type answer electric
-query thunder wave unknown type answer electric
-fact absorb logic_or bubble logic_or leech life logic_or lick logic_or mud slap logic_or rage logic_or sonicboom logic_or spike cannon power is 20
+fact rage logic_or mud slap logic_or lick logic_or leech life logic_or spike cannon logic_or absorb logic_or bubble logic_or sonicboom power is 20
+query mud slap unknown power answer 20
 query rage unknown power answer 20
 query sonicboom unknown power answer 20
-query spike cannon unknown power answer 20
-fact acid logic_or dragon rage logic_or ember logic_or false swipe logic_or fury cutter logic_or gust logic_or mach punch logic_or mega drain logic_or night shade logic_or pay day logic_or pound logic_or powder snow logic_or psywave logic_or pursuit logic_or quick attack logic_or rock smash logic_or scratch logic_or tackle logic_or thunder shock logic_or thundershock logic_or twister logic_or water gun power is 40
-query pursuit unknown power answer 40
-query thundershock unknown power answer 40
-query water gun unknown power answer 40
-fact agility logic_or bide logic_or confuse ray logic_or counter logic_or glare logic_or growl logic_or growth logic_or hypnosis logic_or leech seed logic_or leer logic_or lovely kiss logic_or poison powder logic_or rest logic_or roar logic_or sand attack logic_or sketch logic_or sleep powder logic_or stun spore logic_or supersonic logic_or teleport logic_or thunder wave logic_or toxic logic_or transform logic_or metronome logic_or encore logic_or disable logic_or mirror move logic_or sing logic_or copycat power is 0
-query rest unknown power answer 0
-query bide unknown power answer 0
-query sing unknown power answer 0
-fact ancient power logic_or bite logic_or dragon breath logic_or feint attack logic_or flame wheel logic_or hidden power logic_or rolling kick logic_or swift logic_or thief power is 60
+fact water gun logic_or acid logic_or rock smash logic_or thundershock logic_or scratch logic_or pay day logic_or gust logic_or false swipe logic_or powder snow logic_or ember logic_or night shade logic_or dragon rage logic_or psywave logic_or pound logic_or mach punch logic_or mega drain logic_or fury cutter logic_or thunder shock logic_or tackle logic_or quick attack logic_or twister logic_or pursuit power is 40
+query twister unknown power answer 40
+query scratch unknown power answer 40
+query pay day unknown power answer 40
+fact encore logic_or stun spore logic_or leer logic_or transform logic_or sand attack logic_or counter logic_or toxic logic_or thunder wave logic_or sketch logic_or copycat logic_or glare logic_or rest logic_or sing logic_or hypnosis logic_or growl logic_or bide logic_or mirror move logic_or metronome logic_or growth logic_or roar logic_or lovely kiss logic_or confuse ray logic_or disable logic_or poison powder logic_or teleport logic_or sleep powder logic_or agility logic_or leech seed logic_or supersonic power is 0
+query sand attack unknown power answer 0
+query growl unknown power answer 0
+query copycat unknown power answer 0
+fact dragon breath logic_or rolling kick logic_or swift logic_or hidden power logic_or bite logic_or flame wheel logic_or thief logic_or ancient power logic_or feint attack power is 60
 query swift unknown power answer 60
-query hidden power unknown power answer 60
 query ancient power unknown power answer 60
-fact aurora beam logic_or bone club logic_or bubble beam logic_or bubblebeam logic_or horn attack logic_or octazooka logic_or psybeam logic_or sludge logic_or spark logic_or stomp power is 65
-query stomp unknown power answer 65
-query octazooka unknown power answer 65
+query thief unknown power answer 60
+fact octazooka logic_or sludge logic_or spark logic_or bubblebeam logic_or aurora beam logic_or psybeam logic_or bubble beam logic_or stomp logic_or bone club logic_or horn attack power is 65
+query sludge unknown power answer 65
+query spark unknown power answer 65
 query bubblebeam unknown power answer 65
-fact barrage logic_or bind logic_or double slap logic_or fury attack logic_or poison sting logic_or wrap power is 15
-query bind unknown power answer 15
-query poison sting unknown power answer 15
+fact double slap logic_or wrap logic_or bind logic_or poison sting logic_or fury attack logic_or barrage power is 15
+query wrap unknown power answer 15
 query double slap unknown power answer 15
-fact blizzard logic_or double edge logic_or fire blast logic_or future sight logic_or hydro pump logic_or mega kick logic_or megahorn logic_or outrage logic_or petal dance logic_or solar beam logic_or solarbeam logic_or thrash logic_or zap cannon power is 120
+query bind unknown power answer 15
+fact outrage logic_or double edge logic_or megahorn logic_or fire blast logic_or thrash logic_or future sight logic_or zap cannon logic_or solar beam logic_or mega kick logic_or blizzard logic_or hydro pump logic_or petal dance logic_or solarbeam power is 120
+query zap cannon unknown power answer 120
 query outrage unknown power answer 120
-query thrash unknown power answer 120
-query megahorn unknown power answer 120
+query petal dance unknown power answer 120
 fact body slam power is 85
-fact bone rush logic_or pin missile logic_or twineedle power is 25
-fact bonemerang logic_or confusion logic_or cut logic_or karate chop logic_or low kick logic_or metal claw logic_or rapid spin logic_or rock throw logic_or snore power is 50
-query karate chop unknown power answer 50
-query confusion unknown power answer 50
+fact bone rush logic_or twineedle logic_or pin missile power is 25
+fact karate chop logic_or cut logic_or snore logic_or rock throw logic_or bonemerang logic_or rapid spin logic_or confusion logic_or low kick logic_or metal claw power is 50
+query low kick unknown power answer 50
 query snore unknown power answer 50
-fact clamp logic_or fire spin logic_or peck logic_or whirlpool logic_or wing attack power is 35
-query clamp unknown power answer 35
-query peck unknown power answer 35
+query karate chop unknown power answer 50
+fact clamp logic_or fire spin logic_or wing attack logic_or whirlpool logic_or peck power is 35
 query whirlpool unknown power answer 35
+query peck unknown power answer 35
+query wing attack unknown power answer 35
 fact comet punch logic_or fury swipes power is 18
 fact constrict power is 10
-fact crabhammer logic_or cross chop logic_or dream eater logic_or dynamic punch logic_or earthquake logic_or egg bomb logic_or fissure logic_or iron tail logic_or jump kick logic_or sacred fire power is 100
-query jump kick unknown power answer 100
-query crabhammer unknown power answer 100
-query fissure unknown power answer 100
-fact crunch logic_or dig logic_or drill peck logic_or extreme speed logic_or hyper fang logic_or mega punch logic_or razor wind logic_or shadow ball logic_or slam logic_or strength logic_or submission logic_or tri attack logic_or waterfall power is 80
-query waterfall unknown power answer 80
+fact iron tail logic_or sacred fire logic_or egg bomb logic_or earthquake logic_or crabhammer logic_or fissure logic_or jump kick logic_or cross chop logic_or dynamic punch logic_or dream eater power is 100
+query dynamic punch unknown power answer 100
+query iron tail unknown power answer 100
+query sacred fire unknown power answer 100
+fact crunch logic_or drill peck logic_or submission logic_or mega punch logic_or waterfall logic_or dig logic_or tri attack logic_or razor wind logic_or shadow ball logic_or slam logic_or extreme speed logic_or hyper fang logic_or strength power is 80
 query drill peck unknown power answer 80
 query tri attack unknown power answer 80
-fact dizzy punch logic_or headbutt logic_or slash logic_or steel wing logic_or vital throw power is 70
-query headbutt unknown power answer 70
+query dig unknown power answer 80
+fact headbutt logic_or slash logic_or steel wing logic_or vital throw logic_or dizzy punch power is 70
 query slash unknown power answer 70
+query dizzy punch unknown power answer 70
 query steel wing unknown power answer 70
-fact double kick logic_or rollout logic_or smog logic_or struggle power is 30
-query rollout unknown power answer 30
-query struggle unknown power answer 30
+fact smog logic_or double kick logic_or rollout logic_or struggle power is 30
 query smog unknown power answer 30
+query struggle unknown power answer 30
+query rollout unknown power answer 30
 fact explosion power is 250
-fact fire punch logic_or giga drain logic_or ice punch logic_or rock slide logic_or thunder punch logic_or thunderpunch power is 75
-query thunderpunch unknown power answer 75
+fact rock slide logic_or giga drain logic_or ice punch logic_or fire punch logic_or thunder punch logic_or thunderpunch power is 75
+query thunder punch unknown power answer 75
 query giga drain unknown power answer 75
 query ice punch unknown power answer 75
-fact flamethrower logic_or fly logic_or ice beam logic_or psychic logic_or sludge bomb logic_or surf logic_or take down logic_or thunderbolt power is 90
-query ice beam unknown power answer 90
-query surf unknown power answer 90
+fact sludge bomb logic_or take down logic_or flamethrower logic_or ice beam logic_or thunderbolt logic_or surf logic_or fly logic_or psychic power is 90
+query psychic unknown power answer 90
+query flamethrower unknown power answer 90
 query thunderbolt unknown power answer 90
-fact harden logic_or light screen logic_or recover logic_or reflect power is -20
-query reflect unknown power answer -20
+fact recover logic_or reflect logic_or harden logic_or light screen power is -20
 query recover unknown power answer -20
 query light screen unknown power answer -20
+query reflect unknown power answer -20
 fact high jump kick logic_or skull bash power is 130
 fact hyper beam power is 150
-fact icy wind logic_or razor leaf logic_or vice grip power is 55
+fact vice grip logic_or icy wind logic_or razor leaf power is 55
 fact self destruct power is 200
 fact sky attack power is 140
 fact thunder power is 110
@@ -7612,8 +7612,8 @@ fact fire type against ghost type it was effective.
 query fire type against ghost type answer it was effective.
 fact fire type against dragon type it was not very effective.
 query fire type against dragon type answer it was not very effective.
-fact fire type against grass type logic_or ice type logic_or bug type it was super effective.
-fact fire type against fire type logic_or water type logic_or rock type logic_or dragon type it was not very effective.
+fact fire type against grass type logic_or bug type logic_or ice type it was super effective.
+fact fire type against rock type logic_or fire type logic_or dragon type logic_or water type it was not very effective.
 fact water type against normal type it was effective.
 query water type against normal type answer it was effective.
 fact water type against fire type it was super effective.
@@ -7644,7 +7644,7 @@ fact water type against ghost type it was effective.
 query water type against ghost type answer it was effective.
 fact water type against dragon type it was not very effective.
 query water type against dragon type answer it was not very effective.
-fact water type against fire type logic_or ground type logic_or rock type it was super effective.
+fact water type against ground type logic_or fire type logic_or rock type it was super effective.
 fact water type against water type logic_or grass type logic_or dragon type it was not very effective.
 fact grass type against normal type it was effective.
 query grass type against normal type answer it was effective.
@@ -7677,7 +7677,7 @@ query grass type against ghost type answer it was effective.
 fact grass type against dragon type it was not very effective.
 query grass type against dragon type answer it was not very effective.
 fact grass type against water type logic_or ground type logic_or rock type it was super effective.
-fact grass type against fire type logic_or grass type logic_or poison type logic_or flying type logic_or bug type logic_or dragon type it was not very effective.
+fact grass type against grass type logic_or bug type logic_or dragon type logic_or flying type logic_or fire type logic_or poison type it was not very effective.
 fact electric type against normal type it was effective.
 query electric type against normal type answer it was effective.
 fact electric type against fire type it was effective.
@@ -7708,8 +7708,8 @@ fact electric type against ghost type it was effective.
 query electric type against ghost type answer it was effective.
 fact electric type against dragon type it was not very effective.
 query electric type against dragon type answer it was not very effective.
-fact electric type against water type logic_or flying type it was super effective.
-fact electric type against grass type logic_or electric type logic_or dragon type it was not very effective.
+fact electric type against flying type logic_or water type it was super effective.
+fact electric type against electric type logic_or dragon type logic_or grass type it was not very effective.
 fact electric type against ground type it had no effect.
 fact ice type against normal type it was effective.
 query ice type against normal type answer it was effective.
@@ -7741,8 +7741,8 @@ fact ice type against ghost type it was effective.
 query ice type against ghost type answer it was effective.
 fact ice type against dragon type it was super effective.
 query ice type against dragon type answer it was super effective.
-fact ice type against grass type logic_or ground type logic_or flying type logic_or dragon type it was super effective.
-fact ice type against fire type logic_or water type logic_or ice type it was not very effective.
+fact ice type against ground type logic_or flying type logic_or grass type logic_or dragon type it was super effective.
+fact ice type against water type logic_or ice type logic_or fire type it was not very effective.
 fact fighting type against normal type it was super effective.
 query fighting type against normal type answer it was super effective.
 fact fighting type against fire type it was effective.
@@ -7774,7 +7774,7 @@ query fighting type against ghost type answer it had no effect.
 fact fighting type against dragon type it was effective.
 query fighting type against dragon type answer it was effective.
 fact fighting type against normal type logic_or ice type logic_or rock type it was super effective.
-fact fighting type against poison type logic_or flying type logic_or psychic type logic_or bug type it was not very effective.
+fact fighting type against flying type logic_or poison type logic_or psychic type logic_or bug type it was not very effective.
 fact fighting type against ghost type it had no effect.
 fact poison type against normal type it was effective.
 query poison type against normal type answer it was effective.
@@ -7806,8 +7806,8 @@ fact poison type against ghost type it was not very effective.
 query poison type against ghost type answer it was not very effective.
 fact poison type against dragon type it was effective.
 query poison type against dragon type answer it was effective.
-fact poison type against grass type logic_or bug type it was super effective.
-fact poison type against poison type logic_or ground type logic_or rock type logic_or ghost type it was not very effective.
+fact poison type against bug type logic_or grass type it was super effective.
+fact poison type against ground type logic_or rock type logic_or poison type logic_or ghost type it was not very effective.
 fact ground type against normal type it was effective.
 query ground type against normal type answer it was effective.
 fact ground type against fire type it was super effective.
@@ -7838,8 +7838,8 @@ fact ground type against ghost type it was effective.
 query ground type against ghost type answer it was effective.
 fact ground type against dragon type it was effective.
 query ground type against dragon type answer it was effective.
-fact ground type against fire type logic_or electric type logic_or poison type logic_or rock type it was super effective.
-fact ground type against grass type logic_or bug type it was not very effective.
+fact ground type against rock type logic_or electric type logic_or fire type logic_or poison type it was super effective.
+fact ground type against bug type logic_or grass type it was not very effective.
 fact ground type against flying type it had no effect.
 fact flying type against normal type it was effective.
 query flying type against normal type answer it was effective.
@@ -7871,8 +7871,8 @@ fact flying type against ghost type it was effective.
 query flying type against ghost type answer it was effective.
 fact flying type against dragon type it was effective.
 query flying type against dragon type answer it was effective.
-fact flying type against grass type logic_or fighting type logic_or bug type it was super effective.
-fact flying type against electric type logic_or rock type it was not very effective.
+fact flying type against fighting type logic_or bug type logic_or grass type it was super effective.
+fact flying type against rock type logic_or electric type it was not very effective.
 fact psychic type against normal type it was effective.
 query psychic type against normal type answer it was effective.
 fact psychic type against fire type it was effective.
@@ -7903,7 +7903,7 @@ fact psychic type against ghost type it was effective.
 query psychic type against ghost type answer it was effective.
 fact psychic type against dragon type it was effective.
 query psychic type against dragon type answer it was effective.
-fact psychic type against fighting type logic_or poison type it was super effective.
+fact psychic type against poison type logic_or fighting type it was super effective.
 fact psychic type against psychic type it was not very effective.
 fact bug type against normal type it was effective.
 query bug type against normal type answer it was effective.
@@ -7935,8 +7935,8 @@ fact bug type against ghost type it was not very effective.
 query bug type against ghost type answer it was not very effective.
 fact bug type against dragon type it was effective.
 query bug type against dragon type answer it was effective.
-fact bug type against grass type logic_or poison type logic_or psychic type it was super effective.
-fact bug type against fire type logic_or fighting type logic_or flying type logic_or ghost type it was not very effective.
+fact bug type against poison type logic_or psychic type logic_or grass type it was super effective.
+fact bug type against flying type logic_or fire type logic_or fighting type logic_or ghost type it was not very effective.
 fact rock type against normal type it was effective.
 query rock type against normal type answer it was effective.
 fact rock type against fire type it was super effective.
@@ -7967,8 +7967,8 @@ fact rock type against ghost type it was effective.
 query rock type against ghost type answer it was effective.
 fact rock type against dragon type it was effective.
 query rock type against dragon type answer it was effective.
-fact rock type against fire type logic_or ice type logic_or flying type logic_or bug type it was super effective.
-fact rock type against fighting type logic_or ground type it was not very effective.
+fact rock type against bug type logic_or flying type logic_or ice type logic_or fire type it was super effective.
+fact rock type against ground type logic_or fighting type it was not very effective.
 fact ghost type against normal type it had no effect.
 query ghost type against normal type answer it had no effect.
 fact ghost type against fire type it was effective.
@@ -8032,362 +8032,362 @@ query dragon type against ghost type answer it was effective.
 fact dragon type against dragon type it was super effective.
 query dragon type against dragon type answer it was super effective.
 fact dragon type against dragon type it was super effective.
-fact pikachu has moves thundershock logic_or thunderbolt logic_or quick attack
-query pikachu has moves thundershock answer true
+fact pikachu has moves quick attack logic_or thunderbolt logic_or thundershock
 query pikachu has moves quick attack answer true
+query pikachu has moves thundershock answer true
 query pikachu has moves thunderbolt answer true
-fact pikachu logic_not has moves dragon breath
-query pikachu has moves dragon breath answer false
-fact pikachu logic_not has moves strength
-query pikachu has moves strength answer false
-fact pikachu logic_not has moves fury attack
-query pikachu has moves fury attack answer false
-fact bulbasaur has moves tackle logic_or vine whip
-query bulbasaur has moves vine whip answer true
+fact pikachu logic_not has moves metronome
+query pikachu has moves metronome answer false
+fact pikachu logic_not has moves hidden power
+query pikachu has moves hidden power answer false
+fact pikachu logic_not has moves earthquake
+query pikachu has moves earthquake answer false
+fact bulbasaur has moves vine whip logic_or tackle
 query bulbasaur has moves tackle answer true
-fact bulbasaur logic_not has moves bind
-query bulbasaur has moves bind answer false
-fact bulbasaur logic_not has moves dream eater
-query bulbasaur has moves dream eater answer false
-fact bulbasaur logic_not has moves thief
-query bulbasaur has moves thief answer false
-fact charmander has moves scratch logic_or ember logic_or flamethrower
-query charmander has moves scratch answer true
+query bulbasaur has moves vine whip answer true
+fact bulbasaur logic_not has moves earthquake
+query bulbasaur has moves earthquake answer false
+fact bulbasaur logic_not has moves peck
+query bulbasaur has moves peck answer false
+fact bulbasaur logic_not has moves take down
+query bulbasaur has moves take down answer false
+fact charmander has moves ember logic_or scratch logic_or flamethrower
 query charmander has moves flamethrower answer true
 query charmander has moves ember answer true
-fact charmander logic_not has moves rest
-query charmander has moves rest answer false
-fact charmander logic_not has moves false swipe
-query charmander has moves false swipe answer false
-fact charmander logic_not has moves bonemerang
-query charmander has moves bonemerang answer false
-fact squirtle has moves tackle logic_or water gun logic_or bubble
-query squirtle has moves water gun answer true
+query charmander has moves scratch answer true
+fact charmander logic_not has moves strength
+query charmander has moves strength answer false
+fact charmander logic_not has moves flame wheel
+query charmander has moves flame wheel answer false
+fact charmander logic_not has moves thunder shock
+query charmander has moves thunder shock answer false
+fact squirtle has moves tackle logic_or bubble logic_or water gun
 query squirtle has moves bubble answer true
+query squirtle has moves water gun answer true
 query squirtle has moves tackle answer true
-fact squirtle logic_not has moves metal claw
-query squirtle has moves metal claw answer false
-fact squirtle logic_not has moves icy wind
-query squirtle has moves icy wind answer false
-fact squirtle logic_not has moves octazooka
-query squirtle has moves octazooka answer false
-fact pidgeotto has moves gust logic_or quick attack
-query pidgeotto has moves quick attack answer true
+fact squirtle logic_not has moves fury swipes
+query squirtle has moves fury swipes answer false
+fact squirtle logic_not has moves confusion
+query squirtle has moves confusion answer false
+fact squirtle logic_not has moves bubblebeam
+query squirtle has moves bubblebeam answer false
+fact pidgeotto has moves quick attack logic_or gust
 query pidgeotto has moves gust answer true
-fact pidgeotto logic_not has moves ice punch
-query pidgeotto has moves ice punch answer false
-fact pidgeotto logic_not has moves slash
-query pidgeotto has moves slash answer false
-fact pidgeotto logic_not has moves pay day
-query pidgeotto has moves pay day answer false
-fact butterfree has moves tackle logic_or confusion logic_or stun spore
+query pidgeotto has moves quick attack answer true
+fact pidgeotto logic_not has moves spike cannon
+query pidgeotto has moves spike cannon answer false
+fact pidgeotto logic_not has moves strength
+query pidgeotto has moves strength answer false
+fact pidgeotto logic_not has moves twister
+query pidgeotto has moves twister answer false
+fact butterfree has moves confusion logic_or stun spore logic_or tackle
 query butterfree has moves stun spore answer true
 query butterfree has moves confusion answer true
 query butterfree has moves tackle answer true
-fact butterfree logic_not has moves body slam
-query butterfree has moves body slam answer false
-fact butterfree logic_not has moves cross chop
-query butterfree has moves cross chop answer false
-fact butterfree logic_not has moves bite
-query butterfree has moves bite answer false
+fact butterfree logic_not has moves pursuit
+query butterfree has moves pursuit answer false
+fact butterfree logic_not has moves encore
+query butterfree has moves encore answer false
+fact butterfree logic_not has moves thrash
+query butterfree has moves thrash answer false
 fact ekans has moves poison sting
 query ekans has moves poison sting answer true
-fact ekans logic_not has moves thunderpunch
-query ekans has moves thunderpunch answer false
-fact ekans logic_not has moves growth
-query ekans has moves growth answer false
-fact ekans logic_not has moves hyper fang
-query ekans has moves hyper fang answer false
+fact ekans logic_not has moves water gun
+query ekans has moves water gun answer false
+fact ekans logic_not has moves leech life
+query ekans has moves leech life answer false
+fact ekans logic_not has moves vice grip
+query ekans has moves vice grip answer false
 fact arbok has moves bite
 query arbok has moves bite answer true
-fact arbok logic_not has moves ancient power
-query arbok has moves ancient power answer false
-fact arbok logic_not has moves acid
-query arbok has moves acid answer false
-fact arbok logic_not has moves leer
-query arbok has moves leer answer false
+fact arbok logic_not has moves rest
+query arbok has moves rest answer false
+fact arbok logic_not has moves confuse ray
+query arbok has moves confuse ray answer false
+fact arbok logic_not has moves light screen
+query arbok has moves light screen answer false
 fact koffing has moves smog
 query koffing has moves smog answer true
-fact koffing logic_not has moves comet punch
-query koffing has moves comet punch answer false
-fact koffing logic_not has moves thrash
-query koffing has moves thrash answer false
-fact koffing logic_not has moves self destruct
-query koffing has moves self destruct answer false
+fact koffing logic_not has moves growth
+query koffing has moves growth answer false
+fact koffing logic_not has moves flame wheel
+query koffing has moves flame wheel answer false
+fact koffing logic_not has moves fissure
+query koffing has moves fissure answer false
 fact weezing has moves sludge
 query weezing has moves sludge answer true
-fact weezing logic_not has moves dream eater
-query weezing has moves dream eater answer false
-fact weezing logic_not has moves night shade
-query weezing has moves night shade answer false
-fact weezing logic_not has moves roar
-query weezing has moves roar answer false
+fact weezing logic_not has moves mud slap
+query weezing has moves mud slap answer false
+fact weezing logic_not has moves bubblebeam
+query weezing has moves bubblebeam answer false
+fact weezing logic_not has moves razor wind
+query weezing has moves razor wind answer false
 fact meowth has moves scratch
 query meowth has moves scratch answer true
-fact meowth logic_not has moves leech life
-query meowth has moves leech life answer false
-fact meowth logic_not has moves harden
-query meowth has moves harden answer false
-fact meowth logic_not has moves vice grip
-query meowth has moves vice grip answer false
+fact meowth logic_not has moves submission
+query meowth has moves submission answer false
+fact meowth logic_not has moves shadow ball
+query meowth has moves shadow ball answer false
+fact meowth logic_not has moves gust
+query meowth has moves gust answer false
 fact rattata has moves tackle
 query rattata has moves tackle answer true
-fact rattata logic_not has moves bubble
-query rattata has moves bubble answer false
-fact rattata logic_not has moves octazooka
-query rattata has moves octazooka answer false
-fact rattata logic_not has moves giga drain
-query rattata has moves giga drain answer false
+fact rattata logic_not has moves comet punch
+query rattata has moves comet punch answer false
+fact rattata logic_not has moves bonemerang
+query rattata has moves bonemerang answer false
+fact rattata logic_not has moves future sight
+query rattata has moves future sight answer false
 fact pidgey has moves gust
 query pidgey has moves gust answer true
-fact pidgey logic_not has moves mud slap
-query pidgey has moves mud slap answer false
-fact pidgey logic_not has moves counter
-query pidgey has moves counter answer false
-fact pidgey logic_not has moves dream eater
-query pidgey has moves dream eater answer false
+fact pidgey logic_not has moves reflect
+query pidgey has moves reflect answer false
+fact pidgey logic_not has moves bone club
+query pidgey has moves bone club answer false
+fact pidgey logic_not has moves leech seed
+query pidgey has moves leech seed answer false
 fact spearow has moves peck
 query spearow has moves peck answer true
-fact spearow logic_not has moves cross chop
-query spearow has moves cross chop answer false
-fact spearow logic_not has moves rest
-query spearow has moves rest answer false
-fact spearow logic_not has moves double kick
-query spearow has moves double kick answer false
+fact spearow logic_not has moves copycat
+query spearow has moves copycat answer false
+fact spearow logic_not has moves tackle
+query spearow has moves tackle answer false
+fact spearow logic_not has moves twister
+query spearow has moves twister answer false
 fact caterpie has moves tackle
 query caterpie has moves tackle answer true
-fact caterpie logic_not has moves cross chop
-query caterpie has moves cross chop answer false
-fact caterpie logic_not has moves stomp
-query caterpie has moves stomp answer false
-fact caterpie logic_not has moves thunder punch
-query caterpie has moves thunder punch answer false
+fact caterpie logic_not has moves icy wind
+query caterpie has moves icy wind answer false
+fact caterpie logic_not has moves spark
+query caterpie has moves spark answer false
+fact caterpie logic_not has moves vine whip
+query caterpie has moves vine whip answer false
 fact weedle has moves poison sting
 query weedle has moves poison sting answer true
-fact weedle logic_not has moves roar
-query weedle has moves roar answer false
-fact weedle logic_not has moves rock slide
-query weedle has moves rock slide answer false
-fact weedle logic_not has moves tackle
-query weedle has moves tackle answer false
+fact weedle logic_not has moves hypnosis
+query weedle has moves hypnosis answer false
+fact weedle logic_not has moves fury swipes
+query weedle has moves fury swipes answer false
+fact weedle logic_not has moves dragon rage
+query weedle has moves dragon rage answer false
 fact zubat has moves leech life
 query zubat has moves leech life answer true
-fact zubat logic_not has moves megahorn
-query zubat has moves megahorn answer false
-fact zubat logic_not has moves growth
-query zubat has moves growth answer false
-fact zubat logic_not has moves sludge bomb
-query zubat has moves sludge bomb answer false
+fact zubat logic_not has moves feint attack
+query zubat has moves feint attack answer false
+fact zubat logic_not has moves fissure
+query zubat has moves fissure answer false
+fact zubat logic_not has moves ice punch
+query zubat has moves ice punch answer false
 fact onix has moves bind
 query onix has moves bind answer true
-fact onix logic_not has moves rest
-query onix has moves rest answer false
-fact onix logic_not has moves fury attack
-query onix has moves fury attack answer false
-fact onix logic_not has moves bubble beam
-query onix has moves bubble beam answer false
+fact onix logic_not has moves flame wheel
+query onix has moves flame wheel answer false
+fact onix logic_not has moves vice grip
+query onix has moves vice grip answer false
+fact onix logic_not has moves bone rush
+query onix has moves bone rush answer false
 fact geodude has moves tackle
 query geodude has moves tackle answer true
-fact geodude logic_not has moves mega drain
-query geodude has moves mega drain answer false
-fact geodude logic_not has moves poison sting
-query geodude has moves poison sting answer false
-fact geodude logic_not has moves thief
-query geodude has moves thief answer false
+fact geodude logic_not has moves snore
+query geodude has moves snore answer false
+fact geodude logic_not has moves mega kick
+query geodude has moves mega kick answer false
+fact geodude logic_not has moves leech seed
+query geodude has moves leech seed answer false
 fact cubone has moves bone club
 query cubone has moves bone club answer true
-fact cubone logic_not has moves encore
-query cubone has moves encore answer false
-fact cubone logic_not has moves earthquake
-query cubone has moves earthquake answer false
 fact cubone logic_not has moves flame wheel
 query cubone has moves flame wheel answer false
+fact cubone logic_not has moves fissure
+query cubone has moves fissure answer false
+fact cubone logic_not has moves glare
+query cubone has moves glare answer false
 fact marowak has moves bone club
 query marowak has moves bone club answer true
-fact marowak logic_not has moves bind
-query marowak has moves bind answer false
-fact marowak logic_not has moves flamethrower
-query marowak has moves flamethrower answer false
-fact marowak logic_not has moves wrap
-query marowak has moves wrap answer false
-fact staryu has moves tackle logic_or water gun
-query staryu has moves tackle answer true
+fact marowak logic_not has moves thunderbolt
+query marowak has moves thunderbolt answer false
+fact marowak logic_not has moves supersonic
+query marowak has moves supersonic answer false
+fact marowak logic_not has moves feint attack
+query marowak has moves feint attack answer false
+fact staryu has moves water gun logic_or tackle
 query staryu has moves water gun answer true
-fact staryu logic_not has moves vine whip
-query staryu has moves vine whip answer false
-fact staryu logic_not has moves flame wheel
-query staryu has moves flame wheel answer false
-fact staryu logic_not has moves crabhammer
-query staryu has moves crabhammer answer false
+query staryu has moves tackle answer true
+fact staryu logic_not has moves harden
+query staryu has moves harden answer false
+fact staryu logic_not has moves solarbeam
+query staryu has moves solarbeam answer false
+fact staryu logic_not has moves bubblebeam
+query staryu has moves bubblebeam answer false
 fact starmie has moves tackle logic_or water gun
-query starmie has moves water gun answer true
 query starmie has moves tackle answer true
-fact starmie logic_not has moves pound
-query starmie has moves pound answer false
-fact starmie logic_not has moves mud slap
-query starmie has moves mud slap answer false
-fact starmie logic_not has moves ancient power
-query starmie has moves ancient power answer false
+query starmie has moves water gun answer true
+fact starmie logic_not has moves stomp
+query starmie has moves stomp answer false
+fact starmie logic_not has moves submission
+query starmie has moves submission answer false
+fact starmie logic_not has moves solar beam
+query starmie has moves solar beam answer false
 fact raichu has moves thunderbolt
 query raichu has moves thunderbolt answer true
-fact raichu logic_not has moves shadow ball
-query raichu has moves shadow ball answer false
-fact raichu logic_not has moves rest
-query raichu has moves rest answer false
-fact raichu logic_not has moves solar beam
-query raichu has moves solar beam answer false
+fact raichu logic_not has moves slash
+query raichu has moves slash answer false
+fact raichu logic_not has moves roar
+query raichu has moves roar answer false
+fact raichu logic_not has moves dragon rage
+query raichu has moves dragon rage answer false
 fact kadabra has moves confusion
 query kadabra has moves confusion answer true
-fact kadabra logic_not has moves rock throw
-query kadabra has moves rock throw answer false
-fact kadabra logic_not has moves psywave
-query kadabra has moves psywave answer false
-fact kadabra logic_not has moves thunder
-query kadabra has moves thunder answer false
+fact kadabra logic_not has moves octazooka
+query kadabra has moves octazooka answer false
+fact kadabra logic_not has moves skull bash
+query kadabra has moves skull bash answer false
+fact kadabra logic_not has moves thrash
+query kadabra has moves thrash answer false
 fact haunter has moves lick
 query haunter has moves lick answer true
-fact haunter logic_not has moves toxic
-query haunter has moves toxic answer false
-fact haunter logic_not has moves feint attack
-query haunter has moves feint attack answer false
-fact haunter logic_not has moves shadow ball
-query haunter has moves shadow ball answer false
+fact haunter logic_not has moves mega kick
+query haunter has moves mega kick answer false
+fact haunter logic_not has moves drill peck
+query haunter has moves drill peck answer false
+fact haunter logic_not has moves slash
+query haunter has moves slash answer false
 fact weepinbell has moves vine whip
 query weepinbell has moves vine whip answer true
-fact weepinbell logic_not has moves wrap
-query weepinbell has moves wrap answer false
-fact weepinbell logic_not has moves hyper beam
-query weepinbell has moves hyper beam answer false
-fact weepinbell logic_not has moves glare
-query weepinbell has moves glare answer false
+fact weepinbell logic_not has moves quick attack
+query weepinbell has moves quick attack answer false
+fact weepinbell logic_not has moves spike cannon
+query weepinbell has moves spike cannon answer false
+fact weepinbell logic_not has moves sacred fire
+query weepinbell has moves sacred fire answer false
 fact venonat has moves sleep powder
 query venonat has moves sleep powder answer true
-fact venonat logic_not has moves bite
-query venonat has moves bite answer false
-fact venonat logic_not has moves stomp
-query venonat has moves stomp answer false
-fact venonat logic_not has moves sand attack
-query venonat has moves sand attack answer false
+fact venonat logic_not has moves tri attack
+query venonat has moves tri attack answer false
+fact venonat logic_not has moves comet punch
+query venonat has moves comet punch answer false
+fact venonat logic_not has moves ice beam
+query venonat has moves ice beam answer false
 fact golbat has moves bite
 query golbat has moves bite answer true
-fact golbat logic_not has moves rolling kick
-query golbat has moves rolling kick answer false
-fact golbat logic_not has moves horn attack
-query golbat has moves horn attack answer false
-fact golbat logic_not has moves toxic
-query golbat has moves toxic answer false
+fact golbat logic_not has moves crabhammer
+query golbat has moves crabhammer answer false
+fact golbat logic_not has moves fire blast
+query golbat has moves fire blast answer false
+fact golbat logic_not has moves mud slap
+query golbat has moves mud slap answer false
 fact magmar has moves ember
 query magmar has moves ember answer true
-fact magmar logic_not has moves glare
-query magmar has moves glare answer false
-fact magmar logic_not has moves light screen
-query magmar has moves light screen answer false
-fact magmar logic_not has moves blizzard
-query magmar has moves blizzard answer false
+fact magmar logic_not has moves growth
+query magmar has moves growth answer false
+fact magmar logic_not has moves razor leaf
+query magmar has moves razor leaf answer false
+fact magmar logic_not has moves double kick
+query magmar has moves double kick answer false
 fact pinsir has moves tackle
 query pinsir has moves tackle answer true
-fact pinsir logic_not has moves rollout
-query pinsir has moves rollout answer false
-fact pinsir logic_not has moves thunderbolt
-query pinsir has moves thunderbolt answer false
-fact pinsir logic_not has moves razor leaf
-query pinsir has moves razor leaf answer false
+fact pinsir logic_not has moves cut
+query pinsir has moves cut answer false
+fact pinsir logic_not has moves acid
+query pinsir has moves acid answer false
+fact pinsir logic_not has moves mega kick
+query pinsir has moves mega kick answer false
 fact metapod has moves harden
 query metapod has moves harden answer true
-fact metapod logic_not has moves petal dance
-query metapod has moves petal dance answer false
-fact metapod logic_not has moves razor leaf
-query metapod has moves razor leaf answer false
-fact metapod logic_not has moves sky attack
-query metapod has moves sky attack answer false
+fact metapod logic_not has moves wing attack
+query metapod has moves wing attack answer false
+fact metapod logic_not has moves psybeam
+query metapod has moves psybeam answer false
+fact metapod logic_not has moves tackle
+query metapod has moves tackle answer false
 fact ditto has moves tackle
 query ditto has moves tackle answer true
-fact ditto logic_not has moves rock slide
-query ditto has moves rock slide answer false
-fact ditto logic_not has moves self destruct
-query ditto has moves self destruct answer false
-fact ditto logic_not has moves mega kick
-query ditto has moves mega kick answer false
+fact ditto logic_not has moves confuse ray
+query ditto has moves confuse ray answer false
+fact ditto logic_not has moves thunder
+query ditto has moves thunder answer false
+fact ditto logic_not has moves bind
+query ditto has moves bind answer false
 fact exeggutor has moves confusion
 query exeggutor has moves confusion answer true
-fact exeggutor logic_not has moves dizzy punch
-query exeggutor has moves dizzy punch answer false
-fact exeggutor logic_not has moves gust
-query exeggutor has moves gust answer false
-fact exeggutor logic_not has moves thunder wave
-query exeggutor has moves thunder wave answer false
+fact exeggutor logic_not has moves take down
+query exeggutor has moves take down answer false
+fact exeggutor logic_not has moves flamethrower
+query exeggutor has moves flamethrower answer false
+fact exeggutor logic_not has moves megahorn
+query exeggutor has moves megahorn answer false
 fact krabby has moves bubble
 query krabby has moves bubble answer true
 fact krabby logic_not has moves ancient power
 query krabby has moves ancient power answer false
-fact krabby logic_not has moves sing
-query krabby has moves sing answer false
-fact krabby logic_not has moves cut
-query krabby has moves cut answer false
+fact krabby logic_not has moves mud slap
+query krabby has moves mud slap answer false
+fact krabby logic_not has moves recover
+query krabby has moves recover answer false
 fact kingler has moves crabhammer
 query kingler has moves crabhammer answer true
-fact kingler logic_not has moves extreme speed
-query kingler has moves extreme speed answer false
-fact kingler logic_not has moves tri attack
-query kingler has moves tri attack answer false
-fact kingler logic_not has moves comet punch
-query kingler has moves comet punch answer false
+fact kingler logic_not has moves horn attack
+query kingler has moves horn attack answer false
+fact kingler logic_not has moves future sight
+query kingler has moves future sight answer false
+fact kingler logic_not has moves transform
+query kingler has moves transform answer false
 fact seadra has moves water gun
 query seadra has moves water gun answer true
-fact seadra logic_not has moves night shade
-query seadra has moves night shade answer false
-fact seadra logic_not has moves disable
-query seadra has moves disable answer false
-fact seadra logic_not has moves dragon breath
-query seadra has moves dragon breath answer false
+fact seadra logic_not has moves poison powder
+query seadra has moves poison powder answer false
+fact seadra logic_not has moves jump kick
+query seadra has moves jump kick answer false
+fact seadra logic_not has moves glare
+query seadra has moves glare answer false
 fact nidorino has moves poison sting
 query nidorino has moves poison sting answer true
-fact nidorino logic_not has moves shadow ball
-query nidorino has moves shadow ball answer false
-fact nidorino logic_not has moves bubble beam
-query nidorino has moves bubble beam answer false
-fact nidorino logic_not has moves hyper beam
-query nidorino has moves hyper beam answer false
+fact nidorino logic_not has moves thunder punch
+query nidorino has moves thunder punch answer false
+fact nidorino logic_not has moves disable
+query nidorino has moves disable answer false
+fact nidorino logic_not has moves constrict
+query nidorino has moves constrict answer false
 fact arcanine has moves ember
 query arcanine has moves ember answer true
-fact arcanine logic_not has moves explosion
-query arcanine has moves explosion answer false
-fact arcanine logic_not has moves copycat
-query arcanine has moves copycat answer false
+fact arcanine logic_not has moves ice punch
+query arcanine has moves ice punch answer false
 fact arcanine logic_not has moves hidden power
 query arcanine has moves hidden power answer false
+fact arcanine logic_not has moves fire blast
+query arcanine has moves fire blast answer false
 fact beedrill has moves poison sting
 query beedrill has moves poison sting answer true
-fact beedrill logic_not has moves spike cannon
-query beedrill has moves spike cannon answer false
-fact beedrill logic_not has moves lovely kiss
-query beedrill has moves lovely kiss answer false
-fact beedrill logic_not has moves hyper fang
-query beedrill has moves hyper fang answer false
+fact beedrill logic_not has moves self destruct
+query beedrill has moves self destruct answer false
+fact beedrill logic_not has moves confuse ray
+query beedrill has moves confuse ray answer false
+fact beedrill logic_not has moves encore
+query beedrill has moves encore answer false
 fact scyther has moves quick attack
 query scyther has moves quick attack answer true
-fact scyther logic_not has moves karate chop
-query scyther has moves karate chop answer false
-fact scyther logic_not has moves fury attack
-query scyther has moves fury attack answer false
-fact scyther logic_not has moves poison sting
-query scyther has moves poison sting answer false
+fact scyther logic_not has moves solar beam
+query scyther has moves solar beam answer false
+fact scyther logic_not has moves pound
+query scyther has moves pound answer false
+fact scyther logic_not has moves crunch
+query scyther has moves crunch answer false
 fact muk has moves body slam
 query muk has moves body slam answer true
-fact muk logic_not has moves mud slap
-query muk has moves mud slap answer false
-fact muk logic_not has moves tri attack
-query muk has moves tri attack answer false
-fact muk logic_not has moves toxic
-query muk has moves toxic answer false
+fact muk logic_not has moves hidden power
+query muk has moves hidden power answer false
+fact muk logic_not has moves fire punch
+query muk has moves fire punch answer false
+fact muk logic_not has moves smog
+query muk has moves smog answer false
 fact bellsprout has moves vine whip
 query bellsprout has moves vine whip answer true
-fact bellsprout logic_not has moves surf
-query bellsprout has moves surf answer false
-fact bellsprout logic_not has moves comet punch
-query bellsprout has moves comet punch answer false
-fact bellsprout logic_not has moves sand attack
-query bellsprout has moves sand attack answer false
+fact bellsprout logic_not has moves lovely kiss
+query bellsprout has moves lovely kiss answer false
+fact bellsprout logic_not has moves low kick
+query bellsprout has moves low kick answer false
+fact bellsprout logic_not has moves rock smash
+query bellsprout has moves rock smash answer false
 query absorb against rattata answer it was effective.
 query absorb against charmander answer it was not very effective.
 query absorb against squirtle answer it was super effective.
@@ -12636,7 +12636,7 @@ fact lapras logic_not evolves into
 query lapras evolves into answer false
 fact ditto logic_not evolves into
 query ditto evolves into answer false
-fact eevee evolves into vaporeon logic_or jolteon logic_or flareon
+fact eevee evolves into flareon logic_or jolteon logic_or vaporeon
 query eevee evolves into answer vaporeon
 query eevee evolves into answer jolteon
 query eevee evolves into answer flareon

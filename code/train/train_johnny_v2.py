@@ -14,4 +14,4 @@ if __name__ == "__main__":
     ]
     
     # Train for 3 epochs to finetune logic without catastrophic forgetting
-    train_persona("Johnny_v2.2", corpus_files, num_epochs=3, base_model_path=base_model)
+    train_persona("Johnny_v2.2", corpus_files, num_epochs=5, base_model_path=base_model)

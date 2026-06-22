@@ -1,0 +1,310 @@
+public enum EggGroup
+{
+    None,
+    Monster,
+    Water1,
+    Bug,
+    Flying,
+    Field,
+    Fairy,
+    Grass,
+    HumanLike,
+    Water3,
+    Mineral,
+    Amorphous,
+    Water2,
+    Ditto,
+    Dragon,
+    Undiscovered,
+}
+
+#		Pokémon	Egg Group 1	Egg Group 2	Cycles	Steps Gen II	Gen III	Gen IV	Gen V-VI	Gen VII	Gen VIII-IX
+0001	Bulbasaur	Bulbasaur	Monster	Grass	20	5120	5376	5355	5140	5120	2560
+0002	Ivysaur	Ivysaur	Monster	Grass	20	5120	5376	5355	5140	5120	2560
+0003	Venusaur	Venusaur	Monster	Grass	20	5120	5376	5355	5140	5120	2560
+0004	Charmander	Charmander	Monster	Dragon	20	5120	5376	5355	5140	5120	2560
+0005	Charmeleon	Charmeleon	Monster	Dragon	20	5120	5376	5355	5140	5120	2560
+0006	Charizard	Charizard	Monster	Dragon	20	5120	5376	5355	5140	5120	2560
+0007	Squirtle	Squirtle	Monster	Water 1	20	5120	5376	5355	5140	5120	2560
+0008	Wartortle	Wartortle	Monster	Water 1	20	5120	5376	5355	5140	5120	2560
+0009	Blastoise	Blastoise	Monster	Water 1	20	5120	5376	5355	5140	5120	2560
+0010	Caterpie	Caterpie	Bug	—	15	3840	4096	4080	3855	3840	1920
+0011	Metapod	Metapod	Bug	—	15	3840	4096	4080	3855	3840	1920
+0012	Butterfree	Butterfree	Bug	—	15	3840	4096	4080	3855	3840	1920
+0013	Weedle	Weedle	Bug	—	15	3840	4096	4080	3855	3840	1920
+0014	Kakuna	Kakuna	Bug	—	15	3840	4096	4080	3855	3840	1920
+0015	Beedrill	Beedrill	Bug	—	15	3840	4096	4080	3855	3840	1920
+0016	Pidgey	Pidgey	Flying	—	15	3840	4096	4080	3855	3840	1920
+0017	Pidgeotto	Pidgeotto	Flying	—	15	3840	4096	4080	3855	3840	1920
+0018	Pidgeot	Pidgeot	Flying	—	15	3840	4096	4080	3855	3840	1920
+0019	Rattata	Rattata	Field	—	15	3840	4096	4080	3855	3840	1920
+0020	Raticate	Raticate	Field	—	15	3840	4096	4080	3855	3840	1920
+0021	Spearow	Spearow	Flying	—	15	3840	4096	4080	3855	3840	1920
+0022	Fearow	Fearow	Flying	—	15	3840	4096	4080	3855	3840	1920
+0023	Ekans	Ekans	Field	Dragon	20	5120	5376	5355	5140	5120	2560
+0024	Arbok	Arbok	Field	Dragon	20	5120	5376	5355	5140	5120	2560
+0172	Pichu	Pichu	No Eggs Discovered	—	10	2560	2816	2805	2570	2560	1280
+0025	Pikachu	Pikachu	Field	Fairy	10	2560	2816	2805	2570	2560	1280
+0026	Raichu	Raichu	Field	Fairy	10	2560	2816	2805	2570	2560	1280
+0027	Sandshrew	Sandshrew	Field	—	20	5120	5376	5355	5140	5120	2560
+0028	Sandslash	Sandslash	Field	—	20	5120	5376	5355	5140	5120	2560
+0029	Nidoran♀	Nidoran♀	Monster	Field	20	5120	5376	5355	5140	5120	2560
+0030	Nidorina	Nidorina	No Eggs Discovered	—	20	5120	5376	5355	5140	5120	2560
+0031	Nidoqueen	Nidoqueen	No Eggs Discovered	—	20	5120	5376	5355	5140	5120	2560
+0032	Nidoran♂	Nidoran♂	Monster	Field	20	5120	5376	5355	5140	5120	2560
+0033	Nidorino	Nidorino	Monster	Field	20	5120	5376	5355	5140	5120	2560
+0034	Nidoking	Nidoking	Monster	Field	20	5120	5376	5355	5140	5120	2560
+0173	Cleffa	Cleffa	No Eggs Discovered	—	10	2560	2816	2805	2570	2560	1280
+0035	Clefairy	Clefairy	Fairy	—	10	2560	2816	2805	2570	2560	1280
+0036	Clefable	Clefable	Fairy	—	10	2560	2816	2805	2570	2560	1280
+0037	Vulpix	Vulpix	Field	—	20	5120	5376	5355	5140	5120	2560
+0038	Ninetales	Ninetales	Field	—	20	5120	5376	5355	5140	5120	2560
+0174	Igglybuff	Igglybuff	No Eggs Discovered	—	10	2560	2816	2805	2570	2560	1280
+0039	Jigglypuff	Jigglypuff	Fairy	—	10	2560	2816	2805	2570	2560	1280
+0040	Wigglytuff	Wigglytuff	Fairy	—	10	2560	2816	2805	2570	2560	1280
+0041	Zubat	Zubat	Flying	—	15	3840	4096	4080	3855	3840	1920
+0042	Golbat	Golbat	Flying	—	15	3840	4096	4080	3855	3840	1920
+0169	Crobat	Crobat	Flying	—	15	3840	4096	4080	3855	3840	1920
+0043	Oddish	Oddish	Grass	—	20	5120	5376	5355	5140	5120	2560
+0044	Gloom	Gloom	Grass	—	20	5120	5376	5355	5140	5120	2560
+0045	Vileplume	Vileplume	Grass	—	20	5120	5376	5355	5140	5120	2560
+0182	Bellossom	Bellossom	Grass	—	20	5120	5376	5355	5140	5120	2560
+0046	Paras	Paras	Bug	Grass	20	5120	5376	5355	5140	5120	2560
+0047	Parasect	Parasect	Bug	Grass	20	5120	5376	5355	5140	5120	2560
+0048	Venonat	Venonat	Bug	—	20	5120	5376	5355	5140	5120	2560
+0049	Venomoth	Venomoth	Bug	—	20	5120	5376	5355	5140	5120	2560
+0050	Diglett	Diglett	Field	—	20	5120	5376	5355	5140	5120	2560
+0051	Dugtrio	Dugtrio	Field	—	20	5120	5376	5355	5140	5120	2560
+0052	Meowth	Meowth	Field	—	20	5120	5376	5355	5140	5120	2560
+0053	Persian	Persian	Field	—	20	5120	5376	5355	5140	5120	2560
+0863	Perrserker	Perrserker	Field	—	20	—	—	—	—	—	2560
+0054	Psyduck	Psyduck	Water 1	Field	20	5120	5376	5355	5140	5120	2560
+0055	Golduck	Golduck	Water 1	Field	20	5120	5376	5355	5140	5120	2560
+0056	Mankey	Mankey	Field	—	20	5120	5376	5355	5140	5120	2560
+0057	Primeape	Primeape	Field	—	20	5120	5376	5355	5140	5120	2560
+0979	Annihilape	Annihilape	Field	—	20	—	—	—	—	—	2560
+0058	Growlithe	Growlithe	Field	—	20	5120	5376	5355	5140	5120	2560
+0059	Arcanine	Arcanine	Field	—	20	5120	5376	5355	5140	5120	2560
+0060	Poliwag	Poliwag	Water 1	—	20	5120	5376	5355	5140	5120	2560
+0061	Poliwhirl	Poliwhirl	Water 1	—	20	5120	5376	5355	5140	5120	2560
+0062	Poliwrath	Poliwrath	Water 1	—	20	5120	5376	5355	5140	5120	2560
+0186	Politoed	Politoed	Water 1	—	20	5120	5376	5355	5140	5120	2560
+0063	Abra	Abra	Human-Like	—	20	5120	5376	5355	5140	5120	2560
+0064	Kadabra	Kadabra	Human-Like	—	20	5120	5376	5355	5140	5120	2560
+0065	Alakazam	Alakazam	Human-Like	—	20	5120	5376	5355	5140	5120	2560
+0066	Machop	Machop	Human-Like	—	20	5120	5376	5355	5140	5120	2560
+0067	Machoke	Machoke	Human-Like	—	20	5120	5376	5355	5140	5120	2560
+0068	Machamp	Machamp	Human-Like	—	20	5120	5376	5355	5140	5120	2560
+0069	Bellsprout	Bellsprout	Grass	—	20	5120	5376	5355	5140	5120	2560
+0070	Weepinbell	Weepinbell	Grass	—	20	5120	5376	5355	5140	5120	2560
+0071	Victreebel	Victreebel	Grass	—	20	5120	5376	5355	5140	5120	2560
+0072	Tentacool	Tentacool	Water 3	—	20	5120	5376	5355	5140	5120	2560
+0073	Tentacruel	Tentacruel	Water 3	—	20	5120	5376	5355	5140	5120	2560
+0074	Geodude	Geodude	Mineral	—	15	3840	4096	4080	3855	3840	1920
+0075	Graveler	Graveler	Mineral	—	15	3840	4096	4080	3855	3840	1920
+0076	Golem	Golem	Mineral	—	15	3840	4096	4080	3855	3840	1920
+0077	Ponyta	Ponyta	Field	—	20	5120	5376	5355	5140	5120	2560
+0078	Rapidash	Rapidash	Field	—	20	5120	5376	5355	5140	5120	2560
+0079	Slowpoke	Slowpoke	Monster	Water 1	20	5120	5376	5355	5140	5120	2560
+0080	Slowbro	Slowbro	Monster	Water 1	20	5120	5376	5355	5140	5120	2560
+0199	Slowking	Slowking	Monster	Water 1	20	5120	5376	5355	5140	5120	2560
+0081	Magnemite	Magnemite	Mineral	—	20	5120	5376	5355	5140	5120	2560
+0082	Magneton	Magneton	Mineral	—	20	5120	5376	5355	5140	5120	2560
+0462	Magnezone	Magnezone	Mineral	—	20	—	—	5355	5140	5120	2560
+0083	Farfetch'd	Farfetch'd	Flying	Field	20	5120	5376	5355	5140	5120	2560
+0865	Sirfetch'd	Sirfetch'd	Flying	Field	20	—	—	—	—	—	2560
+0084	Doduo	Doduo	Flying	—	20	5120	5376	5355	5140	5120	2560
+0085	Dodrio	Dodrio	Flying	—	20	5120	5376	5355	5140	5120	2560
+0086	Seel	Seel	Water 1	Field	20	5120	5376	5355	5140	5120	2560
+0087	Dewgong	Dewgong	Water 1	Field	20	5120	5376	5355	5140	5120	2560
+0088	Grimer	Grimer	Amorphous	—	20	5120	5376	5355	5140	5120	2560
+0089	Muk	Muk	Amorphous	—	20	5120	5376	5355	5140	5120	2560
+0090	Shellder	Shellder	Water 3	—	20	5120	5376	5355	5140	5120	2560
+0091	Cloyster	Cloyster	Water 3	—	20	5120	5376	5355	5140	5120	2560
+0092	Gastly	Gastly	Amorphous	—	20	5120	5376	5355	5140	5120	2560
+0093	Haunter	Haunter	Amorphous	—	20	5120	5376	5355	5140	5120	2560
+0094	Gengar	Gengar	Amorphous	—	20	5120	5376	5355	5140	5120	2560
+0095	Onix	Onix	Mineral	—	25	6400	6656	6630	6425	6400	3200
+0208	Steelix	Steelix	Mineral	—	25	6400	6656	6630	6425	6400	3200
+0096	Drowzee	Drowzee	Human-Like	—	20	5120	5376	5355	5140	5120	2560
+0097	Hypno	Hypno	Human-Like	—	20	5120	5376	5355	5140	5120	2560
+0098	Krabby	Krabby	Water 3	—	20	5120	5376	5355	5140	5120	2560
+0099	Kingler	Kingler	Water 3	—	20	5120	5376	5355	5140	5120	2560
+0100	Voltorb	Voltorb	Mineral	—	20	5120	5376	5355	5140	5120	2560
+0101	Electrode	Electrode	Mineral	—	20	5120	5376	5355	5140	5120	2560
+0102	Exeggcute	Exeggcute	Grass	—	20	5120	5376	5355	5140	5120	2560
+0103	Exeggutor	Exeggutor	Grass	—	20	5120	5376	5355	5140	5120	2560
+0104	Cubone	Cubone	Monster	—	20	5120	5376	5355	5140	5120	2560
+0105	Marowak	Marowak	Monster	—	20	5120	5376	5355	5140	5120	2560
+0236	Tyrogue	Tyrogue	No Eggs Discovered	—	25	6400	6656	6630	6425	6400	3200
+0106	Hitmonlee	Hitmonlee	Human-Like	—	25	6400	6656	6630	6425	6400	3200
+0107	Hitmonchan	Hitmonchan	Human-Like	—	25	6400	6656	6630	6425	6400	3200
+0237	Hitmontop	Hitmontop	Human-Like	—	25	6400	6656	6630	6425	6400	3200
+0108	Lickitung	Lickitung	Monster	—	20	5120	5376	5355	5140	5120	2560
+0463	Lickilicky	Lickilicky	Monster	—	20	—	—	5355	5140	5120	2560
+0109	Koffing	Koffing	Amorphous	—	20	5120	5376	5355	5140	5120	2560
+0110	Weezing	Weezing	Amorphous	—	20	5120	5376	5355	5140	5120	2560
+0111	Rhyhorn	Rhyhorn	Monster	Field	20	5120	5376	5355	5140	5120	2560
+0112	Rhydon	Rhydon	Monster	Field	20	5120	5376	5355	5140	5120	2560
+0464	Rhyperior	Rhyperior	Monster	Field	20	—	—	5355	5140	5120	2560
+0440	Happiny	Happiny	No Eggs Discovered	—	40	—	—	10455	10280	10240	5120
+0113	Chansey	Chansey	Fairy	—	40	10240	10496	10455	10280	10240	5120
+0242	Blissey	Blissey	Fairy	—	40	10240	10496	10455	10280	10240	5120
+0114	Tangela	Tangela	Grass	—	20	5120	5376	5355	5140	5120	2560
+0465	Tangrowth	Tangrowth	Grass	—	20	—	—	5355	5140	5120	2560
+0115	Kangaskhan	Kangaskhan	Monster	—	20	5120	5376	5355	5140	5120	2560
+0116	Horsea	Horsea	Water 1	Dragon	20	5120	5376	5355	5140	5120	2560
+0117	Seadra	Seadra	Water 1	Dragon	20	5120	5376	5355	5140	5120	2560
+0230	Kingdra	Kingdra	Water 1	Dragon	20	5120	5376	5355	5140	5120	2560
+0118	Goldeen	Goldeen	Water 2	—	20	5120	5376	5355	5140	5120	2560
+0119	Seaking	Seaking	Water 2	—	20	5120	5376	5355	5140	5120	2560
+0120	Staryu	Staryu	Water 3	—	20	5120	5376	5355	5140	5120	2560
+0121	Starmie	Starmie	Water 3	—	20	5120	5376	5355	5140	5120	2560
+0439	Mime Jr.	Mime Jr.	No Eggs Discovered	—	25	—	—	6630	6425	6400	3200
+0122	Mr. Mime	Mr. Mime	Human-Like	—	25	6400	6656	6630	6425	6400	3200
+0866	Mr. Rime	Mr. Rime	Human-Like	—	25	—	—	—	—	—	3200
+0123	Scyther	Scyther	Bug	—	25	6400	6656	6630	6425	6400	3200
+0212	Scizor	Scizor	Bug	—	25	6400	6656	6630	6425	6400	3200
+0900	Kleavor	Kleavor	Bug	—	20	—	—	—	—	—	2560
+0238	Smoochum	Smoochum	No Eggs Discovered	—	25	6400	6656	6630	6425	6400	3200
+0124	Jynx	Jynx	Human-Like	—	25	6400	6656	6630	6425	6400	3200
+0239	Elekid	Elekid	No Eggs Discovered	—	25	6400	6656	6630	6425	6400	3200
+0125	Electabuzz	Electabuzz	Human-Like	—	25	6400	6656	6630	6425	6400	3200
+0466	Electivire	Electivire	Human-Like	—	25	—	—	6630	6425	6400	3200
+0240	Magby	Magby	No Eggs Discovered	—	25	6400	6656	6630	6425	6400	3200
+0126	Magmar	Magmar	Human-Like	—	25	6400	6656	6630	6425	6400	3200
+0467	Magmortar	Magmortar	Human-Like	—	25	—	—	6630	6425	6400	3200
+0127	Pinsir	Pinsir	Bug	—	25	6400	6656	6630	6425	6400	3200
+0128	Tauros	Tauros	Field	—	20	5120	5376	5355	5140	5120	2560
+0129	Magikarp	Magikarp	Water 2	Dragon	5	1280	1536	1530	1285	1280	640
+0130	Gyarados	Gyarados	Water 2	Dragon	5	1280	1536	1530	1285	1280	640
+0131	Lapras	Lapras	Monster	Water 1	40	10240	10496	10455	10280	10240	5120
+0132	Ditto	Ditto	Ditto	—	20	5120	5376	5355	5140	5120	2560
+0133	Eevee	Eevee	Field	—	35	8960	9216	9180	8995	8960	4480
+0134	Vaporeon	Vaporeon	Field	—	35	8960	9216	9180	8995	8960	4480
+0135	Jolteon	Jolteon	Field	—	35	8960	9216	9180	8995	8960	4480
+0136	Flareon	Flareon	Field	—	35	8960	9216	9180	8995	8960	4480
+0196	Espeon	Espeon	Field	—	35	8960	9216	9180	8995	8960	4480
+0197	Umbreon	Umbreon	Field	—	35	8960	9216	9180	8995	8960	4480
+0470	Leafeon	Leafeon	Field	—	35	—	—	9180	8995	8960	4480
+0471	Glaceon	Glaceon	Field	—	35	—	—	9180	8995	8960	4480
+0700	Sylveon	Sylveon	Field	—	35	—	—	—	8995	8960	4480
+0137	Porygon	Porygon	Mineral	—	20	5120	5376	5355	5140	5120	2560
+0233	Porygon2	Porygon2	Mineral	—	20	5120	5376	5355	5140	5120	2560
+0474	Porygon-Z	Porygon-Z	Mineral	—	20	—	—	5355	5140	5120	2560
+0138	Omanyte	Omanyte	Water 1	Water 3	30	7680	7936	7905	7710	7680	3840
+0139	Omastar	Omastar	Water 1	Water 3	30	7680	7936	7905	7710	7680	3840
+0140	Kabuto	Kabuto	Water 1	Water 3	30	7680	7936	7905	7710	7680	3840
+0141	Kabutops	Kabutops	Water 1	Water 3	30	7680	7936	7905	7710	7680	3840
+0142	Aerodactyl	Aerodactyl	Flying	—	35	8960	9216	9180	8995	8960	4480
+0446	Munchlax	Munchlax	No Eggs Discovered	—	40	—	—	10455	10280	10240	5120
+0143	Snorlax	Snorlax	Monster	—	40	10240	10496	10455	10280	10240	5120
+0144	Articuno	Articuno	No Eggs Discovered	—	80	20480	20736	20655	20560	20480	10240
+0145	Zapdos	Zapdos	No Eggs Discovered	—	80	20480	20736	20655	20560	20480	10240
+0146	Moltres	Moltres	No Eggs Discovered	—	80	20480	20736	20655	20560	20480	10240
+0147	Dratini	Dratini	Water 1	Dragon	40	10240	10496	10455	10280	10240	5120
+0148	Dragonair	Dragonair	Water 1	Dragon	40	10240	10496	10455	10280	10240	5120
+0149	Dragonite	Dragonite	Water 1	Dragon	40	10240	10496	10455	10280	10240	5120
+0150	Mewtwo	Mewtwo	No Eggs Discovered	—	120	30720	30976	30855	30840	30720	15360
+0151	Mew	Mew	No Eggs Discovered	—	120	30720	30976	30855	30840	30720	15360
+0152	Chikorita	Chikorita	Monster	Grass	20	5120	5376	5355	5140	5120	2560
+0153	Bayleef	Bayleef	Monster	Grass	20	5120	5376	5355	5140	5120	2560
+0154	Meganium	Meganium	Monster	Grass	20	5120	5376	5355	5140	5120	2560
+0155	Cyndaquil	Cyndaquil	Field	—	20	5120	5376	5355	5140	5120	2560
+0156	Quilava	Quilava	Field	—	20	5120	5376	5355	5140	5120	2560
+0157	Typhlosion	Typhlosion	Field	—	20	5120	5376	5355	5140	5120	2560
+0158	Totodile	Totodile	Monster	Water 1	20	5120	5376	5355	5140	5120	2560
+0159	Croconaw	Croconaw	Monster	Water 1	20	5120	5376	5355	5140	5120	2560
+0160	Feraligatr	Feraligatr	Monster	Water 1	20	5120	5376	5355	5140	5120	2560
+0161	Sentret	Sentret	Field	—	15	3840	4096	4080	3855	3840	1920
+0162	Furret	Furret	Field	—	15	3840	4096	4080	3855	3840	1920
+0163	Hoothoot	Hoothoot	Flying	—	15	3840	4096	4080	3855	3840	1920
+0164	Noctowl	Noctowl	Flying	—	15	3840	4096	4080	3855	3840	1920
+0165	Ledyba	Ledyba	Bug	—	15	3840	4096	4080	3855	3840	1920
+0166	Ledian	Ledian	Bug	—	15	3840	4096	4080	3855	3840	1920
+0167	Spinarak	Spinarak	Bug	—	15	3840	4096	4080	3855	3840	1920
+0168	Ariados	Ariados	Bug	—	15	3840	4096	4080	3855	3840	1920
+0170	Chinchou	Chinchou	Water 2	—	20	5120	5376	5355	5140	5120	2560
+0171	Lanturn	Lanturn	Water 2	—	20	5120	5376	5355	5140	5120	2560
+0175	Togepi	Togepi	No Eggs Discovered	—	10	2560	2816	2805	2570	2560	1280
+0176	Togetic	Togetic	Flying	Fairy	10	2560	2816	2805	2570	2560	1280
+0468	Togekiss	Togekiss	Flying	Fairy	10	—	—	2805	2570	2560	1280
+0177	Natu	Natu	Flying	—	20	5120	5376	5355	5140	5120	2560
+0178	Xatu	Xatu	Flying	—	20	5120	5376	5355	5140	5120	2560
+0179	Mareep	Mareep	Monster	Field	20	5120	5376	5355	5140	5120	2560
+0180	Flaaffy	Flaaffy	Monster	Field	20	5120	5376	5355	5140	5120	2560
+0181	Ampharos	Ampharos	Monster	Field	20	5120	5376	5355	5140	5120	2560
+0298	Azurill	Azurill	No Eggs Discovered	—	10	—	2816	2805	2570	2560	1280
+0183	Marill	Marill	Water 1	Fairy	10	2560	2816	2805	2570	2560	1280
+0184	Azumarill	Azumarill	Water 1	Fairy	10	2560	2816	2805	2570	2560	1280
+0438	Bonsly	Bonsly	No Eggs Discovered	—	20	—	—	5355	5140	5120	2560
+0185	Sudowoodo	Sudowoodo	Mineral	—	20	5120	5376	5355	5140	5120	2560
+0187	Hoppip	Hoppip	Fairy	Grass	20	5120	5376	5355	5140	5120	2560
+0188	Skiploom	Skiploom	Fairy	Grass	20	5120	5376	5355	5140	5120	2560
+0189	Jumpluff	Jumpluff	Fairy	Grass	20	5120	5376	5355	5140	5120	2560
+0190	Aipom	Aipom	Field	—	20	5120	5376	5355	5140	5120	2560
+0424	Ambipom	Ambipom	Field	—	20	—	—	5355	5140	5120	2560
+0191	Sunkern	Sunkern	Grass	—	20	5120	5376	5355	5140	5120	2560
+0192	Sunflora	Sunflora	Grass	—	20	5120	5376	5355	5140	5120	2560
+0193	Yanma	Yanma	Bug	—	20	5120	5376	5355	5140	5120	2560
+0469	Yanmega	Yanmega	Bug	—	20	—	—	5355	5140	5120	2560
+0194	Wooper	Wooper	Water 1	Field	20	5120	5376	5355	5140	5120	2560
+0195	Quagsire	Quagsire	Water 1	Field	20	5120	5376	5355	5140	5120	2560
+0980	Clodsire	Clodsire	Water 1	Field	20	—	—	—	—	—	2560
+0198	Murkrow	Murkrow	Flying	—	20	5120	5376	5355	5140	5120	2560
+0430	Honchkrow	Honchkrow	Flying	—	20	—	—	5355	5140	5120	2560
+0200	Misdreavus	Misdreavus	Amorphous	—	25	6400	6656	6630	6425	6400	3200
+0429	Mismagius	Mismagius	Amorphous	—	25	—	—	6630	6425	6400	3200
+0201	Unown	Unown	No Eggs Discovered	—	40	10240	10496	10455	10280	10240	5120
+0360	Wynaut	Wynaut	No Eggs Discovered	—	20	—	5376	5355	5140	5120	2560
+0202	Wobbuffet	Wobbuffet	Amorphous	—	20	5120	5376	5355	5140	5120	2560
+0203	Girafarig	Girafarig	Field	—	20	5120	5376	5355	5140	5120	2560
+0981	Farigiraf	Farigiraf	Field	—	20	—	—	—	—	—	2560
+0204	Pineco	Pineco	Bug	—	20	5120	5376	5355	5140	5120	2560
+0205	Forretress	Forretress	Bug	—	20	5120	5376	5355	5140	5120	2560
+0206	Dunsparce	Dunsparce	Field	—	20	5120	5376	5355	5140	5120	2560
+0982	Dudunsparce	Dudunsparce	Field	—	20	—	—	—	—	—	2560
+0207	Gligar	Gligar	Bug	—	20	5120	5376	5355	5140	5120	2560
+0472	Gliscor	Gliscor	Bug	—	20	—	—	5355	5140	5120	2560
+0209	Snubbull	Snubbull	Field	Fairy	20	5120	5376	5355	5140	5120	2560
+0210	Granbull	Granbull	Field	Fairy	20	5120	5376	5355	5140	5120	2560
+0211	Qwilfish	Qwilfish	Water 2	—	20	5120	5376	5355	5140	5120	2560
+0904	Overqwil	Overqwil	Water 2	—	20	—	—	—	—	—	2560
+0213	Shuckle	Shuckle	Bug	—	20	5120	5376	5355	5140	5120	2560
+0214	Heracross	Heracross	Bug	—	25	6400	6656	6630	6425	6400	3200
+0215	Sneasel	Sneasel	Field	—	20	5120	5376	5355	5140	5120	2560
+0461	Weavile	Weavile	Field	—	20	—	—	5355	5140	5120	2560
+0903	Sneasler	Sneasler	Field	—	20	—	—	—	—	—	2560
+0216	Teddiursa	Teddiursa	Field	—	20	5120	5376	5355	5140	5120	2560
+0217	Ursaring	Ursaring	Field	—	20	5120	5376	5355	5140	5120	2560
+0901	Ursaluna	Ursaluna	Field	—	20	—	—	—	—	—	2560
+0218	Slugma	Slugma	Amorphous	—	20	5120	5376	5355	5140	5120	2560
+0219	Magcargo	Magcargo	Amorphous	—	20	5120	5376	5355	5140	5120	2560
+0220	Swinub	Swinub	Field	—	20	5120	5376	5355	5140	5120	2560
+0221	Piloswine	Piloswine	Field	—	20	5120	5376	5355	5140	5120	2560
+0473	Mamoswine	Mamoswine	Field	—	20	—	—	5355	5140	5120	2560
+0222	Corsola	Corsola	Water 1	Water 3	20	5120	5376	5355	5140	5120	2560
+0864	Cursola	Cursola	Water 1	Water 3	20	—	—	—	—	—	2560
+0223	Remoraid	Remoraid	Water 1	Water 2	20	5120	5376	5355	5140	5120	2560
+0224	Octillery	Octillery	Water 1	Water 2	20	5120	5376	5355	5140	5120	2560
+0225	Delibird	Delibird	Water 1	Field	20	5120	5376	5355	5140	5120	2560
+0458	Mantyke	Mantyke	No Eggs Discovered	—	25	—	—	6630	6425	6400	3200
+0226	Mantine	Mantine	Water 1	—	25	6400	6656	6630	6425	6400	3200
+0227	Skarmory	Skarmory	Flying	—	25	6400	6656	6630	6425	6400	3200
+0228	Houndour	Houndour	Field	—	20	5120	5376	5355	5140	5120	2560
+0229	Houndoom	Houndoom	Field	—	20	5120	5376	5355	5140	5120	2560
+0231	Phanpy	Phanpy	Field	—	20	5120	5376	5355	5140	5120	2560
+0232	Donphan	Donphan	Field	—	20	5120	5376	5355	5140	5120	2560
+0234	Stantler	Stantler	Field	—	20	5120	5376	5355	5140	5120	2560
+0899	Wyrdeer	Wyrdeer	Field	—	20	—	—	—	—	—	2560
+0235	Smeargle	Smeargle	Field	—	20	5120	5376	5355	5140	5120	2560
+0241	Miltank	Miltank	Field	—	20	5120	5376	5355	5140	5120	2560
+0243	Raikou	Raikou	No Eggs Discovered	—	80	20480	20736	20655	20560	20480	10240
+0244	Entei	Entei	No Eggs Discovered	—	80	20480	20736	20655	20560	20480	10240
+0245	Suicune	Suicune	No Eggs Discovered	—	80	20480	20736	20655	20560	20480	10240
+0246	Larvitar	Larvitar	Monster	—	40	10240	10496	10455	10280	10240	5120
+0247	Pupitar	Pupitar	Monster	—	40	10240	10496	10455	10280	10240	5120
+0248	Tyranitar	Tyranitar	Monster	—	40	10240	10496	10455	10280	10240	5120
+0249	Lugia	Lugia	No Eggs Discovered	—	120	30720	30976	30855	30840	30720	15360
+0250	Ho-Oh	Ho-Oh	No Eggs Discovered	—	120	30720	30976	30855	30840	30720	15360
+0251	Celebi	Celebi	No Eggs Discovered	—	120	30720	30976	30855	30840	30720	15360

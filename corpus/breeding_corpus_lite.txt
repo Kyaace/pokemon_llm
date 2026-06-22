@@ -1,0 +1,2250 @@
+query bulbasaur logic_and bulbasaur egg answer bulbasaur
+query charmander logic_and bulbasaur egg answer charmander logic_or bulbasaur
+query squirtle logic_and bulbasaur egg answer squirtle logic_or bulbasaur
+query ekans logic_and bulbasaur egg answer logic_false
+query bulbasaur logic_and pikachu egg answer logic_false
+query bulbasaur logic_and jigglypuff egg answer logic_false
+query bulbasaur logic_and psyduck egg answer logic_false
+query farfetch'd logic_and bulbasaur egg answer logic_false
+query rhyhorn logic_and bulbasaur egg answer bulbasaur logic_or rhyhorn
+query bulbasaur logic_and horsea egg answer logic_false
+query bulbasaur logic_and goldeen egg answer logic_false
+query gyarados logic_and bulbasaur egg answer logic_false
+query bulbasaur logic_and lapras egg answer lapras logic_or bulbasaur
+query ditto logic_and bulbasaur egg answer bulbasaur
+query dratini logic_and bulbasaur egg answer logic_false
+query bulbasaur logic_and charmander egg answer charmander logic_or bulbasaur
+query charmander logic_and charmander egg answer charmander
+query squirtle logic_and charmander egg answer charmander logic_or squirtle
+query ekans logic_and charmander egg answer charmander logic_or ekans
+query pikachu logic_and charmander egg answer logic_false
+query jigglypuff logic_and charmander egg answer logic_false
+query charmander logic_and psyduck egg answer logic_false
+query charmander logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and charmander egg answer rhyhorn logic_or charmander
+query horsea logic_and charmander egg answer horsea logic_or charmander
+query goldeen logic_and charmander egg answer logic_false
+query gyarados logic_and charmander egg answer charmander logic_or magikarp
+query lapras logic_and charmander egg answer lapras logic_or charmander
+query charmander logic_and ditto egg answer charmander
+query charmander logic_and dratini egg answer charmander logic_or dratini
+query bulbasaur logic_and squirtle egg answer bulbasaur logic_or squirtle
+query charmander logic_and squirtle egg answer charmander logic_or squirtle
+query squirtle logic_and squirtle egg answer squirtle
+query squirtle logic_and ekans egg answer logic_false
+query squirtle logic_and pikachu egg answer logic_false
+query jigglypuff logic_and squirtle egg answer logic_false
+query squirtle logic_and psyduck egg answer psyduck logic_or squirtle
+query squirtle logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and squirtle egg answer squirtle logic_or rhyhorn
+query horsea logic_and squirtle egg answer squirtle logic_or horsea
+query squirtle logic_and goldeen egg answer logic_false
+query gyarados logic_and squirtle egg answer logic_false
+query squirtle logic_and lapras egg answer squirtle logic_or lapras
+query ditto logic_and squirtle egg answer squirtle
+query squirtle logic_and dratini egg answer dratini logic_or squirtle
+query ekans logic_and bulbasaur egg answer logic_false
+query charmander logic_and ekans egg answer ekans logic_or charmander
+query squirtle logic_and ekans egg answer logic_false
+query ekans logic_and ekans egg answer ekans
+query pikachu logic_and ekans egg answer ekans logic_or pichu
+query jigglypuff logic_and ekans egg answer logic_false
+query ekans logic_and psyduck egg answer ekans logic_or psyduck
+query farfetch'd logic_and ekans egg answer ekans logic_or farfetch'd
+query rhyhorn logic_and ekans egg answer rhyhorn logic_or ekans
+query ekans logic_and horsea egg answer ekans logic_or horsea
+query ekans logic_and goldeen egg answer logic_false
+query ekans logic_and gyarados egg answer magikarp logic_or ekans
+query lapras logic_and ekans egg answer logic_false
+query ekans logic_and ditto egg answer ekans
+query ekans logic_and dratini egg answer dratini logic_or ekans
+query bulbasaur logic_and pikachu egg answer logic_false
+query pikachu logic_and charmander egg answer logic_false
+query squirtle logic_and pikachu egg answer logic_false
+query ekans logic_and pikachu egg answer ekans logic_or pichu
+query pikachu logic_and pikachu egg answer pichu
+query pikachu logic_and jigglypuff egg answer pichu logic_or igglybuff
+query psyduck logic_and pikachu egg answer psyduck logic_or pichu
+query farfetch'd logic_and pikachu egg answer farfetch'd logic_or pichu
+query pikachu logic_and rhyhorn egg answer rhyhorn logic_or pichu
+query pikachu logic_and horsea egg answer logic_false
+query goldeen logic_and pikachu egg answer logic_false
+query pikachu logic_and gyarados egg answer logic_false
+query lapras logic_and pikachu egg answer logic_false
+query pikachu logic_and ditto egg answer pichu
+query pikachu logic_and dratini egg answer logic_false
+query jigglypuff logic_and bulbasaur egg answer logic_false
+query charmander logic_and jigglypuff egg answer logic_false
+query squirtle logic_and jigglypuff egg answer logic_false
+query ekans logic_and jigglypuff egg answer logic_false
+query pikachu logic_and jigglypuff egg answer pichu logic_or igglybuff
+query jigglypuff logic_and jigglypuff egg answer igglybuff
+query psyduck logic_and jigglypuff egg answer logic_false
+query jigglypuff logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and jigglypuff egg answer logic_false
+query horsea logic_and jigglypuff egg answer logic_false
+query jigglypuff logic_and goldeen egg answer logic_false
+query jigglypuff logic_and gyarados egg answer logic_false
+query lapras logic_and jigglypuff egg answer logic_false
+query jigglypuff logic_and ditto egg answer igglybuff
+query jigglypuff logic_and dratini egg answer logic_false
+query bulbasaur logic_and psyduck egg answer logic_false
+query charmander logic_and psyduck egg answer logic_false
+query squirtle logic_and psyduck egg answer psyduck logic_or squirtle
+query ekans logic_and psyduck egg answer ekans logic_or psyduck
+query pikachu logic_and psyduck egg answer pichu logic_or psyduck
+query jigglypuff logic_and psyduck egg answer logic_false
+query psyduck logic_and psyduck egg answer psyduck
+query psyduck logic_and farfetch'd egg answer farfetch'd logic_or psyduck
+query rhyhorn logic_and psyduck egg answer rhyhorn logic_or psyduck
+query psyduck logic_and horsea egg answer horsea logic_or psyduck
+query goldeen logic_and psyduck egg answer logic_false
+query psyduck logic_and gyarados egg answer logic_false
+query psyduck logic_and lapras egg answer psyduck logic_or lapras
+query psyduck logic_and ditto egg answer psyduck
+query psyduck logic_and dratini egg answer dratini logic_or psyduck
+query farfetch'd logic_and bulbasaur egg answer logic_false
+query farfetch'd logic_and charmander egg answer logic_false
+query squirtle logic_and farfetch'd egg answer logic_false
+query farfetch'd logic_and ekans egg answer ekans logic_or farfetch'd
+query pikachu logic_and farfetch'd egg answer farfetch'd logic_or pichu
+query jigglypuff logic_and farfetch'd egg answer logic_false
+query farfetch'd logic_and psyduck egg answer psyduck logic_or farfetch'd
+query farfetch'd logic_and farfetch'd egg answer farfetch'd
+query farfetch'd logic_and rhyhorn egg answer farfetch'd logic_or rhyhorn
+query farfetch'd logic_and horsea egg answer logic_false
+query farfetch'd logic_and goldeen egg answer logic_false
+query farfetch'd logic_and gyarados egg answer logic_false
+query farfetch'd logic_and lapras egg answer logic_false
+query farfetch'd logic_and ditto egg answer farfetch'd
+query dratini logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and bulbasaur egg answer rhyhorn logic_or bulbasaur
+query rhyhorn logic_and charmander egg answer rhyhorn logic_or charmander
+query squirtle logic_and rhyhorn egg answer squirtle logic_or rhyhorn
+query ekans logic_and rhyhorn egg answer ekans logic_or rhyhorn
+query pikachu logic_and rhyhorn egg answer rhyhorn logic_or pichu
+query rhyhorn logic_and jigglypuff egg answer logic_false
+query rhyhorn logic_and psyduck egg answer psyduck logic_or rhyhorn
+query rhyhorn logic_and farfetch'd egg answer rhyhorn logic_or farfetch'd
+query rhyhorn logic_and rhyhorn egg answer rhyhorn
+query rhyhorn logic_and horsea egg answer logic_false
+query goldeen logic_and rhyhorn egg answer logic_false
+query gyarados logic_and rhyhorn egg answer logic_false
+query lapras logic_and rhyhorn egg answer rhyhorn logic_or lapras
+query rhyhorn logic_and ditto egg answer rhyhorn
+query rhyhorn logic_and dratini egg answer logic_false
+query bulbasaur logic_and horsea egg answer logic_false
+query charmander logic_and horsea egg answer charmander logic_or horsea
+query squirtle logic_and horsea egg answer horsea logic_or squirtle
+query horsea logic_and ekans egg answer ekans logic_or horsea
+query horsea logic_and pikachu egg answer logic_false
+query horsea logic_and jigglypuff egg answer logic_false
+query psyduck logic_and horsea egg answer horsea logic_or psyduck
+query farfetch'd logic_and horsea egg answer logic_false
+query horsea logic_and rhyhorn egg answer logic_false
+query horsea logic_and horsea egg answer horsea
+query horsea logic_and goldeen egg answer logic_false
+query gyarados logic_and horsea egg answer horsea logic_or magikarp
+query horsea logic_and lapras egg answer lapras logic_or horsea
+query horsea logic_and ditto egg answer horsea
+query dratini logic_and horsea egg answer horsea logic_or dratini
+query goldeen logic_and bulbasaur egg answer logic_false
+query goldeen logic_and charmander egg answer logic_false
+query squirtle logic_and goldeen egg answer logic_false
+query goldeen logic_and ekans egg answer logic_false
+query pikachu logic_and goldeen egg answer logic_false
+query jigglypuff logic_and goldeen egg answer logic_false
+query goldeen logic_and psyduck egg answer logic_false
+query goldeen logic_and farfetch'd egg answer logic_false
+query goldeen logic_and rhyhorn egg answer logic_false
+query goldeen logic_and horsea egg answer logic_false
+query goldeen logic_and goldeen egg answer goldeen
+query goldeen logic_and gyarados egg answer goldeen logic_or magikarp
+query goldeen logic_and lapras egg answer logic_false
+query ditto logic_and goldeen egg answer goldeen
+query goldeen logic_and dratini egg answer logic_false
+query bulbasaur logic_and gyarados egg answer logic_false
+query gyarados logic_and charmander egg answer charmander logic_or magikarp
+query squirtle logic_and gyarados egg answer logic_false
+query gyarados logic_and ekans egg answer magikarp logic_or ekans
+query pikachu logic_and gyarados egg answer logic_false
+query jigglypuff logic_and gyarados egg answer logic_false
+query psyduck logic_and gyarados egg answer logic_false
+query farfetch'd logic_and gyarados egg answer logic_false
+query rhyhorn logic_and gyarados egg answer logic_false
+query gyarados logic_and horsea egg answer horsea logic_or magikarp
+query gyarados logic_and goldeen egg answer magikarp logic_or goldeen
+query gyarados logic_and gyarados egg answer magikarp
+query gyarados logic_and lapras egg answer logic_false
+query gyarados logic_and ditto egg answer magikarp
+query dratini logic_and gyarados egg answer magikarp logic_or dratini
+query bulbasaur logic_and lapras egg answer lapras logic_or bulbasaur
+query lapras logic_and charmander egg answer charmander logic_or lapras
+query squirtle logic_and lapras egg answer squirtle logic_or lapras
+query ekans logic_and lapras egg answer logic_false
+query lapras logic_and pikachu egg answer logic_false
+query jigglypuff logic_and lapras egg answer logic_false
+query psyduck logic_and lapras egg answer psyduck logic_or lapras
+query lapras logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and lapras egg answer lapras logic_or rhyhorn
+query horsea logic_and lapras egg answer lapras logic_or horsea
+query goldeen logic_and lapras egg answer logic_false
+query gyarados logic_and lapras egg answer logic_false
+query lapras logic_and lapras egg answer lapras
+query lapras logic_and ditto egg answer lapras
+query dratini logic_and lapras egg answer lapras logic_or dratini
+query bulbasaur logic_and ditto egg answer bulbasaur
+query ditto logic_and charmander egg answer charmander
+query squirtle logic_and ditto egg answer squirtle
+query ekans logic_and ditto egg answer ekans
+query ditto logic_and pikachu egg answer pichu
+query ditto logic_and jigglypuff egg answer igglybuff
+query psyduck logic_and ditto egg answer psyduck
+query farfetch'd logic_and ditto egg answer farfetch'd
+query ditto logic_and rhyhorn egg answer rhyhorn
+query horsea logic_and ditto egg answer horsea
+query ditto logic_and goldeen egg answer goldeen
+query gyarados logic_and ditto egg answer magikarp
+query lapras logic_and ditto egg answer lapras
+query ditto logic_and ditto egg answer logic_false
+query ditto logic_and dratini egg answer dratini
+query dratini logic_and bulbasaur egg answer logic_false
+query dratini logic_and charmander egg answer charmander logic_or dratini
+query dratini logic_and squirtle egg answer dratini logic_or squirtle
+query dratini logic_and ekans egg answer ekans logic_or dratini
+query pikachu logic_and dratini egg answer logic_false
+query dratini logic_and jigglypuff egg answer logic_false
+query dratini logic_and psyduck egg answer psyduck logic_or dratini
+query dratini logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and dratini egg answer logic_false
+query dratini logic_and horsea egg answer horsea logic_or dratini
+query goldeen logic_and dratini egg answer logic_false
+query gyarados logic_and dratini egg answer dratini logic_or magikarp
+query dratini logic_and lapras egg answer lapras logic_or dratini
+query dratini logic_and ditto egg answer dratini
+query dratini logic_and dratini egg answer dratini
+query bulbasaur logic_and bulbasaur egg answer bulbasaur
+query charmander logic_and bulbasaur egg answer charmander logic_or bulbasaur
+query squirtle logic_and bulbasaur egg answer squirtle logic_or bulbasaur
+query ekans logic_and bulbasaur egg answer logic_false
+query bulbasaur logic_and pikachu egg answer logic_false
+query bulbasaur logic_and jigglypuff egg answer logic_false
+query bulbasaur logic_and psyduck egg answer logic_false
+query farfetch'd logic_and bulbasaur egg answer logic_false
+query rhyhorn logic_and bulbasaur egg answer bulbasaur logic_or rhyhorn
+query bulbasaur logic_and horsea egg answer logic_false
+query bulbasaur logic_and goldeen egg answer logic_false
+query gyarados logic_and bulbasaur egg answer logic_false
+query bulbasaur logic_and lapras egg answer lapras logic_or bulbasaur
+query ditto logic_and bulbasaur egg answer bulbasaur
+query dratini logic_and bulbasaur egg answer logic_false
+query bulbasaur logic_and charmander egg answer charmander logic_or bulbasaur
+query charmander logic_and charmander egg answer charmander
+query squirtle logic_and charmander egg answer charmander logic_or squirtle
+query ekans logic_and charmander egg answer charmander logic_or ekans
+query pikachu logic_and charmander egg answer logic_false
+query jigglypuff logic_and charmander egg answer logic_false
+query charmander logic_and psyduck egg answer logic_false
+query charmander logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and charmander egg answer rhyhorn logic_or charmander
+query horsea logic_and charmander egg answer horsea logic_or charmander
+query goldeen logic_and charmander egg answer logic_false
+query gyarados logic_and charmander egg answer charmander logic_or magikarp
+query lapras logic_and charmander egg answer lapras logic_or charmander
+query charmander logic_and ditto egg answer charmander
+query charmander logic_and dratini egg answer charmander logic_or dratini
+query bulbasaur logic_and squirtle egg answer bulbasaur logic_or squirtle
+query charmander logic_and squirtle egg answer charmander logic_or squirtle
+query squirtle logic_and squirtle egg answer squirtle
+query squirtle logic_and ekans egg answer logic_false
+query squirtle logic_and pikachu egg answer logic_false
+query jigglypuff logic_and squirtle egg answer logic_false
+query squirtle logic_and psyduck egg answer psyduck logic_or squirtle
+query squirtle logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and squirtle egg answer squirtle logic_or rhyhorn
+query horsea logic_and squirtle egg answer squirtle logic_or horsea
+query squirtle logic_and goldeen egg answer logic_false
+query gyarados logic_and squirtle egg answer logic_false
+query squirtle logic_and lapras egg answer squirtle logic_or lapras
+query ditto logic_and squirtle egg answer squirtle
+query squirtle logic_and dratini egg answer dratini logic_or squirtle
+query ekans logic_and bulbasaur egg answer logic_false
+query charmander logic_and ekans egg answer ekans logic_or charmander
+query squirtle logic_and ekans egg answer logic_false
+query ekans logic_and ekans egg answer ekans
+query pikachu logic_and ekans egg answer ekans logic_or pichu
+query jigglypuff logic_and ekans egg answer logic_false
+query ekans logic_and psyduck egg answer ekans logic_or psyduck
+query farfetch'd logic_and ekans egg answer ekans logic_or farfetch'd
+query rhyhorn logic_and ekans egg answer rhyhorn logic_or ekans
+query ekans logic_and horsea egg answer ekans logic_or horsea
+query ekans logic_and goldeen egg answer logic_false
+query ekans logic_and gyarados egg answer magikarp logic_or ekans
+query lapras logic_and ekans egg answer logic_false
+query ekans logic_and ditto egg answer ekans
+query ekans logic_and dratini egg answer dratini logic_or ekans
+query bulbasaur logic_and pikachu egg answer logic_false
+query pikachu logic_and charmander egg answer logic_false
+query squirtle logic_and pikachu egg answer logic_false
+query ekans logic_and pikachu egg answer ekans logic_or pichu
+query pikachu logic_and pikachu egg answer pichu
+query pikachu logic_and jigglypuff egg answer pichu logic_or igglybuff
+query psyduck logic_and pikachu egg answer psyduck logic_or pichu
+query farfetch'd logic_and pikachu egg answer farfetch'd logic_or pichu
+query pikachu logic_and rhyhorn egg answer rhyhorn logic_or pichu
+query pikachu logic_and horsea egg answer logic_false
+query goldeen logic_and pikachu egg answer logic_false
+query pikachu logic_and gyarados egg answer logic_false
+query lapras logic_and pikachu egg answer logic_false
+query pikachu logic_and ditto egg answer pichu
+query pikachu logic_and dratini egg answer logic_false
+query jigglypuff logic_and bulbasaur egg answer logic_false
+query charmander logic_and jigglypuff egg answer logic_false
+query squirtle logic_and jigglypuff egg answer logic_false
+query ekans logic_and jigglypuff egg answer logic_false
+query pikachu logic_and jigglypuff egg answer pichu logic_or igglybuff
+query jigglypuff logic_and jigglypuff egg answer igglybuff
+query psyduck logic_and jigglypuff egg answer logic_false
+query jigglypuff logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and jigglypuff egg answer logic_false
+query horsea logic_and jigglypuff egg answer logic_false
+query jigglypuff logic_and goldeen egg answer logic_false
+query jigglypuff logic_and gyarados egg answer logic_false
+query lapras logic_and jigglypuff egg answer logic_false
+query jigglypuff logic_and ditto egg answer igglybuff
+query jigglypuff logic_and dratini egg answer logic_false
+query bulbasaur logic_and psyduck egg answer logic_false
+query charmander logic_and psyduck egg answer logic_false
+query squirtle logic_and psyduck egg answer psyduck logic_or squirtle
+query ekans logic_and psyduck egg answer ekans logic_or psyduck
+query pikachu logic_and psyduck egg answer pichu logic_or psyduck
+query jigglypuff logic_and psyduck egg answer logic_false
+query psyduck logic_and psyduck egg answer psyduck
+query psyduck logic_and farfetch'd egg answer farfetch'd logic_or psyduck
+query rhyhorn logic_and psyduck egg answer rhyhorn logic_or psyduck
+query psyduck logic_and horsea egg answer horsea logic_or psyduck
+query goldeen logic_and psyduck egg answer logic_false
+query psyduck logic_and gyarados egg answer logic_false
+query psyduck logic_and lapras egg answer psyduck logic_or lapras
+query psyduck logic_and ditto egg answer psyduck
+query psyduck logic_and dratini egg answer dratini logic_or psyduck
+query farfetch'd logic_and bulbasaur egg answer logic_false
+query farfetch'd logic_and charmander egg answer logic_false
+query squirtle logic_and farfetch'd egg answer logic_false
+query farfetch'd logic_and ekans egg answer ekans logic_or farfetch'd
+query pikachu logic_and farfetch'd egg answer farfetch'd logic_or pichu
+query jigglypuff logic_and farfetch'd egg answer logic_false
+query farfetch'd logic_and psyduck egg answer psyduck logic_or farfetch'd
+query farfetch'd logic_and farfetch'd egg answer farfetch'd
+query farfetch'd logic_and rhyhorn egg answer farfetch'd logic_or rhyhorn
+query farfetch'd logic_and horsea egg answer logic_false
+query farfetch'd logic_and goldeen egg answer logic_false
+query farfetch'd logic_and gyarados egg answer logic_false
+query farfetch'd logic_and lapras egg answer logic_false
+query farfetch'd logic_and ditto egg answer farfetch'd
+query dratini logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and bulbasaur egg answer rhyhorn logic_or bulbasaur
+query rhyhorn logic_and charmander egg answer rhyhorn logic_or charmander
+query squirtle logic_and rhyhorn egg answer squirtle logic_or rhyhorn
+query ekans logic_and rhyhorn egg answer ekans logic_or rhyhorn
+query pikachu logic_and rhyhorn egg answer rhyhorn logic_or pichu
+query rhyhorn logic_and jigglypuff egg answer logic_false
+query rhyhorn logic_and psyduck egg answer psyduck logic_or rhyhorn
+query rhyhorn logic_and farfetch'd egg answer rhyhorn logic_or farfetch'd
+query rhyhorn logic_and rhyhorn egg answer rhyhorn
+query rhyhorn logic_and horsea egg answer logic_false
+query goldeen logic_and rhyhorn egg answer logic_false
+query gyarados logic_and rhyhorn egg answer logic_false
+query lapras logic_and rhyhorn egg answer rhyhorn logic_or lapras
+query rhyhorn logic_and ditto egg answer rhyhorn
+query rhyhorn logic_and dratini egg answer logic_false
+query bulbasaur logic_and horsea egg answer logic_false
+query charmander logic_and horsea egg answer charmander logic_or horsea
+query squirtle logic_and horsea egg answer horsea logic_or squirtle
+query horsea logic_and ekans egg answer ekans logic_or horsea
+query horsea logic_and pikachu egg answer logic_false
+query horsea logic_and jigglypuff egg answer logic_false
+query psyduck logic_and horsea egg answer horsea logic_or psyduck
+query farfetch'd logic_and horsea egg answer logic_false
+query horsea logic_and rhyhorn egg answer logic_false
+query horsea logic_and horsea egg answer horsea
+query horsea logic_and goldeen egg answer logic_false
+query gyarados logic_and horsea egg answer horsea logic_or magikarp
+query horsea logic_and lapras egg answer lapras logic_or horsea
+query horsea logic_and ditto egg answer horsea
+query dratini logic_and horsea egg answer horsea logic_or dratini
+query goldeen logic_and bulbasaur egg answer logic_false
+query goldeen logic_and charmander egg answer logic_false
+query squirtle logic_and goldeen egg answer logic_false
+query goldeen logic_and ekans egg answer logic_false
+query pikachu logic_and goldeen egg answer logic_false
+query jigglypuff logic_and goldeen egg answer logic_false
+query goldeen logic_and psyduck egg answer logic_false
+query goldeen logic_and farfetch'd egg answer logic_false
+query goldeen logic_and rhyhorn egg answer logic_false
+query goldeen logic_and horsea egg answer logic_false
+query goldeen logic_and goldeen egg answer goldeen
+query goldeen logic_and gyarados egg answer goldeen logic_or magikarp
+query goldeen logic_and lapras egg answer logic_false
+query ditto logic_and goldeen egg answer goldeen
+query goldeen logic_and dratini egg answer logic_false
+query bulbasaur logic_and gyarados egg answer logic_false
+query gyarados logic_and charmander egg answer charmander logic_or magikarp
+query squirtle logic_and gyarados egg answer logic_false
+query gyarados logic_and ekans egg answer magikarp logic_or ekans
+query pikachu logic_and gyarados egg answer logic_false
+query jigglypuff logic_and gyarados egg answer logic_false
+query psyduck logic_and gyarados egg answer logic_false
+query farfetch'd logic_and gyarados egg answer logic_false
+query rhyhorn logic_and gyarados egg answer logic_false
+query gyarados logic_and horsea egg answer horsea logic_or magikarp
+query gyarados logic_and goldeen egg answer magikarp logic_or goldeen
+query gyarados logic_and gyarados egg answer magikarp
+query gyarados logic_and lapras egg answer logic_false
+query gyarados logic_and ditto egg answer magikarp
+query dratini logic_and gyarados egg answer magikarp logic_or dratini
+query bulbasaur logic_and lapras egg answer lapras logic_or bulbasaur
+query lapras logic_and charmander egg answer charmander logic_or lapras
+query squirtle logic_and lapras egg answer squirtle logic_or lapras
+query ekans logic_and lapras egg answer logic_false
+query lapras logic_and pikachu egg answer logic_false
+query jigglypuff logic_and lapras egg answer logic_false
+query psyduck logic_and lapras egg answer psyduck logic_or lapras
+query lapras logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and lapras egg answer lapras logic_or rhyhorn
+query horsea logic_and lapras egg answer lapras logic_or horsea
+query goldeen logic_and lapras egg answer logic_false
+query gyarados logic_and lapras egg answer logic_false
+query lapras logic_and lapras egg answer lapras
+query lapras logic_and ditto egg answer lapras
+query dratini logic_and lapras egg answer lapras logic_or dratini
+query bulbasaur logic_and ditto egg answer bulbasaur
+query ditto logic_and charmander egg answer charmander
+query squirtle logic_and ditto egg answer squirtle
+query ekans logic_and ditto egg answer ekans
+query ditto logic_and pikachu egg answer pichu
+query ditto logic_and jigglypuff egg answer igglybuff
+query psyduck logic_and ditto egg answer psyduck
+query farfetch'd logic_and ditto egg answer farfetch'd
+query ditto logic_and rhyhorn egg answer rhyhorn
+query horsea logic_and ditto egg answer horsea
+query ditto logic_and goldeen egg answer goldeen
+query gyarados logic_and ditto egg answer magikarp
+query lapras logic_and ditto egg answer lapras
+query ditto logic_and ditto egg answer logic_false
+query ditto logic_and dratini egg answer dratini
+query dratini logic_and bulbasaur egg answer logic_false
+query dratini logic_and charmander egg answer charmander logic_or dratini
+query dratini logic_and squirtle egg answer dratini logic_or squirtle
+query dratini logic_and ekans egg answer ekans logic_or dratini
+query pikachu logic_and dratini egg answer logic_false
+query dratini logic_and jigglypuff egg answer logic_false
+query dratini logic_and psyduck egg answer psyduck logic_or dratini
+query dratini logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and dratini egg answer logic_false
+query dratini logic_and horsea egg answer horsea logic_or dratini
+query goldeen logic_and dratini egg answer logic_false
+query gyarados logic_and dratini egg answer dratini logic_or magikarp
+query dratini logic_and lapras egg answer lapras logic_or dratini
+query dratini logic_and ditto egg answer dratini
+query dratini logic_and dratini egg answer dratini
+query bulbasaur logic_and bulbasaur egg answer bulbasaur
+query charmander logic_and bulbasaur egg answer charmander logic_or bulbasaur
+query squirtle logic_and bulbasaur egg answer squirtle logic_or bulbasaur
+query ekans logic_and bulbasaur egg answer logic_false
+query bulbasaur logic_and pikachu egg answer logic_false
+query bulbasaur logic_and jigglypuff egg answer logic_false
+query bulbasaur logic_and psyduck egg answer logic_false
+query farfetch'd logic_and bulbasaur egg answer logic_false
+query rhyhorn logic_and bulbasaur egg answer bulbasaur logic_or rhyhorn
+query bulbasaur logic_and horsea egg answer logic_false
+query bulbasaur logic_and goldeen egg answer logic_false
+query gyarados logic_and bulbasaur egg answer logic_false
+query bulbasaur logic_and lapras egg answer lapras logic_or bulbasaur
+query ditto logic_and bulbasaur egg answer bulbasaur
+query dratini logic_and bulbasaur egg answer logic_false
+query bulbasaur logic_and charmander egg answer charmander logic_or bulbasaur
+query charmander logic_and charmander egg answer charmander
+query squirtle logic_and charmander egg answer charmander logic_or squirtle
+query ekans logic_and charmander egg answer charmander logic_or ekans
+query pikachu logic_and charmander egg answer logic_false
+query jigglypuff logic_and charmander egg answer logic_false
+query charmander logic_and psyduck egg answer logic_false
+query charmander logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and charmander egg answer rhyhorn logic_or charmander
+query horsea logic_and charmander egg answer horsea logic_or charmander
+query goldeen logic_and charmander egg answer logic_false
+query gyarados logic_and charmander egg answer charmander logic_or magikarp
+query lapras logic_and charmander egg answer lapras logic_or charmander
+query charmander logic_and ditto egg answer charmander
+query charmander logic_and dratini egg answer charmander logic_or dratini
+query bulbasaur logic_and squirtle egg answer bulbasaur logic_or squirtle
+query charmander logic_and squirtle egg answer charmander logic_or squirtle
+query squirtle logic_and squirtle egg answer squirtle
+query squirtle logic_and ekans egg answer logic_false
+query squirtle logic_and pikachu egg answer logic_false
+query jigglypuff logic_and squirtle egg answer logic_false
+query squirtle logic_and psyduck egg answer psyduck logic_or squirtle
+query squirtle logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and squirtle egg answer squirtle logic_or rhyhorn
+query horsea logic_and squirtle egg answer squirtle logic_or horsea
+query squirtle logic_and goldeen egg answer logic_false
+query gyarados logic_and squirtle egg answer logic_false
+query squirtle logic_and lapras egg answer squirtle logic_or lapras
+query ditto logic_and squirtle egg answer squirtle
+query squirtle logic_and dratini egg answer dratini logic_or squirtle
+query ekans logic_and bulbasaur egg answer logic_false
+query charmander logic_and ekans egg answer ekans logic_or charmander
+query squirtle logic_and ekans egg answer logic_false
+query ekans logic_and ekans egg answer ekans
+query pikachu logic_and ekans egg answer ekans logic_or pichu
+query jigglypuff logic_and ekans egg answer logic_false
+query ekans logic_and psyduck egg answer ekans logic_or psyduck
+query farfetch'd logic_and ekans egg answer ekans logic_or farfetch'd
+query rhyhorn logic_and ekans egg answer rhyhorn logic_or ekans
+query ekans logic_and horsea egg answer ekans logic_or horsea
+query ekans logic_and goldeen egg answer logic_false
+query ekans logic_and gyarados egg answer magikarp logic_or ekans
+query lapras logic_and ekans egg answer logic_false
+query ekans logic_and ditto egg answer ekans
+query ekans logic_and dratini egg answer dratini logic_or ekans
+query bulbasaur logic_and pikachu egg answer logic_false
+query pikachu logic_and charmander egg answer logic_false
+query squirtle logic_and pikachu egg answer logic_false
+query ekans logic_and pikachu egg answer ekans logic_or pichu
+query pikachu logic_and pikachu egg answer pichu
+query pikachu logic_and jigglypuff egg answer pichu logic_or igglybuff
+query psyduck logic_and pikachu egg answer psyduck logic_or pichu
+query farfetch'd logic_and pikachu egg answer farfetch'd logic_or pichu
+query pikachu logic_and rhyhorn egg answer rhyhorn logic_or pichu
+query pikachu logic_and horsea egg answer logic_false
+query goldeen logic_and pikachu egg answer logic_false
+query pikachu logic_and gyarados egg answer logic_false
+query lapras logic_and pikachu egg answer logic_false
+query pikachu logic_and ditto egg answer pichu
+query pikachu logic_and dratini egg answer logic_false
+query jigglypuff logic_and bulbasaur egg answer logic_false
+query charmander logic_and jigglypuff egg answer logic_false
+query squirtle logic_and jigglypuff egg answer logic_false
+query ekans logic_and jigglypuff egg answer logic_false
+query pikachu logic_and jigglypuff egg answer pichu logic_or igglybuff
+query jigglypuff logic_and jigglypuff egg answer igglybuff
+query psyduck logic_and jigglypuff egg answer logic_false
+query jigglypuff logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and jigglypuff egg answer logic_false
+query horsea logic_and jigglypuff egg answer logic_false
+query jigglypuff logic_and goldeen egg answer logic_false
+query jigglypuff logic_and gyarados egg answer logic_false
+query lapras logic_and jigglypuff egg answer logic_false
+query jigglypuff logic_and ditto egg answer igglybuff
+query jigglypuff logic_and dratini egg answer logic_false
+query bulbasaur logic_and psyduck egg answer logic_false
+query charmander logic_and psyduck egg answer logic_false
+query squirtle logic_and psyduck egg answer psyduck logic_or squirtle
+query ekans logic_and psyduck egg answer ekans logic_or psyduck
+query pikachu logic_and psyduck egg answer pichu logic_or psyduck
+query jigglypuff logic_and psyduck egg answer logic_false
+query psyduck logic_and psyduck egg answer psyduck
+query psyduck logic_and farfetch'd egg answer farfetch'd logic_or psyduck
+query rhyhorn logic_and psyduck egg answer rhyhorn logic_or psyduck
+query psyduck logic_and horsea egg answer horsea logic_or psyduck
+query goldeen logic_and psyduck egg answer logic_false
+query psyduck logic_and gyarados egg answer logic_false
+query psyduck logic_and lapras egg answer psyduck logic_or lapras
+query psyduck logic_and ditto egg answer psyduck
+query psyduck logic_and dratini egg answer dratini logic_or psyduck
+query farfetch'd logic_and bulbasaur egg answer logic_false
+query farfetch'd logic_and charmander egg answer logic_false
+query squirtle logic_and farfetch'd egg answer logic_false
+query farfetch'd logic_and ekans egg answer ekans logic_or farfetch'd
+query pikachu logic_and farfetch'd egg answer farfetch'd logic_or pichu
+query jigglypuff logic_and farfetch'd egg answer logic_false
+query farfetch'd logic_and psyduck egg answer psyduck logic_or farfetch'd
+query farfetch'd logic_and farfetch'd egg answer farfetch'd
+query farfetch'd logic_and rhyhorn egg answer farfetch'd logic_or rhyhorn
+query farfetch'd logic_and horsea egg answer logic_false
+query farfetch'd logic_and goldeen egg answer logic_false
+query farfetch'd logic_and gyarados egg answer logic_false
+query farfetch'd logic_and lapras egg answer logic_false
+query farfetch'd logic_and ditto egg answer farfetch'd
+query dratini logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and bulbasaur egg answer rhyhorn logic_or bulbasaur
+query rhyhorn logic_and charmander egg answer rhyhorn logic_or charmander
+query squirtle logic_and rhyhorn egg answer squirtle logic_or rhyhorn
+query ekans logic_and rhyhorn egg answer ekans logic_or rhyhorn
+query pikachu logic_and rhyhorn egg answer rhyhorn logic_or pichu
+query rhyhorn logic_and jigglypuff egg answer logic_false
+query rhyhorn logic_and psyduck egg answer psyduck logic_or rhyhorn
+query rhyhorn logic_and farfetch'd egg answer rhyhorn logic_or farfetch'd
+query rhyhorn logic_and rhyhorn egg answer rhyhorn
+query rhyhorn logic_and horsea egg answer logic_false
+query goldeen logic_and rhyhorn egg answer logic_false
+query gyarados logic_and rhyhorn egg answer logic_false
+query lapras logic_and rhyhorn egg answer rhyhorn logic_or lapras
+query rhyhorn logic_and ditto egg answer rhyhorn
+query rhyhorn logic_and dratini egg answer logic_false
+query bulbasaur logic_and horsea egg answer logic_false
+query charmander logic_and horsea egg answer charmander logic_or horsea
+query squirtle logic_and horsea egg answer horsea logic_or squirtle
+query horsea logic_and ekans egg answer ekans logic_or horsea
+query horsea logic_and pikachu egg answer logic_false
+query horsea logic_and jigglypuff egg answer logic_false
+query psyduck logic_and horsea egg answer horsea logic_or psyduck
+query farfetch'd logic_and horsea egg answer logic_false
+query horsea logic_and rhyhorn egg answer logic_false
+query horsea logic_and horsea egg answer horsea
+query horsea logic_and goldeen egg answer logic_false
+query gyarados logic_and horsea egg answer horsea logic_or magikarp
+query horsea logic_and lapras egg answer lapras logic_or horsea
+query horsea logic_and ditto egg answer horsea
+query dratini logic_and horsea egg answer horsea logic_or dratini
+query goldeen logic_and bulbasaur egg answer logic_false
+query goldeen logic_and charmander egg answer logic_false
+query squirtle logic_and goldeen egg answer logic_false
+query goldeen logic_and ekans egg answer logic_false
+query pikachu logic_and goldeen egg answer logic_false
+query jigglypuff logic_and goldeen egg answer logic_false
+query goldeen logic_and psyduck egg answer logic_false
+query goldeen logic_and farfetch'd egg answer logic_false
+query goldeen logic_and rhyhorn egg answer logic_false
+query goldeen logic_and horsea egg answer logic_false
+query goldeen logic_and goldeen egg answer goldeen
+query goldeen logic_and gyarados egg answer goldeen logic_or magikarp
+query goldeen logic_and lapras egg answer logic_false
+query ditto logic_and goldeen egg answer goldeen
+query goldeen logic_and dratini egg answer logic_false
+query bulbasaur logic_and gyarados egg answer logic_false
+query gyarados logic_and charmander egg answer charmander logic_or magikarp
+query squirtle logic_and gyarados egg answer logic_false
+query gyarados logic_and ekans egg answer magikarp logic_or ekans
+query pikachu logic_and gyarados egg answer logic_false
+query jigglypuff logic_and gyarados egg answer logic_false
+query psyduck logic_and gyarados egg answer logic_false
+query farfetch'd logic_and gyarados egg answer logic_false
+query rhyhorn logic_and gyarados egg answer logic_false
+query gyarados logic_and horsea egg answer horsea logic_or magikarp
+query gyarados logic_and goldeen egg answer magikarp logic_or goldeen
+query gyarados logic_and gyarados egg answer magikarp
+query gyarados logic_and lapras egg answer logic_false
+query gyarados logic_and ditto egg answer magikarp
+query dratini logic_and gyarados egg answer magikarp logic_or dratini
+query bulbasaur logic_and lapras egg answer lapras logic_or bulbasaur
+query lapras logic_and charmander egg answer charmander logic_or lapras
+query squirtle logic_and lapras egg answer squirtle logic_or lapras
+query ekans logic_and lapras egg answer logic_false
+query lapras logic_and pikachu egg answer logic_false
+query jigglypuff logic_and lapras egg answer logic_false
+query psyduck logic_and lapras egg answer psyduck logic_or lapras
+query lapras logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and lapras egg answer lapras logic_or rhyhorn
+query horsea logic_and lapras egg answer lapras logic_or horsea
+query goldeen logic_and lapras egg answer logic_false
+query gyarados logic_and lapras egg answer logic_false
+query lapras logic_and lapras egg answer lapras
+query lapras logic_and ditto egg answer lapras
+query dratini logic_and lapras egg answer lapras logic_or dratini
+query bulbasaur logic_and ditto egg answer bulbasaur
+query ditto logic_and charmander egg answer charmander
+query squirtle logic_and ditto egg answer squirtle
+query ekans logic_and ditto egg answer ekans
+query ditto logic_and pikachu egg answer pichu
+query ditto logic_and jigglypuff egg answer igglybuff
+query psyduck logic_and ditto egg answer psyduck
+query farfetch'd logic_and ditto egg answer farfetch'd
+query ditto logic_and rhyhorn egg answer rhyhorn
+query horsea logic_and ditto egg answer horsea
+query ditto logic_and goldeen egg answer goldeen
+query gyarados logic_and ditto egg answer magikarp
+query lapras logic_and ditto egg answer lapras
+query ditto logic_and ditto egg answer logic_false
+query ditto logic_and dratini egg answer dratini
+query dratini logic_and bulbasaur egg answer logic_false
+query dratini logic_and charmander egg answer charmander logic_or dratini
+query dratini logic_and squirtle egg answer dratini logic_or squirtle
+query dratini logic_and ekans egg answer ekans logic_or dratini
+query pikachu logic_and dratini egg answer logic_false
+query dratini logic_and jigglypuff egg answer logic_false
+query dratini logic_and psyduck egg answer psyduck logic_or dratini
+query dratini logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and dratini egg answer logic_false
+query dratini logic_and horsea egg answer horsea logic_or dratini
+query goldeen logic_and dratini egg answer logic_false
+query gyarados logic_and dratini egg answer dratini logic_or magikarp
+query dratini logic_and lapras egg answer lapras logic_or dratini
+query dratini logic_and ditto egg answer dratini
+query dratini logic_and dratini egg answer dratini
+query bulbasaur logic_and bulbasaur egg answer bulbasaur
+query charmander logic_and bulbasaur egg answer charmander logic_or bulbasaur
+query squirtle logic_and bulbasaur egg answer squirtle logic_or bulbasaur
+query ekans logic_and bulbasaur egg answer logic_false
+query bulbasaur logic_and pikachu egg answer logic_false
+query bulbasaur logic_and jigglypuff egg answer logic_false
+query bulbasaur logic_and psyduck egg answer logic_false
+query farfetch'd logic_and bulbasaur egg answer logic_false
+query rhyhorn logic_and bulbasaur egg answer bulbasaur logic_or rhyhorn
+query bulbasaur logic_and horsea egg answer logic_false
+query bulbasaur logic_and goldeen egg answer logic_false
+query gyarados logic_and bulbasaur egg answer logic_false
+query bulbasaur logic_and lapras egg answer lapras logic_or bulbasaur
+query ditto logic_and bulbasaur egg answer bulbasaur
+query dratini logic_and bulbasaur egg answer logic_false
+query bulbasaur logic_and charmander egg answer charmander logic_or bulbasaur
+query charmander logic_and charmander egg answer charmander
+query squirtle logic_and charmander egg answer charmander logic_or squirtle
+query ekans logic_and charmander egg answer charmander logic_or ekans
+query pikachu logic_and charmander egg answer logic_false
+query jigglypuff logic_and charmander egg answer logic_false
+query charmander logic_and psyduck egg answer logic_false
+query charmander logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and charmander egg answer rhyhorn logic_or charmander
+query horsea logic_and charmander egg answer horsea logic_or charmander
+query goldeen logic_and charmander egg answer logic_false
+query gyarados logic_and charmander egg answer charmander logic_or magikarp
+query lapras logic_and charmander egg answer lapras logic_or charmander
+query charmander logic_and ditto egg answer charmander
+query charmander logic_and dratini egg answer charmander logic_or dratini
+query bulbasaur logic_and squirtle egg answer bulbasaur logic_or squirtle
+query charmander logic_and squirtle egg answer charmander logic_or squirtle
+query squirtle logic_and squirtle egg answer squirtle
+query squirtle logic_and ekans egg answer logic_false
+query squirtle logic_and pikachu egg answer logic_false
+query jigglypuff logic_and squirtle egg answer logic_false
+query squirtle logic_and psyduck egg answer psyduck logic_or squirtle
+query squirtle logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and squirtle egg answer squirtle logic_or rhyhorn
+query horsea logic_and squirtle egg answer squirtle logic_or horsea
+query squirtle logic_and goldeen egg answer logic_false
+query gyarados logic_and squirtle egg answer logic_false
+query squirtle logic_and lapras egg answer squirtle logic_or lapras
+query ditto logic_and squirtle egg answer squirtle
+query squirtle logic_and dratini egg answer dratini logic_or squirtle
+query ekans logic_and bulbasaur egg answer logic_false
+query charmander logic_and ekans egg answer ekans logic_or charmander
+query squirtle logic_and ekans egg answer logic_false
+query ekans logic_and ekans egg answer ekans
+query pikachu logic_and ekans egg answer ekans logic_or pichu
+query jigglypuff logic_and ekans egg answer logic_false
+query ekans logic_and psyduck egg answer ekans logic_or psyduck
+query farfetch'd logic_and ekans egg answer ekans logic_or farfetch'd
+query rhyhorn logic_and ekans egg answer rhyhorn logic_or ekans
+query ekans logic_and horsea egg answer ekans logic_or horsea
+query ekans logic_and goldeen egg answer logic_false
+query ekans logic_and gyarados egg answer magikarp logic_or ekans
+query lapras logic_and ekans egg answer logic_false
+query ekans logic_and ditto egg answer ekans
+query ekans logic_and dratini egg answer dratini logic_or ekans
+query bulbasaur logic_and pikachu egg answer logic_false
+query pikachu logic_and charmander egg answer logic_false
+query squirtle logic_and pikachu egg answer logic_false
+query ekans logic_and pikachu egg answer ekans logic_or pichu
+query pikachu logic_and pikachu egg answer pichu
+query pikachu logic_and jigglypuff egg answer pichu logic_or igglybuff
+query psyduck logic_and pikachu egg answer psyduck logic_or pichu
+query farfetch'd logic_and pikachu egg answer farfetch'd logic_or pichu
+query pikachu logic_and rhyhorn egg answer rhyhorn logic_or pichu
+query pikachu logic_and horsea egg answer logic_false
+query goldeen logic_and pikachu egg answer logic_false
+query pikachu logic_and gyarados egg answer logic_false
+query lapras logic_and pikachu egg answer logic_false
+query pikachu logic_and ditto egg answer pichu
+query pikachu logic_and dratini egg answer logic_false
+query jigglypuff logic_and bulbasaur egg answer logic_false
+query charmander logic_and jigglypuff egg answer logic_false
+query squirtle logic_and jigglypuff egg answer logic_false
+query ekans logic_and jigglypuff egg answer logic_false
+query pikachu logic_and jigglypuff egg answer pichu logic_or igglybuff
+query jigglypuff logic_and jigglypuff egg answer igglybuff
+query psyduck logic_and jigglypuff egg answer logic_false
+query jigglypuff logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and jigglypuff egg answer logic_false
+query horsea logic_and jigglypuff egg answer logic_false
+query jigglypuff logic_and goldeen egg answer logic_false
+query jigglypuff logic_and gyarados egg answer logic_false
+query lapras logic_and jigglypuff egg answer logic_false
+query jigglypuff logic_and ditto egg answer igglybuff
+query jigglypuff logic_and dratini egg answer logic_false
+query bulbasaur logic_and psyduck egg answer logic_false
+query charmander logic_and psyduck egg answer logic_false
+query squirtle logic_and psyduck egg answer psyduck logic_or squirtle
+query ekans logic_and psyduck egg answer ekans logic_or psyduck
+query pikachu logic_and psyduck egg answer pichu logic_or psyduck
+query jigglypuff logic_and psyduck egg answer logic_false
+query psyduck logic_and psyduck egg answer psyduck
+query psyduck logic_and farfetch'd egg answer farfetch'd logic_or psyduck
+query rhyhorn logic_and psyduck egg answer rhyhorn logic_or psyduck
+query psyduck logic_and horsea egg answer horsea logic_or psyduck
+query goldeen logic_and psyduck egg answer logic_false
+query psyduck logic_and gyarados egg answer logic_false
+query psyduck logic_and lapras egg answer psyduck logic_or lapras
+query psyduck logic_and ditto egg answer psyduck
+query psyduck logic_and dratini egg answer dratini logic_or psyduck
+query farfetch'd logic_and bulbasaur egg answer logic_false
+query farfetch'd logic_and charmander egg answer logic_false
+query squirtle logic_and farfetch'd egg answer logic_false
+query farfetch'd logic_and ekans egg answer ekans logic_or farfetch'd
+query pikachu logic_and farfetch'd egg answer farfetch'd logic_or pichu
+query jigglypuff logic_and farfetch'd egg answer logic_false
+query farfetch'd logic_and psyduck egg answer psyduck logic_or farfetch'd
+query farfetch'd logic_and farfetch'd egg answer farfetch'd
+query farfetch'd logic_and rhyhorn egg answer farfetch'd logic_or rhyhorn
+query farfetch'd logic_and horsea egg answer logic_false
+query farfetch'd logic_and goldeen egg answer logic_false
+query farfetch'd logic_and gyarados egg answer logic_false
+query farfetch'd logic_and lapras egg answer logic_false
+query farfetch'd logic_and ditto egg answer farfetch'd
+query dratini logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and bulbasaur egg answer rhyhorn logic_or bulbasaur
+query rhyhorn logic_and charmander egg answer rhyhorn logic_or charmander
+query squirtle logic_and rhyhorn egg answer squirtle logic_or rhyhorn
+query ekans logic_and rhyhorn egg answer ekans logic_or rhyhorn
+query pikachu logic_and rhyhorn egg answer rhyhorn logic_or pichu
+query rhyhorn logic_and jigglypuff egg answer logic_false
+query rhyhorn logic_and psyduck egg answer psyduck logic_or rhyhorn
+query rhyhorn logic_and farfetch'd egg answer rhyhorn logic_or farfetch'd
+query rhyhorn logic_and rhyhorn egg answer rhyhorn
+query rhyhorn logic_and horsea egg answer logic_false
+query goldeen logic_and rhyhorn egg answer logic_false
+query gyarados logic_and rhyhorn egg answer logic_false
+query lapras logic_and rhyhorn egg answer rhyhorn logic_or lapras
+query rhyhorn logic_and ditto egg answer rhyhorn
+query rhyhorn logic_and dratini egg answer logic_false
+query bulbasaur logic_and horsea egg answer logic_false
+query charmander logic_and horsea egg answer charmander logic_or horsea
+query squirtle logic_and horsea egg answer horsea logic_or squirtle
+query horsea logic_and ekans egg answer ekans logic_or horsea
+query horsea logic_and pikachu egg answer logic_false
+query horsea logic_and jigglypuff egg answer logic_false
+query psyduck logic_and horsea egg answer horsea logic_or psyduck
+query farfetch'd logic_and horsea egg answer logic_false
+query horsea logic_and rhyhorn egg answer logic_false
+query horsea logic_and horsea egg answer horsea
+query horsea logic_and goldeen egg answer logic_false
+query gyarados logic_and horsea egg answer horsea logic_or magikarp
+query horsea logic_and lapras egg answer lapras logic_or horsea
+query horsea logic_and ditto egg answer horsea
+query dratini logic_and horsea egg answer horsea logic_or dratini
+query goldeen logic_and bulbasaur egg answer logic_false
+query goldeen logic_and charmander egg answer logic_false
+query squirtle logic_and goldeen egg answer logic_false
+query goldeen logic_and ekans egg answer logic_false
+query pikachu logic_and goldeen egg answer logic_false
+query jigglypuff logic_and goldeen egg answer logic_false
+query goldeen logic_and psyduck egg answer logic_false
+query goldeen logic_and farfetch'd egg answer logic_false
+query goldeen logic_and rhyhorn egg answer logic_false
+query goldeen logic_and horsea egg answer logic_false
+query goldeen logic_and goldeen egg answer goldeen
+query goldeen logic_and gyarados egg answer goldeen logic_or magikarp
+query goldeen logic_and lapras egg answer logic_false
+query ditto logic_and goldeen egg answer goldeen
+query goldeen logic_and dratini egg answer logic_false
+query bulbasaur logic_and gyarados egg answer logic_false
+query gyarados logic_and charmander egg answer charmander logic_or magikarp
+query squirtle logic_and gyarados egg answer logic_false
+query gyarados logic_and ekans egg answer magikarp logic_or ekans
+query pikachu logic_and gyarados egg answer logic_false
+query jigglypuff logic_and gyarados egg answer logic_false
+query psyduck logic_and gyarados egg answer logic_false
+query farfetch'd logic_and gyarados egg answer logic_false
+query rhyhorn logic_and gyarados egg answer logic_false
+query gyarados logic_and horsea egg answer horsea logic_or magikarp
+query gyarados logic_and goldeen egg answer magikarp logic_or goldeen
+query gyarados logic_and gyarados egg answer magikarp
+query gyarados logic_and lapras egg answer logic_false
+query gyarados logic_and ditto egg answer magikarp
+query dratini logic_and gyarados egg answer magikarp logic_or dratini
+query bulbasaur logic_and lapras egg answer lapras logic_or bulbasaur
+query lapras logic_and charmander egg answer charmander logic_or lapras
+query squirtle logic_and lapras egg answer squirtle logic_or lapras
+query ekans logic_and lapras egg answer logic_false
+query lapras logic_and pikachu egg answer logic_false
+query jigglypuff logic_and lapras egg answer logic_false
+query psyduck logic_and lapras egg answer psyduck logic_or lapras
+query lapras logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and lapras egg answer lapras logic_or rhyhorn
+query horsea logic_and lapras egg answer lapras logic_or horsea
+query goldeen logic_and lapras egg answer logic_false
+query gyarados logic_and lapras egg answer logic_false
+query lapras logic_and lapras egg answer lapras
+query lapras logic_and ditto egg answer lapras
+query dratini logic_and lapras egg answer lapras logic_or dratini
+query bulbasaur logic_and ditto egg answer bulbasaur
+query ditto logic_and charmander egg answer charmander
+query squirtle logic_and ditto egg answer squirtle
+query ekans logic_and ditto egg answer ekans
+query ditto logic_and pikachu egg answer pichu
+query ditto logic_and jigglypuff egg answer igglybuff
+query psyduck logic_and ditto egg answer psyduck
+query farfetch'd logic_and ditto egg answer farfetch'd
+query ditto logic_and rhyhorn egg answer rhyhorn
+query horsea logic_and ditto egg answer horsea
+query ditto logic_and goldeen egg answer goldeen
+query gyarados logic_and ditto egg answer magikarp
+query lapras logic_and ditto egg answer lapras
+query ditto logic_and ditto egg answer logic_false
+query ditto logic_and dratini egg answer dratini
+query dratini logic_and bulbasaur egg answer logic_false
+query dratini logic_and charmander egg answer charmander logic_or dratini
+query dratini logic_and squirtle egg answer dratini logic_or squirtle
+query dratini logic_and ekans egg answer ekans logic_or dratini
+query pikachu logic_and dratini egg answer logic_false
+query dratini logic_and jigglypuff egg answer logic_false
+query dratini logic_and psyduck egg answer psyduck logic_or dratini
+query dratini logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and dratini egg answer logic_false
+query dratini logic_and horsea egg answer horsea logic_or dratini
+query goldeen logic_and dratini egg answer logic_false
+query gyarados logic_and dratini egg answer dratini logic_or magikarp
+query dratini logic_and lapras egg answer lapras logic_or dratini
+query dratini logic_and ditto egg answer dratini
+query dratini logic_and dratini egg answer dratini
+query bulbasaur logic_and bulbasaur egg answer bulbasaur
+query charmander logic_and bulbasaur egg answer charmander logic_or bulbasaur
+query squirtle logic_and bulbasaur egg answer squirtle logic_or bulbasaur
+query ekans logic_and bulbasaur egg answer logic_false
+query bulbasaur logic_and pikachu egg answer logic_false
+query bulbasaur logic_and jigglypuff egg answer logic_false
+query bulbasaur logic_and psyduck egg answer logic_false
+query farfetch'd logic_and bulbasaur egg answer logic_false
+query rhyhorn logic_and bulbasaur egg answer bulbasaur logic_or rhyhorn
+query bulbasaur logic_and horsea egg answer logic_false
+query bulbasaur logic_and goldeen egg answer logic_false
+query gyarados logic_and bulbasaur egg answer logic_false
+query bulbasaur logic_and lapras egg answer lapras logic_or bulbasaur
+query ditto logic_and bulbasaur egg answer bulbasaur
+query dratini logic_and bulbasaur egg answer logic_false
+query bulbasaur logic_and charmander egg answer charmander logic_or bulbasaur
+query charmander logic_and charmander egg answer charmander
+query squirtle logic_and charmander egg answer charmander logic_or squirtle
+query ekans logic_and charmander egg answer charmander logic_or ekans
+query pikachu logic_and charmander egg answer logic_false
+query jigglypuff logic_and charmander egg answer logic_false
+query charmander logic_and psyduck egg answer logic_false
+query charmander logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and charmander egg answer rhyhorn logic_or charmander
+query horsea logic_and charmander egg answer horsea logic_or charmander
+query goldeen logic_and charmander egg answer logic_false
+query gyarados logic_and charmander egg answer charmander logic_or magikarp
+query lapras logic_and charmander egg answer lapras logic_or charmander
+query charmander logic_and ditto egg answer charmander
+query charmander logic_and dratini egg answer charmander logic_or dratini
+query bulbasaur logic_and squirtle egg answer bulbasaur logic_or squirtle
+query charmander logic_and squirtle egg answer charmander logic_or squirtle
+query squirtle logic_and squirtle egg answer squirtle
+query squirtle logic_and ekans egg answer logic_false
+query squirtle logic_and pikachu egg answer logic_false
+query jigglypuff logic_and squirtle egg answer logic_false
+query squirtle logic_and psyduck egg answer psyduck logic_or squirtle
+query squirtle logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and squirtle egg answer squirtle logic_or rhyhorn
+query horsea logic_and squirtle egg answer squirtle logic_or horsea
+query squirtle logic_and goldeen egg answer logic_false
+query gyarados logic_and squirtle egg answer logic_false
+query squirtle logic_and lapras egg answer squirtle logic_or lapras
+query ditto logic_and squirtle egg answer squirtle
+query squirtle logic_and dratini egg answer dratini logic_or squirtle
+query ekans logic_and bulbasaur egg answer logic_false
+query charmander logic_and ekans egg answer ekans logic_or charmander
+query squirtle logic_and ekans egg answer logic_false
+query ekans logic_and ekans egg answer ekans
+query pikachu logic_and ekans egg answer ekans logic_or pichu
+query jigglypuff logic_and ekans egg answer logic_false
+query ekans logic_and psyduck egg answer ekans logic_or psyduck
+query farfetch'd logic_and ekans egg answer ekans logic_or farfetch'd
+query rhyhorn logic_and ekans egg answer rhyhorn logic_or ekans
+query ekans logic_and horsea egg answer ekans logic_or horsea
+query ekans logic_and goldeen egg answer logic_false
+query ekans logic_and gyarados egg answer magikarp logic_or ekans
+query lapras logic_and ekans egg answer logic_false
+query ekans logic_and ditto egg answer ekans
+query ekans logic_and dratini egg answer dratini logic_or ekans
+query bulbasaur logic_and pikachu egg answer logic_false
+query pikachu logic_and charmander egg answer logic_false
+query squirtle logic_and pikachu egg answer logic_false
+query ekans logic_and pikachu egg answer ekans logic_or pichu
+query pikachu logic_and pikachu egg answer pichu
+query pikachu logic_and jigglypuff egg answer pichu logic_or igglybuff
+query psyduck logic_and pikachu egg answer psyduck logic_or pichu
+query farfetch'd logic_and pikachu egg answer farfetch'd logic_or pichu
+query pikachu logic_and rhyhorn egg answer rhyhorn logic_or pichu
+query pikachu logic_and horsea egg answer logic_false
+query goldeen logic_and pikachu egg answer logic_false
+query pikachu logic_and gyarados egg answer logic_false
+query lapras logic_and pikachu egg answer logic_false
+query pikachu logic_and ditto egg answer pichu
+query pikachu logic_and dratini egg answer logic_false
+query jigglypuff logic_and bulbasaur egg answer logic_false
+query charmander logic_and jigglypuff egg answer logic_false
+query squirtle logic_and jigglypuff egg answer logic_false
+query ekans logic_and jigglypuff egg answer logic_false
+query pikachu logic_and jigglypuff egg answer pichu logic_or igglybuff
+query jigglypuff logic_and jigglypuff egg answer igglybuff
+query psyduck logic_and jigglypuff egg answer logic_false
+query jigglypuff logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and jigglypuff egg answer logic_false
+query horsea logic_and jigglypuff egg answer logic_false
+query jigglypuff logic_and goldeen egg answer logic_false
+query jigglypuff logic_and gyarados egg answer logic_false
+query lapras logic_and jigglypuff egg answer logic_false
+query jigglypuff logic_and ditto egg answer igglybuff
+query jigglypuff logic_and dratini egg answer logic_false
+query bulbasaur logic_and psyduck egg answer logic_false
+query charmander logic_and psyduck egg answer logic_false
+query squirtle logic_and psyduck egg answer psyduck logic_or squirtle
+query ekans logic_and psyduck egg answer ekans logic_or psyduck
+query pikachu logic_and psyduck egg answer pichu logic_or psyduck
+query jigglypuff logic_and psyduck egg answer logic_false
+query psyduck logic_and psyduck egg answer psyduck
+query psyduck logic_and farfetch'd egg answer farfetch'd logic_or psyduck
+query rhyhorn logic_and psyduck egg answer rhyhorn logic_or psyduck
+query psyduck logic_and horsea egg answer horsea logic_or psyduck
+query goldeen logic_and psyduck egg answer logic_false
+query psyduck logic_and gyarados egg answer logic_false
+query psyduck logic_and lapras egg answer psyduck logic_or lapras
+query psyduck logic_and ditto egg answer psyduck
+query psyduck logic_and dratini egg answer dratini logic_or psyduck
+query farfetch'd logic_and bulbasaur egg answer logic_false
+query farfetch'd logic_and charmander egg answer logic_false
+query squirtle logic_and farfetch'd egg answer logic_false
+query farfetch'd logic_and ekans egg answer ekans logic_or farfetch'd
+query pikachu logic_and farfetch'd egg answer farfetch'd logic_or pichu
+query jigglypuff logic_and farfetch'd egg answer logic_false
+query farfetch'd logic_and psyduck egg answer psyduck logic_or farfetch'd
+query farfetch'd logic_and farfetch'd egg answer farfetch'd
+query farfetch'd logic_and rhyhorn egg answer farfetch'd logic_or rhyhorn
+query farfetch'd logic_and horsea egg answer logic_false
+query farfetch'd logic_and goldeen egg answer logic_false
+query farfetch'd logic_and gyarados egg answer logic_false
+query farfetch'd logic_and lapras egg answer logic_false
+query farfetch'd logic_and ditto egg answer farfetch'd
+query dratini logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and bulbasaur egg answer rhyhorn logic_or bulbasaur
+query rhyhorn logic_and charmander egg answer rhyhorn logic_or charmander
+query squirtle logic_and rhyhorn egg answer squirtle logic_or rhyhorn
+query ekans logic_and rhyhorn egg answer ekans logic_or rhyhorn
+query pikachu logic_and rhyhorn egg answer rhyhorn logic_or pichu
+query rhyhorn logic_and jigglypuff egg answer logic_false
+query rhyhorn logic_and psyduck egg answer psyduck logic_or rhyhorn
+query rhyhorn logic_and farfetch'd egg answer rhyhorn logic_or farfetch'd
+query rhyhorn logic_and rhyhorn egg answer rhyhorn
+query rhyhorn logic_and horsea egg answer logic_false
+query goldeen logic_and rhyhorn egg answer logic_false
+query gyarados logic_and rhyhorn egg answer logic_false
+query lapras logic_and rhyhorn egg answer rhyhorn logic_or lapras
+query rhyhorn logic_and ditto egg answer rhyhorn
+query rhyhorn logic_and dratini egg answer logic_false
+query bulbasaur logic_and horsea egg answer logic_false
+query charmander logic_and horsea egg answer charmander logic_or horsea
+query squirtle logic_and horsea egg answer horsea logic_or squirtle
+query horsea logic_and ekans egg answer ekans logic_or horsea
+query horsea logic_and pikachu egg answer logic_false
+query horsea logic_and jigglypuff egg answer logic_false
+query psyduck logic_and horsea egg answer horsea logic_or psyduck
+query farfetch'd logic_and horsea egg answer logic_false
+query horsea logic_and rhyhorn egg answer logic_false
+query horsea logic_and horsea egg answer horsea
+query horsea logic_and goldeen egg answer logic_false
+query gyarados logic_and horsea egg answer horsea logic_or magikarp
+query horsea logic_and lapras egg answer lapras logic_or horsea
+query horsea logic_and ditto egg answer horsea
+query dratini logic_and horsea egg answer horsea logic_or dratini
+query goldeen logic_and bulbasaur egg answer logic_false
+query goldeen logic_and charmander egg answer logic_false
+query squirtle logic_and goldeen egg answer logic_false
+query goldeen logic_and ekans egg answer logic_false
+query pikachu logic_and goldeen egg answer logic_false
+query jigglypuff logic_and goldeen egg answer logic_false
+query goldeen logic_and psyduck egg answer logic_false
+query goldeen logic_and farfetch'd egg answer logic_false
+query goldeen logic_and rhyhorn egg answer logic_false
+query goldeen logic_and horsea egg answer logic_false
+query goldeen logic_and goldeen egg answer goldeen
+query goldeen logic_and gyarados egg answer goldeen logic_or magikarp
+query goldeen logic_and lapras egg answer logic_false
+query ditto logic_and goldeen egg answer goldeen
+query goldeen logic_and dratini egg answer logic_false
+query bulbasaur logic_and gyarados egg answer logic_false
+query gyarados logic_and charmander egg answer charmander logic_or magikarp
+query squirtle logic_and gyarados egg answer logic_false
+query gyarados logic_and ekans egg answer magikarp logic_or ekans
+query pikachu logic_and gyarados egg answer logic_false
+query jigglypuff logic_and gyarados egg answer logic_false
+query psyduck logic_and gyarados egg answer logic_false
+query farfetch'd logic_and gyarados egg answer logic_false
+query rhyhorn logic_and gyarados egg answer logic_false
+query gyarados logic_and horsea egg answer horsea logic_or magikarp
+query gyarados logic_and goldeen egg answer magikarp logic_or goldeen
+query gyarados logic_and gyarados egg answer magikarp
+query gyarados logic_and lapras egg answer logic_false
+query gyarados logic_and ditto egg answer magikarp
+query dratini logic_and gyarados egg answer magikarp logic_or dratini
+query bulbasaur logic_and lapras egg answer lapras logic_or bulbasaur
+query lapras logic_and charmander egg answer charmander logic_or lapras
+query squirtle logic_and lapras egg answer squirtle logic_or lapras
+query ekans logic_and lapras egg answer logic_false
+query lapras logic_and pikachu egg answer logic_false
+query jigglypuff logic_and lapras egg answer logic_false
+query psyduck logic_and lapras egg answer psyduck logic_or lapras
+query lapras logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and lapras egg answer lapras logic_or rhyhorn
+query horsea logic_and lapras egg answer lapras logic_or horsea
+query goldeen logic_and lapras egg answer logic_false
+query gyarados logic_and lapras egg answer logic_false
+query lapras logic_and lapras egg answer lapras
+query lapras logic_and ditto egg answer lapras
+query dratini logic_and lapras egg answer lapras logic_or dratini
+query bulbasaur logic_and ditto egg answer bulbasaur
+query ditto logic_and charmander egg answer charmander
+query squirtle logic_and ditto egg answer squirtle
+query ekans logic_and ditto egg answer ekans
+query ditto logic_and pikachu egg answer pichu
+query ditto logic_and jigglypuff egg answer igglybuff
+query psyduck logic_and ditto egg answer psyduck
+query farfetch'd logic_and ditto egg answer farfetch'd
+query ditto logic_and rhyhorn egg answer rhyhorn
+query horsea logic_and ditto egg answer horsea
+query ditto logic_and goldeen egg answer goldeen
+query gyarados logic_and ditto egg answer magikarp
+query lapras logic_and ditto egg answer lapras
+query ditto logic_and ditto egg answer logic_false
+query ditto logic_and dratini egg answer dratini
+query dratini logic_and bulbasaur egg answer logic_false
+query dratini logic_and charmander egg answer charmander logic_or dratini
+query dratini logic_and squirtle egg answer dratini logic_or squirtle
+query dratini logic_and ekans egg answer ekans logic_or dratini
+query pikachu logic_and dratini egg answer logic_false
+query dratini logic_and jigglypuff egg answer logic_false
+query dratini logic_and psyduck egg answer psyduck logic_or dratini
+query dratini logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and dratini egg answer logic_false
+query dratini logic_and horsea egg answer horsea logic_or dratini
+query goldeen logic_and dratini egg answer logic_false
+query gyarados logic_and dratini egg answer dratini logic_or magikarp
+query dratini logic_and lapras egg answer lapras logic_or dratini
+query dratini logic_and ditto egg answer dratini
+query dratini logic_and dratini egg answer dratini
+query bulbasaur logic_and bulbasaur egg answer bulbasaur
+query charmander logic_and bulbasaur egg answer charmander logic_or bulbasaur
+query squirtle logic_and bulbasaur egg answer squirtle logic_or bulbasaur
+query ekans logic_and bulbasaur egg answer logic_false
+query bulbasaur logic_and pikachu egg answer logic_false
+query bulbasaur logic_and jigglypuff egg answer logic_false
+query bulbasaur logic_and psyduck egg answer logic_false
+query farfetch'd logic_and bulbasaur egg answer logic_false
+query rhyhorn logic_and bulbasaur egg answer bulbasaur logic_or rhyhorn
+query bulbasaur logic_and horsea egg answer logic_false
+query bulbasaur logic_and goldeen egg answer logic_false
+query gyarados logic_and bulbasaur egg answer logic_false
+query bulbasaur logic_and lapras egg answer lapras logic_or bulbasaur
+query ditto logic_and bulbasaur egg answer bulbasaur
+query dratini logic_and bulbasaur egg answer logic_false
+query bulbasaur logic_and charmander egg answer charmander logic_or bulbasaur
+query charmander logic_and charmander egg answer charmander
+query squirtle logic_and charmander egg answer charmander logic_or squirtle
+query ekans logic_and charmander egg answer charmander logic_or ekans
+query pikachu logic_and charmander egg answer logic_false
+query jigglypuff logic_and charmander egg answer logic_false
+query charmander logic_and psyduck egg answer logic_false
+query charmander logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and charmander egg answer rhyhorn logic_or charmander
+query horsea logic_and charmander egg answer horsea logic_or charmander
+query goldeen logic_and charmander egg answer logic_false
+query gyarados logic_and charmander egg answer charmander logic_or magikarp
+query lapras logic_and charmander egg answer lapras logic_or charmander
+query charmander logic_and ditto egg answer charmander
+query charmander logic_and dratini egg answer charmander logic_or dratini
+query bulbasaur logic_and squirtle egg answer bulbasaur logic_or squirtle
+query charmander logic_and squirtle egg answer charmander logic_or squirtle
+query squirtle logic_and squirtle egg answer squirtle
+query squirtle logic_and ekans egg answer logic_false
+query squirtle logic_and pikachu egg answer logic_false
+query jigglypuff logic_and squirtle egg answer logic_false
+query squirtle logic_and psyduck egg answer psyduck logic_or squirtle
+query squirtle logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and squirtle egg answer squirtle logic_or rhyhorn
+query horsea logic_and squirtle egg answer squirtle logic_or horsea
+query squirtle logic_and goldeen egg answer logic_false
+query gyarados logic_and squirtle egg answer logic_false
+query squirtle logic_and lapras egg answer squirtle logic_or lapras
+query ditto logic_and squirtle egg answer squirtle
+query squirtle logic_and dratini egg answer dratini logic_or squirtle
+query ekans logic_and bulbasaur egg answer logic_false
+query charmander logic_and ekans egg answer ekans logic_or charmander
+query squirtle logic_and ekans egg answer logic_false
+query ekans logic_and ekans egg answer ekans
+query pikachu logic_and ekans egg answer ekans logic_or pichu
+query jigglypuff logic_and ekans egg answer logic_false
+query ekans logic_and psyduck egg answer ekans logic_or psyduck
+query farfetch'd logic_and ekans egg answer ekans logic_or farfetch'd
+query rhyhorn logic_and ekans egg answer rhyhorn logic_or ekans
+query ekans logic_and horsea egg answer ekans logic_or horsea
+query ekans logic_and goldeen egg answer logic_false
+query ekans logic_and gyarados egg answer magikarp logic_or ekans
+query lapras logic_and ekans egg answer logic_false
+query ekans logic_and ditto egg answer ekans
+query ekans logic_and dratini egg answer dratini logic_or ekans
+query bulbasaur logic_and pikachu egg answer logic_false
+query pikachu logic_and charmander egg answer logic_false
+query squirtle logic_and pikachu egg answer logic_false
+query ekans logic_and pikachu egg answer ekans logic_or pichu
+query pikachu logic_and pikachu egg answer pichu
+query pikachu logic_and jigglypuff egg answer pichu logic_or igglybuff
+query psyduck logic_and pikachu egg answer psyduck logic_or pichu
+query farfetch'd logic_and pikachu egg answer farfetch'd logic_or pichu
+query pikachu logic_and rhyhorn egg answer rhyhorn logic_or pichu
+query pikachu logic_and horsea egg answer logic_false
+query goldeen logic_and pikachu egg answer logic_false
+query pikachu logic_and gyarados egg answer logic_false
+query lapras logic_and pikachu egg answer logic_false
+query pikachu logic_and ditto egg answer pichu
+query pikachu logic_and dratini egg answer logic_false
+query jigglypuff logic_and bulbasaur egg answer logic_false
+query charmander logic_and jigglypuff egg answer logic_false
+query squirtle logic_and jigglypuff egg answer logic_false
+query ekans logic_and jigglypuff egg answer logic_false
+query pikachu logic_and jigglypuff egg answer pichu logic_or igglybuff
+query jigglypuff logic_and jigglypuff egg answer igglybuff
+query psyduck logic_and jigglypuff egg answer logic_false
+query jigglypuff logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and jigglypuff egg answer logic_false
+query horsea logic_and jigglypuff egg answer logic_false
+query jigglypuff logic_and goldeen egg answer logic_false
+query jigglypuff logic_and gyarados egg answer logic_false
+query lapras logic_and jigglypuff egg answer logic_false
+query jigglypuff logic_and ditto egg answer igglybuff
+query jigglypuff logic_and dratini egg answer logic_false
+query bulbasaur logic_and psyduck egg answer logic_false
+query charmander logic_and psyduck egg answer logic_false
+query squirtle logic_and psyduck egg answer psyduck logic_or squirtle
+query ekans logic_and psyduck egg answer ekans logic_or psyduck
+query pikachu logic_and psyduck egg answer pichu logic_or psyduck
+query jigglypuff logic_and psyduck egg answer logic_false
+query psyduck logic_and psyduck egg answer psyduck
+query psyduck logic_and farfetch'd egg answer farfetch'd logic_or psyduck
+query rhyhorn logic_and psyduck egg answer rhyhorn logic_or psyduck
+query psyduck logic_and horsea egg answer horsea logic_or psyduck
+query goldeen logic_and psyduck egg answer logic_false
+query psyduck logic_and gyarados egg answer logic_false
+query psyduck logic_and lapras egg answer psyduck logic_or lapras
+query psyduck logic_and ditto egg answer psyduck
+query psyduck logic_and dratini egg answer dratini logic_or psyduck
+query farfetch'd logic_and bulbasaur egg answer logic_false
+query farfetch'd logic_and charmander egg answer logic_false
+query squirtle logic_and farfetch'd egg answer logic_false
+query farfetch'd logic_and ekans egg answer ekans logic_or farfetch'd
+query pikachu logic_and farfetch'd egg answer farfetch'd logic_or pichu
+query jigglypuff logic_and farfetch'd egg answer logic_false
+query farfetch'd logic_and psyduck egg answer psyduck logic_or farfetch'd
+query farfetch'd logic_and farfetch'd egg answer farfetch'd
+query farfetch'd logic_and rhyhorn egg answer farfetch'd logic_or rhyhorn
+query farfetch'd logic_and horsea egg answer logic_false
+query farfetch'd logic_and goldeen egg answer logic_false
+query farfetch'd logic_and gyarados egg answer logic_false
+query farfetch'd logic_and lapras egg answer logic_false
+query farfetch'd logic_and ditto egg answer farfetch'd
+query dratini logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and bulbasaur egg answer rhyhorn logic_or bulbasaur
+query rhyhorn logic_and charmander egg answer rhyhorn logic_or charmander
+query squirtle logic_and rhyhorn egg answer squirtle logic_or rhyhorn
+query ekans logic_and rhyhorn egg answer ekans logic_or rhyhorn
+query pikachu logic_and rhyhorn egg answer rhyhorn logic_or pichu
+query rhyhorn logic_and jigglypuff egg answer logic_false
+query rhyhorn logic_and psyduck egg answer psyduck logic_or rhyhorn
+query rhyhorn logic_and farfetch'd egg answer rhyhorn logic_or farfetch'd
+query rhyhorn logic_and rhyhorn egg answer rhyhorn
+query rhyhorn logic_and horsea egg answer logic_false
+query goldeen logic_and rhyhorn egg answer logic_false
+query gyarados logic_and rhyhorn egg answer logic_false
+query lapras logic_and rhyhorn egg answer rhyhorn logic_or lapras
+query rhyhorn logic_and ditto egg answer rhyhorn
+query rhyhorn logic_and dratini egg answer logic_false
+query bulbasaur logic_and horsea egg answer logic_false
+query charmander logic_and horsea egg answer charmander logic_or horsea
+query squirtle logic_and horsea egg answer horsea logic_or squirtle
+query horsea logic_and ekans egg answer ekans logic_or horsea
+query horsea logic_and pikachu egg answer logic_false
+query horsea logic_and jigglypuff egg answer logic_false
+query psyduck logic_and horsea egg answer horsea logic_or psyduck
+query farfetch'd logic_and horsea egg answer logic_false
+query horsea logic_and rhyhorn egg answer logic_false
+query horsea logic_and horsea egg answer horsea
+query horsea logic_and goldeen egg answer logic_false
+query gyarados logic_and horsea egg answer horsea logic_or magikarp
+query horsea logic_and lapras egg answer lapras logic_or horsea
+query horsea logic_and ditto egg answer horsea
+query dratini logic_and horsea egg answer horsea logic_or dratini
+query goldeen logic_and bulbasaur egg answer logic_false
+query goldeen logic_and charmander egg answer logic_false
+query squirtle logic_and goldeen egg answer logic_false
+query goldeen logic_and ekans egg answer logic_false
+query pikachu logic_and goldeen egg answer logic_false
+query jigglypuff logic_and goldeen egg answer logic_false
+query goldeen logic_and psyduck egg answer logic_false
+query goldeen logic_and farfetch'd egg answer logic_false
+query goldeen logic_and rhyhorn egg answer logic_false
+query goldeen logic_and horsea egg answer logic_false
+query goldeen logic_and goldeen egg answer goldeen
+query goldeen logic_and gyarados egg answer goldeen logic_or magikarp
+query goldeen logic_and lapras egg answer logic_false
+query ditto logic_and goldeen egg answer goldeen
+query goldeen logic_and dratini egg answer logic_false
+query bulbasaur logic_and gyarados egg answer logic_false
+query gyarados logic_and charmander egg answer charmander logic_or magikarp
+query squirtle logic_and gyarados egg answer logic_false
+query gyarados logic_and ekans egg answer magikarp logic_or ekans
+query pikachu logic_and gyarados egg answer logic_false
+query jigglypuff logic_and gyarados egg answer logic_false
+query psyduck logic_and gyarados egg answer logic_false
+query farfetch'd logic_and gyarados egg answer logic_false
+query rhyhorn logic_and gyarados egg answer logic_false
+query gyarados logic_and horsea egg answer horsea logic_or magikarp
+query gyarados logic_and goldeen egg answer magikarp logic_or goldeen
+query gyarados logic_and gyarados egg answer magikarp
+query gyarados logic_and lapras egg answer logic_false
+query gyarados logic_and ditto egg answer magikarp
+query dratini logic_and gyarados egg answer magikarp logic_or dratini
+query bulbasaur logic_and lapras egg answer lapras logic_or bulbasaur
+query lapras logic_and charmander egg answer charmander logic_or lapras
+query squirtle logic_and lapras egg answer squirtle logic_or lapras
+query ekans logic_and lapras egg answer logic_false
+query lapras logic_and pikachu egg answer logic_false
+query jigglypuff logic_and lapras egg answer logic_false
+query psyduck logic_and lapras egg answer psyduck logic_or lapras
+query lapras logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and lapras egg answer lapras logic_or rhyhorn
+query horsea logic_and lapras egg answer lapras logic_or horsea
+query goldeen logic_and lapras egg answer logic_false
+query gyarados logic_and lapras egg answer logic_false
+query lapras logic_and lapras egg answer lapras
+query lapras logic_and ditto egg answer lapras
+query dratini logic_and lapras egg answer lapras logic_or dratini
+query bulbasaur logic_and ditto egg answer bulbasaur
+query ditto logic_and charmander egg answer charmander
+query squirtle logic_and ditto egg answer squirtle
+query ekans logic_and ditto egg answer ekans
+query ditto logic_and pikachu egg answer pichu
+query ditto logic_and jigglypuff egg answer igglybuff
+query psyduck logic_and ditto egg answer psyduck
+query farfetch'd logic_and ditto egg answer farfetch'd
+query ditto logic_and rhyhorn egg answer rhyhorn
+query horsea logic_and ditto egg answer horsea
+query ditto logic_and goldeen egg answer goldeen
+query gyarados logic_and ditto egg answer magikarp
+query lapras logic_and ditto egg answer lapras
+query ditto logic_and ditto egg answer logic_false
+query ditto logic_and dratini egg answer dratini
+query dratini logic_and bulbasaur egg answer logic_false
+query dratini logic_and charmander egg answer charmander logic_or dratini
+query dratini logic_and squirtle egg answer dratini logic_or squirtle
+query dratini logic_and ekans egg answer ekans logic_or dratini
+query pikachu logic_and dratini egg answer logic_false
+query dratini logic_and jigglypuff egg answer logic_false
+query dratini logic_and psyduck egg answer psyduck logic_or dratini
+query dratini logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and dratini egg answer logic_false
+query dratini logic_and horsea egg answer horsea logic_or dratini
+query goldeen logic_and dratini egg answer logic_false
+query gyarados logic_and dratini egg answer dratini logic_or magikarp
+query dratini logic_and lapras egg answer lapras logic_or dratini
+query dratini logic_and ditto egg answer dratini
+query dratini logic_and dratini egg answer dratini
+query bulbasaur logic_and bulbasaur egg answer bulbasaur
+query charmander logic_and bulbasaur egg answer charmander logic_or bulbasaur
+query squirtle logic_and bulbasaur egg answer squirtle logic_or bulbasaur
+query ekans logic_and bulbasaur egg answer logic_false
+query bulbasaur logic_and pikachu egg answer logic_false
+query bulbasaur logic_and jigglypuff egg answer logic_false
+query bulbasaur logic_and psyduck egg answer logic_false
+query farfetch'd logic_and bulbasaur egg answer logic_false
+query rhyhorn logic_and bulbasaur egg answer bulbasaur logic_or rhyhorn
+query bulbasaur logic_and horsea egg answer logic_false
+query bulbasaur logic_and goldeen egg answer logic_false
+query gyarados logic_and bulbasaur egg answer logic_false
+query bulbasaur logic_and lapras egg answer lapras logic_or bulbasaur
+query ditto logic_and bulbasaur egg answer bulbasaur
+query dratini logic_and bulbasaur egg answer logic_false
+query bulbasaur logic_and charmander egg answer charmander logic_or bulbasaur
+query charmander logic_and charmander egg answer charmander
+query squirtle logic_and charmander egg answer charmander logic_or squirtle
+query ekans logic_and charmander egg answer charmander logic_or ekans
+query pikachu logic_and charmander egg answer logic_false
+query jigglypuff logic_and charmander egg answer logic_false
+query charmander logic_and psyduck egg answer logic_false
+query charmander logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and charmander egg answer rhyhorn logic_or charmander
+query horsea logic_and charmander egg answer horsea logic_or charmander
+query goldeen logic_and charmander egg answer logic_false
+query gyarados logic_and charmander egg answer charmander logic_or magikarp
+query lapras logic_and charmander egg answer lapras logic_or charmander
+query charmander logic_and ditto egg answer charmander
+query charmander logic_and dratini egg answer charmander logic_or dratini
+query bulbasaur logic_and squirtle egg answer bulbasaur logic_or squirtle
+query charmander logic_and squirtle egg answer charmander logic_or squirtle
+query squirtle logic_and squirtle egg answer squirtle
+query squirtle logic_and ekans egg answer logic_false
+query squirtle logic_and pikachu egg answer logic_false
+query jigglypuff logic_and squirtle egg answer logic_false
+query squirtle logic_and psyduck egg answer psyduck logic_or squirtle
+query squirtle logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and squirtle egg answer squirtle logic_or rhyhorn
+query horsea logic_and squirtle egg answer squirtle logic_or horsea
+query squirtle logic_and goldeen egg answer logic_false
+query gyarados logic_and squirtle egg answer logic_false
+query squirtle logic_and lapras egg answer squirtle logic_or lapras
+query ditto logic_and squirtle egg answer squirtle
+query squirtle logic_and dratini egg answer dratini logic_or squirtle
+query ekans logic_and bulbasaur egg answer logic_false
+query charmander logic_and ekans egg answer ekans logic_or charmander
+query squirtle logic_and ekans egg answer logic_false
+query ekans logic_and ekans egg answer ekans
+query pikachu logic_and ekans egg answer ekans logic_or pichu
+query jigglypuff logic_and ekans egg answer logic_false
+query ekans logic_and psyduck egg answer ekans logic_or psyduck
+query farfetch'd logic_and ekans egg answer ekans logic_or farfetch'd
+query rhyhorn logic_and ekans egg answer rhyhorn logic_or ekans
+query ekans logic_and horsea egg answer ekans logic_or horsea
+query ekans logic_and goldeen egg answer logic_false
+query ekans logic_and gyarados egg answer magikarp logic_or ekans
+query lapras logic_and ekans egg answer logic_false
+query ekans logic_and ditto egg answer ekans
+query ekans logic_and dratini egg answer dratini logic_or ekans
+query bulbasaur logic_and pikachu egg answer logic_false
+query pikachu logic_and charmander egg answer logic_false
+query squirtle logic_and pikachu egg answer logic_false
+query ekans logic_and pikachu egg answer ekans logic_or pichu
+query pikachu logic_and pikachu egg answer pichu
+query pikachu logic_and jigglypuff egg answer pichu logic_or igglybuff
+query psyduck logic_and pikachu egg answer psyduck logic_or pichu
+query farfetch'd logic_and pikachu egg answer farfetch'd logic_or pichu
+query pikachu logic_and rhyhorn egg answer rhyhorn logic_or pichu
+query pikachu logic_and horsea egg answer logic_false
+query goldeen logic_and pikachu egg answer logic_false
+query pikachu logic_and gyarados egg answer logic_false
+query lapras logic_and pikachu egg answer logic_false
+query pikachu logic_and ditto egg answer pichu
+query pikachu logic_and dratini egg answer logic_false
+query jigglypuff logic_and bulbasaur egg answer logic_false
+query charmander logic_and jigglypuff egg answer logic_false
+query squirtle logic_and jigglypuff egg answer logic_false
+query ekans logic_and jigglypuff egg answer logic_false
+query pikachu logic_and jigglypuff egg answer pichu logic_or igglybuff
+query jigglypuff logic_and jigglypuff egg answer igglybuff
+query psyduck logic_and jigglypuff egg answer logic_false
+query jigglypuff logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and jigglypuff egg answer logic_false
+query horsea logic_and jigglypuff egg answer logic_false
+query jigglypuff logic_and goldeen egg answer logic_false
+query jigglypuff logic_and gyarados egg answer logic_false
+query lapras logic_and jigglypuff egg answer logic_false
+query jigglypuff logic_and ditto egg answer igglybuff
+query jigglypuff logic_and dratini egg answer logic_false
+query bulbasaur logic_and psyduck egg answer logic_false
+query charmander logic_and psyduck egg answer logic_false
+query squirtle logic_and psyduck egg answer psyduck logic_or squirtle
+query ekans logic_and psyduck egg answer ekans logic_or psyduck
+query pikachu logic_and psyduck egg answer pichu logic_or psyduck
+query jigglypuff logic_and psyduck egg answer logic_false
+query psyduck logic_and psyduck egg answer psyduck
+query psyduck logic_and farfetch'd egg answer farfetch'd logic_or psyduck
+query rhyhorn logic_and psyduck egg answer rhyhorn logic_or psyduck
+query psyduck logic_and horsea egg answer horsea logic_or psyduck
+query goldeen logic_and psyduck egg answer logic_false
+query psyduck logic_and gyarados egg answer logic_false
+query psyduck logic_and lapras egg answer psyduck logic_or lapras
+query psyduck logic_and ditto egg answer psyduck
+query psyduck logic_and dratini egg answer dratini logic_or psyduck
+query farfetch'd logic_and bulbasaur egg answer logic_false
+query farfetch'd logic_and charmander egg answer logic_false
+query squirtle logic_and farfetch'd egg answer logic_false
+query farfetch'd logic_and ekans egg answer ekans logic_or farfetch'd
+query pikachu logic_and farfetch'd egg answer farfetch'd logic_or pichu
+query jigglypuff logic_and farfetch'd egg answer logic_false
+query farfetch'd logic_and psyduck egg answer psyduck logic_or farfetch'd
+query farfetch'd logic_and farfetch'd egg answer farfetch'd
+query farfetch'd logic_and rhyhorn egg answer farfetch'd logic_or rhyhorn
+query farfetch'd logic_and horsea egg answer logic_false
+query farfetch'd logic_and goldeen egg answer logic_false
+query farfetch'd logic_and gyarados egg answer logic_false
+query farfetch'd logic_and lapras egg answer logic_false
+query farfetch'd logic_and ditto egg answer farfetch'd
+query dratini logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and bulbasaur egg answer rhyhorn logic_or bulbasaur
+query rhyhorn logic_and charmander egg answer rhyhorn logic_or charmander
+query squirtle logic_and rhyhorn egg answer squirtle logic_or rhyhorn
+query ekans logic_and rhyhorn egg answer ekans logic_or rhyhorn
+query pikachu logic_and rhyhorn egg answer rhyhorn logic_or pichu
+query rhyhorn logic_and jigglypuff egg answer logic_false
+query rhyhorn logic_and psyduck egg answer psyduck logic_or rhyhorn
+query rhyhorn logic_and farfetch'd egg answer rhyhorn logic_or farfetch'd
+query rhyhorn logic_and rhyhorn egg answer rhyhorn
+query rhyhorn logic_and horsea egg answer logic_false
+query goldeen logic_and rhyhorn egg answer logic_false
+query gyarados logic_and rhyhorn egg answer logic_false
+query lapras logic_and rhyhorn egg answer rhyhorn logic_or lapras
+query rhyhorn logic_and ditto egg answer rhyhorn
+query rhyhorn logic_and dratini egg answer logic_false
+query bulbasaur logic_and horsea egg answer logic_false
+query charmander logic_and horsea egg answer charmander logic_or horsea
+query squirtle logic_and horsea egg answer horsea logic_or squirtle
+query horsea logic_and ekans egg answer ekans logic_or horsea
+query horsea logic_and pikachu egg answer logic_false
+query horsea logic_and jigglypuff egg answer logic_false
+query psyduck logic_and horsea egg answer horsea logic_or psyduck
+query farfetch'd logic_and horsea egg answer logic_false
+query horsea logic_and rhyhorn egg answer logic_false
+query horsea logic_and horsea egg answer horsea
+query horsea logic_and goldeen egg answer logic_false
+query gyarados logic_and horsea egg answer horsea logic_or magikarp
+query horsea logic_and lapras egg answer lapras logic_or horsea
+query horsea logic_and ditto egg answer horsea
+query dratini logic_and horsea egg answer horsea logic_or dratini
+query goldeen logic_and bulbasaur egg answer logic_false
+query goldeen logic_and charmander egg answer logic_false
+query squirtle logic_and goldeen egg answer logic_false
+query goldeen logic_and ekans egg answer logic_false
+query pikachu logic_and goldeen egg answer logic_false
+query jigglypuff logic_and goldeen egg answer logic_false
+query goldeen logic_and psyduck egg answer logic_false
+query goldeen logic_and farfetch'd egg answer logic_false
+query goldeen logic_and rhyhorn egg answer logic_false
+query goldeen logic_and horsea egg answer logic_false
+query goldeen logic_and goldeen egg answer goldeen
+query goldeen logic_and gyarados egg answer goldeen logic_or magikarp
+query goldeen logic_and lapras egg answer logic_false
+query ditto logic_and goldeen egg answer goldeen
+query goldeen logic_and dratini egg answer logic_false
+query bulbasaur logic_and gyarados egg answer logic_false
+query gyarados logic_and charmander egg answer charmander logic_or magikarp
+query squirtle logic_and gyarados egg answer logic_false
+query gyarados logic_and ekans egg answer magikarp logic_or ekans
+query pikachu logic_and gyarados egg answer logic_false
+query jigglypuff logic_and gyarados egg answer logic_false
+query psyduck logic_and gyarados egg answer logic_false
+query farfetch'd logic_and gyarados egg answer logic_false
+query rhyhorn logic_and gyarados egg answer logic_false
+query gyarados logic_and horsea egg answer horsea logic_or magikarp
+query gyarados logic_and goldeen egg answer magikarp logic_or goldeen
+query gyarados logic_and gyarados egg answer magikarp
+query gyarados logic_and lapras egg answer logic_false
+query gyarados logic_and ditto egg answer magikarp
+query dratini logic_and gyarados egg answer magikarp logic_or dratini
+query bulbasaur logic_and lapras egg answer lapras logic_or bulbasaur
+query lapras logic_and charmander egg answer charmander logic_or lapras
+query squirtle logic_and lapras egg answer squirtle logic_or lapras
+query ekans logic_and lapras egg answer logic_false
+query lapras logic_and pikachu egg answer logic_false
+query jigglypuff logic_and lapras egg answer logic_false
+query psyduck logic_and lapras egg answer psyduck logic_or lapras
+query lapras logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and lapras egg answer lapras logic_or rhyhorn
+query horsea logic_and lapras egg answer lapras logic_or horsea
+query goldeen logic_and lapras egg answer logic_false
+query gyarados logic_and lapras egg answer logic_false
+query lapras logic_and lapras egg answer lapras
+query lapras logic_and ditto egg answer lapras
+query dratini logic_and lapras egg answer lapras logic_or dratini
+query bulbasaur logic_and ditto egg answer bulbasaur
+query ditto logic_and charmander egg answer charmander
+query squirtle logic_and ditto egg answer squirtle
+query ekans logic_and ditto egg answer ekans
+query ditto logic_and pikachu egg answer pichu
+query ditto logic_and jigglypuff egg answer igglybuff
+query psyduck logic_and ditto egg answer psyduck
+query farfetch'd logic_and ditto egg answer farfetch'd
+query ditto logic_and rhyhorn egg answer rhyhorn
+query horsea logic_and ditto egg answer horsea
+query ditto logic_and goldeen egg answer goldeen
+query gyarados logic_and ditto egg answer magikarp
+query lapras logic_and ditto egg answer lapras
+query ditto logic_and ditto egg answer logic_false
+query ditto logic_and dratini egg answer dratini
+query dratini logic_and bulbasaur egg answer logic_false
+query dratini logic_and charmander egg answer charmander logic_or dratini
+query dratini logic_and squirtle egg answer dratini logic_or squirtle
+query dratini logic_and ekans egg answer ekans logic_or dratini
+query pikachu logic_and dratini egg answer logic_false
+query dratini logic_and jigglypuff egg answer logic_false
+query dratini logic_and psyduck egg answer psyduck logic_or dratini
+query dratini logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and dratini egg answer logic_false
+query dratini logic_and horsea egg answer horsea logic_or dratini
+query goldeen logic_and dratini egg answer logic_false
+query gyarados logic_and dratini egg answer dratini logic_or magikarp
+query dratini logic_and lapras egg answer lapras logic_or dratini
+query dratini logic_and ditto egg answer dratini
+query dratini logic_and dratini egg answer dratini
+query bulbasaur logic_and bulbasaur egg answer bulbasaur
+query charmander logic_and bulbasaur egg answer charmander logic_or bulbasaur
+query squirtle logic_and bulbasaur egg answer squirtle logic_or bulbasaur
+query ekans logic_and bulbasaur egg answer logic_false
+query bulbasaur logic_and pikachu egg answer logic_false
+query bulbasaur logic_and jigglypuff egg answer logic_false
+query bulbasaur logic_and psyduck egg answer logic_false
+query farfetch'd logic_and bulbasaur egg answer logic_false
+query rhyhorn logic_and bulbasaur egg answer bulbasaur logic_or rhyhorn
+query bulbasaur logic_and horsea egg answer logic_false
+query bulbasaur logic_and goldeen egg answer logic_false
+query gyarados logic_and bulbasaur egg answer logic_false
+query bulbasaur logic_and lapras egg answer lapras logic_or bulbasaur
+query ditto logic_and bulbasaur egg answer bulbasaur
+query dratini logic_and bulbasaur egg answer logic_false
+query bulbasaur logic_and charmander egg answer charmander logic_or bulbasaur
+query charmander logic_and charmander egg answer charmander
+query squirtle logic_and charmander egg answer charmander logic_or squirtle
+query ekans logic_and charmander egg answer charmander logic_or ekans
+query pikachu logic_and charmander egg answer logic_false
+query jigglypuff logic_and charmander egg answer logic_false
+query charmander logic_and psyduck egg answer logic_false
+query charmander logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and charmander egg answer rhyhorn logic_or charmander
+query horsea logic_and charmander egg answer horsea logic_or charmander
+query goldeen logic_and charmander egg answer logic_false
+query gyarados logic_and charmander egg answer charmander logic_or magikarp
+query lapras logic_and charmander egg answer lapras logic_or charmander
+query charmander logic_and ditto egg answer charmander
+query charmander logic_and dratini egg answer charmander logic_or dratini
+query bulbasaur logic_and squirtle egg answer bulbasaur logic_or squirtle
+query charmander logic_and squirtle egg answer charmander logic_or squirtle
+query squirtle logic_and squirtle egg answer squirtle
+query squirtle logic_and ekans egg answer logic_false
+query squirtle logic_and pikachu egg answer logic_false
+query jigglypuff logic_and squirtle egg answer logic_false
+query squirtle logic_and psyduck egg answer psyduck logic_or squirtle
+query squirtle logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and squirtle egg answer squirtle logic_or rhyhorn
+query horsea logic_and squirtle egg answer squirtle logic_or horsea
+query squirtle logic_and goldeen egg answer logic_false
+query gyarados logic_and squirtle egg answer logic_false
+query squirtle logic_and lapras egg answer squirtle logic_or lapras
+query ditto logic_and squirtle egg answer squirtle
+query squirtle logic_and dratini egg answer dratini logic_or squirtle
+query ekans logic_and bulbasaur egg answer logic_false
+query charmander logic_and ekans egg answer ekans logic_or charmander
+query squirtle logic_and ekans egg answer logic_false
+query ekans logic_and ekans egg answer ekans
+query pikachu logic_and ekans egg answer ekans logic_or pichu
+query jigglypuff logic_and ekans egg answer logic_false
+query ekans logic_and psyduck egg answer ekans logic_or psyduck
+query farfetch'd logic_and ekans egg answer ekans logic_or farfetch'd
+query rhyhorn logic_and ekans egg answer rhyhorn logic_or ekans
+query ekans logic_and horsea egg answer ekans logic_or horsea
+query ekans logic_and goldeen egg answer logic_false
+query ekans logic_and gyarados egg answer magikarp logic_or ekans
+query lapras logic_and ekans egg answer logic_false
+query ekans logic_and ditto egg answer ekans
+query ekans logic_and dratini egg answer dratini logic_or ekans
+query bulbasaur logic_and pikachu egg answer logic_false
+query pikachu logic_and charmander egg answer logic_false
+query squirtle logic_and pikachu egg answer logic_false
+query ekans logic_and pikachu egg answer ekans logic_or pichu
+query pikachu logic_and pikachu egg answer pichu
+query pikachu logic_and jigglypuff egg answer pichu logic_or igglybuff
+query psyduck logic_and pikachu egg answer psyduck logic_or pichu
+query farfetch'd logic_and pikachu egg answer farfetch'd logic_or pichu
+query pikachu logic_and rhyhorn egg answer rhyhorn logic_or pichu
+query pikachu logic_and horsea egg answer logic_false
+query goldeen logic_and pikachu egg answer logic_false
+query pikachu logic_and gyarados egg answer logic_false
+query lapras logic_and pikachu egg answer logic_false
+query pikachu logic_and ditto egg answer pichu
+query pikachu logic_and dratini egg answer logic_false
+query jigglypuff logic_and bulbasaur egg answer logic_false
+query charmander logic_and jigglypuff egg answer logic_false
+query squirtle logic_and jigglypuff egg answer logic_false
+query ekans logic_and jigglypuff egg answer logic_false
+query pikachu logic_and jigglypuff egg answer pichu logic_or igglybuff
+query jigglypuff logic_and jigglypuff egg answer igglybuff
+query psyduck logic_and jigglypuff egg answer logic_false
+query jigglypuff logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and jigglypuff egg answer logic_false
+query horsea logic_and jigglypuff egg answer logic_false
+query jigglypuff logic_and goldeen egg answer logic_false
+query jigglypuff logic_and gyarados egg answer logic_false
+query lapras logic_and jigglypuff egg answer logic_false
+query jigglypuff logic_and ditto egg answer igglybuff
+query jigglypuff logic_and dratini egg answer logic_false
+query bulbasaur logic_and psyduck egg answer logic_false
+query charmander logic_and psyduck egg answer logic_false
+query squirtle logic_and psyduck egg answer psyduck logic_or squirtle
+query ekans logic_and psyduck egg answer ekans logic_or psyduck
+query pikachu logic_and psyduck egg answer pichu logic_or psyduck
+query jigglypuff logic_and psyduck egg answer logic_false
+query psyduck logic_and psyduck egg answer psyduck
+query psyduck logic_and farfetch'd egg answer farfetch'd logic_or psyduck
+query rhyhorn logic_and psyduck egg answer rhyhorn logic_or psyduck
+query psyduck logic_and horsea egg answer horsea logic_or psyduck
+query goldeen logic_and psyduck egg answer logic_false
+query psyduck logic_and gyarados egg answer logic_false
+query psyduck logic_and lapras egg answer psyduck logic_or lapras
+query psyduck logic_and ditto egg answer psyduck
+query psyduck logic_and dratini egg answer dratini logic_or psyduck
+query farfetch'd logic_and bulbasaur egg answer logic_false
+query farfetch'd logic_and charmander egg answer logic_false
+query squirtle logic_and farfetch'd egg answer logic_false
+query farfetch'd logic_and ekans egg answer ekans logic_or farfetch'd
+query pikachu logic_and farfetch'd egg answer farfetch'd logic_or pichu
+query jigglypuff logic_and farfetch'd egg answer logic_false
+query farfetch'd logic_and psyduck egg answer psyduck logic_or farfetch'd
+query farfetch'd logic_and farfetch'd egg answer farfetch'd
+query farfetch'd logic_and rhyhorn egg answer farfetch'd logic_or rhyhorn
+query farfetch'd logic_and horsea egg answer logic_false
+query farfetch'd logic_and goldeen egg answer logic_false
+query farfetch'd logic_and gyarados egg answer logic_false
+query farfetch'd logic_and lapras egg answer logic_false
+query farfetch'd logic_and ditto egg answer farfetch'd
+query dratini logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and bulbasaur egg answer rhyhorn logic_or bulbasaur
+query rhyhorn logic_and charmander egg answer rhyhorn logic_or charmander
+query squirtle logic_and rhyhorn egg answer squirtle logic_or rhyhorn
+query ekans logic_and rhyhorn egg answer ekans logic_or rhyhorn
+query pikachu logic_and rhyhorn egg answer rhyhorn logic_or pichu
+query rhyhorn logic_and jigglypuff egg answer logic_false
+query rhyhorn logic_and psyduck egg answer psyduck logic_or rhyhorn
+query rhyhorn logic_and farfetch'd egg answer rhyhorn logic_or farfetch'd
+query rhyhorn logic_and rhyhorn egg answer rhyhorn
+query rhyhorn logic_and horsea egg answer logic_false
+query goldeen logic_and rhyhorn egg answer logic_false
+query gyarados logic_and rhyhorn egg answer logic_false
+query lapras logic_and rhyhorn egg answer rhyhorn logic_or lapras
+query rhyhorn logic_and ditto egg answer rhyhorn
+query rhyhorn logic_and dratini egg answer logic_false
+query bulbasaur logic_and horsea egg answer logic_false
+query charmander logic_and horsea egg answer charmander logic_or horsea
+query squirtle logic_and horsea egg answer horsea logic_or squirtle
+query horsea logic_and ekans egg answer ekans logic_or horsea
+query horsea logic_and pikachu egg answer logic_false
+query horsea logic_and jigglypuff egg answer logic_false
+query psyduck logic_and horsea egg answer horsea logic_or psyduck
+query farfetch'd logic_and horsea egg answer logic_false
+query horsea logic_and rhyhorn egg answer logic_false
+query horsea logic_and horsea egg answer horsea
+query horsea logic_and goldeen egg answer logic_false
+query gyarados logic_and horsea egg answer horsea logic_or magikarp
+query horsea logic_and lapras egg answer lapras logic_or horsea
+query horsea logic_and ditto egg answer horsea
+query dratini logic_and horsea egg answer horsea logic_or dratini
+query goldeen logic_and bulbasaur egg answer logic_false
+query goldeen logic_and charmander egg answer logic_false
+query squirtle logic_and goldeen egg answer logic_false
+query goldeen logic_and ekans egg answer logic_false
+query pikachu logic_and goldeen egg answer logic_false
+query jigglypuff logic_and goldeen egg answer logic_false
+query goldeen logic_and psyduck egg answer logic_false
+query goldeen logic_and farfetch'd egg answer logic_false
+query goldeen logic_and rhyhorn egg answer logic_false
+query goldeen logic_and horsea egg answer logic_false
+query goldeen logic_and goldeen egg answer goldeen
+query goldeen logic_and gyarados egg answer goldeen logic_or magikarp
+query goldeen logic_and lapras egg answer logic_false
+query ditto logic_and goldeen egg answer goldeen
+query goldeen logic_and dratini egg answer logic_false
+query bulbasaur logic_and gyarados egg answer logic_false
+query gyarados logic_and charmander egg answer charmander logic_or magikarp
+query squirtle logic_and gyarados egg answer logic_false
+query gyarados logic_and ekans egg answer magikarp logic_or ekans
+query pikachu logic_and gyarados egg answer logic_false
+query jigglypuff logic_and gyarados egg answer logic_false
+query psyduck logic_and gyarados egg answer logic_false
+query farfetch'd logic_and gyarados egg answer logic_false
+query rhyhorn logic_and gyarados egg answer logic_false
+query gyarados logic_and horsea egg answer horsea logic_or magikarp
+query gyarados logic_and goldeen egg answer magikarp logic_or goldeen
+query gyarados logic_and gyarados egg answer magikarp
+query gyarados logic_and lapras egg answer logic_false
+query gyarados logic_and ditto egg answer magikarp
+query dratini logic_and gyarados egg answer magikarp logic_or dratini
+query bulbasaur logic_and lapras egg answer lapras logic_or bulbasaur
+query lapras logic_and charmander egg answer charmander logic_or lapras
+query squirtle logic_and lapras egg answer squirtle logic_or lapras
+query ekans logic_and lapras egg answer logic_false
+query lapras logic_and pikachu egg answer logic_false
+query jigglypuff logic_and lapras egg answer logic_false
+query psyduck logic_and lapras egg answer psyduck logic_or lapras
+query lapras logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and lapras egg answer lapras logic_or rhyhorn
+query horsea logic_and lapras egg answer lapras logic_or horsea
+query goldeen logic_and lapras egg answer logic_false
+query gyarados logic_and lapras egg answer logic_false
+query lapras logic_and lapras egg answer lapras
+query lapras logic_and ditto egg answer lapras
+query dratini logic_and lapras egg answer lapras logic_or dratini
+query bulbasaur logic_and ditto egg answer bulbasaur
+query ditto logic_and charmander egg answer charmander
+query squirtle logic_and ditto egg answer squirtle
+query ekans logic_and ditto egg answer ekans
+query ditto logic_and pikachu egg answer pichu
+query ditto logic_and jigglypuff egg answer igglybuff
+query psyduck logic_and ditto egg answer psyduck
+query farfetch'd logic_and ditto egg answer farfetch'd
+query ditto logic_and rhyhorn egg answer rhyhorn
+query horsea logic_and ditto egg answer horsea
+query ditto logic_and goldeen egg answer goldeen
+query gyarados logic_and ditto egg answer magikarp
+query lapras logic_and ditto egg answer lapras
+query ditto logic_and ditto egg answer logic_false
+query ditto logic_and dratini egg answer dratini
+query dratini logic_and bulbasaur egg answer logic_false
+query dratini logic_and charmander egg answer charmander logic_or dratini
+query dratini logic_and squirtle egg answer dratini logic_or squirtle
+query dratini logic_and ekans egg answer ekans logic_or dratini
+query pikachu logic_and dratini egg answer logic_false
+query dratini logic_and jigglypuff egg answer logic_false
+query dratini logic_and psyduck egg answer psyduck logic_or dratini
+query dratini logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and dratini egg answer logic_false
+query dratini logic_and horsea egg answer horsea logic_or dratini
+query goldeen logic_and dratini egg answer logic_false
+query gyarados logic_and dratini egg answer dratini logic_or magikarp
+query dratini logic_and lapras egg answer lapras logic_or dratini
+query dratini logic_and ditto egg answer dratini
+query dratini logic_and dratini egg answer dratini
+query bulbasaur logic_and bulbasaur egg answer bulbasaur
+query charmander logic_and bulbasaur egg answer charmander logic_or bulbasaur
+query squirtle logic_and bulbasaur egg answer squirtle logic_or bulbasaur
+query ekans logic_and bulbasaur egg answer logic_false
+query bulbasaur logic_and pikachu egg answer logic_false
+query bulbasaur logic_and jigglypuff egg answer logic_false
+query bulbasaur logic_and psyduck egg answer logic_false
+query farfetch'd logic_and bulbasaur egg answer logic_false
+query rhyhorn logic_and bulbasaur egg answer bulbasaur logic_or rhyhorn
+query bulbasaur logic_and horsea egg answer logic_false
+query bulbasaur logic_and goldeen egg answer logic_false
+query gyarados logic_and bulbasaur egg answer logic_false
+query bulbasaur logic_and lapras egg answer lapras logic_or bulbasaur
+query ditto logic_and bulbasaur egg answer bulbasaur
+query dratini logic_and bulbasaur egg answer logic_false
+query bulbasaur logic_and charmander egg answer charmander logic_or bulbasaur
+query charmander logic_and charmander egg answer charmander
+query squirtle logic_and charmander egg answer charmander logic_or squirtle
+query ekans logic_and charmander egg answer charmander logic_or ekans
+query pikachu logic_and charmander egg answer logic_false
+query jigglypuff logic_and charmander egg answer logic_false
+query charmander logic_and psyduck egg answer logic_false
+query charmander logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and charmander egg answer rhyhorn logic_or charmander
+query horsea logic_and charmander egg answer horsea logic_or charmander
+query goldeen logic_and charmander egg answer logic_false
+query gyarados logic_and charmander egg answer charmander logic_or magikarp
+query lapras logic_and charmander egg answer lapras logic_or charmander
+query charmander logic_and ditto egg answer charmander
+query charmander logic_and dratini egg answer charmander logic_or dratini
+query bulbasaur logic_and squirtle egg answer bulbasaur logic_or squirtle
+query charmander logic_and squirtle egg answer charmander logic_or squirtle
+query squirtle logic_and squirtle egg answer squirtle
+query squirtle logic_and ekans egg answer logic_false
+query squirtle logic_and pikachu egg answer logic_false
+query jigglypuff logic_and squirtle egg answer logic_false
+query squirtle logic_and psyduck egg answer psyduck logic_or squirtle
+query squirtle logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and squirtle egg answer squirtle logic_or rhyhorn
+query horsea logic_and squirtle egg answer squirtle logic_or horsea
+query squirtle logic_and goldeen egg answer logic_false
+query gyarados logic_and squirtle egg answer logic_false
+query squirtle logic_and lapras egg answer squirtle logic_or lapras
+query ditto logic_and squirtle egg answer squirtle
+query squirtle logic_and dratini egg answer dratini logic_or squirtle
+query ekans logic_and bulbasaur egg answer logic_false
+query charmander logic_and ekans egg answer ekans logic_or charmander
+query squirtle logic_and ekans egg answer logic_false
+query ekans logic_and ekans egg answer ekans
+query pikachu logic_and ekans egg answer ekans logic_or pichu
+query jigglypuff logic_and ekans egg answer logic_false
+query ekans logic_and psyduck egg answer ekans logic_or psyduck
+query farfetch'd logic_and ekans egg answer ekans logic_or farfetch'd
+query rhyhorn logic_and ekans egg answer rhyhorn logic_or ekans
+query ekans logic_and horsea egg answer ekans logic_or horsea
+query ekans logic_and goldeen egg answer logic_false
+query ekans logic_and gyarados egg answer magikarp logic_or ekans
+query lapras logic_and ekans egg answer logic_false
+query ekans logic_and ditto egg answer ekans
+query ekans logic_and dratini egg answer dratini logic_or ekans
+query bulbasaur logic_and pikachu egg answer logic_false
+query pikachu logic_and charmander egg answer logic_false
+query squirtle logic_and pikachu egg answer logic_false
+query ekans logic_and pikachu egg answer ekans logic_or pichu
+query pikachu logic_and pikachu egg answer pichu
+query pikachu logic_and jigglypuff egg answer pichu logic_or igglybuff
+query psyduck logic_and pikachu egg answer psyduck logic_or pichu
+query farfetch'd logic_and pikachu egg answer farfetch'd logic_or pichu
+query pikachu logic_and rhyhorn egg answer rhyhorn logic_or pichu
+query pikachu logic_and horsea egg answer logic_false
+query goldeen logic_and pikachu egg answer logic_false
+query pikachu logic_and gyarados egg answer logic_false
+query lapras logic_and pikachu egg answer logic_false
+query pikachu logic_and ditto egg answer pichu
+query pikachu logic_and dratini egg answer logic_false
+query jigglypuff logic_and bulbasaur egg answer logic_false
+query charmander logic_and jigglypuff egg answer logic_false
+query squirtle logic_and jigglypuff egg answer logic_false
+query ekans logic_and jigglypuff egg answer logic_false
+query pikachu logic_and jigglypuff egg answer pichu logic_or igglybuff
+query jigglypuff logic_and jigglypuff egg answer igglybuff
+query psyduck logic_and jigglypuff egg answer logic_false
+query jigglypuff logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and jigglypuff egg answer logic_false
+query horsea logic_and jigglypuff egg answer logic_false
+query jigglypuff logic_and goldeen egg answer logic_false
+query jigglypuff logic_and gyarados egg answer logic_false
+query lapras logic_and jigglypuff egg answer logic_false
+query jigglypuff logic_and ditto egg answer igglybuff
+query jigglypuff logic_and dratini egg answer logic_false
+query bulbasaur logic_and psyduck egg answer logic_false
+query charmander logic_and psyduck egg answer logic_false
+query squirtle logic_and psyduck egg answer psyduck logic_or squirtle
+query ekans logic_and psyduck egg answer ekans logic_or psyduck
+query pikachu logic_and psyduck egg answer pichu logic_or psyduck
+query jigglypuff logic_and psyduck egg answer logic_false
+query psyduck logic_and psyduck egg answer psyduck
+query psyduck logic_and farfetch'd egg answer farfetch'd logic_or psyduck
+query rhyhorn logic_and psyduck egg answer rhyhorn logic_or psyduck
+query psyduck logic_and horsea egg answer horsea logic_or psyduck
+query goldeen logic_and psyduck egg answer logic_false
+query psyduck logic_and gyarados egg answer logic_false
+query psyduck logic_and lapras egg answer psyduck logic_or lapras
+query psyduck logic_and ditto egg answer psyduck
+query psyduck logic_and dratini egg answer dratini logic_or psyduck
+query farfetch'd logic_and bulbasaur egg answer logic_false
+query farfetch'd logic_and charmander egg answer logic_false
+query squirtle logic_and farfetch'd egg answer logic_false
+query farfetch'd logic_and ekans egg answer ekans logic_or farfetch'd
+query pikachu logic_and farfetch'd egg answer farfetch'd logic_or pichu
+query jigglypuff logic_and farfetch'd egg answer logic_false
+query farfetch'd logic_and psyduck egg answer psyduck logic_or farfetch'd
+query farfetch'd logic_and farfetch'd egg answer farfetch'd
+query farfetch'd logic_and rhyhorn egg answer farfetch'd logic_or rhyhorn
+query farfetch'd logic_and horsea egg answer logic_false
+query farfetch'd logic_and goldeen egg answer logic_false
+query farfetch'd logic_and gyarados egg answer logic_false
+query farfetch'd logic_and lapras egg answer logic_false
+query farfetch'd logic_and ditto egg answer farfetch'd
+query dratini logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and bulbasaur egg answer rhyhorn logic_or bulbasaur
+query rhyhorn logic_and charmander egg answer rhyhorn logic_or charmander
+query squirtle logic_and rhyhorn egg answer squirtle logic_or rhyhorn
+query ekans logic_and rhyhorn egg answer ekans logic_or rhyhorn
+query pikachu logic_and rhyhorn egg answer rhyhorn logic_or pichu
+query rhyhorn logic_and jigglypuff egg answer logic_false
+query rhyhorn logic_and psyduck egg answer psyduck logic_or rhyhorn
+query rhyhorn logic_and farfetch'd egg answer rhyhorn logic_or farfetch'd
+query rhyhorn logic_and rhyhorn egg answer rhyhorn
+query rhyhorn logic_and horsea egg answer logic_false
+query goldeen logic_and rhyhorn egg answer logic_false
+query gyarados logic_and rhyhorn egg answer logic_false
+query lapras logic_and rhyhorn egg answer rhyhorn logic_or lapras
+query rhyhorn logic_and ditto egg answer rhyhorn
+query rhyhorn logic_and dratini egg answer logic_false
+query bulbasaur logic_and horsea egg answer logic_false
+query charmander logic_and horsea egg answer charmander logic_or horsea
+query squirtle logic_and horsea egg answer horsea logic_or squirtle
+query horsea logic_and ekans egg answer ekans logic_or horsea
+query horsea logic_and pikachu egg answer logic_false
+query horsea logic_and jigglypuff egg answer logic_false
+query psyduck logic_and horsea egg answer horsea logic_or psyduck
+query farfetch'd logic_and horsea egg answer logic_false
+query horsea logic_and rhyhorn egg answer logic_false
+query horsea logic_and horsea egg answer horsea
+query horsea logic_and goldeen egg answer logic_false
+query gyarados logic_and horsea egg answer horsea logic_or magikarp
+query horsea logic_and lapras egg answer lapras logic_or horsea
+query horsea logic_and ditto egg answer horsea
+query dratini logic_and horsea egg answer horsea logic_or dratini
+query goldeen logic_and bulbasaur egg answer logic_false
+query goldeen logic_and charmander egg answer logic_false
+query squirtle logic_and goldeen egg answer logic_false
+query goldeen logic_and ekans egg answer logic_false
+query pikachu logic_and goldeen egg answer logic_false
+query jigglypuff logic_and goldeen egg answer logic_false
+query goldeen logic_and psyduck egg answer logic_false
+query goldeen logic_and farfetch'd egg answer logic_false
+query goldeen logic_and rhyhorn egg answer logic_false
+query goldeen logic_and horsea egg answer logic_false
+query goldeen logic_and goldeen egg answer goldeen
+query goldeen logic_and gyarados egg answer goldeen logic_or magikarp
+query goldeen logic_and lapras egg answer logic_false
+query ditto logic_and goldeen egg answer goldeen
+query goldeen logic_and dratini egg answer logic_false
+query bulbasaur logic_and gyarados egg answer logic_false
+query gyarados logic_and charmander egg answer charmander logic_or magikarp
+query squirtle logic_and gyarados egg answer logic_false
+query gyarados logic_and ekans egg answer magikarp logic_or ekans
+query pikachu logic_and gyarados egg answer logic_false
+query jigglypuff logic_and gyarados egg answer logic_false
+query psyduck logic_and gyarados egg answer logic_false
+query farfetch'd logic_and gyarados egg answer logic_false
+query rhyhorn logic_and gyarados egg answer logic_false
+query gyarados logic_and horsea egg answer horsea logic_or magikarp
+query gyarados logic_and goldeen egg answer magikarp logic_or goldeen
+query gyarados logic_and gyarados egg answer magikarp
+query gyarados logic_and lapras egg answer logic_false
+query gyarados logic_and ditto egg answer magikarp
+query dratini logic_and gyarados egg answer magikarp logic_or dratini
+query bulbasaur logic_and lapras egg answer lapras logic_or bulbasaur
+query lapras logic_and charmander egg answer charmander logic_or lapras
+query squirtle logic_and lapras egg answer squirtle logic_or lapras
+query ekans logic_and lapras egg answer logic_false
+query lapras logic_and pikachu egg answer logic_false
+query jigglypuff logic_and lapras egg answer logic_false
+query psyduck logic_and lapras egg answer psyduck logic_or lapras
+query lapras logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and lapras egg answer lapras logic_or rhyhorn
+query horsea logic_and lapras egg answer lapras logic_or horsea
+query goldeen logic_and lapras egg answer logic_false
+query gyarados logic_and lapras egg answer logic_false
+query lapras logic_and lapras egg answer lapras
+query lapras logic_and ditto egg answer lapras
+query dratini logic_and lapras egg answer lapras logic_or dratini
+query bulbasaur logic_and ditto egg answer bulbasaur
+query ditto logic_and charmander egg answer charmander
+query squirtle logic_and ditto egg answer squirtle
+query ekans logic_and ditto egg answer ekans
+query ditto logic_and pikachu egg answer pichu
+query ditto logic_and jigglypuff egg answer igglybuff
+query psyduck logic_and ditto egg answer psyduck
+query farfetch'd logic_and ditto egg answer farfetch'd
+query ditto logic_and rhyhorn egg answer rhyhorn
+query horsea logic_and ditto egg answer horsea
+query ditto logic_and goldeen egg answer goldeen
+query gyarados logic_and ditto egg answer magikarp
+query lapras logic_and ditto egg answer lapras
+query ditto logic_and ditto egg answer logic_false
+query ditto logic_and dratini egg answer dratini
+query dratini logic_and bulbasaur egg answer logic_false
+query dratini logic_and charmander egg answer charmander logic_or dratini
+query dratini logic_and squirtle egg answer dratini logic_or squirtle
+query dratini logic_and ekans egg answer ekans logic_or dratini
+query pikachu logic_and dratini egg answer logic_false
+query dratini logic_and jigglypuff egg answer logic_false
+query dratini logic_and psyduck egg answer psyduck logic_or dratini
+query dratini logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and dratini egg answer logic_false
+query dratini logic_and horsea egg answer horsea logic_or dratini
+query goldeen logic_and dratini egg answer logic_false
+query gyarados logic_and dratini egg answer dratini logic_or magikarp
+query dratini logic_and lapras egg answer lapras logic_or dratini
+query dratini logic_and ditto egg answer dratini
+query dratini logic_and dratini egg answer dratini
+query bulbasaur logic_and bulbasaur egg answer bulbasaur
+query charmander logic_and bulbasaur egg answer charmander logic_or bulbasaur
+query squirtle logic_and bulbasaur egg answer squirtle logic_or bulbasaur
+query ekans logic_and bulbasaur egg answer logic_false
+query bulbasaur logic_and pikachu egg answer logic_false
+query bulbasaur logic_and jigglypuff egg answer logic_false
+query bulbasaur logic_and psyduck egg answer logic_false
+query farfetch'd logic_and bulbasaur egg answer logic_false
+query rhyhorn logic_and bulbasaur egg answer bulbasaur logic_or rhyhorn
+query bulbasaur logic_and horsea egg answer logic_false
+query bulbasaur logic_and goldeen egg answer logic_false
+query gyarados logic_and bulbasaur egg answer logic_false
+query bulbasaur logic_and lapras egg answer lapras logic_or bulbasaur
+query ditto logic_and bulbasaur egg answer bulbasaur
+query dratini logic_and bulbasaur egg answer logic_false
+query bulbasaur logic_and charmander egg answer charmander logic_or bulbasaur
+query charmander logic_and charmander egg answer charmander
+query squirtle logic_and charmander egg answer charmander logic_or squirtle
+query ekans logic_and charmander egg answer charmander logic_or ekans
+query pikachu logic_and charmander egg answer logic_false
+query jigglypuff logic_and charmander egg answer logic_false
+query charmander logic_and psyduck egg answer logic_false
+query charmander logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and charmander egg answer rhyhorn logic_or charmander
+query horsea logic_and charmander egg answer horsea logic_or charmander
+query goldeen logic_and charmander egg answer logic_false
+query gyarados logic_and charmander egg answer charmander logic_or magikarp
+query lapras logic_and charmander egg answer lapras logic_or charmander
+query charmander logic_and ditto egg answer charmander
+query charmander logic_and dratini egg answer charmander logic_or dratini
+query bulbasaur logic_and squirtle egg answer bulbasaur logic_or squirtle
+query charmander logic_and squirtle egg answer charmander logic_or squirtle
+query squirtle logic_and squirtle egg answer squirtle
+query squirtle logic_and ekans egg answer logic_false
+query squirtle logic_and pikachu egg answer logic_false
+query jigglypuff logic_and squirtle egg answer logic_false
+query squirtle logic_and psyduck egg answer psyduck logic_or squirtle
+query squirtle logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and squirtle egg answer squirtle logic_or rhyhorn
+query horsea logic_and squirtle egg answer squirtle logic_or horsea
+query squirtle logic_and goldeen egg answer logic_false
+query gyarados logic_and squirtle egg answer logic_false
+query squirtle logic_and lapras egg answer squirtle logic_or lapras
+query ditto logic_and squirtle egg answer squirtle
+query squirtle logic_and dratini egg answer dratini logic_or squirtle
+query ekans logic_and bulbasaur egg answer logic_false
+query charmander logic_and ekans egg answer ekans logic_or charmander
+query squirtle logic_and ekans egg answer logic_false
+query ekans logic_and ekans egg answer ekans
+query pikachu logic_and ekans egg answer ekans logic_or pichu
+query jigglypuff logic_and ekans egg answer logic_false
+query ekans logic_and psyduck egg answer ekans logic_or psyduck
+query farfetch'd logic_and ekans egg answer ekans logic_or farfetch'd
+query rhyhorn logic_and ekans egg answer rhyhorn logic_or ekans
+query ekans logic_and horsea egg answer ekans logic_or horsea
+query ekans logic_and goldeen egg answer logic_false
+query ekans logic_and gyarados egg answer magikarp logic_or ekans
+query lapras logic_and ekans egg answer logic_false
+query ekans logic_and ditto egg answer ekans
+query ekans logic_and dratini egg answer dratini logic_or ekans
+query bulbasaur logic_and pikachu egg answer logic_false
+query pikachu logic_and charmander egg answer logic_false
+query squirtle logic_and pikachu egg answer logic_false
+query ekans logic_and pikachu egg answer ekans logic_or pichu
+query pikachu logic_and pikachu egg answer pichu
+query pikachu logic_and jigglypuff egg answer pichu logic_or igglybuff
+query psyduck logic_and pikachu egg answer psyduck logic_or pichu
+query farfetch'd logic_and pikachu egg answer farfetch'd logic_or pichu
+query pikachu logic_and rhyhorn egg answer rhyhorn logic_or pichu
+query pikachu logic_and horsea egg answer logic_false
+query goldeen logic_and pikachu egg answer logic_false
+query pikachu logic_and gyarados egg answer logic_false
+query lapras logic_and pikachu egg answer logic_false
+query pikachu logic_and ditto egg answer pichu
+query pikachu logic_and dratini egg answer logic_false
+query jigglypuff logic_and bulbasaur egg answer logic_false
+query charmander logic_and jigglypuff egg answer logic_false
+query squirtle logic_and jigglypuff egg answer logic_false
+query ekans logic_and jigglypuff egg answer logic_false
+query pikachu logic_and jigglypuff egg answer pichu logic_or igglybuff
+query jigglypuff logic_and jigglypuff egg answer igglybuff
+query psyduck logic_and jigglypuff egg answer logic_false
+query jigglypuff logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and jigglypuff egg answer logic_false
+query horsea logic_and jigglypuff egg answer logic_false
+query jigglypuff logic_and goldeen egg answer logic_false
+query jigglypuff logic_and gyarados egg answer logic_false
+query lapras logic_and jigglypuff egg answer logic_false
+query jigglypuff logic_and ditto egg answer igglybuff
+query jigglypuff logic_and dratini egg answer logic_false
+query bulbasaur logic_and psyduck egg answer logic_false
+query charmander logic_and psyduck egg answer logic_false
+query squirtle logic_and psyduck egg answer psyduck logic_or squirtle
+query ekans logic_and psyduck egg answer ekans logic_or psyduck
+query pikachu logic_and psyduck egg answer pichu logic_or psyduck
+query jigglypuff logic_and psyduck egg answer logic_false
+query psyduck logic_and psyduck egg answer psyduck
+query psyduck logic_and farfetch'd egg answer farfetch'd logic_or psyduck
+query rhyhorn logic_and psyduck egg answer rhyhorn logic_or psyduck
+query psyduck logic_and horsea egg answer horsea logic_or psyduck
+query goldeen logic_and psyduck egg answer logic_false
+query psyduck logic_and gyarados egg answer logic_false
+query psyduck logic_and lapras egg answer psyduck logic_or lapras
+query psyduck logic_and ditto egg answer psyduck
+query psyduck logic_and dratini egg answer dratini logic_or psyduck
+query farfetch'd logic_and bulbasaur egg answer logic_false
+query farfetch'd logic_and charmander egg answer logic_false
+query squirtle logic_and farfetch'd egg answer logic_false
+query farfetch'd logic_and ekans egg answer ekans logic_or farfetch'd
+query pikachu logic_and farfetch'd egg answer farfetch'd logic_or pichu
+query jigglypuff logic_and farfetch'd egg answer logic_false
+query farfetch'd logic_and psyduck egg answer psyduck logic_or farfetch'd
+query farfetch'd logic_and farfetch'd egg answer farfetch'd
+query farfetch'd logic_and rhyhorn egg answer farfetch'd logic_or rhyhorn
+query farfetch'd logic_and horsea egg answer logic_false
+query farfetch'd logic_and goldeen egg answer logic_false
+query farfetch'd logic_and gyarados egg answer logic_false
+query farfetch'd logic_and lapras egg answer logic_false
+query farfetch'd logic_and ditto egg answer farfetch'd
+query dratini logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and bulbasaur egg answer rhyhorn logic_or bulbasaur
+query rhyhorn logic_and charmander egg answer rhyhorn logic_or charmander
+query squirtle logic_and rhyhorn egg answer squirtle logic_or rhyhorn
+query ekans logic_and rhyhorn egg answer ekans logic_or rhyhorn
+query pikachu logic_and rhyhorn egg answer rhyhorn logic_or pichu
+query rhyhorn logic_and jigglypuff egg answer logic_false
+query rhyhorn logic_and psyduck egg answer psyduck logic_or rhyhorn
+query rhyhorn logic_and farfetch'd egg answer rhyhorn logic_or farfetch'd
+query rhyhorn logic_and rhyhorn egg answer rhyhorn
+query rhyhorn logic_and horsea egg answer logic_false
+query goldeen logic_and rhyhorn egg answer logic_false
+query gyarados logic_and rhyhorn egg answer logic_false
+query lapras logic_and rhyhorn egg answer rhyhorn logic_or lapras
+query rhyhorn logic_and ditto egg answer rhyhorn
+query rhyhorn logic_and dratini egg answer logic_false
+query bulbasaur logic_and horsea egg answer logic_false
+query charmander logic_and horsea egg answer charmander logic_or horsea
+query squirtle logic_and horsea egg answer horsea logic_or squirtle
+query horsea logic_and ekans egg answer ekans logic_or horsea
+query horsea logic_and pikachu egg answer logic_false
+query horsea logic_and jigglypuff egg answer logic_false
+query psyduck logic_and horsea egg answer horsea logic_or psyduck
+query farfetch'd logic_and horsea egg answer logic_false
+query horsea logic_and rhyhorn egg answer logic_false
+query horsea logic_and horsea egg answer horsea
+query horsea logic_and goldeen egg answer logic_false
+query gyarados logic_and horsea egg answer horsea logic_or magikarp
+query horsea logic_and lapras egg answer lapras logic_or horsea
+query horsea logic_and ditto egg answer horsea
+query dratini logic_and horsea egg answer horsea logic_or dratini
+query goldeen logic_and bulbasaur egg answer logic_false
+query goldeen logic_and charmander egg answer logic_false
+query squirtle logic_and goldeen egg answer logic_false
+query goldeen logic_and ekans egg answer logic_false
+query pikachu logic_and goldeen egg answer logic_false
+query jigglypuff logic_and goldeen egg answer logic_false
+query goldeen logic_and psyduck egg answer logic_false
+query goldeen logic_and farfetch'd egg answer logic_false
+query goldeen logic_and rhyhorn egg answer logic_false
+query goldeen logic_and horsea egg answer logic_false
+query goldeen logic_and goldeen egg answer goldeen
+query goldeen logic_and gyarados egg answer goldeen logic_or magikarp
+query goldeen logic_and lapras egg answer logic_false
+query ditto logic_and goldeen egg answer goldeen
+query goldeen logic_and dratini egg answer logic_false
+query bulbasaur logic_and gyarados egg answer logic_false
+query gyarados logic_and charmander egg answer charmander logic_or magikarp
+query squirtle logic_and gyarados egg answer logic_false
+query gyarados logic_and ekans egg answer magikarp logic_or ekans
+query pikachu logic_and gyarados egg answer logic_false
+query jigglypuff logic_and gyarados egg answer logic_false
+query psyduck logic_and gyarados egg answer logic_false
+query farfetch'd logic_and gyarados egg answer logic_false
+query rhyhorn logic_and gyarados egg answer logic_false
+query gyarados logic_and horsea egg answer horsea logic_or magikarp
+query gyarados logic_and goldeen egg answer magikarp logic_or goldeen
+query gyarados logic_and gyarados egg answer magikarp
+query gyarados logic_and lapras egg answer logic_false
+query gyarados logic_and ditto egg answer magikarp
+query dratini logic_and gyarados egg answer magikarp logic_or dratini
+query bulbasaur logic_and lapras egg answer lapras logic_or bulbasaur
+query lapras logic_and charmander egg answer charmander logic_or lapras
+query squirtle logic_and lapras egg answer squirtle logic_or lapras
+query ekans logic_and lapras egg answer logic_false
+query lapras logic_and pikachu egg answer logic_false
+query jigglypuff logic_and lapras egg answer logic_false
+query psyduck logic_and lapras egg answer psyduck logic_or lapras
+query lapras logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and lapras egg answer lapras logic_or rhyhorn
+query horsea logic_and lapras egg answer lapras logic_or horsea
+query goldeen logic_and lapras egg answer logic_false
+query gyarados logic_and lapras egg answer logic_false
+query lapras logic_and lapras egg answer lapras
+query lapras logic_and ditto egg answer lapras
+query dratini logic_and lapras egg answer lapras logic_or dratini
+query bulbasaur logic_and ditto egg answer bulbasaur
+query ditto logic_and charmander egg answer charmander
+query squirtle logic_and ditto egg answer squirtle
+query ekans logic_and ditto egg answer ekans
+query ditto logic_and pikachu egg answer pichu
+query ditto logic_and jigglypuff egg answer igglybuff
+query psyduck logic_and ditto egg answer psyduck
+query farfetch'd logic_and ditto egg answer farfetch'd
+query ditto logic_and rhyhorn egg answer rhyhorn
+query horsea logic_and ditto egg answer horsea
+query ditto logic_and goldeen egg answer goldeen
+query gyarados logic_and ditto egg answer magikarp
+query lapras logic_and ditto egg answer lapras
+query ditto logic_and ditto egg answer logic_false
+query ditto logic_and dratini egg answer dratini
+query dratini logic_and bulbasaur egg answer logic_false
+query dratini logic_and charmander egg answer charmander logic_or dratini
+query dratini logic_and squirtle egg answer dratini logic_or squirtle
+query dratini logic_and ekans egg answer ekans logic_or dratini
+query pikachu logic_and dratini egg answer logic_false
+query dratini logic_and jigglypuff egg answer logic_false
+query dratini logic_and psyduck egg answer psyduck logic_or dratini
+query dratini logic_and farfetch'd egg answer logic_false
+query rhyhorn logic_and dratini egg answer logic_false
+query dratini logic_and horsea egg answer horsea logic_or dratini
+query goldeen logic_and dratini egg answer logic_false
+query gyarados logic_and dratini egg answer dratini logic_or magikarp
+query dratini logic_and lapras egg answer lapras logic_or dratini
+query dratini logic_and ditto egg answer dratini
+query dratini logic_and dratini egg answer dratini

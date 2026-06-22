@@ -11,6 +11,11 @@ def get_effectiveness_phrase(multiplier):
         return "it had no effect."
     return "it was effective."
 
+def shuffle_join(items, join_str):
+    items_copy = list(items)
+    random.shuffle(items_copy)
+    return join_str.join(items_copy)
+
 ATTENTION_TESTING_MOVES = ["Metronome", "Transform", "Sketch", "Encore", "Disable", "Mirror Move", "Hypnosis", "Sing", "Sleep Powder", "Rest", "Bind", "Wrap", "Dig", "Fly", "Fire Spin", "Copycat", "Bide"]
 
 def generate_qa(output_path, base_dir, pokedex_files=["gen1_pokedex.json"], is_gen1=True):
@@ -50,7 +55,7 @@ def generate_qa(output_path, base_dir, pokedex_files=["gen1_pokedex.json"], is_g
     # 1. Type Mapping & Stats
     for pkmn, types in pokedex.items():
         # Type facts
-        type_str = " logic_and ".join(types)
+        type_str = shuffle_join(types, " logic_and ")
         qa_list.append(f"fact {pkmn} type is {type_str}")
         qa_list.append(f"query {pkmn} type is answer {type_str}")
             
@@ -67,7 +72,7 @@ def generate_qa(output_path, base_dir, pokedex_files=["gen1_pokedex.json"], is_g
         if pkmn_title in encounters:
             methods = encounters[pkmn_title]
                     
-            chained_methods = " logic_or ".join(methods)
+            chained_methods = shuffle_join(methods, " logic_or ")
             qa_list.append(f"fact {pkmn} obtained from {chained_methods}")
             
             # Generate positive queries for each valid encounter method
@@ -84,7 +89,7 @@ def generate_qa(output_path, base_dir, pokedex_files=["gen1_pokedex.json"], is_g
 
     for m_type, m_list in moves_by_type.items():
         if m_list:
-            chained_moves = " logic_or ".join(m_list)
+            chained_moves = shuffle_join(m_list, " logic_or ")
             qa_list.append(f"fact {chained_moves} type is {m_type}")
             
             # 3 random queries per type using unknown type
@@ -94,7 +99,7 @@ def generate_qa(output_path, base_dir, pokedex_files=["gen1_pokedex.json"], is_g
                 
     for m_pow, m_list in moves_by_power.items():
         if m_list:
-            chained_moves = " logic_or ".join(m_list)
+            chained_moves = shuffle_join(m_list, " logic_or ")
             qa_list.append(f"fact {chained_moves} power is {m_pow}")
             
             if len(m_list) > 3:
@@ -124,13 +129,13 @@ def generate_qa(output_path, base_dir, pokedex_files=["gen1_pokedex.json"], is_g
                 
         # Grouped Type Effectiveness with LOGIC_OR
         if super_effective:
-            or_group = " logic_or ".join(super_effective)
+            or_group = shuffle_join(super_effective, " logic_or ")
             qa_list.append(f"fact {atk_type} type against {or_group} it was super effective.")
         if not_very:
-            or_group = " logic_or ".join(not_very)
+            or_group = shuffle_join(not_very, " logic_or ")
             qa_list.append(f"fact {atk_type} type against {or_group} it was not very effective.")
         if no_effect:
-            or_group = " logic_or ".join(no_effect)
+            or_group = shuffle_join(no_effect, " logic_or ")
             qa_list.append(f"fact {atk_type} type against {or_group} it had no effect.")
             
             
@@ -146,7 +151,7 @@ def generate_qa(output_path, base_dir, pokedex_files=["gen1_pokedex.json"], is_g
                 continue
                 
             # Single chained fact with logic_or
-            chained_moves = " logic_or ".join(moves_list)
+            chained_moves = shuffle_join(moves_list, " logic_or ")
             qa_list.append(f"fact {pkmn} has moves {chained_moves}")
             
             # 3 random positive queries
@@ -226,7 +231,7 @@ def generate_qa(output_path, base_dir, pokedex_files=["gen1_pokedex.json"], is_g
                 qa_list.append(f"fact {pkmn} logic_not evolves into")
                 qa_list.append(f"query {pkmn} evolves into answer False")
             else:
-                evo_str = " logic_or ".join(evos)
+                evo_str = shuffle_join(evos, " logic_or ")
                 qa_list.append(f"fact {pkmn} evolves into {evo_str}")
                 for evo in evos:
                     qa_list.append(f"query {pkmn} evolves into answer {evo}")

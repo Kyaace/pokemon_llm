@@ -1,0 +1,939 @@
+{
+    "bulbasaur": [
+        "Monster",
+        "Grass"
+    ],
+    "ivysaur": [
+        "Monster",
+        "Grass"
+    ],
+    "venusaur": [
+        "Monster",
+        "Grass"
+    ],
+    "charmander": [
+        "Monster",
+        "Dragon"
+    ],
+    "charmeleon": [
+        "Monster",
+        "Dragon"
+    ],
+    "charizard": [
+        "Monster",
+        "Dragon"
+    ],
+    "squirtle": [
+        "Monster",
+        "Water1"
+    ],
+    "wartortle": [
+        "Monster",
+        "Water1"
+    ],
+    "blastoise": [
+        "Monster",
+        "Water1"
+    ],
+    "caterpie": [
+        "Bug"
+    ],
+    "metapod": [
+        "Bug"
+    ],
+    "butterfree": [
+        "Bug"
+    ],
+    "weedle": [
+        "Bug"
+    ],
+    "kakuna": [
+        "Bug"
+    ],
+    "beedrill": [
+        "Bug"
+    ],
+    "pidgey": [
+        "Flying"
+    ],
+    "pidgeotto": [
+        "Flying"
+    ],
+    "pidgeot": [
+        "Flying"
+    ],
+    "rattata": [
+        "Field"
+    ],
+    "raticate": [
+        "Field"
+    ],
+    "spearow": [
+        "Flying"
+    ],
+    "fearow": [
+        "Flying"
+    ],
+    "ekans": [
+        "Field",
+        "Dragon"
+    ],
+    "arbok": [
+        "Field",
+        "Dragon"
+    ],
+    "pichu": [
+        "Undiscovered"
+    ],
+    "pikachu": [
+        "Field",
+        "Fairy"
+    ],
+    "raichu": [
+        "Field",
+        "Fairy"
+    ],
+    "sandshrew": [
+        "Field"
+    ],
+    "sandslash": [
+        "Field"
+    ],
+    "nidoran\u2640": [
+        "Monster",
+        "Field"
+    ],
+    "nidorina": [
+        "Undiscovered"
+    ],
+    "nidoqueen": [
+        "Undiscovered"
+    ],
+    "nidoran\u2642": [
+        "Monster",
+        "Field"
+    ],
+    "nidorino": [
+        "Monster",
+        "Field"
+    ],
+    "nidoking": [
+        "Monster",
+        "Field"
+    ],
+    "cleffa": [
+        "Undiscovered"
+    ],
+    "clefairy": [
+        "Fairy"
+    ],
+    "clefable": [
+        "Fairy"
+    ],
+    "vulpix": [
+        "Field"
+    ],
+    "ninetales": [
+        "Field"
+    ],
+    "igglybuff": [
+        "Undiscovered"
+    ],
+    "jigglypuff": [
+        "Fairy"
+    ],
+    "wigglytuff": [
+        "Fairy"
+    ],
+    "zubat": [
+        "Flying"
+    ],
+    "golbat": [
+        "Flying"
+    ],
+    "crobat": [
+        "Flying"
+    ],
+    "oddish": [
+        "Grass"
+    ],
+    "gloom": [
+        "Grass"
+    ],
+    "vileplume": [
+        "Grass"
+    ],
+    "bellossom": [
+        "Grass"
+    ],
+    "paras": [
+        "Bug",
+        "Grass"
+    ],
+    "parasect": [
+        "Bug",
+        "Grass"
+    ],
+    "venonat": [
+        "Bug"
+    ],
+    "venomoth": [
+        "Bug"
+    ],
+    "diglett": [
+        "Field"
+    ],
+    "dugtrio": [
+        "Field"
+    ],
+    "meowth": [
+        "Field"
+    ],
+    "persian": [
+        "Field"
+    ],
+    "perrserker": [
+        "Field"
+    ],
+    "psyduck": [
+        "Water1",
+        "Field"
+    ],
+    "golduck": [
+        "Water1",
+        "Field"
+    ],
+    "mankey": [
+        "Field"
+    ],
+    "primeape": [
+        "Field"
+    ],
+    "annihilape": [
+        "Field"
+    ],
+    "growlithe": [
+        "Field"
+    ],
+    "arcanine": [
+        "Field"
+    ],
+    "poliwag": [
+        "Water1"
+    ],
+    "poliwhirl": [
+        "Water1"
+    ],
+    "poliwrath": [
+        "Water1"
+    ],
+    "politoed": [
+        "Water1"
+    ],
+    "abra": [
+        "Human-Like"
+    ],
+    "kadabra": [
+        "Human-Like"
+    ],
+    "alakazam": [
+        "Human-Like"
+    ],
+    "machop": [
+        "Human-Like"
+    ],
+    "machoke": [
+        "Human-Like"
+    ],
+    "machamp": [
+        "Human-Like"
+    ],
+    "bellsprout": [
+        "Grass"
+    ],
+    "weepinbell": [
+        "Grass"
+    ],
+    "victreebel": [
+        "Grass"
+    ],
+    "tentacool": [
+        "Water3"
+    ],
+    "tentacruel": [
+        "Water3"
+    ],
+    "geodude": [
+        "Mineral"
+    ],
+    "graveler": [
+        "Mineral"
+    ],
+    "golem": [
+        "Mineral"
+    ],
+    "ponyta": [
+        "Field"
+    ],
+    "rapidash": [
+        "Field"
+    ],
+    "slowpoke": [
+        "Monster",
+        "Water1"
+    ],
+    "slowbro": [
+        "Monster",
+        "Water1"
+    ],
+    "slowking": [
+        "Monster",
+        "Water1"
+    ],
+    "magnemite": [
+        "Mineral"
+    ],
+    "magneton": [
+        "Mineral"
+    ],
+    "magnezone": [
+        "Mineral"
+    ],
+    "farfetch'd": [
+        "Flying",
+        "Field"
+    ],
+    "sirfetch'd": [
+        "Flying",
+        "Field"
+    ],
+    "doduo": [
+        "Flying"
+    ],
+    "dodrio": [
+        "Flying"
+    ],
+    "seel": [
+        "Water1",
+        "Field"
+    ],
+    "dewgong": [
+        "Water1",
+        "Field"
+    ],
+    "grimer": [
+        "Amorphous"
+    ],
+    "muk": [
+        "Amorphous"
+    ],
+    "shellder": [
+        "Water3"
+    ],
+    "cloyster": [
+        "Water3"
+    ],
+    "gastly": [
+        "Amorphous"
+    ],
+    "haunter": [
+        "Amorphous"
+    ],
+    "gengar": [
+        "Amorphous"
+    ],
+    "onix": [
+        "Mineral"
+    ],
+    "steelix": [
+        "Mineral"
+    ],
+    "drowzee": [
+        "Human-Like"
+    ],
+    "hypno": [
+        "Human-Like"
+    ],
+    "krabby": [
+        "Water3"
+    ],
+    "kingler": [
+        "Water3"
+    ],
+    "voltorb": [
+        "Mineral"
+    ],
+    "electrode": [
+        "Mineral"
+    ],
+    "exeggcute": [
+        "Grass"
+    ],
+    "exeggutor": [
+        "Grass"
+    ],
+    "cubone": [
+        "Monster"
+    ],
+    "marowak": [
+        "Monster"
+    ],
+    "tyrogue": [
+        "Undiscovered"
+    ],
+    "hitmonlee": [
+        "Human-Like"
+    ],
+    "hitmonchan": [
+        "Human-Like"
+    ],
+    "hitmontop": [
+        "Human-Like"
+    ],
+    "lickitung": [
+        "Monster"
+    ],
+    "lickilicky": [
+        "Monster"
+    ],
+    "koffing": [
+        "Amorphous"
+    ],
+    "weezing": [
+        "Amorphous"
+    ],
+    "rhyhorn": [
+        "Monster",
+        "Field"
+    ],
+    "rhydon": [
+        "Monster",
+        "Field"
+    ],
+    "rhyperior": [
+        "Monster",
+        "Field"
+    ],
+    "happiny": [
+        "Undiscovered"
+    ],
+    "chansey": [
+        "Fairy"
+    ],
+    "blissey": [
+        "Fairy"
+    ],
+    "tangela": [
+        "Grass"
+    ],
+    "tangrowth": [
+        "Grass"
+    ],
+    "kangaskhan": [
+        "Monster"
+    ],
+    "horsea": [
+        "Water1",
+        "Dragon"
+    ],
+    "seadra": [
+        "Water1",
+        "Dragon"
+    ],
+    "kingdra": [
+        "Water1",
+        "Dragon"
+    ],
+    "goldeen": [
+        "Water2"
+    ],
+    "seaking": [
+        "Water2"
+    ],
+    "staryu": [
+        "Water3"
+    ],
+    "starmie": [
+        "Water3"
+    ],
+    "mime jr.": [
+        "Undiscovered"
+    ],
+    "mr. mime": [
+        "Human-Like"
+    ],
+    "mr. rime": [
+        "Human-Like"
+    ],
+    "scyther": [
+        "Bug"
+    ],
+    "scizor": [
+        "Bug"
+    ],
+    "kleavor": [
+        "Bug"
+    ],
+    "smoochum": [
+        "Undiscovered"
+    ],
+    "jynx": [
+        "Human-Like"
+    ],
+    "elekid": [
+        "Undiscovered"
+    ],
+    "electabuzz": [
+        "Human-Like"
+    ],
+    "electivire": [
+        "Human-Like"
+    ],
+    "magby": [
+        "Undiscovered"
+    ],
+    "magmar": [
+        "Human-Like"
+    ],
+    "magmortar": [
+        "Human-Like"
+    ],
+    "pinsir": [
+        "Bug"
+    ],
+    "tauros": [
+        "Field"
+    ],
+    "magikarp": [
+        "Water2",
+        "Dragon"
+    ],
+    "gyarados": [
+        "Water2",
+        "Dragon"
+    ],
+    "lapras": [
+        "Monster",
+        "Water1"
+    ],
+    "ditto": [
+        "Ditto"
+    ],
+    "eevee": [
+        "Field"
+    ],
+    "vaporeon": [
+        "Field"
+    ],
+    "jolteon": [
+        "Field"
+    ],
+    "flareon": [
+        "Field"
+    ],
+    "espeon": [
+        "Field"
+    ],
+    "umbreon": [
+        "Field"
+    ],
+    "leafeon": [
+        "Field"
+    ],
+    "glaceon": [
+        "Field"
+    ],
+    "sylveon": [
+        "Field"
+    ],
+    "porygon": [
+        "Mineral"
+    ],
+    "porygon2": [
+        "Mineral"
+    ],
+    "porygon-z": [
+        "Mineral"
+    ],
+    "omanyte": [
+        "Water1",
+        "Water3"
+    ],
+    "omastar": [
+        "Water1",
+        "Water3"
+    ],
+    "kabuto": [
+        "Water1",
+        "Water3"
+    ],
+    "kabutops": [
+        "Water1",
+        "Water3"
+    ],
+    "aerodactyl": [
+        "Flying"
+    ],
+    "munchlax": [
+        "Undiscovered"
+    ],
+    "snorlax": [
+        "Monster"
+    ],
+    "articuno": [
+        "Undiscovered"
+    ],
+    "zapdos": [
+        "Undiscovered"
+    ],
+    "moltres": [
+        "Undiscovered"
+    ],
+    "dratini": [
+        "Water1",
+        "Dragon"
+    ],
+    "dragonair": [
+        "Water1",
+        "Dragon"
+    ],
+    "dragonite": [
+        "Water1",
+        "Dragon"
+    ],
+    "mewtwo": [
+        "Undiscovered"
+    ],
+    "mew": [
+        "Undiscovered"
+    ],
+    "chikorita": [
+        "Monster",
+        "Grass"
+    ],
+    "bayleef": [
+        "Monster",
+        "Grass"
+    ],
+    "meganium": [
+        "Monster",
+        "Grass"
+    ],
+    "cyndaquil": [
+        "Field"
+    ],
+    "quilava": [
+        "Field"
+    ],
+    "typhlosion": [
+        "Field"
+    ],
+    "totodile": [
+        "Monster",
+        "Water1"
+    ],
+    "croconaw": [
+        "Monster",
+        "Water1"
+    ],
+    "feraligatr": [
+        "Monster",
+        "Water1"
+    ],
+    "sentret": [
+        "Field"
+    ],
+    "furret": [
+        "Field"
+    ],
+    "hoothoot": [
+        "Flying"
+    ],
+    "noctowl": [
+        "Flying"
+    ],
+    "ledyba": [
+        "Bug"
+    ],
+    "ledian": [
+        "Bug"
+    ],
+    "spinarak": [
+        "Bug"
+    ],
+    "ariados": [
+        "Bug"
+    ],
+    "chinchou": [
+        "Water2"
+    ],
+    "lanturn": [
+        "Water2"
+    ],
+    "togepi": [
+        "Undiscovered"
+    ],
+    "togetic": [
+        "Flying",
+        "Fairy"
+    ],
+    "togekiss": [
+        "Flying",
+        "Fairy"
+    ],
+    "natu": [
+        "Flying"
+    ],
+    "xatu": [
+        "Flying"
+    ],
+    "mareep": [
+        "Monster",
+        "Field"
+    ],
+    "flaaffy": [
+        "Monster",
+        "Field"
+    ],
+    "ampharos": [
+        "Monster",
+        "Field"
+    ],
+    "azurill": [
+        "Undiscovered"
+    ],
+    "marill": [
+        "Water1",
+        "Fairy"
+    ],
+    "azumarill": [
+        "Water1",
+        "Fairy"
+    ],
+    "bonsly": [
+        "Undiscovered"
+    ],
+    "sudowoodo": [
+        "Mineral"
+    ],
+    "hoppip": [
+        "Fairy",
+        "Grass"
+    ],
+    "skiploom": [
+        "Fairy",
+        "Grass"
+    ],
+    "jumpluff": [
+        "Fairy",
+        "Grass"
+    ],
+    "aipom": [
+        "Field"
+    ],
+    "ambipom": [
+        "Field"
+    ],
+    "sunkern": [
+        "Grass"
+    ],
+    "sunflora": [
+        "Grass"
+    ],
+    "yanma": [
+        "Bug"
+    ],
+    "yanmega": [
+        "Bug"
+    ],
+    "wooper": [
+        "Water1",
+        "Field"
+    ],
+    "quagsire": [
+        "Water1",
+        "Field"
+    ],
+    "clodsire": [
+        "Water1",
+        "Field"
+    ],
+    "murkrow": [
+        "Flying"
+    ],
+    "honchkrow": [
+        "Flying"
+    ],
+    "misdreavus": [
+        "Amorphous"
+    ],
+    "mismagius": [
+        "Amorphous"
+    ],
+    "unown": [
+        "Undiscovered"
+    ],
+    "wynaut": [
+        "Undiscovered"
+    ],
+    "wobbuffet": [
+        "Amorphous"
+    ],
+    "girafarig": [
+        "Field"
+    ],
+    "farigiraf": [
+        "Field"
+    ],
+    "pineco": [
+        "Bug"
+    ],
+    "forretress": [
+        "Bug"
+    ],
+    "dunsparce": [
+        "Field"
+    ],
+    "dudunsparce": [
+        "Field"
+    ],
+    "gligar": [
+        "Bug"
+    ],
+    "gliscor": [
+        "Bug"
+    ],
+    "snubbull": [
+        "Field",
+        "Fairy"
+    ],
+    "granbull": [
+        "Field",
+        "Fairy"
+    ],
+    "qwilfish": [
+        "Water2"
+    ],
+    "overqwil": [
+        "Water2"
+    ],
+    "shuckle": [
+        "Bug"
+    ],
+    "heracross": [
+        "Bug"
+    ],
+    "sneasel": [
+        "Field"
+    ],
+    "weavile": [
+        "Field"
+    ],
+    "sneasler": [
+        "Field"
+    ],
+    "teddiursa": [
+        "Field"
+    ],
+    "ursaring": [
+        "Field"
+    ],
+    "ursaluna": [
+        "Field"
+    ],
+    "slugma": [
+        "Amorphous"
+    ],
+    "magcargo": [
+        "Amorphous"
+    ],
+    "swinub": [
+        "Field"
+    ],
+    "piloswine": [
+        "Field"
+    ],
+    "mamoswine": [
+        "Field"
+    ],
+    "corsola": [
+        "Water1",
+        "Water3"
+    ],
+    "cursola": [
+        "Water1",
+        "Water3"
+    ],
+    "remoraid": [
+        "Water1",
+        "Water2"
+    ],
+    "octillery": [
+        "Water1",
+        "Water2"
+    ],
+    "delibird": [
+        "Water1",
+        "Field"
+    ],
+    "mantyke": [
+        "Undiscovered"
+    ],
+    "mantine": [
+        "Water1"
+    ],
+    "skarmory": [
+        "Flying"
+    ],
+    "houndour": [
+        "Field"
+    ],
+    "houndoom": [
+        "Field"
+    ],
+    "phanpy": [
+        "Field"
+    ],
+    "donphan": [
+        "Field"
+    ],
+    "stantler": [
+        "Field"
+    ],
+    "wyrdeer": [
+        "Field"
+    ],
+    "smeargle": [
+        "Field"
+    ],
+    "miltank": [
+        "Field"
+    ],
+    "raikou": [
+        "Undiscovered"
+    ],
+    "entei": [
+        "Undiscovered"
+    ],
+    "suicune": [
+        "Undiscovered"
+    ],
+    "larvitar": [
+        "Monster"
+    ],
+    "pupitar": [
+        "Monster"
+    ],
+    "tyranitar": [
+        "Monster"
+    ],
+    "lugia": [
+        "Undiscovered"
+    ],
+    "ho-oh": [
+        "Undiscovered"
+    ],
+    "celebi": [
+        "Undiscovered"
+    ]
+}

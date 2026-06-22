@@ -261,7 +261,7 @@
     "<ENC_FISHING>": 911,
     "<ENC_FOSSIL>": 912,
     "<ENC_EVOLUTION>": 913,
-    "<ENC_HATCHABLE>": 914,
+    "<ENC_EGG>": 914,
     "<ATTACKER>": 915,
     "<TARGET>": 916,
     "<UNKNOWN_PKMN>": 1000,

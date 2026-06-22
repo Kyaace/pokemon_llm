@@ -11,7 +11,7 @@ if __name__ == "__main__":
     train_persona(
         "Spike_v2", 
         corpus_files, 
-        num_epochs=15, 
+        num_epochs=5, 
         base_model_path=base_model,
         fp16=True, 
         per_device_train_batch_size=32,
